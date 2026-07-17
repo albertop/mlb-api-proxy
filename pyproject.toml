@@ -1,0 +1,88 @@
+[project]
+name = "mlb-api-proxy"
+version = "1.2026.10"
+description = "FastAPI proxy for the MLB Stats API with XML→JSON normalization and stat translations."
+requires-python = ">=3.13"
+readme = "api-service/README.md"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn>=0.23.0",
+    "httpx>=0.26.0",
+    "xmltodict>=0.13.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "cachetools>=5.3.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.15",
+    "mypy>=1.13",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+    "pytest-cov>=5.0",
+    "respx>=0.21",
+]
+
+# ---------------------------------------------------------------------------
+# Ruff — linter + formatter
+# ---------------------------------------------------------------------------
+[tool.ruff]
+target-version = "py313"
+line-length = 120
+src = ["api-service"]
+extend-exclude = [
+    ".venv",
+    "htmlcov",
+    "docker_images",
+    "docs",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",    # pycodestyle errors
+    "W",    # pycodestyle warnings
+    "F",    # pyflakes
+    "I",    # isort (import sorting)
+    "B",    # flake8-bugbear
+    "C4",   # flake8-comprehensions
+    "UP",   # pyupgrade
+    "SIM",  # flake8-simplify
+    "RUF",  # ruff-specific rules
+    "ASYNC",# flake8-async
+    "TID",  # flake8-tidy-imports
+]
+ignore = [
+    "E501",  # line-too-long (formatter handles wrapping; long strings/URLs are fine)
+]
+
+[tool.ruff.lint.per-file-ignores]
+"test/**" = ["B011", "S101"]
+"generate_unit_tests.py" = ["ALL"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["proxy", "stats_translations", "routers", "main"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+
+# ---------------------------------------------------------------------------
+# mypy — static type checking
+# ---------------------------------------------------------------------------
+[tool.mypy]
+python_version = "3.13"
+mypy_path = "api-service"
+files = ["api-service"]
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+no_implicit_optional = true
+check_untyped_defs = true
+# Start lenient; tighten over time.
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["xmltodict"]
+ignore_missing_imports = true

@@ -1,0 +1,138 @@
+{
+  "endpoint": "/api/v1/people/608070",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/people/608070?sportId=1&hydrate=stats%28group%3D%5Bhitting%5D%2CgameType%3D%5BR%5D%2Ctype%3D%5BseasonAdvanced%5D%2CstartDate%3D01%2F01%2F2025%2CendDate%3D12%2F31%2F2025%2Cseason%3D2025%29",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:04 GMT",
+    "server": "uvicorn",
+    "content-length": "1810",
+    "content-type": "application/json",
+    "x-request-id": "72ada902-2e70-41ac-9903-fa9914623e3a"
+  },
+  "response": {
+    "people": [
+      {
+        "id": 608070,
+        "fullName": "Jos\u00e9 Ram\u00edrez",
+        "link": "/api/v1/people/608070",
+        "firstName": "Jos\u00e9",
+        "lastName": "Ram\u00edrez",
+        "primaryNumber": "11",
+        "birthDate": "1992-09-17",
+        "currentAge": 33,
+        "birthCity": "Bani",
+        "birthCountry": "Dominican Republic",
+        "height": "5' 8\"",
+        "weight": 190,
+        "active": true,
+        "primaryPosition": {
+          "code": "5",
+          "name": "Third Base",
+          "type": "Infielder",
+          "abbreviation": "3B"
+        },
+        "useName": "Jos\u00e9",
+        "useLastName": "Ram\u00edrez",
+        "middleName": "Enrique",
+        "boxscoreName": "Ram\u00edrez, Jo",
+        "nickName": "Enriquito",
+        "gender": "M",
+        "isPlayer": true,
+        "isVerified": true,
+        "stats": [
+          {
+            "type": {
+              "displayName": "seasonAdvanced"
+            },
+            "group": {
+              "displayName": "hitting"
+            },
+            "exemptions": [],
+            "splits": [
+              {
+                "season": "2025",
+                "stat": {
+                  "age": 32,
+                  "PA": 673,
+                  "TB": 298,
+                  "LOB": 210,
+                  "SH": 0,
+                  "SF": 5,
+                  "BABIP": ".279",
+                  "extraBaseHits": 67,
+                  "HBP": 8,
+                  "gidp": 9,
+                  "GIDP_Opp": 100,
+                  "Pitches": 2666,
+                  "PpPA": "3.961",
+                  "BBpPA": ".098",
+                  "KPpA": ".110",
+                  "homeRunsPerPlateAppearance": ".045",
+                  "BBpK": ".892",
+                  "ISO": ".219",
+                  "reachedOnError": 5,
+                  "WO": 1,
+                  "FOuts": 122,
+                  "Swings": 1247,
+                  "SwingMiss": 186,
+                  "BIP": 525,
+                  "POuts": 58,
+                  "LOuts": 42,
+                  "GOuts": 135,
+                  "FH": 35,
+                  "PH": 1,
+                  "LH": 92,
+                  "GH": 40
+                },
+                "team": {
+                  "id": 114,
+                  "name": "Cleveland Guardians",
+                  "link": "/api/v1/teams/114"
+                },
+                "player": {
+                  "id": 608070,
+                  "fullName": "Jos\u00e9 Ram\u00edrez",
+                  "link": "/api/v1/people/608070"
+                },
+                "league": {
+                  "id": 103,
+                  "name": "American League",
+                  "link": "/api/v1/league/103"
+                },
+                "sport": {
+                  "id": 1,
+                  "link": "/api/v1/sports/1",
+                  "abbreviation": "MLB"
+                },
+                "gameType": "R"
+              }
+            ]
+          }
+        ],
+        "mlbDebutDate": "2013-09-01",
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "nameFirstLast": "Jos\u00e9 Ram\u00edrez",
+        "nameSlug": "jose-ramirez-608070",
+        "firstLastName": "Jos\u00e9 Ram\u00edrez",
+        "lastFirstName": "Ram\u00edrez, Jos\u00e9",
+        "lastInitName": "Ram\u00edrez, J",
+        "initLastName": "J Ram\u00edrez",
+        "fullFMLName": "Jos\u00e9 Enrique Ram\u00edrez",
+        "fullLFMName": "Ram\u00edrez, Jos\u00e9 Enrique",
+        "strikeZoneTop": 3.36,
+        "strikeZoneBottom": 1.55
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:04.836096",
+  "variation": "hitting_seasonAdvanced"
+}

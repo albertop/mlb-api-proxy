@@ -1,0 +1,65 @@
+{
+  "endpoint": "/api/v1/platforms",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/platforms",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:41 GMT",
+    "server": "uvicorn",
+    "content-length": "740",
+    "content-type": "application/json",
+    "x-request-id": "f4588100-c399-49c0-9e8c-45f295f61669"
+  },
+  "response": [
+    {
+      "platformCode": "web",
+      "platformDescription": "Web"
+    },
+    {
+      "platformCode": "android-phone",
+      "platformDescription": "Android Phone"
+    },
+    {
+      "platformCode": "android-tablet",
+      "platformDescription": "Android Tablet"
+    },
+    {
+      "platformCode": "ios-phone",
+      "platformDescription": "iOS Phone"
+    },
+    {
+      "platformCode": "ios-tablet",
+      "platformDescription": "iOS Tablet"
+    },
+    {
+      "platformCode": "xbox-one",
+      "platformDescription": "Xbox One"
+    },
+    {
+      "platformCode": "xbox-360",
+      "platformDescription": "Xbox 360"
+    },
+    {
+      "platformCode": "roku",
+      "platformDescription": "Roku"
+    },
+    {
+      "platformCode": "playstation",
+      "platformDescription": "PlayStation"
+    },
+    {
+      "platformCode": "chromecast",
+      "platformDescription": "Chromecast"
+    },
+    {
+      "platformCode": "atv",
+      "platformDescription": "Apple TV"
+    },
+    {
+      "platformCode": "tvos",
+      "platformDescription": "tvOS"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:41.943491"
+}

@@ -1,0 +1,22 @@
+{
+  "endpoint": "/api/v1/schedule/games/tied",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/schedule/games/tied?season=2024&gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:07 GMT",
+    "server": "uvicorn",
+    "content-length": "83",
+    "content-type": "application/json",
+    "x-request-id": "8fdf3fd7-3107-41ca-ba64-2750f0a43dfa"
+  },
+  "response": {
+    "totalItems": 0,
+    "totalEvents": 0,
+    "totalGames": 0,
+    "totalGamesInProgress": 0,
+    "dates": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:07.990917"
+}

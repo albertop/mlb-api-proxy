@@ -1,0 +1,42 @@
+{
+  "endpoint": "/api/v1/seasons",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/seasons?sportId=1",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:09 GMT",
+    "server": "uvicorn",
+    "content-length": "651",
+    "content-type": "application/json",
+    "x-request-id": "065775a9-384e-48f7-bf57-c0f00731205d"
+  },
+  "response": {
+    "seasons": [
+      {
+        "seasonId": "2025",
+        "hasWildcard": true,
+        "preSeasonStartDate": "2025-01-01",
+        "preSeasonEndDate": "2025-02-19",
+        "seasonStartDate": "2025-02-20",
+        "springStartDate": "2025-02-20",
+        "springEndDate": "2025-03-25",
+        "regularSeasonStartDate": "2025-03-18",
+        "lastDate1stHalf": "2025-07-14",
+        "allStarDate": "2025-07-15",
+        "firstDate2ndHalf": "2025-07-18",
+        "regularSeasonEndDate": "2025-09-28",
+        "postSeasonStartDate": "2025-09-30",
+        "postSeasonEndDate": "2025-11-01",
+        "seasonEndDate": "2025-11-01",
+        "offseasonStartDate": "2025-11-02",
+        "offSeasonEndDate": "2025-12-31",
+        "seasonLevelGamedayType": "P",
+        "gameLevelGamedayType": "P",
+        "qualifierPlateAppearances": 3.1,
+        "qualifierOutsPitched": 3.0
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:09.646824"
+}

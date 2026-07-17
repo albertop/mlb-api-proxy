@@ -1,0 +1,32 @@
+{
+  "endpoint": "/api/v1/mediaState",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/mediaState?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:39 GMT",
+    "server": "uvicorn",
+    "content-length": "238",
+    "content-type": "application/json",
+    "x-request-id": "70b782af-50b1-4f51-94ed-7613e4b2880b"
+  },
+  "response": [
+    {
+      "mediaStateId": 3,
+      "mediaStateCode": "MEDIA_ARCHIVE",
+      "mediaStateText": "Media Archive"
+    },
+    {
+      "mediaStateId": 1,
+      "mediaStateCode": "MEDIA_OFF",
+      "mediaStateText": "Media Off"
+    },
+    {
+      "mediaStateId": 2,
+      "mediaStateCode": "MEDIA_ON",
+      "mediaStateText": "Media On"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:40.200191"
+}

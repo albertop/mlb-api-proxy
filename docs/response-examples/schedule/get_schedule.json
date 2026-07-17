@@ -1,0 +1,22 @@
+{
+  "endpoint": "/api/v1/schedule",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/schedule?sportId=1",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:08 GMT",
+    "server": "uvicorn",
+    "content-length": "83",
+    "content-type": "application/json",
+    "x-request-id": "eab4cf5b-fd47-4182-a67a-d5a6c3ff8310"
+  },
+  "response": {
+    "totalItems": 0,
+    "totalEvents": 0,
+    "totalGames": 0,
+    "totalGamesInProgress": 0,
+    "dates": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:09.345630"
+}

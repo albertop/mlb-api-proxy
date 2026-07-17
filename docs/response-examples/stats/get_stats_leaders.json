@@ -1,0 +1,18 @@
+{
+  "endpoint": "/api/v1/stats/leaders",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/stats/leaders?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:13 GMT",
+    "server": "uvicorn",
+    "content-length": "20",
+    "content-type": "application/json",
+    "x-request-id": "5a5df12d-f3d4-4483-b080-cc1889fc79d5"
+  },
+  "response": {
+    "leagueLeaders": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:13.737298"
+}

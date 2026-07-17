@@ -1,0 +1,39 @@
+{
+  "endpoint": "/api/v1/divisions/{division_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/divisions/200",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:08 GMT",
+    "server": "uvicorn",
+    "content-length": "306",
+    "content-type": "application/json",
+    "x-request-id": "49d62add-0a67-4417-bc52-ea7cdf3da71e"
+  },
+  "response": {
+    "divisions": [
+      {
+        "id": 200,
+        "name": "American League West",
+        "season": "2026",
+        "nameShort": "AL West",
+        "link": "/api/v1/divisions/200",
+        "abbreviation": "ALW",
+        "league": {
+          "id": 103,
+          "link": "/api/v1/league/103"
+        },
+        "sport": {
+          "id": 1,
+          "link": "/api/v1/sports/1"
+        },
+        "hasWildcard": false,
+        "sortOrder": 24,
+        "numPlayoffTeams": 1,
+        "active": true
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:09.450779"
+}

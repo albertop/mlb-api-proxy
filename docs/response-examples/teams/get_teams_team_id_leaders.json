@@ -1,0 +1,421 @@
+{
+  "endpoint": "/api/v1/teams/{team_id}/leaders",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/teams/147/leaders?season=2025&sportId=1&leaderCategories=homeRuns&statGroup=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:15 GMT",
+    "server": "uvicorn",
+    "content-length": "5287",
+    "content-type": "application/json",
+    "x-request-id": "f0b3b991-bb9d-40f0-ba1d-9d0a5e3dfc95"
+  },
+  "response": {
+    "teamLeaders": [
+      {
+        "leaderCategory": "homeRuns",
+        "season": "2025",
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "leaders": [
+          {
+            "rank": 1,
+            "value": "53",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 592450,
+              "fullName": "Aaron Judge",
+              "link": "/api/v1/people/592450",
+              "firstName": "Aaron",
+              "lastName": "Judge"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 2,
+            "value": "34",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 663757,
+              "fullName": "Trent Grisham",
+              "link": "/api/v1/people/663757",
+              "firstName": "Trent",
+              "lastName": "Grisham"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 3,
+            "value": "31",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 665862,
+              "fullName": "Jazz Chisholm Jr.",
+              "link": "/api/v1/people/665862",
+              "firstName": "Jazz",
+              "lastName": "Chisholm"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 4,
+            "value": "29",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 641355,
+              "fullName": "Cody Bellinger",
+              "link": "/api/v1/people/641355",
+              "firstName": "Cody",
+              "lastName": "Bellinger"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 5,
+            "value": "26",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 700250,
+              "fullName": "Ben Rice",
+              "link": "/api/v1/people/700250",
+              "firstName": "Ben",
+              "lastName": "Rice"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          }
+        ],
+        "statGroup": "hitting",
+        "team": {
+          "id": 147,
+          "name": "New York Yankees",
+          "link": "/api/v1/teams/147"
+        },
+        "totalSplits": 18
+      },
+      {
+        "leaderCategory": "homeRuns",
+        "season": "2025",
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "leaders": [
+          {
+            "rank": 1,
+            "value": "22",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 607074,
+              "fullName": "Carlos Rod\u00f3n",
+              "link": "/api/v1/people/607074",
+              "firstName": "Carlos",
+              "lastName": "Rod\u00f3n"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 1,
+            "value": "22",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 701542,
+              "fullName": "Will Warren",
+              "link": "/api/v1/people/701542",
+              "firstName": "Will",
+              "lastName": "Warren"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 3,
+            "value": "14",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 608331,
+              "fullName": "Max Fried",
+              "link": "/api/v1/people/608331",
+              "firstName": "Max",
+              "lastName": "Fried"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 4,
+            "value": "13",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 642232,
+              "fullName": "Ryan Yarbrough",
+              "link": "/api/v1/people/642232",
+              "firstName": "Ryan",
+              "lastName": "Yarbrough"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 5,
+            "value": "10",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 596133,
+              "fullName": "Luke Weaver",
+              "link": "/api/v1/people/596133",
+              "firstName": "Luke",
+              "lastName": "Weaver"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          }
+        ],
+        "statGroup": "pitching",
+        "team": {
+          "id": 147,
+          "name": "New York Yankees",
+          "link": "/api/v1/teams/147"
+        },
+        "totalSplits": 30
+      },
+      {
+        "leaderCategory": "homeRuns",
+        "season": "2025",
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "leaders": [
+          {
+            "rank": 1,
+            "value": "133",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 669224,
+              "fullName": "Austin Wells",
+              "link": "/api/v1/people/669224",
+              "firstName": "Austin",
+              "lastName": "Wells"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 2,
+            "value": "23",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 700250,
+              "fullName": "Ben Rice",
+              "link": "/api/v1/people/700250",
+              "firstName": "Ben",
+              "lastName": "Rice"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          },
+          {
+            "rank": 3,
+            "value": "19",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "person": {
+              "id": 641555,
+              "fullName": "J.C. Escarra",
+              "link": "/api/v1/people/641555",
+              "firstName": "J.C.",
+              "lastName": "Escarra"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "season": "2025"
+          }
+        ],
+        "statGroup": "catching",
+        "team": {
+          "id": 147,
+          "name": "New York Yankees",
+          "link": "/api/v1/teams/147"
+        },
+        "totalSplits": 3
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:16.684841"
+}

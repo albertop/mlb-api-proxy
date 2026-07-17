@@ -1,0 +1,33 @@
+{
+  "endpoint": "/api/v1/trackingVendors",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/trackingVendors",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:49 GMT",
+    "server": "uvicorn",
+    "content-length": "142",
+    "content-type": "application/json",
+    "x-request-id": "00d6ffda-fd6f-4ba8-80e0-f082962f5771"
+  },
+  "response": [
+    {
+      "id": 1,
+      "description": "Sportvision"
+    },
+    {
+      "id": 2,
+      "description": "Trackman"
+    },
+    {
+      "id": 4,
+      "description": "ChyronHego"
+    },
+    {
+      "id": 3,
+      "description": "Hawk-Eye"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:49.642780"
+}

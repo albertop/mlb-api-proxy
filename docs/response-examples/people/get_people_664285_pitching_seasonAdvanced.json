@@ -1,0 +1,163 @@
+{
+  "endpoint": "/api/v1/people/664285",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/people/664285?sportId=1&hydrate=stats%28group%3D%5Bpitching%5D%2CgameType%3D%5BR%5D%2Ctype%3D%5BseasonAdvanced%5D%2CstartDate%3D01%2F01%2F2025%2CendDate%3D12%2F31%2F2025%2Cseason%3D2025%29",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:05 GMT",
+    "server": "uvicorn",
+    "content-length": "2204",
+    "content-type": "application/json",
+    "x-request-id": "84ef8820-87fe-4286-a8bd-a0869c66221c"
+  },
+  "response": {
+    "people": [
+      {
+        "id": 664285,
+        "fullName": "Framber Valdez",
+        "link": "/api/v1/people/664285",
+        "firstName": "Framber",
+        "lastName": "Valdez",
+        "primaryNumber": "59",
+        "birthDate": "1993-11-19",
+        "currentAge": 32,
+        "birthCity": "Palenque",
+        "birthCountry": "Dominican Republic",
+        "height": "5' 11\"",
+        "weight": 230,
+        "active": true,
+        "primaryPosition": {
+          "code": "1",
+          "name": "Pitcher",
+          "type": "Pitcher",
+          "abbreviation": "P"
+        },
+        "useName": "Framber",
+        "useLastName": "Valdez",
+        "boxscoreName": "Valdez, F",
+        "gender": "M",
+        "nameMatrilineal": "Pinales",
+        "isPlayer": true,
+        "isVerified": true,
+        "pronunciation": "FRAHM-burr",
+        "stats": [
+          {
+            "type": {
+              "displayName": "seasonAdvanced"
+            },
+            "group": {
+              "displayName": "pitching"
+            },
+            "exemptions": [],
+            "splits": [
+              {
+                "season": "2025",
+                "stat": {
+                  "age": 31,
+                  "winningPercentage": ".542",
+                  "Rp9": "3.84",
+                  "BF": 802,
+                  "BABIP": ".299",
+                  "OBP": ".308",
+                  "SLG": ".358",
+                  "OPS": ".666",
+                  "Kp9": "8.77",
+                  "BBp9": "3.19",
+                  "HRp9": "0.70",
+                  "Hp9": "8.02",
+                  "KpBB": "2.75",
+                  "InhR": 0,
+                  "InhRS": 0,
+                  "BqR": 10,
+                  "BqRS": 2,
+                  "SB": 25,
+                  "CS": 3,
+                  "QS": 20,
+                  "GF": 0,
+                  "X2B": 33,
+                  "X3B": 4,
+                  "gidp": 22,
+                  "GIDP_Opp": 111,
+                  "WP": 12,
+                  "BK": 1,
+                  "PO": 1,
+                  "Swings": 1356,
+                  "SwingMiss": 361,
+                  "strikeoutsMinusWalksPercentage": ".148",
+                  "gidpPercentage": ".198",
+                  "battersFacedPerGame": "25.87",
+                  "inningsPitchedPerGame": "6.19",
+                  "buntsFailed": 10,
+                  "buntsMissedTipped": 3,
+                  "whiffPercentage": ".266",
+                  "flyBallPercentage": ".165",
+                  "BIP": 540,
+                  "RS": 79,
+                  "StrikePct": ".640",
+                  "PpInn": "15.06",
+                  "PpPA": "3.605",
+                  "BBpPA": ".085",
+                  "KPpA": ".233",
+                  "homeRunsPerPlateAppearance": ".019",
+                  "BBpK": ".364",
+                  "ISO": ".120",
+                  "FOuts": 70,
+                  "POuts": 12,
+                  "LOuts": 40,
+                  "GOuts": 247,
+                  "FH": 19,
+                  "PH": 1,
+                  "LH": 77,
+                  "GH": 74
+                },
+                "team": {
+                  "id": 117,
+                  "name": "Houston Astros",
+                  "link": "/api/v1/teams/117"
+                },
+                "player": {
+                  "id": 664285,
+                  "fullName": "Framber Valdez",
+                  "link": "/api/v1/people/664285"
+                },
+                "league": {
+                  "id": 103,
+                  "name": "American League",
+                  "link": "/api/v1/league/103"
+                },
+                "sport": {
+                  "id": 1,
+                  "link": "/api/v1/sports/1",
+                  "abbreviation": "MLB"
+                },
+                "gameType": "R"
+              }
+            ]
+          }
+        ],
+        "mlbDebutDate": "2018-08-21",
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "nameFirstLast": "Framber Valdez",
+        "nameSlug": "framber-valdez-664285",
+        "firstLastName": "Framber Valdez",
+        "lastFirstName": "Valdez, Framber",
+        "lastInitName": "Valdez, F",
+        "initLastName": "F Valdez",
+        "fullFMLName": "Framber Valdez",
+        "fullLFMName": "Valdez, Framber",
+        "strikeZoneTop": 3.32,
+        "strikeZoneBottom": 1.51
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:05.521733",
+  "variation": "pitching_seasonAdvanced"
+}

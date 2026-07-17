@@ -1,0 +1,227 @@
+{
+  "endpoint": "/api/v1/leagueLeaderTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/leagueLeaderTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:37 GMT",
+    "server": "uvicorn",
+    "content-length": "2186",
+    "content-type": "application/json",
+    "x-request-id": "5804174f-228f-4150-83d7-57784d26daec"
+  },
+  "response": [
+    {
+      "displayName": "assists"
+    },
+    {
+      "displayName": "shutouts"
+    },
+    {
+      "displayName": "homeRuns"
+    },
+    {
+      "displayName": "sacrificeBunts"
+    },
+    {
+      "displayName": "sacrificeFlies"
+    },
+    {
+      "displayName": "runs"
+    },
+    {
+      "displayName": "groundoutToFlyoutRatio"
+    },
+    {
+      "displayName": "stolenBases"
+    },
+    {
+      "displayName": "battingAverage"
+    },
+    {
+      "displayName": "groundOuts"
+    },
+    {
+      "displayName": "numberOfPitches"
+    },
+    {
+      "displayName": "onBasePercentage"
+    },
+    {
+      "displayName": "caughtStealing"
+    },
+    {
+      "displayName": "groundIntoDoublePlays"
+    },
+    {
+      "displayName": "totalBases"
+    },
+    {
+      "displayName": "earnedRunAverage"
+    },
+    {
+      "displayName": "fieldingPercentage"
+    },
+    {
+      "displayName": "walksAndHitsPerInningPitched"
+    },
+    {
+      "displayName": "flyouts"
+    },
+    {
+      "displayName": "hitByPitches"
+    },
+    {
+      "displayName": "gamesPlayed"
+    },
+    {
+      "displayName": "walks"
+    },
+    {
+      "displayName": "sluggingPercentage"
+    },
+    {
+      "displayName": "onBasePlusSlugging"
+    },
+    {
+      "displayName": "runsBattedIn"
+    },
+    {
+      "displayName": "triples"
+    },
+    {
+      "displayName": "extraBaseHits"
+    },
+    {
+      "displayName": "hits"
+    },
+    {
+      "displayName": "atBats"
+    },
+    {
+      "displayName": "strikeouts"
+    },
+    {
+      "displayName": "doubles"
+    },
+    {
+      "displayName": "totalPlateAppearances"
+    },
+    {
+      "displayName": "intentionalWalks"
+    },
+    {
+      "displayName": "wins"
+    },
+    {
+      "displayName": "losses"
+    },
+    {
+      "displayName": "saves"
+    },
+    {
+      "displayName": "wildPitch"
+    },
+    {
+      "displayName": "airOuts"
+    },
+    {
+      "displayName": "balk"
+    },
+    {
+      "displayName": "blownSaves"
+    },
+    {
+      "displayName": "catcherEarnedRunAverage"
+    },
+    {
+      "displayName": "catchersInterference"
+    },
+    {
+      "displayName": "chances"
+    },
+    {
+      "displayName": "completeGames"
+    },
+    {
+      "displayName": "doublePlays"
+    },
+    {
+      "displayName": "earnedRun"
+    },
+    {
+      "displayName": "errors"
+    },
+    {
+      "displayName": "gamesFinished"
+    },
+    {
+      "displayName": "gamesStarted"
+    },
+    {
+      "displayName": "hitBatsman"
+    },
+    {
+      "displayName": "hitsPer9Inn"
+    },
+    {
+      "displayName": "holds"
+    },
+    {
+      "displayName": "innings"
+    },
+    {
+      "displayName": "inningsPitched"
+    },
+    {
+      "displayName": "outfieldAssists"
+    },
+    {
+      "displayName": "passedBalls"
+    },
+    {
+      "displayName": "pickoffs"
+    },
+    {
+      "displayName": "pitchesPerInning"
+    },
+    {
+      "displayName": "putOuts"
+    },
+    {
+      "displayName": "rangeFactorPerGame"
+    },
+    {
+      "displayName": "rangeFactorPer9Inn"
+    },
+    {
+      "displayName": "saveOpportunities"
+    },
+    {
+      "displayName": "stolenBasePercentage"
+    },
+    {
+      "displayName": "strikeoutsPer9Inn"
+    },
+    {
+      "displayName": "strikeoutWalkRatio"
+    },
+    {
+      "displayName": "throwingErrors"
+    },
+    {
+      "displayName": "totalBattersFaced"
+    },
+    {
+      "displayName": "triplePlays"
+    },
+    {
+      "displayName": "walksPer9Inn"
+    },
+    {
+      "displayName": "winPercentage"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:38.498038"
+}

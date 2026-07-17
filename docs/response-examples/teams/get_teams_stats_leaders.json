@@ -1,0 +1,81 @@
+{
+  "endpoint": "/api/v1/teams/stats/leaders",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/teams/stats/leaders?type=hitting&season=2024&sportId=1&leaderCategories=homeRuns&statGroup=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:14 GMT",
+    "server": "uvicorn",
+    "content-length": "735",
+    "content-type": "application/json",
+    "x-request-id": "85e356a1-71e1-46a0-be9b-c3cc63acf17a"
+  },
+  "response": {
+    "leagueLeaders": [
+      {
+        "leaderCategory": "homeRuns",
+        "season": "2024",
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "leaders": [
+          {
+            "rank": 1,
+            "value": "237",
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "season": "2024"
+          },
+          {
+            "rank": 2,
+            "value": "235",
+            "team": {
+              "id": 110,
+              "name": "Baltimore Orioles",
+              "link": "/api/v1/teams/110"
+            },
+            "season": "2024"
+          },
+          {
+            "rank": 3,
+            "value": "233",
+            "team": {
+              "id": 119,
+              "name": "Los Angeles Dodgers",
+              "link": "/api/v1/teams/119"
+            },
+            "season": "2024"
+          },
+          {
+            "rank": 4,
+            "value": "213",
+            "team": {
+              "id": 144,
+              "name": "Atlanta Braves",
+              "link": "/api/v1/teams/144"
+            },
+            "season": "2024"
+          },
+          {
+            "rank": 5,
+            "value": "211",
+            "team": {
+              "id": 109,
+              "name": "Arizona Diamondbacks",
+              "link": "/api/v1/teams/109"
+            },
+            "season": "2024"
+          }
+        ],
+        "statGroup": "hitting",
+        "totalSplits": 30
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:15.172359"
+}

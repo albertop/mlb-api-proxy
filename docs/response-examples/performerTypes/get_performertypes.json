@@ -1,0 +1,35 @@
+{
+  "endpoint": "/api/v1/performerTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/performerTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:40 GMT",
+    "server": "uvicorn",
+    "content-length": "134",
+    "content-type": "application/json",
+    "x-request-id": "2ad07e4d-1527-40aa-9cc1-ad6599f7775f"
+  },
+  "response": [
+    {
+      "name": "basketballTeam"
+    },
+    {
+      "name": "unspecified"
+    },
+    {
+      "name": "Musician"
+    },
+    {
+      "name": "person"
+    },
+    {
+      "name": "baseballTeam"
+    },
+    {
+      "name": "hockeyTeam"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:41.170696"
+}

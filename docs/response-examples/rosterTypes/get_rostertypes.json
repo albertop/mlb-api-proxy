@@ -1,0 +1,62 @@
+{
+  "endpoint": "/api/v1/rosterTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/rosterTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:43 GMT",
+    "server": "uvicorn",
+    "content-length": "866",
+    "content-type": "application/json",
+    "x-request-id": "270a5c20-7b66-4477-9fed-7becc79e9cc9"
+  },
+  "response": [
+    {
+      "description": "40 man roster for a team",
+      "lookupName": "40man",
+      "parameter": "40Man"
+    },
+    {
+      "description": "Full roster including active and inactive players for a season",
+      "lookupName": "fullSeason",
+      "parameter": "fullSeason"
+    },
+    {
+      "description": "Full roster including active and inactive players",
+      "lookupName": "full",
+      "parameter": "fullRoster"
+    },
+    {
+      "description": "Non-Roster Invitees",
+      "lookupName": "nonRosterInvitees",
+      "parameter": "nonRosterInvitees"
+    },
+    {
+      "description": "Active roster for a team",
+      "lookupName": "active",
+      "parameter": "active"
+    },
+    {
+      "description": "All Time roster for a team",
+      "lookupName": "alltime",
+      "parameter": "allTime"
+    },
+    {
+      "description": "Depth chart for a team",
+      "lookupName": "active",
+      "parameter": "depthChart"
+    },
+    {
+      "description": "Roster for day of game",
+      "lookupName": "active",
+      "parameter": "gameday"
+    },
+    {
+      "description": "Coach roster for a team",
+      "lookupName": "active",
+      "parameter": "coach"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:43.426311"
+}

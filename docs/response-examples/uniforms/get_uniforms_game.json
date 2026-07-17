@@ -1,0 +1,108 @@
+{
+  "endpoint": "/api/v1/uniforms/game",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/uniforms/game?gamePks=776135&gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:17 GMT",
+    "server": "uvicorn",
+    "content-length": "1848",
+    "content-type": "application/json",
+    "x-request-id": "1a509be1-9d75-4dc1-8e85-004b4ee15002"
+  },
+  "response": {
+    "uniforms": [
+      {
+        "gamePk": 776135,
+        "home": {
+          "id": 108,
+          "teamName": "LA Angels",
+          "uniformAssets": [
+            {
+              "uniformAssetId": 1847,
+              "uniformAssetCode": "108_jersey_1_2025",
+              "uniformAssetText": "Angels Home White Jersey",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Shirt, jersey, sweater, etc.",
+                "uniformAssetTypeCode": "J",
+                "uniformAssetTypeText": "Jersey",
+                "uniformAssetTypeId": 1
+              },
+              "active": true
+            },
+            {
+              "uniformAssetId": 1849,
+              "uniformAssetCode": "108_pants_1_2025",
+              "uniformAssetText": "Angels Home White Pants",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Pants, shorts, skirt, etc.",
+                "uniformAssetTypeCode": "P",
+                "uniformAssetTypeText": "Pants",
+                "uniformAssetTypeId": 2
+              },
+              "active": true
+            },
+            {
+              "uniformAssetId": 1848,
+              "uniformAssetCode": "108_hat_1_2025",
+              "uniformAssetText": "Angels Primary Red \"A\" Hat",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Cap, hat, head-gear",
+                "uniformAssetTypeCode": "C",
+                "uniformAssetTypeText": "Cap",
+                "uniformAssetTypeId": 3
+              },
+              "active": true
+            }
+          ],
+          "link": "/api/v1/teams/108"
+        },
+        "away": {
+          "id": 117,
+          "teamName": "Houston",
+          "uniformAssets": [
+            {
+              "uniformAssetId": 1699,
+              "uniformAssetCode": "117_jersey_3_2025",
+              "uniformAssetText": "Astros Alt Orange Jersey",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Shirt, jersey, sweater, etc.",
+                "uniformAssetTypeCode": "J",
+                "uniformAssetTypeText": "Jersey",
+                "uniformAssetTypeId": 1
+              },
+              "active": true
+            },
+            {
+              "uniformAssetId": 1705,
+              "uniformAssetCode": "117_pants_2_2025",
+              "uniformAssetText": "Astros Road Grey Pants",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Pants, shorts, skirt, etc.",
+                "uniformAssetTypeCode": "P",
+                "uniformAssetTypeText": "Pants",
+                "uniformAssetTypeId": 2
+              },
+              "active": true
+            },
+            {
+              "uniformAssetId": 1704,
+              "uniformAssetCode": "117_hat_1_2025",
+              "uniformAssetText": "Astros Primary All Blue Hat",
+              "uniformAssetType": {
+                "uniformAssetTypeDesc": "Cap, hat, head-gear",
+                "uniformAssetTypeCode": "C",
+                "uniformAssetTypeText": "Cap",
+                "uniformAssetTypeId": 3
+              },
+              "active": true
+            }
+          ],
+          "link": "/api/v1/teams/117"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:18.344206"
+}

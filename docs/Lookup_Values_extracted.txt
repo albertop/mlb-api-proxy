@@ -1,0 +1,3497 @@
+Lookup Values
+Calendar Types
+name
+PRIMARY
+SECONDARY
+TERTIARY
+Event Statuses
+codedetailedStatedbCodeabstractGameStatestartTimeTBD
+1Scheduled S Preview false
+8Scheduled (Time TBD)S Preview false
+2Pre-Game P Preview false
+11Delayed D Delayed false
+10Cancelled C Cancelled false
+3In Progress I Live false
+7Final F Final false
+110Unknown XUnknown false
+Game Statuses
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Preview S Scheduled S P
+Preview P Pre-Game P P
+Live P Warmup PW L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Preview P Delayed Start: Rain PR P
+Preview P Delayed Start: Snow PS P
+Preview P Delayed Start: Wet Grounds PG P
+Preview P Delayed Start: Venue PV P
+Preview P Delayed Start: Fog PF P
+Preview P Delayed Start: Cold PC P
+Preview P Delayed Start: Air Quality PD P
+Preview P Delayed Start: Wind PB P
+Preview P Delayed Start: Inclement Weather PI P
+Preview P Delayed Start: Power PP P
+Preview P Delayed Start: Ceremony PY P
+Preview P Delayed Start: Lightning PL P
+Preview P Delayed Start: COVID-19 PE P
+Preview P Delayed Start: Tragedy PA P
+Preview P Delayed Start PO P
+Live I In Progress I L
+Live I Delayed: Rain IR L
+Live I Delayed: Snow IS L
+Live I Delayed: Wet Grounds IG L
+Live I Delayed: Venue IV L
+Live I Delayed: Fog IF L
+Live I Delayed: Cold IC L
+Live I Delayed: Air Quality ID L
+Live I Delayed: Wind IB L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Live I Delayed: Inclement Weather II L
+Live I Delayed: Power IP L
+Live I Delayed: Ceremony IY L
+Live I Delayed: Lightning IL L
+Live I Delayed: COVID-19 IE L
+Live I Delayed: Tragedy IA L
+Live I Instant Replay IH L
+Live I Delayed IO L
+Live I Delayed: About to Resume IZ L
+Live M Manager challenge: Close play at 1st MF L
+Live M Manager challenge: Tag play MA L
+Live M Manager challenge: Tag-up play MU L
+Live M Manager challenge: Timing play MM L
+Live M Manager challenge: Force play MC L
+Live M Manager challenge: Home-plate collisionMP L
+Live M Manager challenge: Slide interferenceME L
+Live M Manager challenge: Home run MH L
+Live M Manager challenge: Fair/foul in outfieldMO L
+Live M Manager challenge: Catch/drop in outfieldMD L
+Live M Manager challenge: Trap play in outfieldMT L
+Live M Manager challenge: Hit by pitch MI L
+Live M Manager challenge: Touching a base MB L
+Live M Manager challenge: Passing runners MR L
+Live M Manager challenge: Fan interference MN L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Live M Manager challenge: Stadium boundary callMS L
+Live M Manager challenge: Grounds rule MG L
+Live M Manager challenge: Rules check MQ L
+Live M Manager challenge: Record keeping MK L
+Live M Manager challenge: Multiple issues ML L
+Live M Manager challenge MX L
+Live M Manager challenge: Catchers InterferenceMV L
+Live M Player challenge: Pitch Result MJ L
+Live N Umpire review: Close play at 1st NF L
+Live N Umpire review: Tag play NA L
+Live N Umpire review: Tag-up play NU L
+Live N Umpire review: Def Shift Violation NW L
+Live N Umpire review: Timing play NM L
+Live N Umpire review: Force play NC L
+Live N Umpire review: Home-plate collision NP L
+Live N Umpire review: Slide interference NE L
+Live N Umpire review: Home run NH L
+Live N Umpire review: Fair/foul in outfield NO L
+Live N Umpire review: Catch/drop in outfieldND L
+Live N Umpire review: Trap play in outfield NT L
+Live N Umpire review: Hit by pitch NI L
+Live N Umpire review: Touching a base NB L
+Live N Umpire review: Passing runners NR L
+Live N Umpire review: Fan interference NN L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Live N Umpire review: Stadium boundary callNS L
+Live N Umpire review: Grounds rule NG L
+Live N Umpire review: Rules check NQ L
+Live N Umpire review: Record keeping NK L
+Live N Umpire review: Multiple issues NL L
+Live N Umpire review NX L
+Live N Umpire Challenge: Pitch Result NJ L
+Final D Postponed: Rain DR F
+Final D Postponed: Snow DS F
+Final D Postponed: Wet Grounds DG F
+Final D Postponed: Venue DV F
+Final D Postponed: Fog DF F
+Final D Postponed: Cold DC F
+Final D Postponed: Air Quality DD F
+Final D Postponed: Wind DB F
+Final D Postponed: Inclement Weather DI F
+Final D Postponed: Power DP F
+Final D Postponed: Lightning DL F
+Final D Postponed: COVID-19 DE F
+Final D Postponed: Tragedy DA F
+Final D Postponed DO F
+Final C Cancelled: Rain CR F
+Final C Cancelled: Snow CS F
+Final C Cancelled: Wet Grounds CG F
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Final C Cancelled: Venue CV F
+Final C Cancelled: Fog CF F
+Final C Cancelled: Cold CC F
+Final C Cancelled: Air Quality CD F
+Final C Cancelled: Wind CB F
+Final C Cancelled: Inclement Weather CI F
+Final C Cancelled: Power CP F
+Final C Cancelled: Lightning CL F
+Final C Cancelled: COVID-19 CE F
+Final C Cancelled: Tragedy CA F
+Final C Cancelled CO F
+Final O Game Over O F
+Final O Completed Early: Rain OR F
+Final O Completed Early: Snow OS F
+Final O Completed Early: Wet Grounds OG F
+Final O Completed Early: Venue OV F
+Final O Completed Early: Fog OF F
+Final O Completed Early: Cold OC F
+Final O Completed Early: Air Quality OD F
+Final O Completed Early: Wind OB F
+Final O Completed Early: Inclement Weather OI F
+Final O Completed Early: Power OP F
+Final O Completed Early: Lightning OL F
+Final O Completed Early: COVID-19 OE F
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Final O Completed Early: Tragedy OA F
+Final O Completed Early: Mercy Rule OM F
+Final O Completed Early OO F
+Final O Game Over: Tied OT F
+Final O Game Over: Tie, decision by tiebreakerOW F
+Final F Final F F
+Final F Completed Early: Rain FR F
+Final F Completed Early: Snow FS F
+Final F Completed Early: Wet Grounds FG F
+Final F Completed Early: Venue FV F
+Final F Completed Early: Fog FF F
+Final F Completed Early: Cold FC F
+Final F Completed Early: Air Quality FD F
+Final F Completed Early: Wind FB F
+Final F Completed Early: Inclement Weather FI F
+Final F Completed Early: Power FP F
+Final F Completed Early: Lightning FL F
+Final F Completed Early: COVID-19 FE F
+Final F Completed Early: Tragedy FA F
+Final F Completed Early: Mercy Rule FM F
+Final F Completed Early FO F
+Final F Final: Tied FT F
+Final F Final: Tie, decision by tiebreaker FW F
+Live T Suspended T L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Live T Suspended: Rain TR L
+Live T Suspended: Snow TS L
+Live T Suspended: Wet Grounds TG L
+Live T Suspended: Venue TV L
+Live T Suspended: Fog TF L
+Live T Suspended: Cold TC L
+Live T Suspended: Air Quality TD L
+Live T Suspended: Wind TB L
+Live T Suspended: Inclement Weather TI L
+Live T Suspended: Power TP L
+Live T Suspended: Lightning TL L
+Live T Suspended: COVID-19 TE L
+Live T Suspended: Tragedy TA L
+Live T Suspended: Appeal Upheld TU L
+Live T Suspended TO L
+Live U Suspended U L
+Live U Suspended: Rain UR L
+Live U Suspended: Snow US L
+Live U Suspended: Wet Grounds UG L
+Live U Suspended: Venue UV L
+Live U Suspended: Fog UF L
+Live U Suspended: Cold UC L
+Live U Suspended: Air Quality UD L
+Live U Suspended: Wind UB L
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Live U Suspended: Inclement Weather UI L
+Live U Suspended: Power UP L
+Live U Suspended: Lightning UL L
+Live U Suspended: COVID-19 UE L
+Live U Suspended: Tragedy UA L
+Live U Suspended: Appeal Upheld UU L
+Live U Suspended UO L
+Live U Suspended: About to Resume UZ L
+Final Q Forfeit: Game Over Q F
+Final Q Forfeit: Delay of game QK F
+Final Q Forfeit: Failure to appear QX F
+Final Q Forfeit: Failure to field lineup QQ F
+Final Q Forfeit: Ignoring ejection QJ F
+Final Q Forfeit: Ineligible player QI F
+Final Q Forfeit: Refuses to play QN F
+Final Q Forfeit: Unplayable field QV F
+Final Q Forfeit: Willful rule violation QR F
+Final Q Forfeit QO F
+Final R Forfeit: Final R F
+Final R Forfeit: Delay of game RK F
+Final R Forfeit: Failure to appear RX F
+Final R Forfeit: Failure to field lineup RQ F
+Final R Forfeit: Ignoring ejection RJ F
+Final R Forfeit: Ineligible player RI F
+
+abstractGameStatecodedGameState detailedState statusCodeabstractGameCode
+Final R Forfeit: Refuses to play RN F
+Final R Forfeit: Unplayable field RV F
+Final R Forfeit: Willful rule violation RR F
+Final R Forfeit RO F
+Other X Unknown X O
+Other W Writing W O
+Game Types
+id description
+SSpring Training
+RRegular Season
+FWild Card Game
+DDivision Series
+LLeague Championship Series
+WWorld Series
+CChampionship
+NNineteenth Century Series
+PPlayoffs
+AAll-Star Game
+IIntrasquad
+EExhibition
+Gameday Types
+
+code description
+PPremium Gameday - 3D Pitch tracking and Premium product experience
+EEnhanced Gameday - 3D Pitch tracking
+YRegular Gameday - Pitch by Pitch
+DNo Gameday - Pitch by Pitch
+NNo Gameday - Play by Play level data only
+LNo Gameday - Linescore level data
+BNo Gameday - PG / Box Score level data only
+SNo Gameday - Score / Game Result level data only
+Group By Types
+name validCompareOver
+player true
+pitcher false
+batter false
+venue true
+team true
+battingTeam false
+fieldingTeam false
+sport true
+battingSport false
+fieldingSport false
+league true
+battingLeague false
+fieldingLeague false
+
+name validCompareOver
+division true
+battingDivision false
+fieldingDivision false
+season true
+position true
+statGroup false
+game false
+pitchType false
+eventType false
+pitchCode false
+battingOrder false
+pitchHand false
+batSide false
+month false
+dayOfWeek false
+dayNight false
+gameType false
+homeAway false
+baseState false
+runnersInScoringPositionfalse
+inning false
+countBalls false
+countStrikes false
+countOuts false
+
+name validCompareOver
+hitTrajectory false
+pitchNumber false
+atBatNumber false
+runnerOnFirst false
+runnerOnSecond false
+runnerOnThird false
+catcher false
+firstBaseman false
+secondBaseman false
+shortstop false
+thirdBaseman false
+leftFielder false
+centerFielder false
+rightFielder false
+designatedHitter false
+defensiveAlignmentfalse
+situationCode false
+opponentTeam false
+hitDirection false
+pitchZone true
+date false
+Hit Trajectories
+
+code description
+bunt_grounderBunt - Ground Ball
+bunt_popupBunt - Popup
+bunt_line_driveBunt - Line Drive
+line_drive Line Drive
+ground_ballGround Ball
+fly_ball Fly Ball
+popup Popup
+Job Types
+code job sortOrder
+UMPRUmpire 1
+UDIRDirector of Instant Replay 11
+ROFFReplay Official 21
+MSTRStringer 101
+BOSSBOSS Operator 111
+FTCOField Timing Coordinator 121
+VRMOVideo Room Monitor 131
+TRCKTracking Operator 151
+SCRBScrubber Operator 161
+PITOPitchcast Operator 171
+SCOROfficial Scorer 201
+SUPVSupervisor 251
+MNGRManager 301
+NTRMInterim Manager 311
+
+code job sortOrder
+COABBench Coach 311
+ASSMAssociate Manager 312
+COATHitting Coach 321
+COAHBatting Coach 331
+COHBHitting/Bench Coach 341
+COHFHitting/First Base Coach 351
+INFCInfield Coach 360
+COHTHitting/Third Base Coach 361
+COHUHitting/Bullpen Coach 371
+COHIInterim Hitting Coach 375
+COPIInterim Pitching Coach 376
+COAAAssistant Hitting Coach 381
+MLAHMajor League Assistant Hitting Coach 391
+COAPPitching Coach 401
+COPAAssistant Pitching Coach 411
+COA1First Base Coach 421
+COFUFirst Base/Bullpen Coach 431
+COA3Third Base Coach 441
+FUNDFundamentals Coach 450
+INBCInterim Bench Coach 451
+OBRCOutfield and Baserunning Coordinator 457
+BCCHBench/Catching Coach 461
+DEFCDefensive Coach 466
+BCGPBullpen, Catching/Game Planning Coach 481
+
+code job sortOrder
+COAUBullpen Coach 481
+INBUInterim Bullpen Coach 481
+DPBCDirector of Pitching Development & Bullpen Coach485
+MAJCMajor League Coach 491
+MLHCMajor League Hitting Consultant 492
+SABOSenior Advisor to the President of Baseball Operations500
+ASBCAssistant Bench Coach 500
+VPGMSenior Vice President/General Manager 500
+HINSHitting Instructor 500
+ADLAAdvisor, Latin America 500
+FTHCFourth Coach 500
+QUACQuality Control Coach 501
+MLPSMajor League Pitching Strategist 501
+MLHSMajor League Hitting Strategist 501
+HANIHitting Analytics Instructor 511
+PINCPlayer Information Coach 511
+ACASAcademy Supervisor 511
+DIPDDirector, Player Development 511
+MLPIMajor League Player Information Coordinator 512
+BASSBullpen Assistant 521
+COOCComplex Operations Coordinator 521
+ANACAnalytics Coordinator 531
+BUCOBullpen Coordinator 531
+CBCACoach/Bullpen Catcher 535
+
+code job sortOrder
+BCATBullpen Catcher 541
+MOBCMajor League Operations Assistant/Bullpen Catcher551
+MLSCMajor League Staff Coordinator 552
+CATCCatching Coach 561
+CASCCatching and Advance Scouting Coordinator 571
+DCACDefensive Coordinator and Advance Coach 581
+BOFFBaserunning/Outfield and First Base Coach 591
+COACCoach 601
+PLICPlayer Information Coach 602
+COSASpecial Assignment Coach 611
+GAMEGame Planning Coach 611
+SPHISpecial Assignment Hitting Coach 612
+MADCMajor League administrative coach 613
+MLRCMajor League Replay Coordinator 615
+SADVSpecial Advisor 631
+SASUSpecial Assistant 641
+SBADSenior Baseball Advisor 651
+HCEMHead Clubhouse and Equipment Manager 785
+HEADHead Coach 901
+ASSCAssistant Coach 911
+AUXCAuxiliary Coach 921
+TRIATrials Coach 931
+STUDStudent Manager 941
+COMMCommissioner 1001
+
+code job sortOrder
+LPRSLeague President 1011
+CORPCoordinator, Run Production 2000
+CRPRCoordinator, Run Prevention 2000
+OWNROwner 2001
+FICOField Coordinator 2001
+AFCOAssistand Field Coordinator 2002
+OWNPPart Owner 2011
+IBRCInfield & Baserunning Coordinator 2050
+PRESPresident 2101
+PBBOPresident, Baseball Operations 2111
+PBBGPresident, Baseball Operations and General Manager2112
+GMBOGeneral Manager & President, Baseball Operations2121
+EVGMExecutive Vice President, General Manager 2131
+CBOFChief Baseball Officer 2136
+GMGRGeneral Manager 2141
+IGMGInterim General Manager 2142
+GMASAssistant General Manager 2161
+GMARAssistant General Manager - Research and Development2162
+GMADAssistant General Manager - Player Development2163
+SVBOSenior Vice President, Baseball Operations 2171
+VPREVice President 2191
+SPOCSenior Pitching Coordinator 2200
+VPPPVice President, Player Personnel 2201
+DIRPDirector of Player Personnel 2211
+
+code job sortOrder
+DIRSDirector of Professional Scouting 2221
+VPSCVice President, Scouting 2231
+DIRADirector of Amateur Scouting 2231
+ADASAssistant Director of Amateur Scouting 2241
+DMLODirector of Minor League Operations 2251
+DIRIDirector, International Scouting 2261
+DBARDirector of Baseball Analytics and Research 2265
+SIOASpecialist of International Operations and Associate Counsel2271
+VPIAVice President, International & Amateur Scouting2272
+EDIRExecutive Director, International Recruiting 2281
+DIRDDirector of Player Development 2291
+ADPDAssistant Director, Player Development 2301
+DMADDirector of Medical Administration 2311
+DRDEDirector of Research and Development 2321
+SAGMSpecial Assistant to the General Manager 2331
+SAMLSpecial Assistant to the GM and Major League Scout2341
+SAMMSpecial Assistant to the President and CEO 2346
+SAMASpecial Assistant to the GM and Major League Advance Scout2351
+SAPDSpecial Assistant to Player Development 2356
+SCOUScout 2361
+MPRSManager, Professional Scouting 2371
+NATCNational Crosschecker 2381
+ADSCAdvance Scout 2391
+DIETMajor League Dietitian 3000
+
+code job sortOrder
+TTCMSenior Director, Team Travel and Home Clubhouse Manager3001
+DTETDirector of Team Travel 3011
+DTEPDirector, Team Travel and Player Services 3021
+DOPODirector of Pitching Operations 3025
+TRSCTraveling Secretary 3031
+CORTCoordinator, Organizational Travel 3041
+CTETCoordinator, Team Travel 3051
+DEAPDirector, Employee Assistance Program 3061
+DTESDirector, Team Security 3071
+MLVCMajor League Video Coordinator 3081
+MVIOManager, Video Operations 3091
+VIDOVideo Operations 3101
+VIDCVideo Coordinator 3111
+AVICAssistant Video Coordinator 3121
+SASFSpecial Assistant 3131
+TRAVTeam Travel Manager 3151
+BOPOBaseball Operations Operator 3161
+EAPREmployee Assistance Program 3171
+EQACManager of Equipment Acquisitions 3181
+ATRDAssociate Travel Director 3191
+SECYExecutive Security 3201
+EDTSExecutive Director, Team Security 3211
+TSECTeam Security 3221
+MLCOMajor League Consultant 3231
+
+code job sortOrder
+BOPABaseball Operations Assistant 3241
+ABOPAdministrator, Baseball Operations 3242
+ASSTStaff Assistant 3251
+INSTInstructor 3261
+HGROHead Groundskeeper 3271
+HPCOHead Pitching Coordinator 3275
+HCOCHead Conditioning Coach 3281
+MNTLMental Skills Coach 3291
+PERFPerformance Coach 3301
+PSYCPsychology Coach 3311
+HSCCHead Strength and Conditioning Coach 3320
+SCCCStrength and Conditioning Coach 3321
+MLTCMinor League Training Coordinator 3331
+SCSPStrength and Conditioning Specialist 3341
+AMTCAssistant Minor League Training Coordinator 3351
+APCOAssistant Pitching Coordinator 3355
+AHCOAssistant Hitting Coordinator 3356
+BPPIBatting Practice Pitcher 3361
+TRANTranslator 3371
+CLBMClubhouse Manager 3381
+AMECAssistant Manager, Equipment and Clubhouse Services3382
+MVCLManager, Visiting Clubhouse 3383
+ASCCAssistant Strength and Conditioning Coach 3384
+AMLCAssistant Minor League Clubhouse Manager 3385
+
+code job sortOrder
+MLCMMinor League Clubhouse Manager 3390
+DCLODirector, Clubhouse Operations 3391
+EQUPEquipment Manager 3401
+EQUHEquipment Manager (home) 3411
+EQUAEquipment Manager (road) 3421
+FILDField Director 3431
+HCLMHome Clubhouse Manager 3441
+MMLVManager, Major League Video 3451
+SCLMSenior Clubhouse Manager 3461
+UMPCUmpires Clubhouse Manager 3471
+VCLMVisiting Clubhouse Manager 3481
+VCEMVisiting Clubhouse Manager and Equipment Manager3491
+ACLMAssistant Clubhouse Manager 3501
+AHCMAssistant Home Clubhouse Manager 3511
+AVCMAssistant Visiting Clubhouse Manager 3521
+CLBAClubhouse Attendant 3531
+HCLAHome Clubhouse Assistant 3541
+ACLAAssistant Clubhouse Attendant 3551
+AEQMAssistant Equipment Manager 3561
+AFIDAssistant Field Director 3571
+UMPAUmpires' Room Attendant 3581
+MASCMascot 3591
+DLAODirector, Latin American Operations 3601
+CONDConditioning Coordinator 3611
+
+code job sortOrder
+CBASCoordinator, Baserunning 3621
+COBOCoordinator of Baseball Operations 3631
+CCATCoordinator, Catching 3641
+CDEFCoordinator, Defensive 3651
+CHITCoordinator, Hitting 3661
+CMLICoordinator, Minor League Instruction 3671
+COPDCoordinator, Player Development 3672
+PTCOPitching Coordinator 3680
+CPITCoordinator, Pitching 3681
+PRFCPerformance Coordinator 3681
+DCONDirector of Conditioning 3691
+CINSCoordinator of Instruction 3696
+LFCOLatin American Field Coordinator 3701
+MAHCMinor League Assistant Hitting Coach 3711
+MLCCMinor League Catching Coordinator 3721
+MLACMinor League Assistant Catching Coordinator 3725
+CCDPCatching Coach/Defensive Positioning 3731
+MLAOMinor League Assistant Hitting/Outfield Coordinator3735
+MFCOMinor League Field Coordinator 3741
+MLBCMinor League Baserunning Coordinator 3745
+MHCOMinor League Hitting Coordinator 3751
+MLECMinor League Equipment Coordinator 3755
+MICOMinor League Infield Coordinator 3761
+OFINOutfield Instructor 3781
+
+code job sortOrder
+ROFCRoving Outfield Coordinator 3782
+MAFCMinor League Assistant Field Coordinator 3794
+MLRPMinor League Rehab Pitching Coordinator 3811
+MSSHMinor League Short Season Hitting Coordinator3821
+MSSPMinor League Short Season Pitching Coordinator3831
+MSCCMinor League Strength and Conditioning Coordinator3841
+HOSCHead of Strength and Conditioning 3845
+REHARehab Coordinator 3851
+MARCMedical and Rehab Coordinator 3856
+PDAAPlayer Development Advisor 3860
+SPADSenior Pitching Advisor 3861
+LSCOLife Skills Coordinator 3865
+SCCRStrength and Conditioning Coordinator 3871
+CFCOCo-Field Coordinator 3882
+FOBCField, Outfield and Baserunning Coordinator 3895
+REHCRehabilitation Coach 3901
+ACOCAssistant Conditioning Coordinator 3911
+ROHIRoving Hitting Instructor 3921
+RVCIRoving Catching Instructor 3922
+ROINRoving Instructor 3931
+ROPIRoving Pitching Instructor 3941
+PERSPersonal Assistant 3951
+SSCCSeasonal Strength and Conditioning Coach 3961
+SDDDSenior Director of Major League data and development4250
+
+code job sortOrder
+EDUCEducation Coordinator 5000
+REPCRehab Pitching Coach 5000
+DMPIDirector of Minor League Pitching Instruction 5000
+LDDCLeadership Development Coordinator 5000
+PITAPitching Assistant 5000
+DECSDirector of Equipment & Clubhouse Services 5001
+CMESCoordinator of Medical Services 5001
+MLICMinor League International Medical Coordinator5008
+DMESDirector of Medical Services 5011
+CIPPCoordinator of International Player Programs 5016
+DMEODirector, Medical Operations 5021
+MEDDMedical Director 5031
+DOPPDirector of Peak Performance 5031
+ADPHAssistant Director of Player Health 5032
+DRPHDirector of Player Health 5035
+DRPADirector of Player Health/ Head Athletic Trainer5036
+MEDOMedical Operations Coordinator 5041
+ADMSAssistant Director, Medical Services 5051
+HPHYHead Physician 5061
+HTPHHead Team Physician 5071
+SADOSenior Advisor of Orthopedics 5081
+DREHDirector of Rehabilitation 5091
+SMADSenior Medical Advisor 5095
+DIPYDirector of Physical Performance 5096
+
+code job sortOrder
+DSTCDirector of Strength and Conditioning 5101
+HANDHand Surgery 5111
+INTMInternal Medicine 5121
+INTRInternist 5131
+OPHTOphthalmology 5141
+OPTOOptometry 5151
+ORTCOrthopedic Consultant 5161
+ORTHOrthopedist 5171
+PHYSPhysician 5181
+SAORSenior Associate Orthopedist 5191
+TMPHTeam Physician 5201
+CHIRChiropractor 5211
+DENTDentist 5221
+PHYEPhysician (E.A.P.) 5231
+PHYFPhysician (Florida) 5241
+PHYIPhysician (Internal) 5251
+PHYNTeam Physician (New York) 5261
+PHYOPhysician (Orthopedic) 5271
+PHYTPhysician (Tampa) 5281
+PODIPodiatry 5291
+MEDAMedical Assistant 5301
+MLMCMinor League Medical Coordinator 5311
+LAMCLatin American Medical Coordinator 6000
+LASCLatin American Strength and Conditioning Coordinator6000
+
+code job sortOrder
+STCOSpring Training Coordinator 6000
+HTRAHead Trainer 6001
+AATRAssistant Athletic Trainer 6002
+AATPAssistant Athletic Trainer/Physical Therapist 6004
+MPTHManual and Performance Therapist 6011
+DRMCDirector of Mental Conditioning 6021
+ATHTAthletic Trainer 6031
+ATRAAssistant Trainer 6041
+ARCOAssistant Rehabilitation Coordinator 6045
+CATHCertified Athletic Trainer 6051
+CPPCCo-Physical Performance Coordinator 6060
+TRNRTrainer 6061
+SBIESenior Biomechanical Engineer 6065
+DAZFDirector of Arizona Facilities 6068
+HATRHead Athletic Trainer 6071
+COPCComplex Pitching Coach 6081
+HCATHead Certified Athletic Trainer 6081
+DEVEDevelopment Coach 6081
+CHTCComplex Hitting Coach 6082
+ACATAssistant Certified Athletic Trainer 6091
+MASSMassage Therapist 6101
+PTHRPhysical Therapist 6111
+INTEInterpreter 6111
+HPTRHead Physical Therapist 6112
+
+code job sortOrder
+ASPTAssistant Physical Therapist 6113
+STHESports Therapist 6121
+CPHTCertified Physical Therapist 6131
+PPCHPhysical Performance Coach 6132
+EXECExecutive 7001
+GRADGraduate Assistant 7050
+MREPMLB.com Reporter 7901
+MLBNMLB Network Personality 7951
+MEDIMedia Member 8001
+CELECelebrity 99001
+LCDCLatin/Cultural Development Coordinator
+AMSAAmateur Scouting Analyst
+SSHCShort-Season Hitting Coordinator
+AMSCAssistant Minor League Strength and Conditioning Coordinator
+APDEAssistant, Player Development
+SPECSpecial Consultant
+CCAPCamp Coordinator/Assistant, Player Development
+HPCFHigh Performance Chef
+DMLIDirector of Minor League Instruction
+SBBASenior Baseball Advisor
+MLNCMinor League Nutrition Coordinator
+QCCCQuality Control/Catching Coach
+ADBDAssistant Director of Baseball Development
+SAPCSenior Advisor/Pitching Consultant
+
+code job sortOrder
+MLFCMajor League Field Coordinator
+DIRHDirector of Hitting
+MOCOMinor League Outfield Coordinator
+AFODArizona Field Operations Director
+SVAGSenior Vice President/Assistant General Manager
+BIOABiomechanics Assistant
+APDQAssistant, Player Development Quality Control
+BPSFBullpen Staff
+IFCOInternational Field Coordinator
+ADECAthletic Development Coordinator
+HCONHitting Consultant
+VPPDSenior Vice President, Player Development
+RPRERun Prevention Coach
+RPRORun Production Coach
+INPSMajor League Internal Player Stategist
+CARPCoaching Assistant/Replay Coordinator
+MLSDMinor League Sports Dietician
+MBBDManager, Baseball Development
+SPPCSpecial Projects Coordinator
+COSDCoordinator of Skill Development
+SPASSpecial Assignment Scout
+AMPCAssistant Minor League Pitching Coordinator
+DPRDDirector, Pitching Research and Development
+COINCoach/Interpreter
+
+code job sortOrder
+DOSPDirector of Sports Performance
+MLPTMinor League Physical Therapist
+OFCOOutfield Coordinator
+COORCoordinator
+HCORHitting Coordinator
+CASTBullpen Catcher
+IPCIntegrated Performance Coach
+IPCBIntegrated Baseball Performance Coach
+TOPMTeam Operations Manager
+COAICoordinator, Advance Information
+MHDVManager, Hitting Development
+PSTGPitching Strategist
+AINAAdvance Information Assistant
+MPCOMental Performance Coordinator
+PPTHPerformance Physical Therapist
+Languages
+languageIdlanguageCodenamelocale
+1 en Englishen_US
+2 xe Elias en_US
+3 es Spanishes_ES
+4 xc Englishen_US
+5 ja Japaneseja_JA
+6 ko Koreanko_KO
+
+languageIdlanguageCodenamelocale
+7 zh Chinesezh_ZH
+8 fr Frenchfr_FR
+9 de Germande_DE
+10 it Italian it_IT
+11 nl Dutchnl_NL
+12 pt Portuguesept_PT
+13 el Greek el_EL
+14 tl Tagalogtl_TL
+21 j2 Japanese 2j2_J2
+22 ov Englishen_US
+League Leader Types
+displayName
+assists
+shutouts
+homeRuns
+sacrificeBunts
+sacrificeFlies
+runs
+groundoutToFlyoutRatio
+stolenBases
+battingAverage
+groundOuts
+numberOfPitches
+
+displayName
+onBasePercentage
+caughtStealing
+groundIntoDoublePlays
+totalBases
+earnedRunAverage
+fieldingPercentage
+walksAndHitsPerInningPitched
+flyouts
+hitByPitches
+gamesPlayed
+walks
+sluggingPercentage
+onBasePlusSlugging
+runsBattedIn
+triples
+extraBaseHits
+hits
+atBats
+strikeouts
+doubles
+totalPlateAppearances
+intentionalWalks
+wins
+losses
+
+displayName
+saves
+wildPitch
+airOuts
+balk
+blownSaves
+catcherEarnedRunAverage
+catchersInterference
+chances
+completeGames
+doublePlays
+earnedRun
+errors
+gamesFinished
+gamesStarted
+hitBatsman
+hitsPer9Inn
+holds
+innings
+inningsPitched
+outfieldAssists
+passedBalls
+pickoffs
+pitchesPerInning
+putOuts
+
+displayName
+rangeFactorPerGame
+rangeFactorPer9Inn
+saveOpportunities
+stolenBasePercentage
+strikeoutsPer9Inn
+strikeoutWalkRatio
+throwingErrors
+totalBattersFaced
+triplePlays
+walksPer9Inn
+winPercentage
+League Lists
+name
+MILB_FULL
+MILB_SHORT
+MILB_COMPLEX
+MILB_ALL
+MILB_ALL_NOMEX
+MILB_ALL_DOMESTIC
+MILB_NONCOMP
+MILB_NONCOMP_NOMEX
+MILB_DOMCOMP
+MILB_INTCOMP
+
+name
+WIN_NOABL
+WIN_CARIBBEAN
+WIN_ALL
+ABL
+MEX_ALL
+MLB
+MLB_HIST
+MLB_MILB
+MLB_MILB_HIST
+MLB_MILB_WIN
+BASEBALL_ALL
+MLB_SPRING
+MLB_AL_NL
+MLB_NEGRO
+NEGRO_ALL
+Leagues
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024ASLfalse trueid link
+6005/api/v1/sports/60053601true
+1948NN2false falseidlink
+1/api/v1/sports/12411true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+1931NNLfalse falseidlink
+1/api/v1/sports/12421true
+2024DWLfalse falseidlink
+17/api/v1/sports/171351true
+2020COLBBfalse falseid link
+22/api/v1/sports/225241 false
+2024CBBfalse falseid link
+22/api/v1/sports/225231true
+2024KBOfalse falseid link
+32/api/v1/sports/322611true
+1932EWLfalse falseidlink
+1/api/v1/sports/12431true
+1948NALfalse falseidlink
+1/api/v1/sports/12441true
+1929ANLfalse falseidlink
+1/api/v1/sports/12461true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+ earancesqualifierOutsPitched
+32024AL false trueidlink
+1/api/v1/sports/121 true
+ earancesqualifierOutsPitched
+32024NL false trueidlink
+1/api/v1/sports/131 true
+1891AA false falseidlink
+1/api/v1/sports/12811 false
+1875NA false falseidlink
+6/api/v1/sports/62821 false
+1890PL false falseidlink
+1/api/v1/sports/12831 false
+1884UA false falseidlink
+1/api/v1/sports/12841 false
+2024CL false false 51 true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+1915FL false falseidlink
+1/api/v1/sports/12851 false
+2024GL false false 52 true
+2024INT false trueidlink
+11/api/v1/sports/11111 true
+2024PCLfalse trueidlink
+11/api/v1/sports/11121 true
+2024MEXfalse trueid link
+23/api/v1/sports/232126true
+2024SOUfalse trueidlink
+12/api/v1/sports/12221 true
+2024EAS false trueidlink
+12/api/v1/sports/12211 true
+2024TEX false trueidlink
+12/api/v1/sports/12231 true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024CALfalse trueid link
+14/api/v1/sports/14431 true
+2024CARfalse trueid link
+14/api/v1/sports/14411 true
+2024FSL false trueid link
+14/api/v1/sports/14421 true
+2024MID false trueid link
+13/api/v1/sports/13321 true
+2024SALfalse trueid link
+13/api/v1/sports/13311 true
+2020NYPfalse trueidlink
+15/api/v1/sports/155211 false
+2024NWLfalse falseid link
+13/api/v1/sports/13331 true
+2024PIO false trueid link
+23/api/v1/sports/232131true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024FCL false trueid link
+16/api/v1/sports/16721 true
+2008HWBfalse trueidlink
+17/api/v1/sports/171367true
+2024CS false falseidlink
+17/api/v1/sports/171371true
+2001AAAfalse falseid link
+23/api/v1/sports/232163 false
+2003AZMXfalse falseid link
+23/api/v1/sports/232165 false
+1997BSLfalse falseid link
+23/api/v1/sports/232167 false
+2006CANfalse falseid link
+23/api/v1/sports/232171 false
+2003CBLfalse falseid link
+23/api/v1/sports/232169 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2009CNTfalse falseid link
+23/api/v1/sports/232173 false
+2006GLDfalse falseid link
+23/api/v1/sports/232175 false
+1998HBLfalse falseid link
+23/api/v1/sports/232177 false
+2007IBL false falseid link
+23/api/v1/sports/232161 false
+1995MALfalse falseid link
+23/api/v1/sports/232179 false
+1996NALfalse falseid link
+23/api/v1/sports/232181 false
+1994NCLfalse falseid link
+23/api/v1/sports/232183 false
+2004NELfalse falseid link
+23/api/v1/sports/232185 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+1997PRA false falseid link
+23/api/v1/sports/232189 false
+2003SEL false falseid link
+23/api/v1/sports/232191 false
+2001TXLAfalse falseid link
+23/api/v1/sports/232193 false
+2002WL false falseid link
+23/api/v1/sports/232195 false
+2012NPFfalse falseid link
+576/api/v1/sports/5767011 false
+2022T12 false false 6212true
+2014C false falseid link
+31/api/v1/sports/312711 false
+2008P false falseid link
+31/api/v1/sports/312721 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2022WBCQfalse trueidlink
+51/api/v1/sports/513610true
+2024WBCfalse falseidlink
+51/api/v1/sports/513611true
+2006CONfalse falseid link
+52/api/v1/sports/523601 false
+2008CCSfalse falseidlink
+51/api/v1/sports/513701 false
+2019JAS false falseidlink
+51/api/v1/sports/513721true
+2024 false trueid link
+23/api/v1/sports/232121 false
+2024 false falseid link
+23/api/v1/sports/232151 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2022nat false falseidlink
+51/api/v1/sports/513502true
+2024ABLfalse falseidlink
+17/api/v1/sports/171361true
+2009CBAfalse falseidlink
+51/api/v1/sports/513531 false
+2010CPBLfalse falseidlink
+51/api/v1/sports/513541 false
+2024SG false falseid link
+586/api/v1/sports/5866211true
+2008OE false falseidlink
+51/api/v1/sports/513741 false
+2021WIN false falseidlink
+17/api/v1/sports/173751true
+2008CT false false 3761 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2008MM false false 3771 false
+1928ECLfalse falseidlink
+1/api/v1/sports/12451true
+2024CCBLfalse trueid link
+22/api/v1/sports/225221true
+2008HBWfalse false 3781 false
+2008GERfalse false 3791 false
+2008CZ false false 3801 false
+2008FISUfalse false 3811 false
+2022I18 false falseid link
+509/api/v1/sports/5093821true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2008IBAFfalse falseid link
+509/api/v1/sports/5093831 false
+2008W false falseid link
+510/api/v1/sports/5103841 false
+2008E false falseid link
+510/api/v1/sports/5103851 false
+2008PANAAfalse falseid link
+510/api/v1/sports/5103861 false
+2008CANfalse falseid link
+512/api/v1/sports/5123881 false
+2019WBBfalse falseid link
+512/api/v1/sports/5123891 false
+1932NSLfalse falseidlink
+1/api/v1/sports/12471true
+2006NRTfalse falseid link
+23/api/v1/sports/232187true
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024FUTfalse falseidlink
+21/api/v1/sports/211411 true
+2021INT false falseidlink
+51/api/v1/sports/513581true
+1962AA (1)false falseidlink
+11/api/v1/sports/11141 false
+1997AA (2)false falseidlink
+11/api/v1/sports/11151 false
+1951CL false falseid link
+14/api/v1/sports/14451 false
+1963GAFLfalse falseid link
+14/api/v1/sports/14456 false
+1948ISL false falseid link
+20/api/v1/sports/201931 false
+1955MOVLfalse falseid link
+20/api/v1/sports/201911 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+1971NOLfalse falseid link
+14/api/v1/sports/14466 false
+1937NYP (1)false falseid link
+14/api/v1/sports/14461 false
+1958PONYfalse falseid link
+20/api/v1/sports/201921 false
+1961SA false falseidlink
+12/api/v1/sports/12241 false
+1963SAL (1)false falseidlink
+12/api/v1/sports/12251 false
+1979WCLfalse falseid link
+14/api/v1/sports/14481 false
+1954WIL false falseid link
+14/api/v1/sports/14476 false
+1958WL false falseid link
+14/api/v1/sports/14471 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024ACLfalse trueid link
+16/api/v1/sports/16711 true
+2008PANAfalse falseid link
+511/api/v1/sports/5113871 false
+2024APPfalse trueid link
+22/api/v1/sports/225201true
+2024DL false falseid link
+22/api/v1/sports/225111 true
+2019PDPfalse falseid link
+509/api/v1/sports/5093816true
+2024EST false falseidlink
+21/api/v1/sports/211421true
+2024DSLfalse trueid link
+16/api/v1/sports/16731 true
+2015VSLfalse falseid link
+16/api/v1/sports/16751 false
+
+seasonorgCodeconferencesInUsedivisionsInUse sport sortOrderactive
+2024AFL false falseidlink
+17/api/v1/sports/171311 true
+2024LMPfalse falseidlink
+17/api/v1/sports/171321true
+2024PWLfalse falseidlink
+17/api/v1/sports/171341true
+2024VWLfalse falseidlink
+17/api/v1/sports/171331true
+MLB Teams
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN133Athletics/api/v1/teams/1332024idname
+2529Sutter
+Health
+Park/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN134Pittsburgh
+Pirates/api/v1/teams/1342024idname
+31PNC Park/api/v
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN135San Diego
+Padres/api/v1/teams/1352024idname
+2680Petco
+Park/ap
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN136Seattle
+Mariners/api/v1/teams/1362024idname
+680T-Mobile
+Park/a
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN137San Francisco
+Giants/api/v1/teams/1372024idname
+2395Oracle
+Park/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN138St. Louis
+Cardinals/api/v1/teams/1382024idname
+2889Busch
+Stadium/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN139Tampa Bay
+Rays/api/v1/teams/1392024idname
+12Tropicana Field
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN140Texas Rangers/api/v1/teams/1402024idname
+5325Globe
+Life Field/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN141Toronto Blue
+Jays/api/v1/teams/1412024idname
+14Rogers Centre/
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN142Minnesota
+Twins/api/v1/teams/1422024idname
+3312Target
+Field/a
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN143Philadelphia
+Phillies/api/v1/teams/1432024idname
+2681Citizens
+Bank Park/a
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN144Atlanta Braves/api/v1/teams/1442024idname
+4705Truist
+Park/ap
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN145Chicago White
+Sox/api/v1/teams/1452024idname
+4Guaranteed Rate
+Field
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN146Miami Marlins/api/v1/teams/1462024idname
+4169loanDepot
+park/a
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN147New York
+Yankees/api/v1/teams/1472024idname
+3313Yankee
+Stadium/a
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN158Milwaukee
+Brewers/api/v1/teams/1582024idname
+32American
+Family Field
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN108Los Angeles
+Angels/api/v1/teams/1082024idname
+1Angel Stadium/
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN109Arizona
+Diamondbacks/api/v1/teams/1092024idname
+15Chase Field/api
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN110Baltimore
+Orioles/api/v1/teams/1102024idname
+2Oriole Park at
+Camden Yards
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN111Boston Red
+Sox/api/v1/teams/1112024idname
+3Fenway Park/ap
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN112Chicago Cubs/api/v1/teams/1122024idname
+17Wrigley Field/ap
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN113Cincinnati
+Reds/api/v1/teams/1132024idname
+2602Great
+American
+Ball Park/ap
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN114Cleveland
+Guardians/api/v1/teams/1142024idname
+5Progressive
+Field
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN115Colorado
+Rockies/api/v1/teams/1152024idname
+19Coors Field/api
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN116Detroit Tigers/api/v1/teams/1162024idname
+2394Comerica
+Park/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN117Houston
+Astros/api/v1/teams/1172024idname
+2392Minute
+Maid
+Park/ap
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN118Kansas City
+Royals/api/v1/teams/1182024idname
+7Kauffman
+Stadium
+
+springLeague allStarStatusidname link season venue
+idname link abbreviation
+114Cactus
+League/api/v1/league/114CLN119Los Angeles
+Dodgers/api/v1/teams/1192024idname
+22Dodger
+Stadium
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN120Washington
+Nationals/api/v1/teams/1202024idname
+3309Nationals
+Park/ap
+idname link abbreviation
+115Grapefruit
+League/api/v1/league/115GLN121New York
+Mets/api/v1/teams/1212024idname
+3289Citi Field/ap
+MLB Venues
+id name link activeseason
+1Angel Stadium /api/v1/venues/1true2024
+3329Arvest Ballpark /api/v1/venues/3329true2024
+2Oriole Park at Camden Yards/api/v1/venues/2true2024
+3Fenway Park /api/v1/venues/3true2024
+4Guaranteed Rate Field /api/v1/venues/4true2024
+5380CoolToday Park /api/v1/venues/5380true2024
+5Progressive Field /api/v1/venues/5true2024
+
+id name link activeseason
+5381London Stadium /api/v1/venues/5381true2024
+7Kauffman Stadium /api/v1/venues/7true2024
+5000CACTI Park of the Palm Beaches/api/v1/venues/5000true2024
+10Oakland Coliseum /api/v1/venues/10true2024
+12Tropicana Field /api/v1/venues/12true2024
+2700BayCare Ballpark /api/v1/venues/2700true2024
+14Rogers Centre /api/v1/venues/14true2024
+15Chase Field /api/v1/venues/15true2024
+17Wrigley Field /api/v1/venues/17true2024
+19Coors Field /api/v1/venues/19true2024
+4629Sloan Park /api/v1/venues/4629true2024
+22Dodger Stadium /api/v1/venues/22true2024
+4249Salt River Fields at Talking Stick/api/v1/venues/4249true2024
+5150Gocheok Sky Dome /api/v1/venues/5150true2024
+31PNC Park /api/v1/venues/31true2024
+32American Family Field /api/v1/venues/32true2024
+2856Clover Park /api/v1/venues/2856true2024
+680T-Mobile Park /api/v1/venues/680true2024
+2602Great American Ball Park/api/v1/venues/2602true2024
+2603Surprise Stadium /api/v1/venues/2603true2024
+2862Lee Health Sports Complex/api/v1/venues/2862true2024
+2735Journey Bank Ballpark /api/v1/venues/2735true2024
+2500Tempe Diablo Stadium /api/v1/venues/2500true2024
+2889Busch Stadium /api/v1/venues/2889true2024
+
+id name link activeseason
+4169loanDepot park /api/v1/venues/4169true2024
+2507Hohokam Stadium /api/v1/venues/2507true2024
+2508Ed Smith Stadium /api/v1/venues/2508true2024
+5325Globe Life Field /api/v1/venues/5325true2024
+2511Publix Field at Joker Marchant Stadium/api/v1/venues/2511true2024
+4309JetBlue Park /api/v1/venues/4309true2024
+2518American Family Fields of Phoenix/api/v1/venues/2518true2024
+2392Minute Maid Park /api/v1/venues/2392true2024
+2520Roger Dean Chevrolet Stadium/api/v1/venues/2520true2024
+3289Citi Field /api/v1/venues/3289true2024
+2394Comerica Park /api/v1/venues/2394true2024
+2395Oracle Park /api/v1/venues/2395true2024
+2523George M. Steinbrenner Field/api/v1/venues/2523true2024
+5340Estadio Alfredo Harp Helu/api/v1/venues/5340true2024
+2526LECOM Park /api/v1/venues/2526true2024
+4705Truist Park /api/v1/venues/4705true2024
+3809Camelback Ranch /api/v1/venues/3809true2024
+2529Sutter Health Park /api/v1/venues/2529true2024
+2530Peoria Stadium /api/v1/venues/2530true2024
+2532Scottsdale Stadium /api/v1/venues/2532true2024
+2534Charlotte Sports Park /api/v1/venues/2534true2024
+2536TD Ballpark /api/v1/venues/2536true2024
+3049Estadio Quisqueya Juan Marichal/api/v1/venues/3049true2024
+5355Las Vegas Ballpark /api/v1/venues/5355true2024
+
+id name link activeseason
+3949Rickwood Field /api/v1/venues/3949true2024
+3309Nationals Park /api/v1/venues/3309true2024
+3312Target Field /api/v1/venues/3312true2024
+3313Yankee Stadium /api/v1/venues/3313true2024
+2680Petco Park /api/v1/venues/2680true2024
+2681Citizens Bank Park /api/v1/venues/2681true2024
+3834Goodyear Ballpark /api/v1/venues/3834true2024
+Milestone Achievement Statuses
+achievementTypeIdachievementTypeCodeachievementTypeDescachievementTypeText
+1401 A Achieved the milestoneAchieved
+1402 T Tied the milestoneTied
+1403 P Pending milestone Pending
+Milestone Durations
+milestoneDurationIdmilestoneDurationCodemilestoneDurationText
+1301 C Career
+1302 S Season
+1303 M Month
+1304 G Game
+Milestone Statistics
+statisticIdstatisticTextstatisticDesccategoryisStatcastStatusisStandardStatus
+1018 Cycle Batter hits for cycleBATTERfalse true
+
+statisticIdstatisticTextstatisticDesccategoryisStatcastStatusisStandardStatus
+1002 p_game Games PitchedPITCHERfalse true
+1003 b_triple Triples BATTERfalse true
+1015 p_out Innings PitchedPITCHERfalse true
+1014 p_save Saves PITCHERfalse true
+1010 p_game_in_reliefGames in ReliefPITCHERfalse true
+1005 b_rbi RBIs BATTERfalse true
+1001 p_starting_p Games StartedPITCHERfalse true
+1006 b_double Doubles BATTERfalse true
+1016 b_walk Walks BATTERfalse true
+1013 p_shutout Shutouts PITCHERfalse true
+1012 r_run Runs RUNNERfalse true
+1004 p_strikeout Strikeouts PITCHERfalse true
+1011 p_win Wins PITCHERfalse true
+1008 r_total_stolen_baseStolen Bases RUNNERfalse true
+1007 b_total_hits Hits BATTERfalse true
+1009 b_home_run Home Runs BATTERfalse true
+1022 b_plate_appearancePlate AppearancesBATTERfalse true
+1017 b_game Games BATTERfalse true
+Milestone Types
+milestoneTypeIdmilestoneTypeCodemilestoneTypeText
+1101 C Cumulative
+1102 T Top n
+Pitch Codes
+
+code description
+CStrike - Called
+BBall - Called
+SStrike - Swinging
+VBall - Automatic
+AStrike - Automatic
+HBall - Hit by Pitch
+TStrike - Foul Tip
+FStrike - Foul
+KStrike - Unknown
+IBall - Intentional
+PBall - Pitchout
+*BBall - Ball In Dirt
+WStrike - Swinging Blocked
+LStrike - Foul Bunt
+MStrike - Missed Bunt
+OStrike - Bunt Foul Tip
+RStrike - Foul on Pitchout
+QStrike - Swinging on Pitchout
+XHit Into Play - Out(s)
+EHit Into Play - Run(s)
+DHit Into Play - No Out(s)
+YPitchout Hit Into Play - Out(s)
+JPitchout Hit Into Play - No Out(s)
+
+code description
+ZPitchout Hit Into Play - Run(s)
+1Pickoff Throw 1st - Pitcher
+2Pickoff Throw 2nd - Pitcher
+3Pickoff Throw 3rd - Pitcher
++1Pickoff Throw 1st - Catcher
++2Pickoff Throw 2nd - Catcher
++3Pickoff Throw 3rd - Catcher
+NNo Pitch
+VBBall - Automatic (IBB)
+VPBall - Automatic (Pitch Timer Violation - Pitcher)
+VCBall - Automatic (Pitch Timer Violation - Catcher)
+VSBall - Automatic (Shift Violation)
+ACStrike - Automatic (Pitch Timer Violation)
+ABStrike - Automatic (Batter Timeout Violation)
+PSOPitcher Step Off
+.Non Pitch
+Pitch Types
+codedescription
+FAFastball
+FFFour-seam FB
+FTTwo-seam FB
+FCCutter
+FSSplitter
+
+codedescription
+FOForkball
+SISinker
+STSweeper
+SLSlider
+CUCurveball
+KCKnuckle Curve
+SCScrewball
+GYGyroball
+SVSlurve
+CSSlow Curve
+CHChangeup
+KNKnuckleball
+EPEephus Pitch
+UNUnknown
+INIntentional Ball
+POPitchout
+ABAutomatic Ball
+ASAutomatic Strike
+NPNo Pitch
+Play Event Types
+name
+ACTION
+PITCH
+
+name
+PICKOFF
+NO_PITCH
+STEPOFF
+Player Pools
+name
+ALL
+QUALIFIED
+ROOKIES
+QUALIFIED_ROOKIES
+ORGANIZATION
+ORGANIZATION_NO_MLB
+CURRENT
+ALL_CURRENT
+QUALIFIED_CURRENT
+Player Status Codes
+codedescription
+AActive
+D77-day IL
+D1010-day IL
+D1515-day IL
+D6060-day IL
+D0IL
+
+codedescription
+ILFFull Season IL
+RMReassigned
+RARehab
+DEVDevelopment List
+ASGAssigned
+SUSuspended
+RESReserve
+BRVBereavement
+ADMAdministrative Leave
+RSTRestricted
+MILMilitary Leave
+40MForty Man
+INIneligible List
+TITemporary Inactive
+RETRetired
+FMEFamily Medical
+PLPaternity
+MINMinor League Contract
+NRINRI
+WAWaived
+TRTraded
+RLReleased
+FAFree agent
+DECDeceased
+
+codedescription
+CLClaimed
+DESDFA
+BNBanned
+TAXTaxi Squad
+NYRNot Yet Reported
+D4545-day IL
+Positions
+shortNamefullNameabbrevcodetypeformalNameoutfielddisplayNamepitchergamePositionfielder
+Pitcher Pitcher P1PitcherPitcher falsePitcher truetrue false
+Catcher Catcher C2CatcherCatcher falseCatcher falsetrue true
+1st Base First Base1B3InfielderFirst BasemanfalseFirst Base falsetrue true
+2nd Base Second Base2B4InfielderSecond
+BasemanfalseSecond Basefalsetrue true
+3rd BaseThird Base3B5InfielderThird BasemanfalseThird Base falsetrue true
+ShortstopShortstopSS6InfielderShortstop falseShortstop falsetrue true
+Left Field OutfielderLF7OutfielderLeft FieldertrueOutfielder falsetrue true
+Center FieldOutfielderCF8OutfielderCenter FieldertrueOutfielder falsetrue true
+Right FieldOutfielderRF9OutfielderRight FieldertrueOutfielder falsetrue true
+Designated
+HitterDesignated
+HitterDH10HitterDesignated
+HitterfalseDesignated
+Hitterfalsetrue false
+Pinch HitterPinch HitterPH11Hitter Pinch HitterfalsePinch Hitterfalsetrue false
+Pinch RunnerPinch RunnerPR12RunnerPinch RunnerfalsePinch Runnerfalsetrue false
+Extra HitterExtra HitterEH13Hitter Extra HitterfalseExtra Hitterfalsetrue false
+
+shortNamefullNameabbrevcodetypeformalNameoutfielddisplayNamepitchergamePositionfielder
+Base RunnerBase RunnerBRBRRunnerBase RunnerfalseBase Runnerfalsefalse false
+Outfield Outfield OFOOutfielderOutfield trueOutfield falsefalse true
+Infield Infield IF IInfielderInfield falseInfield falsefalse true
+Starting
+PitcherStarting
+PitcherSPSPitcherStarting PitcherfalseStarting Pitchertruefalse false
+Relief PitcherRelief PitcherRPEPitcherRelief PitcherfalseRelief Pitchertruefalse false
+Closer Closer CPCPitcherCloser falseCloser truefalse false
+Utility Utility UTUInfielderUtility falseUtility falsefalse true
+Utility InfielderUtility InfielderUIVInfielderUtility InfielderfalseUtility Infielderfalsefalse true
+Utility
+OutfielderUtility
+OutfielderUOWOutfielderUtility
+OutfieldertrueUtility Outfielderfalsefalse true
+Right-Handed
+PitcherRight-Handed
+PitcherRHPKPitcherRight-Handed
+PitcherfalseRight-Handed
+Pitchertruefalse false
+Left-Handed
+PitcherLeft-Handed
+PitcherLHPLPitcherLeft-Handed
+PitcherfalseLeft-Handed
+Pitchertruefalse false
+Right-Handed
+StarterRight-Handed
+StarterRHSMPitcherRight-Handed
+StarterfalseRight-Handed
+Startertruefalse false
+Left-Handed
+StarterLeft-Handed
+StarterLHSNPitcherLeft-Handed
+StarterfalseLeft-Handed
+Startertruefalse false
+Left-Handed
+RelieverLeft-Handed
+RelieverLHRGPitcherLeft-Handed
+RelieverfalseLeft-Handed
+Relievertruefalse false
+Right-Handed
+RelieverRight-Handed
+RelieverRHRFPitcherRight-Handed
+RelieverfalseRight-Handed
+Relievertruefalse false
+Pitcher -
+InfielderPitcher -
+InfielderP-IFATwo-Way
+PlayerPitcher -
+InfielderfalsePitcher -
+Infieldertruefalse true
+
+shortNamefullNameabbrevcodetypeformalNameoutfielddisplayNamepitchergamePositionfielder
+Pitcher -
+OutfielderPitcher -
+OutfielderP-OFJTwo-Way
+PlayerPitcher -
+OutfieldertruePitcher -
+Outfieldertruefalse true
+Pitcher - UtilityPitcher -
+UtilityP-UTZTwo-Way
+PlayerPitcher - UtilityfalsePitcher - Utilitytruefalse true
+Two-Way
+PlayerTwo-Way
+PlayerTWPYTwo-Way
+PlayerTwo-Way PlayerfalseTwo-Way Playertruefalse false
+Batter Batter B10BatterBatter falseBatter falsefalse false
+UnknownUnknownXXUnknownUnknown falseUnknown falsefalse false
+Runner on
+FirstRunner on
+FirstR1R1RunnerRunner on FirstfalseRunner on Firstfalsefalse false
+Runner on
+SecondRunner on
+SecondR2R2RunnerRunner on
+SecondfalseRunner on
+Secondfalsefalse false
+Runner on
+ThirdRunner on
+ThirdR3R3RunnerRunner on ThirdfalseRunner on Thirdfalsefalse false
+Review Reasons
+codedescription
+ATag play
+FClose play at 1st
+CForce play
+HHome run
+OFair/foul in outfield
+DCatch/drop in outfield
+TTrap play in outfield
+JPitch result
+
+codedescription
+IHit by pitch
+PHome-plate collision
+ESlide interference
+MTiming Play
+UTag-up play
+BTouching a base
+RPassing runners
+YRunner placement
+SStadium boundary call
+NFan interference
+VCatcher interference
+QRules check
+KRecord keeping
+GGrounds rule
+LMultiple issues
+XOther
+WDefensive Shift
+RosterType
+description lookupNameparameter
+40 man roster for a team 40man40Man
+Full roster including active and inactive players for a seasonfullSeason fullSeason
+Full roster including active and inactive players full fullRoster
+Non-Roster Invitees nonRosterInviteesnonRosterInvitees
+
+description lookupNameparameter
+Active roster for a team active active
+All Time roster for a team alltime allTime
+Depth chart for a team active depthChart
+Roster for day of game active gameday
+Coach roster for a team active coach
+Schedule Event Types
+code name
+AAll-Star Weekend Event
+TTeam Event
+EExhibition
+ZPostseason Games
+YSpring Training Games
+WPitchers & Catchers Report
+XFull Squad Reports
+HSTH Events
+BBallpark Tours
+IImportant Dates
+OOther
+CCultural Events
+DTracking Data Events
+FFestival
+KKids & Family
+MMusic
+
+code name
+PPromotion Logo - Background Image
+QPromotion Logo - Single Date Image
+SStudio Event
+Schedule Types
+id description
+gamesgame schedule
+xrefxref games
+eventsall events schedule
+Situation Codes
+codesortOrdernavigationMenu description teambattingfieldingpitching
+h1 Game Home Games truetruetruetrue
+a2 Game Away Games truetruetruetrue
+d3 Game Day Games truetruetruetrue
+n4 Game Night Games truetruetruetrue
+g5 Game On Grass truetruetruetrue
+t6 Game On Turf truetruetruetrue
+220 Month February falsefalsefalsefalse
+321 Month March truetruetruetrue
+422 Month April truetruetruetrue
+523 Month May truetruetruetrue
+624 Month June truetruetruetrue
+725 Month July truetruetruetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+826 Month August truetruetruetrue
+927 Month September truetruetruetrue
+1028 Month October truetruetruetrue
+1129 Month November falsefalsefalsefalse
+1230 Month December falsefalsefalsefalse
+131 Month January falsefalsefalsefalse
+h041Timeframe Season To Date falsefalsefalsefalse
+h142Timeframe First Half truefalsefalsefalse
+h243Timeframe Second Half truefalsefalsefalse
+preas44Timeframe Pre All-Star truetruefalsetrue
+posas45Timeframe Post All-Star truetruefalsetrue
+d146TimeframeYesterday falsefalsefalsefalse
+d747Timeframe Last 7 Days falsefalsefalsefalse
+d3048Timeframe Last 30 Days falsefalsefalsefalse
+dmo51 Day On Mondays truetruetruetrue
+dtu52 Day On Tuesdays truetruetruetrue
+dwe53 Day On Wednesdays truetruetruetrue
+dth54 Day On Thursdays truetruetruetrue
+dfr55 Day On Fridays truetruetruetrue
+dsa56 Day On Saturdays truetruetruetrue
+dsu57 Day On Sundays truetruetruetrue
+vlg61 Opponent vs. League falsefalsefalsefalse
+vdv62 Opponent vs. Division falsefalsefalsefalse
+vt63 Opponent vs. Team falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+val64 Opponent vs. AL truetruefalsetrue
+vnl65 Opponent vs. NL truetruefalsetrue
+int66 Opponent Interleague truefalsetruefalse
+ven67Venue By Venue falsefalsefalsefalse
+l71 At-Bat Batting Left truetruefalsefalse
+r72 At-Bat Batting Right truetruefalsefalse
+vl73 At-Bat vs Left truetruefalsetrue
+vr74 At-Bat vs Right truetruefalsetrue
+vls75 At-Bat vs Left Handed Starter truefalsefalsefalse
+vrs76 At-Bat vs Right Handed Starter truefalsefalsefalse
+vgo81 At-Bat vs. Ground Ball Pitcher falsefalsefalsefalse
+vao82 At-Bat vs. Fly Ball Pitcher falsefalsefalsefalse
+vb83 At-Bat vs. Batter truefalsefalsetrue
+vp84 At-Bat vs. Pitcher falsefalsefalsefalse
+1r91 Score One Run truefalsefalsefalse
+sah92 Score Team is ahead truetruefalsetrue
+sbh93 Score Team is behind truetruefalsetrue
+sti94 Score Score is tied truetruefalsetrue
+ex95 Inning Extra Innnings truefalsefalsefalse
+l1096Timeframe Last 10 truefalsefalsefalse
+twn101 Result In games won by team truetruefalsetrue
+tls102 Result In games lost by team truetruefalsetrue
+tti103 Result In tie games falsefalsefalsefalse
+taw104 Result In games following a win truetruefalsetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+tal105 Result In games following a loss truetruefalsetrue
+tat106 Result In games following a tie falsefalsefalsefalse
+b1111 Order Batting First truetruefalsefalse
+b2112 Order Batting Second truetruefalsefalse
+b3113 Order Batting Third truetruefalsefalse
+b4114 Order Batting Fourth truetruefalsefalse
+b5115 Order Batting Fifth truetruefalsefalse
+b6116 Order Batting Sixth truetruefalsefalse
+b7117 Order Batting Seventh truetruefalsefalse
+b8118 Order Batting Eighth truetruefalsefalse
+b9119 Order Batting Ninth truetruefalsefalse
+lo120 Runners Leading Off truetruefalsetrue
+p1121 Position Pitcher truetruefalsefalse
+p2122 Position Catcher truetruefalsefalse
+p3123 Position First Base truetruefalsefalse
+p4124 Position Second Base truetruefalsefalse
+p5125 Position Third Base truetruefalsefalse
+p6126 Position Shortstop truetruefalsefalse
+p7127 Position Left Field truetruefalsefalse
+p8128 Position Center Field truetruefalsefalse
+p9129 Position Right Field truetruefalsefalse
+pO130 Position Outfield falsefalsefalsefalse
+sp131 Pitching Starter truefalsefalsetrue
+rp132 Pitching Reliever truefalsefalsetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pD133 Position Designated Hitter truetruefalsefalse
+pH134 Position Pinch Hitter truetruefalsefalse
+pR135 Position Pinch Runner truetruefalsefalse
+pX136 Position Undefined (e.g. PH bats twice in an inning)truetruefalsefalse
+dr1141 Pitching One Day of Rest truefalsefalsetrue
+dr2142 Pitching Two Days of Rest truefalsefalsetrue
+dr3143 Pitching Three Days of Rest truefalsefalsetrue
+dr4144 Pitching Four Days of Rest truefalsefalsetrue
+dr5145 Pitching Five Plus Days of Rest truefalsefalsetrue
+fip146 Pitching First Inning Pitched truefalsefalsetrue
+fba147 Pitching First Batter (RP Only) truefalsefalsetrue
+i01151 Inning First Inning truetruefalsetrue
+i02152 Inning Second Inning truetruefalsetrue
+i03153 Inning Third Inning truetruefalsetrue
+i04154 Inning Fourth Inning truetruefalsetrue
+i05155 Inning Fifth Inning truetruefalsetrue
+i06156 Inning Sixth Inning truetruefalsetrue
+i07157 Inning Seventh Inning truetruefalsetrue
+i08158 Inning Eighth Inning truetruefalsetrue
+i09159 Inning Ninth Inning truetruefalsetrue
+ix160 Inning Extra Innings truetruefalsetrue
+ig01161 Inning Innings One to Six truetruefalsetrue
+ig07162 Inning Seventh or Later truetruefalsetrue
+ig08163 Inning Eighth or Later truetruefalsetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+ig09164 Inning Ninth or Later truetruefalsetrue
+pi000171 Pitch CountFirst 75 Pitches truefalsefalsetrue
+pi760172 Pitch CountPitches 76 and Later truefalsefalsetrue
+pi100173 Pitch CountFirst 100 Pitches truefalsefalsetrue
+pi101174 Pitch CountPitches 101 and Later truefalsefalsetrue
+pi001175 Pitch CountPitches 1-15 truefalsefalsetrue
+pi016176 Pitch CountPitches 16-30 truefalsefalsetrue
+pi031177 Pitch CountPitches 31-45 truefalsefalsetrue
+pi046178 Pitch CountPitches 46-60 truefalsefalsetrue
+pi061179 Pitch CountPitches 61-75 truefalsefalsetrue
+pi076180 Pitch CountPitches 76-90 truefalsefalsetrue
+pi091181 Pitch CountPitches 91-105 truefalsefalsetrue
+pi106182 Pitch CountPitches 106-120 truefalsefalsetrue
+pi121183 Pitch CountPitches 121 or Later truefalsefalsetrue
+e192 Runners Empty (Not Leadoff) truetruefalsetrue
+r0193 Runners Bases Empty truetruefalsetrue
+r123194 Runners Bases Loaded truetruefalsetrue
+r1195 Runners Runner at 1st truetruefalsetrue
+r12196 Runners Runners at 1st & 2nd truetruefalsetrue
+r13197 Runners Runners at 1st & 3rd truetruefalsetrue
+r2198 Runners Runner at 2nd truetruefalsetrue
+r23199 Runners Runners at 2nd & 3rd truetruefalsetrue
+r3200 Runners Runner at 3rd truetruefalsetrue
+ron201 Runners Runners On truetruefalsetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+ron2202 Runners Runners On - 2 Outs truetruefalsetrue
+risp203 Runners Scoring Position truetruefalsetrue
+risp2204 Runners Scoring Position - 2 Outs truetruefalsetrue
+r3l2205 Runners3rd, Less than 2 Outs truetruefalsetrue
+o0211 Outs No Outs truetruefalsetrue
+o1212 Outs One Out truetruefalsetrue
+o2213 Outs Two Outs truetruefalsetrue
+lc214 Score Late / Close truetruefalsetrue
+fp221 Count First Pitch truetruefalsetrue
+ac222 Count Ahead in Count truetruefalsetrue
+bc223 Count Behind in Count truetruefalsetrue
+ec224 Count Even Count truetruefalsetrue
+2s225 Count Two Strikes truetruefalsetrue
+fc226 Count Full Count truetruefalsetrue
+uc227 Count Unknown or no Count truetruefalsetrue
+c00228 Count0-0 Count truetruefalsetrue
+c01229 Count0-1 Count truetruefalsetrue
+c02230 Count0-2 Count truetruefalsetrue
+c10231 Count1-0 Count truetruefalsetrue
+c11232 Count1-1 Count truetruefalsetrue
+c12233 Count1-2 Count truetruefalsetrue
+c20234 Count2-0 Count truetruefalsetrue
+c21235 Count2-1 Count truetruefalsetrue
+c22236 Count2-2 Count truetruefalsetrue
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+c30237 Count3-0 Count truetruefalsetrue
+c31238 Count3-1 Count truetruefalsetrue
+c32239 Count3-2 Count truetruefalsetrue
+hh1301 Home Games - first half falsefalsefalsefalse
+ah1302 Away Games - first half falsefalsefalsefalse
+dh1303 Day Games - first half falsefalsefalsefalse
+nh1304 Night Games - first half falsefalsefalsefalse
+gh1305 On Grass - first half falsefalsefalsefalse
+th1306 On Turf - first half falsefalsefalsefalse
+3h1311 March - first half falsefalsefalsefalse
+4h1312 April - first half falsefalsefalsefalse
+5h1313 May - first half falsefalsefalsefalse
+6h1314 June - first half falsefalsefalsefalse
+7h1315 July - first half falsefalsefalsefalse
+8h1316 August - first half falsefalsefalsefalse
+9h1317 September - first half falsefalsefalsefalse
+10h1318 October - first half falsefalsefalsefalse
+11h1319 November - first half falsefalsefalsefalse
+12h1320 December - first half falsefalsefalsefalse
+1h1321 January - first half falsefalsefalsefalse
+2h1322 February - first half falsefalsefalsefalse
+vlgh1331 vs. League - first half falsefalsefalsefalse
+vdvh1332 vs. Division - first half falsefalsefalsefalse
+vth1333 vs. Team - first half falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+1rh1341 One Run - first half falsefalsefalsefalse
+exh1351 Extra Innnings - first half falsefalsefalsefalse
+l10h1352 Last 10 - first half falsefalsefalsefalse
+vlsh1353 vs Left Handed Starter - first half falsefalsefalsefalse
+vrsh1354 vs Right Handed Starter - first half falsefalsefalsefalse
+twnh1361 In games won by team - first half falsefalsefalsefalse
+tlsh1362 In games lost by team - first half falsefalsefalsefalse
+ttih1363 In tie games - first half falsefalsefalsefalse
+tawh1364 In games following a win - first half falsefalsefalsefalse
+talh1365 In games following a loss - first half falsefalsefalsefalse
+tath1366 In games following a tie - first half falsefalsefalsefalse
+hh2401 Home Games - second half falsefalsefalsefalse
+ah2402 Away Games - second half falsefalsefalsefalse
+dh2403 Day Games - second half falsefalsefalsefalse
+nh2404 Night Games - second half falsefalsefalsefalse
+gh2405 On Grass - second half falsefalsefalsefalse
+th2406 On Turf - second half falsefalsefalsefalse
+3h2411 March - second half falsefalsefalsefalse
+4h2412 April - second half falsefalsefalsefalse
+5h2413 May - second half falsefalsefalsefalse
+6h2414 June - second half falsefalsefalsefalse
+7h2415 July - second half falsefalsefalsefalse
+8h2416 August - second half falsefalsefalsefalse
+9h2417 September - second half falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+10h2418 October - second half falsefalsefalsefalse
+11h2419 November - second half falsefalsefalsefalse
+12h2420 December - second half falsefalsefalsefalse
+1h2421 January - second half falsefalsefalsefalse
+2h2422 February - second half falsefalsefalsefalse
+vlgh2431 vs. League - second half falsefalsefalsefalse
+vdvh2432 vs. Division - second half falsefalsefalsefalse
+vth2433 vs. Team - second half falsefalsefalsefalse
+1rh2441 One Run - second half falsefalsefalsefalse
+exh2442 Extra Innnings - second half falsefalsefalsefalse
+l10h2443 Last 10 - first half falsefalsefalsefalse
+vlsh2444 vs Left Handed Starter - first half falsefalsefalsefalse
+vrsh2445 vs Right Handed Starter - first half falsefalsefalsefalse
+twnh2451 In games won by team - second half falsefalsefalsefalse
+tlsh2452 In games lost by team - second half falsefalsefalsefalse
+ttih2453 In tie games - second half falsefalsefalsefalse
+tawh2454 In games following a win - second halffalsefalsefalsefalse
+talh2455 In games following a loss - second halffalsefalsefalsefalse
+tath2456 In games following a tie - second halffalsefalsefalsefalse
+pfa501 Pitch Type Fastball falsefalsefalsefalse
+pff502 Pitch Type Four-seam FB falsefalsefalsefalse
+pft503 Pitch TypeTwo-seam FB falsefalsefalsefalse
+pfc504 Pitch Type Cutter falsefalsefalsefalse
+psi505 Pitch Type Sinker falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pfs506 Pitch Type Splitter falsefalsefalsefalse
+pfo507 Pitch Type Forkball falsefalsefalsefalse
+psl508 Pitch Type Slider falsefalsefalsefalse
+pcu509 Pitch Type Curveball falsefalsefalsefalse
+pkc510 Pitch Type Knuckle Curve falsefalsefalsefalse
+psc511 Pitch Type Screwball falsefalsefalsefalse
+pgy512 Pitch Type Gyroball falsefalsefalsefalse
+pch513 Pitch Type Changeup falsefalsefalsefalse
+pkn514 Pitch Type Knuckleball falsefalsefalsefalse
+pep515 Pitch Type Eephus Pitch falsefalsefalsefalse
+zn01521 Pitches in Zone 1 falsefalsefalsefalse
+zn02522 Pitches in Zone 2 falsefalsefalsefalse
+zn03523 Pitches in Zone 3 falsefalsefalsefalse
+zn04524 Pitches in Zone 4 falsefalsefalsefalse
+zn05525 Pitches in Zone 5 falsefalsefalsefalse
+zn06526 Pitches in Zone 6 falsefalsefalsefalse
+zn07527 Pitches in Zone 7 falsefalsefalsefalse
+zn08528 Pitches in Zone 8 falsefalsefalsefalse
+zn09529 Pitches in Zone 9 falsefalsefalsefalse
+zn11531 Pitches in Zone 11 falsefalsefalsefalse
+zn12532 Pitches in Zone 12 falsefalsefalsefalse
+zn13533 Pitches in Zone 13 falsefalsefalsefalse
+zn14534 Pitches in Zone 14 falsefalsefalsefalse
+pfa01601 Fastball Zone 1 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pfa02602 Fastball Zone 2 falsefalsefalsefalse
+pfa03603 Fastball Zone 3 falsefalsefalsefalse
+pfa04604 Fastball Zone 4 falsefalsefalsefalse
+pfa05605 Fastball Zone 5 falsefalsefalsefalse
+pfa06606 Fastball Zone 6 falsefalsefalsefalse
+pfa07607 Fastball Zone 7 falsefalsefalsefalse
+pfa08608 Fastball Zone 8 falsefalsefalsefalse
+pfa09609 Fastball Zone 9 falsefalsefalsefalse
+pfa11611 Fastball Zone 11 falsefalsefalsefalse
+pfa12612 Fastball Zone 12 falsefalsefalsefalse
+pfa13613 Fastball Zone 13 falsefalsefalsefalse
+pfa14614 Fastball Zone 14 falsefalsefalsefalse
+pft01621 Two-seam FB Zone 1 falsefalsefalsefalse
+pft02622 Two-seam FB Zone 2 falsefalsefalsefalse
+pft03623 Two-seam FB Zone 3 falsefalsefalsefalse
+pft04624 Two-seam FB Zone 4 falsefalsefalsefalse
+pft05625 Two-seam FB Zone 5 falsefalsefalsefalse
+pft06626 Two-seam FB Zone 6 falsefalsefalsefalse
+pft07627 Two-seam FB Zone 7 falsefalsefalsefalse
+pft08628 Two-seam FB Zone 8 falsefalsefalsefalse
+pft09629 Two-seam FB Zone 9 falsefalsefalsefalse
+pft11631 Two-seam FB Zone 11 falsefalsefalsefalse
+pft12632 Two-seam FB Zone 12 falsefalsefalsefalse
+pft13633 Two-seam FB Zone 13 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pft14634 Two-seam FB Zone 14 falsefalsefalsefalse
+pff01641 Four-seam Fastball Zone 1 falsefalsefalsefalse
+pff02642 Four-seam Fastball Zone 2 falsefalsefalsefalse
+pff03643 Four-seam Fastball Zone 3 falsefalsefalsefalse
+pff04644 Four-seam Fastball Zone 4 falsefalsefalsefalse
+pff05645 Four-seam Fastball Zone 5 falsefalsefalsefalse
+pff06646 Four-seam Fastball Zone 6 falsefalsefalsefalse
+pff07647 Four-seam Fastball Zone 7 falsefalsefalsefalse
+pff08648 Four-seam Fastball Zone 8 falsefalsefalsefalse
+pff09649 Four-seam Fastball Zone 9 falsefalsefalsefalse
+pff11651 Four-seam Fastball Zone 11 falsefalsefalsefalse
+pff12652 Four-seam Fastball Zone 12 falsefalsefalsefalse
+pff13653 Four-seam Fastball Zone 13 falsefalsefalsefalse
+pff14654 Four-seam Fastball Zone 14 falsefalsefalsefalse
+pfc01661 Cutter Zone 1 falsefalsefalsefalse
+pfc02662 Cutter Zone 2 falsefalsefalsefalse
+pfc03663 Cutter Zone 3 falsefalsefalsefalse
+pfc04664 Cutter Zone 4 falsefalsefalsefalse
+pfc05665 Cutter Zone 5 falsefalsefalsefalse
+pfc06666 Cutter Zone 6 falsefalsefalsefalse
+pfc07667 Cutter Zone 7 falsefalsefalsefalse
+pfc08668 Cutter Zone 8 falsefalsefalsefalse
+pfc09669 Cutter Zone 9 falsefalsefalsefalse
+pfc11671 Cutter Zone 11 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pfc12672 Cutter Zone 12 falsefalsefalsefalse
+pfc13673 Cutter Zone 13 falsefalsefalsefalse
+pfc14674 Cutter Zone 14 falsefalsefalsefalse
+pfs01681 Splitter Zone 1 falsefalsefalsefalse
+pfs02682 Splitter Zone 2 falsefalsefalsefalse
+pfs03683 Splitter Zone 3 falsefalsefalsefalse
+pfs04684 Splitter Zone 4 falsefalsefalsefalse
+pfs05685 Splitter Zone 5 falsefalsefalsefalse
+pfs06686 Splitter Zone 6 falsefalsefalsefalse
+pfs07687 Splitter Zone 7 falsefalsefalsefalse
+pfs08688 Splitter Zone 8 falsefalsefalsefalse
+pfs09689 Splitter Zone 9 falsefalsefalsefalse
+pfs11691 Splitter Zone 11 falsefalsefalsefalse
+pfs12692 Splitter Zone 12 falsefalsefalsefalse
+pfs13693 Splitter Zone 13 falsefalsefalsefalse
+pfs14694 Splitter Zone 14 falsefalsefalsefalse
+pgy01701 Gyroball Zone 1 falsefalsefalsefalse
+pgy02702 Gyroball Zone 2 falsefalsefalsefalse
+pgy03703 Gyroball Zone 3 falsefalsefalsefalse
+pgy04704 Gyroball Zone 4 falsefalsefalsefalse
+pgy05705 Gyroball Zone 5 falsefalsefalsefalse
+pgy06706 Gyroball Zone 6 falsefalsefalsefalse
+pgy07707 Gyroball Zone 7 falsefalsefalsefalse
+pgy08708 Gyroball Zone 8 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pgy09709 Gyroball Zone 9 falsefalsefalsefalse
+pgy11711 Gyroball Zone 11 falsefalsefalsefalse
+pgy12712 Gyroball Zone 12 falsefalsefalsefalse
+pgy13713 Gyroball Zone 13 falsefalsefalsefalse
+pgy14714 Gyroball Zone 14 falsefalsefalsefalse
+pch01721 Changeup Zone 1 falsefalsefalsefalse
+pch02722 Changeup Zone 2 falsefalsefalsefalse
+pch03723 Changeup Zone 3 falsefalsefalsefalse
+pch04724 Changeup Zone 4 falsefalsefalsefalse
+pch05725 Changeup Zone 5 falsefalsefalsefalse
+pch06726 Changeup Zone 6 falsefalsefalsefalse
+pch07727 Changeup Zone 7 falsefalsefalsefalse
+pch08728 Changeup Zone 8 falsefalsefalsefalse
+pch09729 Changeup Zone 9 falsefalsefalsefalse
+pch11731 Changeup Zone 11 falsefalsefalsefalse
+pch12732 Changeup Zone 12 falsefalsefalsefalse
+pch13733 Changeup Zone 13 falsefalsefalsefalse
+pch14734 Changeup Zone 14 falsefalsefalsefalse
+pfo01741 Forkball Zone 1 falsefalsefalsefalse
+pfo02742 Forkball Zone 2 falsefalsefalsefalse
+pfo03743 Forkball Zone 3 falsefalsefalsefalse
+pfo04744 Forkball Zone 4 falsefalsefalsefalse
+pfo05745 Forkball Zone 5 falsefalsefalsefalse
+pfo06746 Forkball Zone 6 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pfo07747 Forkball Zone 7 falsefalsefalsefalse
+pfo08748 Forkball Zone 8 falsefalsefalsefalse
+pfo09749 Forkball Zone 9 falsefalsefalsefalse
+pfo11751 Forkball Zone 11 falsefalsefalsefalse
+pfo12752 Forkball Zone 12 falsefalsefalsefalse
+pfo13753 Forkball Zone 13 falsefalsefalsefalse
+pfo14754 Forkball Zone 14 falsefalsefalsefalse
+psi01761 Sinker Zone 1 falsefalsefalsefalse
+psi02762 Sinker Zone 2 falsefalsefalsefalse
+psi03763 Sinker Zone 3 falsefalsefalsefalse
+psi04764 Sinker Zone 4 falsefalsefalsefalse
+psi05765 Sinker Zone 5 falsefalsefalsefalse
+psi06766 Sinker Zone 6 falsefalsefalsefalse
+psi07767 Sinker Zone 7 falsefalsefalsefalse
+psi08768 Sinker Zone 8 falsefalsefalsefalse
+psi09769 Sinker Zone 9 falsefalsefalsefalse
+psi11771 Sinker Zone 11 falsefalsefalsefalse
+psi12772 Sinker Zone 12 falsefalsefalsefalse
+psi13773 Sinker Zone 13 falsefalsefalsefalse
+psi14774 Sinker Zone 14 falsefalsefalsefalse
+psl01781 Slider Zone 1 falsefalsefalsefalse
+psl02782 Slider Zone 2 falsefalsefalsefalse
+psl03783 Slider Zone 3 falsefalsefalsefalse
+psl04784 Slider Zone 4 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+psl05785 Slider Zone 5 falsefalsefalsefalse
+psl06786 Slider Zone 6 falsefalsefalsefalse
+psl07787 Slider Zone 7 falsefalsefalsefalse
+psl08788 Slider Zone 8 falsefalsefalsefalse
+psl09789 Slider Zone 9 falsefalsefalsefalse
+psl11791 Slider Zone 11 falsefalsefalsefalse
+psl12792 Slider Zone 12 falsefalsefalsefalse
+psl13793 Slider Zone 13 falsefalsefalsefalse
+psl14794 Slider Zone 14 falsefalsefalsefalse
+pcu01801 Curveball Zone 1 falsefalsefalsefalse
+pcu02802 Curveball Zone 2 falsefalsefalsefalse
+pcu03803 Curveball Zone 3 falsefalsefalsefalse
+pcu04804 Curveball Zone 4 falsefalsefalsefalse
+pcu05805 Curveball Zone 5 falsefalsefalsefalse
+pcu06806 Curveball Zone 6 falsefalsefalsefalse
+pcu07807 Curveball Zone 7 falsefalsefalsefalse
+pcu08808 Curveball Zone 8 falsefalsefalsefalse
+pcu09809 Curveball Zone 9 falsefalsefalsefalse
+pcu11811 Curveball Zone 11 falsefalsefalsefalse
+pcu12812 Curveball Zone 12 falsefalsefalsefalse
+pcu13813 Curveball Zone 13 falsefalsefalsefalse
+pcu14814 Curveball Zone 14 falsefalsefalsefalse
+pkc01821 Knuckle Curve Zone 1 falsefalsefalsefalse
+pkc02822 Knuckle Curve Zone 2 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pkc03823 Knuckle Curve Zone 3 falsefalsefalsefalse
+pkc04824 Knuckle Curve Zone 4 falsefalsefalsefalse
+pkc05825 Knuckle Curve Zone 5 falsefalsefalsefalse
+pkc06826 Knuckle Curve Zone 6 falsefalsefalsefalse
+pkc07827 Knuckle Curve Zone 7 falsefalsefalsefalse
+pkc08828 Knuckle Curve Zone 8 falsefalsefalsefalse
+pkc09829 Knuckle Curve Zone 9 falsefalsefalsefalse
+pkc11831 Knuckle Curve Zone 11 falsefalsefalsefalse
+pkc12832 Knuckle Curve Zone 12 falsefalsefalsefalse
+pkc13833 Knuckle Curve Zone 13 falsefalsefalsefalse
+pkc14834 Knuckle Curve Zone 14 falsefalsefalsefalse
+pkn01841 Knuckleball Zone 1 falsefalsefalsefalse
+pkn02842 Knuckleball Zone 2 falsefalsefalsefalse
+pkn03843 Knuckleball Zone 3 falsefalsefalsefalse
+pkn04844 Knuckleball Zone 4 falsefalsefalsefalse
+pkn05845 Knuckleball Zone 5 falsefalsefalsefalse
+pkn06846 Knuckleball Zone 6 falsefalsefalsefalse
+pkn07847 Knuckleball Zone 7 falsefalsefalsefalse
+pkn08848 Knuckleball Zone 8 falsefalsefalsefalse
+pkn09849 Knuckleball Zone 9 falsefalsefalsefalse
+pkn11851 Knuckleball Zone 11 falsefalsefalsefalse
+pkn12852 Knuckleball Zone 12 falsefalsefalsefalse
+pkn13853 Knuckleball Zone 13 falsefalsefalsefalse
+pkn14854 Knuckleball Zone 14 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+psc01861 Screwball Zone 1 falsefalsefalsefalse
+psc02862 Screwball Zone 2 falsefalsefalsefalse
+psc03863 Screwball Zone 3 falsefalsefalsefalse
+psc04864 Screwball Zone 4 falsefalsefalsefalse
+psc05865 Screwball Zone 5 falsefalsefalsefalse
+psc06866 Screwball Zone 6 falsefalsefalsefalse
+psc07867 Screwball Zone 7 falsefalsefalsefalse
+psc08868 Screwball Zone 8 falsefalsefalsefalse
+psc09869 Screwball Zone 9 falsefalsefalsefalse
+psc11871 Screwball Zone 11 falsefalsefalsefalse
+psc12872 Screwball Zone 12 falsefalsefalsefalse
+psc13873 Screwball Zone 13 falsefalsefalsefalse
+psc14874 Screwball Zone 14 falsefalsefalsefalse
+pep01881 Eephus Pitch Zone 1 falsefalsefalsefalse
+pep02882 Eephus Pitch Zone 2 falsefalsefalsefalse
+pep03883 Eephus Pitch Zone 3 falsefalsefalsefalse
+pep04884 Eephus Pitch Zone 4 falsefalsefalsefalse
+pep05885 Eephus Pitch Zone 5 falsefalsefalsefalse
+pep06886 Eephus Pitch Zone 6 falsefalsefalsefalse
+pep07887 Eephus Pitch Zone 7 falsefalsefalsefalse
+pep08888 Eephus Pitch Zone 8 falsefalsefalsefalse
+pep09889 Eephus Pitch Zone 9 falsefalsefalsefalse
+pep11891 Eephus Pitch Zone 11 falsefalsefalsefalse
+pep12892 Eephus Pitch Zone 12 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+pep13893 Eephus Pitch Zone 13 falsefalsefalsefalse
+pep14894 Eephus Pitch Zone 14 falsefalsefalsefalse
+o0011001 No Outs Zone 1 falsefalsefalsefalse
+o0021002 No Outs Zone 2 falsefalsefalsefalse
+o0031003 No Outs Zone 3 falsefalsefalsefalse
+o0041004 No Outs Zone 4 falsefalsefalsefalse
+o0051005 No Outs Zone 5 falsefalsefalsefalse
+o0061006 No Outs Zone 6 falsefalsefalsefalse
+o0071007 No Outs Zone 7 falsefalsefalsefalse
+o0081008 No Outs Zone 8 falsefalsefalsefalse
+o0091009 No Outs Zone 9 falsefalsefalsefalse
+o0111011 No Outs Zone 11 falsefalsefalsefalse
+o0121012 No Outs Zone 12 falsefalsefalsefalse
+o0131013 No Outs Zone 13 falsefalsefalsefalse
+o0141014 No Outs Zone 14 falsefalsefalsefalse
+o1011021 One Out Zone 1 falsefalsefalsefalse
+o1021022 One Out Zone 2 falsefalsefalsefalse
+o1031023 One Out Zone 3 falsefalsefalsefalse
+o1041024 One Out Zone 4 falsefalsefalsefalse
+o1051025 One Out Zone 5 falsefalsefalsefalse
+o1061026 One Out Zone 6 falsefalsefalsefalse
+o1071027 One Out Zone 7 falsefalsefalsefalse
+o1081028 One Out Zone 8 falsefalsefalsefalse
+o1091029 One Out Zone 9 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+o1111031 One Out Zone 11 falsefalsefalsefalse
+o1121032 One Out Zone 12 falsefalsefalsefalse
+o1131033 One Out Zone 13 falsefalsefalsefalse
+o1141034 One Out Zone 14 falsefalsefalsefalse
+o2011041 Two Outs Zone 1 falsefalsefalsefalse
+o2021042 Two Outs Zone 2 falsefalsefalsefalse
+o2031043 Two Outs Zone 3 falsefalsefalsefalse
+o2041044 Two Outs Zone 4 falsefalsefalsefalse
+o2051045 Two Outs Zone 5 falsefalsefalsefalse
+o2061046 Two Outs Zone 6 falsefalsefalsefalse
+o2071047 Two Outs Zone 7 falsefalsefalsefalse
+o2081048 Two Outs Zone 8 falsefalsefalsefalse
+o2091049 Two Outs Zone 9 falsefalsefalsefalse
+o2111051 Two Outs Zone 11 falsefalsefalsefalse
+o2121052 Two Outs Zone 12 falsefalsefalsefalse
+o2131053 Two Outs Zone 13 falsefalsefalsefalse
+o2141054 Two Outs Zone 14 falsefalsefalsefalse
+ac011101 Ahead in Count Zone 1 falsefalsefalsefalse
+ac021102 Ahead in Count Zone 2 falsefalsefalsefalse
+ac031103 Ahead in Count Zone 3 falsefalsefalsefalse
+ac041104 Ahead in Count Zone 4 falsefalsefalsefalse
+ac051105 Ahead in Count Zone 5 falsefalsefalsefalse
+ac061106 Ahead in Count Zone 6 falsefalsefalsefalse
+ac071107 Ahead in Count Zone 7 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+ac081108 Ahead in Count Zone 8 falsefalsefalsefalse
+ac091109 Ahead in Count Zone 9 falsefalsefalsefalse
+ac111111 Ahead in Count Zone 11 falsefalsefalsefalse
+ac121112 Ahead in Count Zone 12 falsefalsefalsefalse
+ac131113 Ahead in Count Zone 13 falsefalsefalsefalse
+ac141114 Ahead in Count Zone 14 falsefalsefalsefalse
+bc011121 Behind in Count Zone 1 falsefalsefalsefalse
+bc021122 Behind in Count Zone 2 falsefalsefalsefalse
+bc031123 Behind in Count Zone 3 falsefalsefalsefalse
+bc041124 Behind in Count Zone 4 falsefalsefalsefalse
+bc051125 Behind in Count Zone 5 falsefalsefalsefalse
+bc061126 Behind in Count Zone 6 falsefalsefalsefalse
+bc071127 Behind in Count Zone 7 falsefalsefalsefalse
+bc081128 Behind in Count Zone 8 falsefalsefalsefalse
+bc091129 Behind in Count Zone 9 falsefalsefalsefalse
+bc111131 Behind in Count Zone 11 falsefalsefalsefalse
+bc121132 Behind in Count Zone 12 falsefalsefalsefalse
+bc131133 Behind in Count Zone 13 falsefalsefalsefalse
+bc141134 Behind in Count Zone 14 falsefalsefalsefalse
+ec011141 Even Count Zone 1 falsefalsefalsefalse
+ec021142 Even Count Zone 2 falsefalsefalsefalse
+ec031143 Even Count Zone 3 falsefalsefalsefalse
+ec041144 Even Count Zone 4 falsefalsefalsefalse
+ec051145 Even Count Zone 5 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+ec061146 Even Count Zone 6 falsefalsefalsefalse
+ec071147 Even Count Zone 7 falsefalsefalsefalse
+ec081148 Even Count Zone 8 falsefalsefalsefalse
+ec091149 Even Count Zone 9 falsefalsefalsefalse
+ec111151 Even Count Zone 11 falsefalsefalsefalse
+ec121152 Even Count Zone 12 falsefalsefalsefalse
+ec131153 Even Count Zone 13 falsefalsefalsefalse
+ec141154 Even Count Zone 14 falsefalsefalsefalse
+r0011161 Bases Empty Zone 1 falsefalsefalsefalse
+r0021162 Bases Empty Zone 2 falsefalsefalsefalse
+r0031163 Bases Empty Zone 3 falsefalsefalsefalse
+r0041164 Bases Empty Zone 4 falsefalsefalsefalse
+r0051165 Bases Empty Zone 5 falsefalsefalsefalse
+r0061166 Bases Empty Zone 6 falsefalsefalsefalse
+r0071167 Bases Empty Zone 7 falsefalsefalsefalse
+r0081168 Bases Empty Zone 8 falsefalsefalsefalse
+r0091169 Bases Empty Zone 9 falsefalsefalsefalse
+r0111171 Bases Empty Zone 11 falsefalsefalsefalse
+r0121172 Bases Empty Zone 12 falsefalsefalsefalse
+r0131173 Bases Empty Zone 13 falsefalsefalsefalse
+r0141174 Bases Empty Zone 14 falsefalsefalsefalse
+rbl011181 Bases Loaded Zone 1 falsefalsefalsefalse
+rbl021182 Bases Loaded Zone 2 falsefalsefalsefalse
+rbl031183 Bases Loaded Zone 3 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+rbl041184 Bases Loaded Zone 4 falsefalsefalsefalse
+rbl051185 Bases Loaded Zone 5 falsefalsefalsefalse
+rbl061186 Bases Loaded Zone 6 falsefalsefalsefalse
+rbl071187 Bases Loaded Zone 7 falsefalsefalsefalse
+rbl081188 Bases Loaded Zone 8 falsefalsefalsefalse
+rbl091189 Bases Loaded Zone 9 falsefalsefalsefalse
+rbl111191 Bases Loaded Zone 11 falsefalsefalsefalse
+rbl121192 Bases Loaded Zone 12 falsefalsefalsefalse
+rbl131193 Bases Loaded Zone 13 falsefalsefalsefalse
+rbl141194 Bases Loaded Zone 14 falsefalsefalsefalse
+ron011201 Runners On Zone 1 falsefalsefalsefalse
+ron021202 Runners On Zone 2 falsefalsefalsefalse
+ron031203 Runners On Zone 3 falsefalsefalsefalse
+ron041204 Runners On Zone 4 falsefalsefalsefalse
+ron051205 Runners On Zone 5 falsefalsefalsefalse
+ron061206 Runners On Zone 6 falsefalsefalsefalse
+ron071207 Runners On Zone 7 falsefalsefalsefalse
+ron081208 Runners On Zone 8 falsefalsefalsefalse
+ron091209 Runners On Zone 9 falsefalsefalsefalse
+ron111211 Runners On Zone 11 falsefalsefalsefalse
+ron121212 Runners On Zone 12 falsefalsefalsefalse
+ron131213 Runners On Zone 13 falsefalsefalsefalse
+ron141214 Runners On Zone 14 falsefalsefalsefalse
+rsp011221 Scoring Position Zone 1 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+rsp021222 Scoring Position Zone 2 falsefalsefalsefalse
+rsp031223 Scoring Position Zone 3 falsefalsefalsefalse
+rsp041224 Scoring Position Zone 4 falsefalsefalsefalse
+rsp051225 Scoring Position Zone 5 falsefalsefalsefalse
+rsp061226 Scoring Position Zone 6 falsefalsefalsefalse
+rsp071227 Scoring Position Zone 7 falsefalsefalsefalse
+rsp081228 Scoring Position Zone 8 falsefalsefalsefalse
+rsp091229 Scoring Position Zone 9 falsefalsefalsefalse
+rsp111231 Scoring Position Zone 11 falsefalsefalsefalse
+rsp121232 Scoring Position Zone 12 falsefalsefalsefalse
+rsp131233 Scoring Position Zone 13 falsefalsefalsefalse
+rsp141234 Scoring Position Zone 14 falsefalsefalsefalse
+vl011241 vs Left Zone 1 falsefalsefalsefalse
+vl021242 vs Left Zone 2 falsefalsefalsefalse
+vl031243 vs Left Zone 3 falsefalsefalsefalse
+vl041244 vs Left Zone 4 falsefalsefalsefalse
+vl051245 vs Left Zone 5 falsefalsefalsefalse
+vl061246 vs Left Zone 6 falsefalsefalsefalse
+vl071247 vs Left Zone 7 falsefalsefalsefalse
+vl081248 vs Left Zone 8 falsefalsefalsefalse
+vl091249 vs Left Zone 9 falsefalsefalsefalse
+vl111251 vs Left Zone 11 falsefalsefalsefalse
+vl121252 vs Left Zone 12 falsefalsefalsefalse
+vl131253 vs Left Zone 13 falsefalsefalsefalse
+
+codesortOrdernavigationMenu description teambattingfieldingpitching
+vl141254 vs Left Zone 14 falsefalsefalsefalse
+vr011261 vs Right Zone 1 falsefalsefalsefalse
+vr021262 vs Right Zone 2 falsefalsefalsefalse
+vr031263 vs Right Zone 3 falsefalsefalsefalse
+vr041264 vs Right Zone 4 falsefalsefalsefalse
+vr051265 vs Right Zone 5 falsefalsefalsefalse
+vr061266 vs Right Zone 6 falsefalsefalsefalse
+vr071267 vs Right Zone 7 falsefalsefalsefalse
+vr081268 vs Right Zone 8 falsefalsefalsefalse
+vr091269 vs Right Zone 9 falsefalsefalsefalse
+vr111271 vs Right Zone 11 falsefalsefalsefalse
+vr121272 vs Right Zone 12 falsefalsefalsefalse
+vr131273 vs Right Zone 13 falsefalsefalsefalse
+vr141274 vs Right Zone 14 falsefalsefalsefalse
+Sky
+codedescription
+Clear Clear
+Cloudy Cloudy
+Dome Dome
+Drizzle Drizzle
+OvercastOvercast
+Partly CloudyPartly Cloudy
+Rain Rain
+
+codedescription
+Roof ClosedRoof Closed
+Snow Snow
+Sunny Sunny
+Sort Types
+name
+DATE
+EVENT_DATE
+GAME_DATE
+GAME_STATUS
+GRID_CE
+TIMESTAMP
+CAPTIVATING_INDEX
+GAME_TYPE
+Sports
+idcode link name abbreviationsortOrderactiveStatus
+1mlb/api/v1/sports/1Major League Baseball MLB11 true
+11aaa/api/v1/sports/11Triple-A AAA101 true
+12aax/api/v1/sports/12Double-A AA201 true
+13afa/api/v1/sports/13High-A A+301 true
+14afx/api/v1/sports/14Single-A A401 true
+16rok/api/v1/sports/16Rookie ROK701 true
+17win/api/v1/sports/17Winter Leagues WIN1301true
+
+idcode link name abbreviationsortOrderactiveStatus
+21min/api/v1/sports/21Minor League Baseball Minors1402true
+23ind/api/v1/sports/23Independent Leagues IND2101true
+61nlb/api/v1/sports/61Negro League Baseball NLB2401true
+32kor/api/v1/sports/32Korean Baseball Organization KOR2601true
+31jml/api/v1/sports/31Nippon Professional Baseball NPB2701true
+51int/api/v1/sports/51International Baseball INT3501true
+509nae/api/v1/sports/509International Baseball (18U)18U3503true
+510nas/api/v1/sports/510International Baseball (16 and under)16U3505true
+6005ame/api/v1/sports/6005International Baseball (amateur)AME3509true
+22bbc/api/v1/sports/22College Baseball College5101true
+586hsb/api/v1/sports/586High School Baseball H.S.6201true
+Standings Types
+name description
+regularSeason Regular Season Standings
+wildCard Wild card standings
+divisionLeaders Division Leader standings
+wildCardWithLeadersWild card standings with Division Leaders
+firstHalf First half standings. Only valid for leagues with a split season.
+secondHalf Second half standings. Only valid for leagues with a split season.
+springTraining Spring Training Standings
+postseason Postseason Standings
+byDivision Standings by Division
+byConference Standings by Conference
+
+name description
+byLeague Standings by League
+byOrganization Standing by Organization
+currentHalfCurrent Half Standings. Returns standings in the current half for split season leagues and overall standings for full season
+leagues.
+Stat Fields
+name
+standard
+advanced
+tracking
+expected
+sabermetrics
+rankings
+percentiles
+Stat Groups
+displayName
+hitting
+pitching
+fielding
+catching
+running
+game
+team
+
+displayName
+streak
+Stat Types
+displayName
+projected
+projectedRos
+yearByYear
+yearByYearAdvanced
+yearByYearPlayoffs
+season
+standard
+advanced
+career
+careerRegularSeason
+careerAdvanced
+seasonAdvanced
+careerStatSplits
+careerPlayoffs
+gameLog
+playLog
+pitchLog
+metricLog
+metricAverages
+pitchArsenal
+
+displayName
+outsAboveAverage
+expectedStatistics
+sabermetrics
+sprayChart
+tracking
+vsPlayer
+vsPlayerTotal
+vsPlayer5Y
+vsTeam
+vsTeam5Y
+vsTeamTotal
+lastXGames
+byDateRange
+byDateRangeAdvanced
+byMonth
+byMonthPlayoffs
+byDayOfWeek
+byDayOfWeekPlayoffs
+homeAndAway
+homeAndAwayPlayoffs
+winLoss
+winLossPlayoffs
+rankings
+rankingsByYear
+
+displayName
+statsSingleSeason
+statsSingleSeasonAdvanced
+hotColdZones
+availableStats
+opponentsFaced
+gameTypeStats
+firstYearStats
+lastYearStats
+statSplits
+statSplitsAdvanced
+atGameStart
+vsOpponents
+sabermetricsMultiTeam
+Stats
+name lookupParam isCountinglabel statGroups
+airOuts ao true Airouts0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+assists a true Assist01
+displayName
+fieldingdisplayName
+catching
+atBats ab true01
+displayName
+hittingdisplayName
+catching
+atBatsPerHomeRun false0
+displayName
+hitting
+balk bk true Balk0
+displayName
+pitching
+battingAverage avg false012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+
+name lookupParam isCountinglabel statGroups
+babip babip false01
+displayName
+hittingdisplayName
+pitching
+qualityStarts qs true0
+displayName
+pitching
+bequeathedRunners bq true0
+displayName
+pitching
+bequeathedRunnersScored bqs true0
+displayName
+pitching
+blownSaves bs true0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+catcherEarnedRunAverage cera false0
+displayName
+fielding
+catchersInterference ci trueCatcher's
+Interference01
+displayName
+fieldingdisplayName
+catching
+caughtStealing cs true CS012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+fielding
+chances tc true Chances01
+displayName
+fieldingdisplayName
+catching
+completeGames cg trueComplete
+Game0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+doublePlays dp true DP01
+displayName
+fieldingdisplayName
+catching
+doubles d true2B01
+displayName
+hittingdisplayName
+pitching
+earnedRun er true01
+displayName
+pitchingdisplayName
+catching
+earnedRunAverage era false01
+displayName
+pitchingdisplayName
+catching
+errors e true E01
+displayName
+fieldingdisplayName
+catching
+
+name lookupParam isCountinglabel statGroups
+exitVelocity exitVelo false01
+displayName
+hittingdisplayName
+pitching
+extraBaseHits xbh true0
+displayName
+hitting
+fieldingPercentage fpct false01
+displayName
+fieldingdisplayName
+catching
+flyouts ao true Flyouts0
+displayName
+hitting
+gamesFinished gf true0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+gamesPlayed g true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+fielding
+gamesStarted gs true012
+displayName
+pitchingdisplayName
+fieldingdisplayNam
+game
+groundIntoDoublePlays gidp true GIDP01
+displayName
+hittingdisplayName
+pitching
+groundIntoDoublePlayOpportunitiesgidp_opp true01
+displayName
+hittingdisplayName
+pitching
+groundIntoTriplePlays gitp true GITP01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+groundOuts go true Groundouts01
+displayName
+hittingdisplayName
+pitching
+groundoutToFlyoutRatio go_ao falseGroundouts
+-flyouts01
+displayName
+hittingdisplayName
+pitching
+hits h true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+hitsRisp hits_risp true01
+displayName
+pitchingdisplayName
+hitting
+hitBatsman hb true01
+displayName
+pitchingdisplayName
+catching
+
+name lookupParam isCountinglabel statGroups
+hitByPitches hbp true HBP0
+displayName
+hitting
+hitsPer9Inn h_9 false01
+displayName
+pitchingdisplayName
+catching
+holds hld true Hold0
+displayName
+pitching
+homeRuns hr true HR012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+homeRunsPerPlateAppearance false01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+inheritedRunner ir trueInherited
+runners0
+displayName
+pitching
+inheritedRunnerScored irs true Scored0
+displayName
+pitching
+innings inn true Innings012
+displayName
+fieldingdisplayName
+catchingdisplayNam
+game
+outsPitched p_out trueOuts
+Pitched0
+displayName
+pitching
+inningsPitched ip trueInnings
+Pitched0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+intentionalWalks ibb true IBB012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+iso false01
+displayName
+hittingdisplayName
+pitching
+leftOnBase lob true0
+displayName
+hitting
+leftOnBaseRisp lob_risp true0
+displayName
+hitting
+losses l true0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+numberOfStrikes s true Strikes0
+displayName
+pitching
+numberOfBalls b true Balls0
+displayName
+pitching
+numberOfPitches np true Pitches01
+displayName
+hittingdisplayName
+pitching
+onBasePercentage obp false012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+onBasePlusSlugging ops false01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+outfieldAssists ofa trueOutfield
+assists0
+displayName
+fielding
+UZR uzr falseUZR0
+displayName
+fielding
+passedBalls pb true PB01
+displayName
+fieldingdisplayName
+catching
+pickoffs po true PO012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+pitchesPerInning p_ip false0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+pitchesPerPlateAppearance false01
+displayName
+hittingdisplayName
+pitching
+putOuts po true Put Outs0
+displayName
+fielding
+rangeFactorPerGame rf falseRange
+Factor Per
+Game01
+displayName
+fieldingdisplayName
+catching
+rangeFactorPer9Inn rf_9 falseRange
+Factor Per 9
+Innings0
+displayName
+fielding
+reachedOnError roe true0
+displayName
+hitting
+
+name lookupParam isCountinglabel statGroups
+runs r true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+runsBattedIn rbi true RBI0
+displayName
+hitting
+sacrificeBunts sac true SAC01
+displayName
+hittingdisplayName
+catching
+sacrificeFlies sf true SF01
+displayName
+hittingdisplayName
+catching
+saves sv true0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+saveOpportunities svo true0
+displayName
+pitching
+shutouts sho true0
+displayName
+pitching
+sluggingPercentage slg false012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+stolenBases sb true SB012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+fielding
+stolenBasePercentage sbpct falseStolen Base
+Percentage012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+fielding
+
+name lookupParam isCountinglabel statGroups
+strikeouts so true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+strikeoutsPer9Inn k_9 false01
+displayName
+pitchingdisplayName
+catching
+strikeoutsPerPlateAppearance false01
+displayName
+hittingdisplayName
+pitching
+strikeoutWalkRatio k_bb false01
+displayName
+pitchingdisplayName
+catching
+throwingErrors throwing_e trueThrowing
+Errors0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+totalBases tb trueTB012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+totalBattersFaced tbf trueBatters
+faced01
+displayName
+pitchingdisplayName
+catching
+totalPlateAppearances tpa true0
+displayName
+hitting
+triplePlays tp trueTP01
+displayName
+fieldingdisplayName
+catching
+triples t true3B01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+walksPerStrikeout false01
+displayName
+hittingdisplayName
+pitching
+walksPerPlateAppearance false01
+displayName
+hittingdisplayName
+pitching
+walksAndHitsPerInningPitchedwhip false01
+displayName
+pitchingdisplayName
+catching
+walks bb true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+walksPer9Inn bb_9 false01
+displayName
+pitchingdisplayName
+catching
+
+name lookupParam isCountinglabel statGroups
+walkoffs wo true0
+displayName
+hitting
+wildPitch wp trueWP012
+displayName
+pitchingdisplayName
+fieldingdisplayNam
+catching
+wins w true0
+displayName
+pitching
+winPercentage wpct false0
+displayName
+pitching
+attendance attendance true0
+displayName
+game
+
+name lookupParam isCountinglabel statGroups
+duration duration true0
+displayName
+game
+winStreak win_streak true0
+displayName
+game
+lossStreak loss_streak true0
+displayName
+game
+woba false01
+displayName
+hittingdisplayName
+pitching
+xWoba false01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+xWobacon false01
+displayName
+hittingdisplayName
+pitching
+xAvg false01
+displayName
+hittingdisplayName
+pitching
+xSlg false01
+displayName
+hittingdisplayName
+pitching
+launchAngle launchAngle false01
+displayName
+hittingdisplayName
+pitching
+homeRunDistance homeRunDistance false01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+hitDistance hitDistance false01
+displayName
+hittingdisplayName
+pitching
+hangTime hangTime false0
+displayName
+hitting
+maxHeight maxHeight false0
+displayName
+hitting
+hitProbability hitProbability false0
+displayName
+hitting
+catchProbability catchProbability false01
+displayName
+hittingdisplayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+barrels barrels false0
+displayName
+hitting
+releaseSpeed releaseSpeed false0
+displayName
+pitching
+releaseSpinRate releaseSpinRate false0
+displayName
+pitching
+releaseExtension releaseExtension false0
+displayName
+pitching
+horizontalBreak horizontalBreak false01
+displayName
+hittingdisplayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+armStrength armStrength false0
+displayName
+fielding
+distanceCovered distanceCovered false0
+displayName
+fielding
+exchange exchange false0
+displayName
+fielding
+fielderBurstDistance fielderBurstDistance false0
+displayName
+fielding
+fielderJumpDistance fielderJumpDistance false0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+fielderReactionDistance fielderReactionDistancefalse0
+displayName
+fielding
+firstStep firstStep false01
+displayName
+fieldingdisplayName
+running
+firstStepEfficiency firstStepEfficiency false0
+displayName
+fielding
+popTime1b popTime1b false0
+displayName
+fielding
+popTime2b popTime2b false0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+popTime3b popTime3b false0
+displayName
+fielding
+routeEfficiency routeEfficiency false0
+displayName
+fielding
+sprintSpeed sprintSpeed false01
+displayName
+fieldingdisplayName
+running
+throwingAccuracy throwingAccuracy false0
+displayName
+fielding
+throwDistance throwDistance false0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+throwDistanceWithBounces throwDistanceWithBouncesfalse0
+displayName
+fielding
+acceleration acceleration false0
+displayName
+running
+burst burst false0
+displayName
+running
+firstToHome firstToHome false0
+displayName
+running
+firstToSecond firstToSecond false0
+displayName
+running
+
+name lookupParam isCountinglabel statGroups
+firstToThird firstToThird false0
+displayName
+running
+homeToHome homeToHome false01
+displayName
+runningdisplayName
+hitting
+homeToFirst homeToFirst false01
+displayName
+runningdisplayName
+hitting
+homeToSecond homeToSecond false01
+displayName
+runningdisplayName
+hitting
+homeToThird homeToThird false01
+displayName
+runningdisplayName
+hitting
+
+name lookupParam isCountinglabel statGroups
+primaryLead primaryLead false0
+displayName
+running
+outOfBox outOfBox false0
+displayName
+running
+secondToHome secondToHome false0
+displayName
+running
+secondToThird secondToThird false0
+displayName
+running
+secondaryLead secondaryLead false0
+displayName
+running
+
+name lookupParam isCountinglabel statGroups
+firstToSecondSteal stealFirstToSecondStealfalse0
+displayName
+running
+secondToThirdSteal secondToThirdSteal false0
+displayName
+running
+thirdToHomeSteal thirdToHomeSteal false0
+displayName
+running
+tagFirstStep tagFirstStep false0
+displayName
+running
+firstToSecondTag firstToSecondTag false0
+displayName
+running
+
+name lookupParam isCountinglabel statGroups
+secondToThirdTag secondToThirdTag false0
+displayName
+running
+thirdToHomeTag thirdToHomeTag false0
+displayName
+running
+thirdToHome thirdToHome false0
+displayName
+running
+outsAboveAverage false0
+displayName
+fielding
+fieldingRunsPrevented false0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+streak streak true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+fielding
+war true01
+displayName
+hittingdisplayName
+pitching
+gameDate true012
+displayName
+hittingdisplayName
+pitchingdisplayNam
+catching
+verticalBreak verticalBreak false01
+displayName
+hittingdisplayName
+pitching
+burstDistance burstDistance false0
+displayName
+fielding
+
+name lookupParam isCountinglabel statGroups
+wRaa true01
+displayName
+hittingdisplayName
+pitching
+wRc true0
+displayName
+hitting
+wRcPlus false0
+displayName
+hitting
+rar true0
+displayName
+hitting
+batting true0
+displayName
+hitting
+
+name lookupParam isCountinglabel statGroups
+fielding true0
+displayName
+hitting
+positional true0
+displayName
+hitting
+baseRunning true0
+displayName
+hitting
+wLeague true0
+displayName
+hitting
+replacement true0
+displayName
+hitting
+
+name lookupParam isCountinglabel statGroups
+SPD true0
+displayName
+hitting
+UBR true0
+displayName
+hitting
+wGDP true0
+displayName
+hitting
+wSb true0
+displayName
+hitting
+FIP false0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+xfip false0
+displayName
+pitching
+fipMinus false0
+displayName
+pitching
+ra9War true0
+displayName
+pitching
+sd true0
+displayName
+pitching
+md true0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+pli false0
+displayName
+pitching
+inli false0
+displayName
+pitching
+fmli false0
+displayName
+pitching
+exli false0
+displayName
+pitching
+eraMinus false0
+displayName
+pitching
+
+name lookupParam isCountinglabel statGroups
+jumpDistance jumpDistance false0
+displayName
+fielding
+attackAngle attackAngle false0
+displayName
+hitting
+batSpeed batSpeed false0
+displayName
+hitting
+homeRunXBallParks homeRunXBallParks false0
+displayName
+hitting
+homeRunVenueIds homeRunXBallParks false0
+displayName
+hitting
+
+Tracking System Owners
+idname
+0Unknown
+1MLB
+2MLB Club
+Tracking Vendors
+iddescription
+1Sportvision
+2TrackMan
+4ChyronHego
+3Hawk-Eye
+Tracking Versions
+iddescriptionowner pitchVendor hitVendor playerVendor skeletalVendor
+100Pitch F/xiddescriptionversion
+1Sportvision1
+102Statcast
+2015 (ball +
+player)iddescriptionversion
+1Sportvision1iddescriptionversion
+2TrackMan2.0iddescriptionversion
+4ChyronHego1
+101Statcast
+2015 (ball
+only)iddescriptionversion
+2TrackMan2.0iddescriptionversion
+2TrackMan2.0
+
+iddescriptionowner pitchVendor hitVendor playerVendor skeletalVendor
+106Statcast
+2017 (ball
+only)iddescriptionversion
+2TrackMan2.0iddescriptionversion
+2TrackMan2.0
+108Statcast
+2017 (ball +
+player)iddescriptionversion
+2TrackMan2.0iddescriptionversion
+2TrackMan2.0iddescriptionversion
+4ChyronHego1
+110Statcast
+2018 (ball +
+player)iddescriptionversion
+2TrackMan2.5iddescriptionversion
+2TrackMan2.5iddescriptionversion
+4ChyronHego1
+109Statcast
+2018 (ball
+only)iddescriptionversion
+2TrackMan2.5iddescriptionversion
+2TrackMan2.5
+104Statcast
+2020 (12-
+camera)iddescriptionversion
+3Hawk-Eye12 camiddescriptionversion
+3Hawk-Eye12 camiddescriptionversion
+3Hawk-Eye12 camiddescriptionver
+3Hawk-Eye12 c
+103Statcast
+2020 (8-
+camera)iddescriptionversion
+3Hawk-Eye8 camiddescriptionversion
+3Hawk-Eye8 camiddescriptionversion
+3Hawk-Eye8 camiddescriptionver
+3Hawk-Eye8 ca
+111TrackMan
+3.0iddescriptionversion
+2TrackMan3.0iddescriptionversion
+2TrackMan3.0
+112Hawk-Eye
+HFR (12-
+camera [5-
+cam HFR +iddescriptionversion
+3Hawk-Eye12-
+camera
+[5-camiddescriptionversion
+3Hawk-Eye12-
+camera
+[5-camiddescriptionversion
+3Hawk-Eye12-
+camera
+[5-camiddescriptionver
+3Hawk-Eye12-
+cam
+[5-c
+
+iddescriptionowner pitchVendor hitVendor playerVendor skeletalVendor
+7-cam
+SFR])iddescriptionversion
+HFR +
+7-cam
+SFR]iddescriptionversion
+HFR +
+7-cam
+SFR]iddescriptionversion
+HFR +
+7-cam
+SFR]iddescriptionver
+HFR
+7-c
+SFR
+113Statcast
+2023 (4-
+camera)iddescriptionversion
+3Hawk-Eye4 camiddescriptionversion
+3Hawk-Eye4 camiddescriptionversion
+3Hawk-Eye4 camiddescriptionver
+3Hawk-Eye4 ca
+114Hawk-Eye
+HFR (8-
+camera [4-
+cam HFR +
+4-cam
+SFR])iddescriptionversion
+3Hawk-Eye8-
+camera
+[4-cam
+HFR +
+4-cam
+SFR]iddescriptionversion
+3Hawk-Eye8-
+camera
+[4-cam
+HFR +
+4-cam
+SFR]iddescriptionversion
+3Hawk-Eye8-
+camera
+[4-cam
+HFR +
+4-cam
+SFR]iddescriptionver
+3Hawk-Eye8-
+cam
+[4-c
+HFR
+4-c
+SFR
+Transaction Types
+code description
+SCStatus Change
+ASGAssigned
+DESDesignated for Assignment
+OPTOptioned
+OUTOutrighted
+TRTrade
+
+code description
+DFADeclared Free Agency
+RELReleased
+URLUnconditional Release
+WAWaived
+RETRetired
+SUSuspension
+DEIDeclared Ineligible
+RESReserved
+DECDeceased
+NUMNumber Change
+CLWClaimed Off Waivers
+PURPurchase
+SGNSigned
+SFASigned as Free Agent
+DRDrafted
+SESelected
+CURecalled
+REReinstated
+NCNew Contract
+CPContract Purchased
+CVContract Void
+ARBOffered arbitration
+NOANot offered Arbitration
+REFRefused Arbitration
+
+code description
+NTCNot Tendered Contract
+LONLoan
+RTNReturned
+AWDAwarded
+TRNTransferred
+OBTObtained
+JUMJumped
+Wind Directions
+codedescription
+Calm Calm
+In From CFIn From CF
+In From LFIn From LF
+In From RFIn From RF
+L To RL To R
+None None
+Out To CFOut To CF
+Out To LFOut To LF
+Out To RFOut To RF
+R To LR To L
+VariesVaries
+

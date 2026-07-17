@@ -1,0 +1,23 @@
+{
+  "endpoint": "/api/v1/schedule/postseason/series",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/schedule/postseason/series?season=2024&startDate=2024-04-01&endDate=2024-05-15",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:07 GMT",
+    "server": "uvicorn",
+    "content-length": "94",
+    "content-type": "application/json",
+    "x-request-id": "e39f8ca9-ffaf-4a52-b3a5-be2e9f34edc7"
+  },
+  "response": {
+    "totalItems": 0,
+    "totalEvents": 0,
+    "totalGames": 0,
+    "totalGamesInProgress": 0,
+    "wait": 10,
+    "series": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:08.323638"
+}

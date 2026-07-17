@@ -1,0 +1,61 @@
+{
+  "endpoint": "/api/v1/sortModifiers",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/sortModifiers",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:45 GMT",
+    "server": "uvicorn",
+    "content-length": "508",
+    "content-type": "application/json",
+    "x-request-id": "d853219c-c3ce-4e2d-b36a-ea3eedd63547"
+  },
+  "response": [
+    {
+      "code": "avg",
+      "description": "averageValue"
+    },
+    {
+      "code": "max",
+      "description": "maxValue"
+    },
+    {
+      "code": "min",
+      "description": "minValue"
+    },
+    {
+      "code": "num",
+      "description": "numOccurrences"
+    },
+    {
+      "code": "count",
+      "description": "countValue"
+    },
+    {
+      "code": "sum",
+      "description": "sumValue"
+    },
+    {
+      "code": "p50",
+      "description": "percentile50Value"
+    },
+    {
+      "code": "p75",
+      "description": "percentile75Value"
+    },
+    {
+      "code": "p90",
+      "description": "percentile90Value"
+    },
+    {
+      "code": "comp",
+      "description": "competitive"
+    },
+    {
+      "code": "num_comp",
+      "description": "numCompetitiveOccurrences"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:45.370145"
+}

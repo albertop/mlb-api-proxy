@@ -1,0 +1,57 @@
+{
+  "endpoint": "/api/v1/sky",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/sky",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:45 GMT",
+    "server": "uvicorn",
+    "content-length": "425",
+    "content-type": "application/json",
+    "x-request-id": "e9c3e6c3-fa70-4687-95f9-3a200cd1cece"
+  },
+  "response": [
+    {
+      "code": "Clear",
+      "description": "Clear"
+    },
+    {
+      "code": "Cloudy",
+      "description": "Cloudy"
+    },
+    {
+      "code": "Dome",
+      "description": "Dome"
+    },
+    {
+      "code": "Drizzle",
+      "description": "Drizzle"
+    },
+    {
+      "code": "Overcast",
+      "description": "Overcast"
+    },
+    {
+      "code": "Partly Cloudy",
+      "description": "Partly Cloudy"
+    },
+    {
+      "code": "Rain",
+      "description": "Rain"
+    },
+    {
+      "code": "Roof Closed",
+      "description": "Roof Closed"
+    },
+    {
+      "code": "Snow",
+      "description": "Snow"
+    },
+    {
+      "code": "Sunny",
+      "description": "Sunny"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:45.081016"
+}

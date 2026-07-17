@@ -1,0 +1,18 @@
+{
+  "endpoint": "/api/v1/leagues/{league_id}/allStarFinalVote",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/leagues/103/allStarFinalVote",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:29 GMT",
+    "server": "uvicorn",
+    "content-length": "13",
+    "content-type": "application/json",
+    "x-request-id": "932dce2a-29c4-45b1-802f-e2910c0a36d9"
+  },
+  "response": {
+    "people": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:29.916776"
+}

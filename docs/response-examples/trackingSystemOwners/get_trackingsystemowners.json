@@ -1,0 +1,37 @@
+{
+  "endpoint": "/api/v1/trackingSystemOwners",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/trackingSystemOwners",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:49 GMT",
+    "server": "uvicorn",
+    "content-length": "124",
+    "content-type": "application/json",
+    "x-request-id": "57882851-7990-43ca-99f4-a51cd79f826e"
+  },
+  "response": [
+    {
+      "id": 0,
+      "name": "Unknown"
+    },
+    {
+      "id": 1,
+      "name": "MLB"
+    },
+    {
+      "id": 2,
+      "name": "MLB Club"
+    },
+    {
+      "id": 3,
+      "name": "Hybrid"
+    },
+    {
+      "id": 4,
+      "name": "None"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:49.306127"
+}

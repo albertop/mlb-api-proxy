@@ -1,0 +1,150 @@
+{
+  "endpoint": "/api/v1/uniforms/team",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/uniforms/team?teamIds=147",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:17 GMT",
+    "server": "uvicorn",
+    "content-length": "2877",
+    "content-type": "application/json",
+    "x-request-id": "b539a66b-5e37-4798-92fa-4a7e53ad60a2"
+  },
+  "response": {
+    "uniforms": [
+      {
+        "teamId": 147,
+        "uniformAssets": [
+          {
+            "uniformAssetId": 1413,
+            "uniformAssetCode": "147_hat_13_2025",
+            "uniformAssetText": "Yankees Fourth of July Hat",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Cap, hat, head-gear",
+              "uniformAssetTypeCode": "C",
+              "uniformAssetTypeText": "Cap",
+              "uniformAssetTypeId": 3
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1414,
+            "uniformAssetCode": "147_hat_11_2025",
+            "uniformAssetText": "Yankees Jackie Robinson Day Hat",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Cap, hat, head-gear",
+              "uniformAssetTypeCode": "C",
+              "uniformAssetTypeText": "Cap",
+              "uniformAssetTypeId": 3
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1415,
+            "uniformAssetCode": "147_hat_14_2025",
+            "uniformAssetText": "Yankees Hall of Fame Weekend Hat",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Cap, hat, head-gear",
+              "uniformAssetTypeCode": "C",
+              "uniformAssetTypeText": "Cap",
+              "uniformAssetTypeId": 3
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1416,
+            "uniformAssetCode": "147_hat_12_2025",
+            "uniformAssetText": "Yankees Armed Forces Day Hat",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Cap, hat, head-gear",
+              "uniformAssetTypeCode": "C",
+              "uniformAssetTypeText": "Cap",
+              "uniformAssetTypeId": 3
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1417,
+            "uniformAssetCode": "147_jersey_2_2025",
+            "uniformAssetText": "Yankees Away Grey Jersey",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Shirt, jersey, sweater, etc.",
+              "uniformAssetTypeCode": "J",
+              "uniformAssetTypeText": "Jersey",
+              "uniformAssetTypeId": 1
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1418,
+            "uniformAssetCode": "147_pants_1_2025",
+            "uniformAssetText": "Yankees Home Pinstripe Pants",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Pants, shorts, skirt, etc.",
+              "uniformAssetTypeCode": "P",
+              "uniformAssetTypeText": "Pants",
+              "uniformAssetTypeId": 2
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1419,
+            "uniformAssetCode": "147_pants_2_2025",
+            "uniformAssetText": "Yankees Away Grey Pants",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Pants, shorts, skirt, etc.",
+              "uniformAssetTypeCode": "P",
+              "uniformAssetTypeText": "Pants",
+              "uniformAssetTypeId": 2
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1420,
+            "uniformAssetCode": "147_hat_1_2025",
+            "uniformAssetText": "Yankees Primary Navy Hat",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Cap, hat, head-gear",
+              "uniformAssetTypeCode": "C",
+              "uniformAssetTypeText": "Cap",
+              "uniformAssetTypeId": 3
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          },
+          {
+            "uniformAssetId": 1424,
+            "uniformAssetCode": "147_jersey_1_2025",
+            "uniformAssetText": "Yankees Home Pinstripe Jersey",
+            "uniformAssetType": {
+              "uniformAssetTypeDesc": "Shirt, jersey, sweater, etc.",
+              "uniformAssetTypeCode": "J",
+              "uniformAssetTypeText": "Jersey",
+              "uniformAssetTypeId": 1
+            },
+            "active": true,
+            "startSeason": "2025",
+            "endSeason": "2025"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:18.613346"
+}

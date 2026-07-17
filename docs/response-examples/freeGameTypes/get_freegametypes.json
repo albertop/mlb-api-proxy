@@ -1,0 +1,29 @@
+{
+  "endpoint": "/api/v1/freeGameTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/freeGameTypes?gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:35 GMT",
+    "server": "uvicorn",
+    "content-length": "304",
+    "content-type": "application/json",
+    "x-request-id": "d0d7799f-d5e7-4178-a3b1-07df0439f94a"
+  },
+  "response": [
+    {
+      "freeGameTypeCode": "FREE_GAME_OF_THE_DAY",
+      "freeGameTypeText": "Free Game of the Day",
+      "freeGameTypeDesc": "Free Game of the Day",
+      "freeGameTypeId": 1
+    },
+    {
+      "freeGameTypeCode": "FREE_GAME_EXTRA_INNINGS",
+      "freeGameTypeText": "Free Game Extra Innings",
+      "freeGameTypeDesc": "Free Game Extra Innings",
+      "freeGameTypeId": 2
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:36.293381"
+}

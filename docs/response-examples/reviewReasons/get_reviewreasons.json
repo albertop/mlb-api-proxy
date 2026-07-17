@@ -1,0 +1,125 @@
+{
+  "endpoint": "/api/v1/reviewReasons",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/reviewReasons",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:41 GMT",
+    "server": "uvicorn",
+    "content-length": "1207",
+    "content-type": "application/json",
+    "x-request-id": "207ce617-c575-4786-8123-3a27c771d053"
+  },
+  "response": [
+    {
+      "code": "A",
+      "description": "Tag play"
+    },
+    {
+      "code": "F",
+      "description": "Close play at 1st"
+    },
+    {
+      "code": "C",
+      "description": "Force play"
+    },
+    {
+      "code": "H",
+      "description": "Home run"
+    },
+    {
+      "code": "O",
+      "description": "Fair/foul in outfield"
+    },
+    {
+      "code": "D",
+      "description": "Catch/drop in outfield"
+    },
+    {
+      "code": "T",
+      "description": "Trap play in outfield"
+    },
+    {
+      "code": "J",
+      "description": "Pitch result"
+    },
+    {
+      "code": "I",
+      "description": "Hit by pitch"
+    },
+    {
+      "code": "P",
+      "description": "Home-plate collision"
+    },
+    {
+      "code": "E",
+      "description": "Slide interference"
+    },
+    {
+      "code": "M",
+      "description": "Timing Play"
+    },
+    {
+      "code": "U",
+      "description": "Tag-up play"
+    },
+    {
+      "code": "B",
+      "description": "Touching a base"
+    },
+    {
+      "code": "R",
+      "description": "Passing runners"
+    },
+    {
+      "code": "Y",
+      "description": "Runner placement"
+    },
+    {
+      "code": "S",
+      "description": "Stadium boundary call"
+    },
+    {
+      "code": "N",
+      "description": "Fan interference"
+    },
+    {
+      "code": "V",
+      "description": "Catcher interference"
+    },
+    {
+      "code": "Q",
+      "description": "Rules check"
+    },
+    {
+      "code": "K",
+      "description": "Record keeping"
+    },
+    {
+      "code": "G",
+      "description": "Grounds rule"
+    },
+    {
+      "code": "L",
+      "description": "Multiple issues"
+    },
+    {
+      "code": "X",
+      "description": "Other"
+    },
+    {
+      "code": "W",
+      "description": "Defensive Shift"
+    },
+    {
+      "code": "Z",
+      "description": "Check Swing"
+    },
+    {
+      "code": "AA",
+      "description": "Runner Abandonment"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:42.843955"
+}

@@ -1,0 +1,1067 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MLB Stats API Documentation</title>
+    <style>
+        @page {
+            size: Letter;
+            margin: 0.75in 0.75in 0.75in 1in;
+        }
+        
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            
+            h1, h2, h3, h4 {
+                page-break-after: avoid;
+            }
+            
+            pre, table, blockquote {
+                page-break-inside: avoid;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 100%;
+            margin: 0;
+            padding: 20px 20px 20px 40px;
+        }
+        
+        h1 {
+            color: #002D72;
+            border-bottom: 3px solid #002D72;
+            padding-bottom: 10px;
+            margin-top: 30px;
+            font-size: 28pt;
+            page-break-after: avoid;
+        }
+        
+        h2 {
+            color: #D50032;
+            border-bottom: 2px solid #D50032;
+            padding-bottom: 8px;
+            margin-top: 25px;
+            font-size: 20pt;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #002D72;
+            margin-top: 20px;
+            font-size: 16pt;
+            page-break-after: avoid;
+        }
+        
+        h4 {
+            color: #555;
+            margin-top: 15px;
+            font-size: 13pt;
+            page-break-after: avoid;
+        }
+        
+        code {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 9pt;
+            color: #d14;
+        }
+        
+        pre {
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            overflow-x: auto;
+            font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+            font-size: 9pt;
+            line-height: 1.4;
+            page-break-inside: avoid;
+        }
+        
+        pre code {
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            color: #333;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            font-size: 10pt;
+            page-break-inside: avoid;
+        }
+        
+        table thead {
+            background-color: #002D72;
+            color: white;
+        }
+        
+        table th {
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        table tbody tr:hover {
+            background-color: #f0f0f0;
+        }
+        
+        blockquote {
+            border-left: 4px solid #D50032;
+            padding-left: 15px;
+            margin: 15px 0;
+            color: #666;
+            background-color: #f9f9f9;
+            padding: 10px 15px;
+            border-radius: 3px;
+        }
+        
+        ul, ol {
+            margin: 10px 0;
+            padding-left: 30px;
+        }
+        
+        li {
+            margin: 5px 0;
+        }
+        
+        a {
+            color: #002D72;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        hr {
+            border: none;
+            border-top: 2px solid #ddd;
+            margin: 30px 0;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        strong {
+            color: #002D72;
+        }
+        
+        em {
+            color: #555;
+        }
+        
+        /* First page styling */
+        h1:first-of-type {
+            font-size: 36pt;
+            text-align: center;
+            border-bottom: none;
+            margin-top: 100px;
+            margin-bottom: 20px;
+        }
+        
+        /* Ensure code blocks and tables don't break across pages */
+        table, pre, blockquote {
+            page-break-inside: avoid;
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print" style="position: fixed; top: 10px; right: 10px; background: #002D72; color: white; padding: 15px 25px; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.2); z-index: 1000;">
+        <strong>📄 Ready to Print/Save as PDF</strong><br>
+        <small>Press Ctrl+P or use File → Print → Save as PDF</small>
+    </div>
+    <h1 id="mlb-stats-api-documentation">MLB Stats API Documentation</h1>
+<h2 id="overview">Overview</h2>
+<p><strong>Title:</strong> Stats API Documentation<br />
+<strong>Description:</strong> Official API for Major League Baseball<br />
+<strong>Version:</strong> 2.0.0<br />
+<strong>API Specification:</strong> OpenAPI 3.0.1</p>
+<hr />
+<h2 id="base-urls">Base URLs</h2>
+<p>The API is available on multiple environments:</p>
+<table>
+<thead>
+<tr>
+<th>Environment</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Production</strong></td>
+<td><code>https://statsapi.mlb.com</code></td>
+</tr>
+<tr>
+<td><strong>Beta</strong></td>
+<td><code>https://beta-statsapi.mlb.com</code></td>
+</tr>
+<tr>
+<td><strong>QA</strong></td>
+<td><code>https://qa-statsapi.mlb.com</code></td>
+</tr>
+<tr>
+<td><strong>Local</strong></td>
+<td><code>http://localhost:8080</code></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="authentication">Authentication</h2>
+<p>The API supports two authentication methods:</p>
+<h3 id="basic-authentication">Basic Authentication</h3>
+<pre class="codehilite"><code>Authorization: Basic &lt;base64-encoded-credentials&gt;
+</code></pre>
+
+<h3 id="bearer-token-jwt">Bearer Token (JWT)</h3>
+<pre class="codehilite"><code>Authorization: Bearer &lt;jwt-token&gt;
+</code></pre>
+
+<blockquote>
+<p><strong>Note:</strong> Not all endpoints require authentication. Endpoints requiring authentication are marked with 🔒 in this documentation.</p>
+</blockquote>
+<hr />
+<h2 id="api-categories">API Categories</h2>
+<p>The API is organized into the following categories:</p>
+<ul>
+<li><a href="#teams"><strong>Teams</strong></a> - Team information, rosters, alumni, and statistics</li>
+<li><a href="#players-person"><strong>Person</strong></a> - Player information and statistics</li>
+<li><a href="#games"><strong>Game</strong></a> - Game data, schedules, and live game information</li>
+<li><a href="#schedule"><strong>Schedule</strong></a> - Schedule information and types</li>
+<li><a href="#statistics"><strong>Stats</strong></a> - Statistical data and metrics</li>
+<li><a href="#standings"><strong>Standings</strong></a> - Team standings and rankings</li>
+<li><a href="#analytics"><strong>Analytics</strong></a> - Advanced tracking data and metrics</li>
+<li><a href="#draft"><strong>Draft</strong></a> - MLB Draft information</li>
+<li><a href="#awards"><strong>Awards</strong></a> - Award information and recipients</li>
+<li><a href="#venues"><strong>Venues</strong></a> - Stadium and venue information</li>
+<li><a href="#weather"><strong>Weather</strong></a> - Weather data for venues and games</li>
+<li><a href="#transactions"><strong>Transactions</strong></a> - Player transactions</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Sports</strong></a> - Sports-related endpoints</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>League</strong></a> - League information</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Division</strong></a> - Division information</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Conference</strong></a> - Conference information</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Season</strong></a> - Season information</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Attendance</strong></a> - Attendance data</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Broadcast</strong></a> - Broadcast information</li>
+<li><a href="#uniforms"><strong>Uniforms</strong></a> - Team uniform data</li>
+<li><a href="#reviews"><strong>Reviews</strong></a> - Game review information</li>
+<li><a href="#predictions"><strong>Predictions</strong></a> - Prediction data</li>
+<li><a href="#milestones"><strong>Milestones</strong></a> - Player milestones</li>
+<li><a href="#streaks"><strong>Streaks</strong></a> - Statistical streaks</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>High/Low</strong></a> - High and low statistics</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Game Pace</strong></a> - Game pace statistics</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Homerun Derby</strong></a> - Home run derby data</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Bat Tracking</strong></a> - Bat tracking analytics</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Biomechanics</strong></a> - Biomechanical tracking data</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Skeletal</strong></a> - Skeletal tracking data</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Job</strong></a> - Job types and roles</li>
+<li><a href="#configuration-and-lookup-endpoints"><strong>Misc</strong></a> - Miscellaneous configuration endpoints</li>
+</ul>
+<hr />
+<h2 id="common-query-parameters">Common Query Parameters</h2>
+<p>Many endpoints support the following common parameters:</p>
+<h3 id="fields-parameter">Fields Parameter</h3>
+<pre class="codehilite"><code>fields=topLevelNode,childNode,attribute
+</code></pre>
+
+<p>Comma-delimited list of specific fields to be returned. This allows you to filter the response to only include the data you need.</p>
+<p><strong>Example:</strong></p>
+<pre class="codehilite"><code>GET /api/v1/teams?fields=teams,id,name,abbreviation
+</code></pre>
+
+<hr />
+<h2 id="key-endpoints">Key Endpoints</h2>
+<h3 id="teams">Teams</h3>
+<h4 id="get-all-teams">Get All Teams</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Unique Sport Identifier
+- <code>season</code> (string) - Season of play
+- <code>activeStatus</code> (string) - Active status (Y/N)
+- <code>leagueIds</code> (array) - Unique League Identifier(s)
+- <code>gameType</code> (GameType) - Type of Game
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<p><strong>Response:</strong> Returns a list of all MLB teams with their details.</p>
+<hr />
+<h4 id="get-team-details">Get Team Details</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier (e.g., 141, 147)</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>sportId</code> (integer) - Unique Sport Identifier
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-team-roster">Get Team Roster</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/roster
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>rosterType</code> (string) - Type of roster (e.g., active, 40Man, fullRoster)
+- <code>season</code> (string) - Season of play
+- <code>date</code> (string) - Date for roster (format: MM/DD/YYYY)</p>
+<hr />
+<h4 id="get-team-alumni">Get Team Alumni</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/alumni
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string, required) - Season of play
+- <code>group</code> (StatGroup) - Category of statistic to return
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-team-statistics">Get Team Statistics</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/stats
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>stats</code> (array) - Type of statistics
+- <code>group</code> (StatGroup) - Category of statistic</p>
+<hr />
+<h4 id="get-team-leaders">Get Team Leaders</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/leaders
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>leaderCategories</code> (array, required) - Category of leaders
+- <code>season</code> (string, required) - Season of play
+- <code>leaderGameTypes</code> (array) - Game type for leaders
+- <code>statGroup</code> (StatGroup) - Stat group
+- <code>limit</code> (integer) - Number of results (default: 1)
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-team-coaches">Get Team Coaches</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/coaches
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string, required) - Season of play
+- <code>date</code> (string) - Date for coaches (format: MM/DD/YYYY)</p>
+<hr />
+<h4 id="get-team-affiliates">Get Team Affiliates</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/affiliates
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>sportId</code> (integer) - Unique Sport Identifier</p>
+<hr />
+<h3 id="players-person">Players (Person)</h3>
+<h4 id="get-player-information">Get Player Information</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/{personId}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>hydrate</code> (array) - Hydration parameters for additional data
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-player-statistics">Get Player Statistics</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/{personId}/stats
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>stats</code> (array, required) - Type of statistics
+- <code>group</code> (StatGroup) - Category of statistic
+- <code>season</code> (string) - Season of play
+- <code>gameType</code> (GameType) - Type of game</p>
+<hr />
+<h4 id="get-player-game-stats">Get Player Game Stats</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/{personId}/stats/game/{gamePk}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="search-players">Search Players</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/search
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>names</code> (string, required) - Player name(s)
+- <code>sportId</code> (integer) - Sport Identifier
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="games">Games</h3>
+<h4 id="get-game-information">Get Game Information</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>timecode</code> (string) - Use this parameter to return game data with the state at a specific time
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-game-live-feed">Get Game Live Feed</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1.1/game/{gamePk}/feed/live
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>timecode</code> (string) - Timecode for specific game state
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<p><strong>Description:</strong> Returns comprehensive live game data including plays, boxscore, and linescore.</p>
+<hr />
+<h4 id="get-game-box-score">Get Game Box Score</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/boxscore
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>timecode</code> (string) - Timecode for specific game state
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-game-line-score">Get Game Line Score</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/linescore
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>timecode</code> (string) - Timecode for specific game state
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-game-content">Get Game Content</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/content
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>highlightLimit</code> (integer) - Number of highlights to return</p>
+<hr />
+<h3 id="schedule">Schedule</h3>
+<h4 id="get-schedule">Get Schedule</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/schedule
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Unique Sport Identifier (default: 1 for MLB)
+- <code>season</code> (string) - Season of play
+- <code>date</code> (string) - Date for schedule (format: MM/DD/YYYY)
+- <code>startDate</code> (string) - Start date for range
+- <code>endDate</code> (string) - End date for range
+- <code>gameType</code> (GameType) - Type of game
+- <code>teamId</code> (integer) - Unique Team Identifier
+- <code>leagueId</code> (integer) - Unique League Identifier
+- <code>venueIds</code> (array) - Venue Identifier(s)
+- <code>gamePks</code> (array) - Game Primary Key(s)
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-postseason-schedule">Get Postseason Schedule</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/schedule/postseason
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Unique Sport Identifier
+- <code>season</code> (string) - Season of play
+- <code>gameTypes</code> (array) - Type(s) of game
+- <code>seriesNumber</code> (integer) - Series number
+- <code>teamId</code> (integer) - Unique Team Identifier</p>
+<hr />
+<h4 id="get-postseason-series">Get Postseason Series</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/schedule/postseason/series
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Unique Sport Identifier
+- <code>season</code> (string, required) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-tied-games">Get Tied Games</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/schedule/games/tied
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string, required) - Season of play
+- <code>gameTypes</code> (array) - Type(s) of game
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="statistics">Statistics</h3>
+<h4 id="get-statistics">Get Statistics</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/stats
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>stats</code> (array, required) - Type(s) of statistics
+- <code>playerPool</code> (string) - Player pool filter
+- <code>position</code> (string) - Position filter
+- <code>teamId</code> (integer) - Team Identifier
+- <code>leagueId</code> (integer) - League Identifier
+- <code>limit</code> (integer) - Number of results to return
+- <code>offset</code> (integer) - Offset for pagination
+- <code>group</code> (StatGroup) - Stat group
+- <code>gameType</code> (GameType) - Type of game
+- <code>season</code> (string) - Season of play
+- <code>sportIds</code> (array) - Sport Identifier(s)
+- <code>sortStat</code> (string) - Stat to sort by
+- <code>order</code> (string) - Sort order (asc/desc)
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-stat-leaders">Get Stat Leaders</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/stats/leaders
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>leaderCategories</code> (array, required) - Category of leaders
+- <code>season</code> (string) - Season of play
+- <code>leaderGameTypes</code> (array) - Game type(s) for leaders
+- <code>sitCodes</code> (array) - Situation codes
+- <code>position</code> (string) - Position filter
+- <code>statGroup</code> (StatGroup) - Stat group
+- <code>league</code> (integer) - League identifier
+- <code>limit</code> (integer) - Number of results (default: 10)
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-stat-metrics">Get Stat Metrics</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/stats/metrics
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>metrics</code> (array, required) - Metrics to retrieve
+- <code>personIds</code> (array, required) - Person Identifier(s)
+- <code>season</code> (string, required) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-statcast-metrics">Get Statcast Metrics</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/{personId}/stats/metrics
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>metrics</code> (array, required) - Metrics to retrieve
+- <code>season</code> (string, required) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-beast-stats">Get BEAST Stats</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/beast/stats
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>metrics</code> (array, required) - Metrics to retrieve
+- <code>fields</code> (array) - Comma-delimited field list
+- Multiple filtering parameters for advanced queries</p>
+<p><strong>Description:</strong> Advanced statistical endpoint for detailed player metrics.</p>
+<hr />
+<h3 id="standings">Standings</h3>
+<h4 id="get-standings">Get Standings</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/standings
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>leagueId</code> (array, required) - League Identifier(s)
+- <code>season</code> (string, required) - Season of play
+- <code>standingsTypes</code> (array) - Type(s) of standings
+- <code>date</code> (string) - Date for standings (format: MM/DD/YYYY)
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="analytics">Analytics</h3>
+<h4 id="get-play-tracking-data">Get Play Tracking Data 🔒</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/{guid}/contextMetricsAverages
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game
+- <code>guid</code> (string, required) - Unique identifier for a play within a game</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<p><strong>Headers:</strong>
+- Recommended: <code>Accept-Encoding: gzip</code> (responses can be very large)</p>
+<p><strong>Description:</strong> Returns raw coordinate data and refined calculated metrics for a specific play.</p>
+<hr />
+<h4 id="get-spray-chart">Get Spray Chart</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/spraycharts
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier
+- <code>season</code> (string, required) - Season of play
+- <code>gameType</code> (GameType) - Type of game</p>
+<hr />
+<h4 id="get-outs-above-average">Get Outs Above Average</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/outsAboveAverage
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>personId</code> (integer, required) - Unique Player Identifier
+- <code>season</code> (string, required) - Season of play
+- <code>gameType</code> (GameType) - Type of game</p>
+<hr />
+<h4 id="get-stolen-base-probability">Get Stolen Base Probability</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/stolenBaseProbability
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game
+- <code>playId</code> (string, required) - Play identifier</p>
+<hr />
+<h3 id="venues">Venues</h3>
+<h4 id="get-all-venues">Get All Venues</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/venues
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>venueIds</code> (array) - Venue Identifier(s)
+- <code>season</code> (string) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-venue-details">Get Venue Details</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/venues/{venueId}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>venueId</code> (integer, required) - Unique Venue Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="weather">Weather</h3>
+<h4 id="get-venue-weather-full">Get Venue Weather (Full) 🔒</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/weather/venues/{venueId}/full
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>venueId</code> (integer, required) - Unique Venue Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-venue-weather-basic">Get Venue Weather (Basic) 🔒</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/weather/venues/{venueId}/basic
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>venueId</code> (integer, required) - Unique Venue Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-weather-forecast">Get Weather Forecast 🔒</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/weather/venues/{venueId}/forecasts/{targetTime}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>venueId</code> (integer, required) - Unique Venue Identifier
+- <code>targetTime</code> (string, required) - Target time for forecast</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="draft">Draft</h3>
+<h4 id="get-draft">Get Draft</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/draft/{year}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>year</code> (string, required) - Year of draft</p>
+<p><strong>Query Parameters:</strong>
+- <code>limit</code> (integer) - Number of results
+- <code>fields</code> (array) - Comma-delimited field list
+- <code>round</code> (string) - Specific round
+- <code>name</code> (string) - Player name filter
+- <code>school</code> (string) - School filter
+- <code>state</code> (string) - State filter
+- <code>country</code> (string) - Country filter
+- <code>position</code> (string) - Position filter
+- <code>teamId</code> (integer) - Team Identifier
+- <code>playerId</code> (integer) - Player Identifier</p>
+<hr />
+<h4 id="get-latest-draft-pick">Get Latest Draft Pick</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/draft/latest
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>limit</code> (integer) - Number of results (default: 10)
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="awards">Awards</h3>
+<h4 id="get-awards">Get Awards</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/awards
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Sport Identifier
+- <code>leagueId</code> (integer) - League Identifier
+- <code>season</code> (string) - Season of play
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-award-details">Get Award Details</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/awards/{awardId}
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>awardId</code> (string, required) - Award Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-award-recipients">Get Award Recipients</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/awards/{awardId}/recipients
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>awardId</code> (string, required) - Award Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>hydrate</code> (array) - Hydration parameters
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="transactions">Transactions</h3>
+<h4 id="get-transactions">Get Transactions</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/transactions
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>teamId</code> (integer) - Team Identifier
+- <code>playerId</code> (integer) - Player Identifier
+- <code>date</code> (string) - Specific date (format: MM/DD/YYYY)
+- <code>startDate</code> (string) - Start date for range
+- <code>endDate</code> (string) - End date for range
+- <code>sportId</code> (integer) - Sport Identifier</p>
+<hr />
+<h3 id="uniforms">Uniforms</h3>
+<h4 id="get-team-uniforms">Get Team Uniforms</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/{teamId}/uniforms
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>teamId</code> (integer, required) - Unique Team Identifier</p>
+<p><strong>Query Parameters:</strong>
+- <code>season</code> (string) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h4 id="get-game-uniforms">Get Game Uniforms</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/uniforms
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="milestones">Milestones</h3>
+<h4 id="get-milestones">Get Milestones</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/milestones
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer) - Sport Identifier
+- <code>season</code> (string) - Season of play
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="streaks">Streaks</h3>
+<h4 id="get-streaks">Get Streaks</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/streaks
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>sportId</code> (integer, required) - Sport Identifier
+- <code>season</code> (string, required) - Season of play
+- <code>streakType</code> (string, required) - Type of streak
+- <code>gameType</code> (GameType) - Type of game
+- <code>limit</code> (integer) - Number of results
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="predictions">Predictions</h3>
+<h4 id="get-game-predictions">Get Game Predictions</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/game/{gamePk}/predictions
+</code></pre>
+
+<p><strong>Path Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game</p>
+<p><strong>Query Parameters:</strong>
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h3 id="reviews">Reviews</h3>
+<h4 id="get-review-information">Get Review Information</h4>
+<pre class="codehilite"><code class="language-http">GET /api/v1/reviews
+</code></pre>
+
+<p><strong>Query Parameters:</strong>
+- <code>gamePk</code> (integer, required) - Unique Primary Key for a Game
+- <code>fields</code> (array) - Comma-delimited field list</p>
+<hr />
+<h2 id="configuration-and-lookup-endpoints">Configuration and Lookup Endpoints</h2>
+<p>The API provides numerous lookup endpoints for reference data:</p>
+<h3 id="sports">Sports</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/sports
+GET /api/v1/sports/{sportId}
+</code></pre>
+
+<h3 id="leagues">Leagues</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/league
+GET /api/v1/league/{leagueId}
+</code></pre>
+
+<h3 id="divisions">Divisions</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/divisions
+GET /api/v1/divisions/{divisionId}
+</code></pre>
+
+<h3 id="seasons">Seasons</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/seasons
+GET /api/v1/seasons/{seasonId}
+GET /api/v1/seasons/all
+</code></pre>
+
+<h3 id="game-types">Game Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/gameTypes
+</code></pre>
+
+<h3 id="game-status">Game Status</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/gameStatus
+</code></pre>
+
+<h3 id="stat-types">Stat Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/statTypes
+</code></pre>
+
+<h3 id="stat-groups">Stat Groups</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/statGroups
+</code></pre>
+
+<h3 id="positions">Positions</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/positions
+</code></pre>
+
+<h3 id="roster-types">Roster Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/rosterTypes
+</code></pre>
+
+<h3 id="schedule-types">Schedule Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/scheduleEventTypes
+GET /api/v1/scheduleTypes
+</code></pre>
+
+<h3 id="standing-types">Standing Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/standingsTypes
+</code></pre>
+
+<h3 id="pitch-types">Pitch Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/pitchTypes
+GET /api/v1/pitchCodes
+</code></pre>
+
+<h3 id="job-types">Job Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/jobTypes
+</code></pre>
+
+<h3 id="transaction-types">Transaction Types</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/transactionTypes
+</code></pre>
+
+<h3 id="player-status-codes">Player Status Codes</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/playerStatusCodes
+</code></pre>
+
+<h3 id="wind-direction">Wind Direction</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/windDirection
+</code></pre>
+
+<h3 id="review-reasons">Review Reasons</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/reviewReasons
+</code></pre>
+
+<h3 id="platforms">Platforms</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/platforms
+</code></pre>
+
+<h3 id="sky-conditions">Sky Conditions</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/sky
+</code></pre>
+
+<h3 id="situation-codes">Situation Codes</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/situationCodes
+</code></pre>
+
+<hr />
+<h2 id="data-types-and-enumerations">Data Types and Enumerations</h2>
+<h3 id="statgroup">StatGroup</h3>
+<p>Category of statistics. Available types can be retrieved from:</p>
+<pre class="codehilite"><code class="language-http">GET /api/v1/statGroups
+</code></pre>
+
+<p>Common values include:
+- <code>hitting</code>
+- <code>pitching</code>
+- <code>fielding</code>
+- <code>catching</code></p>
+<h3 id="gametype">GameType</h3>
+<p>Type of game. Common values include:
+- <code>R</code> - Regular Season
+- <code>F</code> - Wild Card
+- <code>D</code> - Division Series
+- <code>L</code> - League Championship Series
+- <code>W</code> - World Series
+- <code>S</code> - Spring Training
+- <code>E</code> - Exhibition
+- <code>A</code> - All-Star Game</p>
+<h3 id="hydration-parameters">Hydration Parameters</h3>
+<p>Many endpoints support hydration parameters to include additional related data in the response. Common hydration values include:
+- <code>team</code>
+- <code>person</code>
+- <code>stats</code>
+- <code>awards</code>
+- <code>currentTeam</code>
+- <code>league</code>
+- <code>division</code>
+- <code>sport</code>
+- <code>venue</code></p>
+<hr />
+<h2 id="response-format">Response Format</h2>
+<p>All responses are in JSON format. Typical response structure:</p>
+<pre class="codehilite"><code class="language-json">{
+  &quot;copyright&quot;: &quot;Copyright information&quot;,
+  &quot;data&quot;: {
+    // Response data here
+  }
+}
+</code></pre>
+
+<h3 id="error-responses">Error Responses</h3>
+<p>Error responses will include appropriate HTTP status codes and error messages:</p>
+<pre class="codehilite"><code class="language-json">{
+  &quot;message&quot;: &quot;Error description&quot;,
+  &quot;timestamp&quot;: &quot;2025-12-18T10:00:00Z&quot;
+}
+</code></pre>
+
+<p>Common HTTP status codes:
+- <code>200</code> - Success
+- <code>400</code> - Bad Request
+- <code>401</code> - Unauthorized
+- <code>403</code> - Forbidden
+- <code>404</code> - Not Found
+- <code>500</code> - Internal Server Error</p>
+<hr />
+<h2 id="best-practices">Best Practices</h2>
+<h3 id="1-use-field-filtering">1. Use Field Filtering</h3>
+<p>Always use the <code>fields</code> parameter to request only the data you need. This reduces payload size and improves performance.</p>
+<p><strong>Example:</strong></p>
+<pre class="codehilite"><code>GET /api/v1/teams?fields=teams,id,name,abbreviation
+</code></pre>
+
+<h3 id="2-enable-compression">2. Enable Compression</h3>
+<p>For endpoints that return large datasets (especially analytics endpoints), include the compression header:</p>
+<pre class="codehilite"><code>Accept-Encoding: gzip
+</code></pre>
+
+<h3 id="3-date-formatting">3. Date Formatting</h3>
+<p>Dates should be formatted as <code>MM/DD/YYYY</code> for query parameters.</p>
+<h3 id="4-rate-limiting">4. Rate Limiting</h3>
+<p>Be mindful of API rate limits. Implement appropriate caching and throttling in your applications.</p>
+<h3 id="5-use-hydration-wisely">5. Use Hydration Wisely</h3>
+<p>Hydration can significantly increase response size. Only hydrate relationships you actually need.</p>
+<h3 id="6-timecodes-for-historical-data">6. Timecodes for Historical Data</h3>
+<p>Use the <code>timecode</code> parameter on game endpoints to retrieve game state at specific points in time.</p>
+<hr />
+<h2 id="example-use-cases">Example Use Cases</h2>
+<h3 id="get-todays-games">Get Today's Games</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/schedule?sportId=1&amp;date=12/18/2025
+</code></pre>
+
+<h3 id="get-team-roster-for-current-season">Get Team Roster for Current Season</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/teams/147/roster?rosterType=active
+</code></pre>
+
+<h3 id="get-player-career-stats">Get Player Career Stats</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/660271/stats?stats=career&amp;group=hitting
+</code></pre>
+
+<h3 id="get-live-game-feed">Get Live Game Feed</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1.1/game/717622/feed/live
+</code></pre>
+
+<h3 id="get-current-standings">Get Current Standings</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/standings?leagueId=103,104&amp;season=2025
+</code></pre>
+
+<h3 id="get-stat-leaders_1">Get Stat Leaders</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/stats/leaders?leaderCategories=homeRuns&amp;season=2025&amp;limit=10
+</code></pre>
+
+<h3 id="search-for-a-player">Search for a Player</h3>
+<pre class="codehilite"><code class="language-http">GET /api/v1/people/search?names=Mike%20Trout
+</code></pre>
+
+<hr />
+<h2 id="support-and-resources">Support and Resources</h2>
+<p>For additional information and support:</p>
+<ul>
+<li><strong>Production API:</strong> https://statsapi.mlb.com</li>
+<li><strong>Beta API:</strong> https://beta-statsapi.mlb.com</li>
+<li><strong>API Version:</strong> 2.0.0</li>
+<li><strong>OpenAPI Specification:</strong> Available in <code>mlb_api_spec.json</code></li>
+</ul>
+<hr />
+<h2 id="notes">Notes</h2>
+<ul>
+<li>🔒 denotes endpoints requiring authentication</li>
+<li>All timestamps are in UTC unless otherwise specified</li>
+<li>The API supports both GET and POST methods for certain endpoints</li>
+<li>Some endpoints may have additional undocumented parameters</li>
+<li>Response schemas are defined in the OpenAPI specification file</li>
+</ul>
+<hr />
+<p><em>Documentation generated from OpenAPI 3.0.1 specification</em><br />
+<em>Last updated: December 18, 2025</em></p>
+</body>
+</html>

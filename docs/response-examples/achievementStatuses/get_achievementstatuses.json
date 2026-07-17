@@ -1,0 +1,35 @@
+{
+  "endpoint": "/api/v1/achievementStatuses",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/achievementStatuses?sportId=1&type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:30 GMT",
+    "server": "uvicorn",
+    "content-length": "386",
+    "content-type": "application/json",
+    "x-request-id": "3c9d0abe-3a01-43b4-a2e2-d7b57c54fbeb"
+  },
+  "response": [
+    {
+      "achievementTypeId": 1401,
+      "achievementTypeCode": "A",
+      "achievementTypeDesc": "Achieved the milestone",
+      "achievementTypeText": "Achieved"
+    },
+    {
+      "achievementTypeId": 1402,
+      "achievementTypeCode": "T",
+      "achievementTypeDesc": "Tied the milestone",
+      "achievementTypeText": "Tied"
+    },
+    {
+      "achievementTypeId": 1403,
+      "achievementTypeCode": "P",
+      "achievementTypeDesc": "Pending milestone",
+      "achievementTypeText": "Pending"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:30.979305"
+}

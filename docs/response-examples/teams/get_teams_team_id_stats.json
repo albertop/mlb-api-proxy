@@ -1,0 +1,73 @@
+{
+  "endpoint": "/api/v1/teams/{team_id}/stats",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/teams/147/stats?season=2025&stats=season&group=hitting&sportId=1&type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:16 GMT",
+    "server": "uvicorn",
+    "content-length": "565",
+    "content-type": "application/json",
+    "x-request-id": "e62d8c85-7e09-4378-8532-c6435bc3776a"
+  },
+  "response": {
+    "stats": [
+      {
+        "type": {
+          "displayName": "season"
+        },
+        "group": {
+          "displayName": "hitting"
+        },
+        "exemptions": [],
+        "splits": [
+          {
+            "season": "2025",
+            "stat": {
+              "G": 162,
+              "GOuts": 1200,
+              "AOuts": 1498,
+              "R": 849,
+              "X2B": 255,
+              "X3B": 20,
+              "HR": 274,
+              "K": 1463,
+              "BB": 639,
+              "IBB": 47,
+              "H": 1371,
+              "HBP": 55,
+              "AVG": ".251",
+              "AB": 5471,
+              "OBP": ".332",
+              "SLG": ".455",
+              "OPS": ".787",
+              "CS": 38,
+              "SB": 134,
+              "SBPct": ".779",
+              "CSPct": ".221",
+              "GIDP": 104,
+              "Pitches": 24740,
+              "PA": 6235,
+              "TB": 2488,
+              "RBI": 820,
+              "LOB": 1127,
+              "SH": 7,
+              "SF": 54,
+              "BABIP": ".290",
+              "GOtoAO": "0.80",
+              "CI": 9,
+              "ABpHR": "19.97"
+            },
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:17.747000"
+}

@@ -1,0 +1,61 @@
+{
+  "endpoint": "/api/v1/weatherTrajectoryConfidences",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/weatherTrajectoryConfidences",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:50 GMT",
+    "server": "uvicorn",
+    "content-length": "1393",
+    "content-type": "application/json",
+    "x-request-id": "1495fd16-c275-4c2f-b6b4-5082c69bef8c"
+  },
+  "response": [
+    {
+      "value": "LOW_B",
+      "description": "Drag or lift coefficient for the ball on calculated trajectory falls outside an accepted range"
+    },
+    {
+      "value": "LOW_C",
+      "description": "Play happened outside the boundaries of WAM's CFD model"
+    },
+    {
+      "value": "LOW_E",
+      "description": "Play event not received from Statcast system"
+    },
+    {
+      "value": "LOW_M",
+      "description": "Ballpark wind sensors are online, but other data like temperature are not, so the missing data is from elsewhere, such as the nearest airport"
+    },
+    {
+      "value": "LOW_N",
+      "description": "Sensors are not online and using weather data from the nearest airport"
+    },
+    {
+      "value": "LOW_R",
+      "description": "Cameras lost sight of the ball mid-flight"
+    },
+    {
+      "value": "LOW_S",
+      "description": "Statcast trajectory, such as placing the ball on the wrong side of the fence on a home run, or the wrong side of the foul line, from the actual play result"
+    },
+    {
+      "value": "LOW_F",
+      "description": "Uncertainty about a home run calculation, when a ball clears the fence but is not a home run because it's caught or deflected by a fielder"
+    },
+    {
+      "value": "LOW_Z",
+      "description": "Uncertainty about a home run calculation, because of ambiguity in the calculation about whether a ball fully clears the fence or not."
+    },
+    {
+      "value": "LOW_T",
+      "description": "Calculated projected landing point is farther from the Statcast projected landing point than an accepted range"
+    },
+    {
+      "value": "HIGH",
+      "description": "High confidence in the data"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:51.046059"
+}

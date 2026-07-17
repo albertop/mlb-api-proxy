@@ -1,0 +1,37 @@
+{
+  "endpoint": "/api/v1/milestoneDurations",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/milestoneDurations?sportId=1",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:31 GMT",
+    "server": "uvicorn",
+    "content-length": "358",
+    "content-type": "application/json",
+    "x-request-id": "562364f5-0f69-43f8-98f8-8e56636212e3"
+  },
+  "response": [
+    {
+      "milestoneDurationId": 1301,
+      "milestoneDurationCode": "C",
+      "milestoneDurationText": "Career"
+    },
+    {
+      "milestoneDurationId": 1302,
+      "milestoneDurationCode": "S",
+      "milestoneDurationText": "Season"
+    },
+    {
+      "milestoneDurationId": 1303,
+      "milestoneDurationCode": "M",
+      "milestoneDurationText": "Month"
+    },
+    {
+      "milestoneDurationId": 1304,
+      "milestoneDurationCode": "G",
+      "milestoneDurationText": "Game"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:31.341393"
+}

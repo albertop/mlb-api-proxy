@@ -1,0 +1,41 @@
+{
+  "endpoint": "/api/v1/statGroups",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/statGroups?type=hitting&group=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:46 GMT",
+    "server": "uvicorn",
+    "content-length": "205",
+    "content-type": "application/json",
+    "x-request-id": "d25b6d17-e91d-402f-ab03-be381f3016f1"
+  },
+  "response": [
+    {
+      "displayName": "hitting"
+    },
+    {
+      "displayName": "pitching"
+    },
+    {
+      "displayName": "fielding"
+    },
+    {
+      "displayName": "catching"
+    },
+    {
+      "displayName": "running"
+    },
+    {
+      "displayName": "game"
+    },
+    {
+      "displayName": "team"
+    },
+    {
+      "displayName": "streak"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:46.230381"
+}

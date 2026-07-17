@@ -1,0 +1,81 @@
+# Compose v2 no longer needs the top-level `version` key.
+services:
+  mlb-api-proxy:
+    # Pre-built image; override the tag via IMAGE_VERSION in the stack env.
+    image: mlb-api-proxy:${IMAGE_VERSION:-1.2026.10}
+
+    labels:
+      - "com.portainer.stack=mlb-api-proxy"
+      - "com.portainer.service=mlb-api-proxy"
+      - "app.name=MLB API Proxy"
+      - "app.description=MLB Stats API Proxy Service"
+
+    ports:
+      - "${EXTERNAL_PORT:-3002}:8000"
+
+    restart: unless-stopped
+
+    # --- Configuration (injected from the stack/host env) --------------------
+    environment:
+      # REQUIRED: startup fails fast with a clear message if unset.
+      PROXY_API_KEY: ${PROXY_API_KEY:?PROXY_API_KEY is required}
+      MLB_BASE_URL: ${MLB_BASE_URL:-https://statsapi.mlb.com}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      WORKERS: ${WORKERS:-2}
+      # Comma-separated allowed origins for the browser front-end (empty = none).
+      CORS_ALLOW_ORIGINS: ${CORS_ALLOW_ORIGINS:-}
+      ENABLE_CACHE: ${ENABLE_CACHE:-true}
+
+    # --- Security hardening ---------------------------------------------------
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    # The app is stateless; uncomment to run with a read-only root filesystem:
+    # read_only: true
+    # tmpfs:
+    #   - /tmp
+
+    dns:
+      - 1.1.1.1
+      - 8.8.8.8
+      - 75.75.75.75
+
+    # Liveness only (/live) — an upstream MLB outage must not mark the container
+    # unhealthy while the proxy itself is fine. /health remains for readiness checks.
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/live', timeout=5)"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+    # Cap log growth so the VPS disk can't fill up.
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+    networks:
+      - backend
+
+    # NOTE: `deploy.resources.limits` applies under `docker compose` (v2) and Swarm;
+    # `reservations` and `restart_policy` only take effect in Swarm mode.
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+
+networks:
+  backend:
+    external: true

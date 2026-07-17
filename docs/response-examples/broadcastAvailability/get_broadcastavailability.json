@@ -1,0 +1,52 @@
+{
+  "endpoint": "/api/v1/broadcastAvailability",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/broadcastAvailability?broadcasterIds=6245%2C6246",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:34 GMT",
+    "server": "uvicorn",
+    "content-length": "616",
+    "content-type": "application/json",
+    "x-request-id": "0ae5dc45-2c12-43b5-8087-a5fc3bb61dd2"
+  },
+  "response": [
+    {
+      "availabilityId": 7,
+      "availabilityCode": "exclusive",
+      "availabilityText": "Exclusive"
+    },
+    {
+      "availabilityId": 6,
+      "availabilityCode": "global",
+      "availabilityText": "Global"
+    },
+    {
+      "availabilityId": 5,
+      "availabilityCode": "international",
+      "availabilityText": "International"
+    },
+    {
+      "availabilityId": 1,
+      "availabilityCode": "local_in_market",
+      "availabilityText": "Local (In Market)"
+    },
+    {
+      "availabilityId": 2,
+      "availabilityCode": "local_out_of_market",
+      "availabilityText": "Local (Out of Market)"
+    },
+    {
+      "availabilityId": 4,
+      "availabilityCode": "national",
+      "availabilityText": "National"
+    },
+    {
+      "availabilityId": 3,
+      "availabilityCode": "regional",
+      "availabilityText": "Regional"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:35.012681"
+}

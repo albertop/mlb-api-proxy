@@ -1,0 +1,30 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  quality-gate:
+    name: lint + types + tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt ruff mypy pytest pytest-asyncio respx pytest-cov
+
+      - name: Ruff (lint)
+        run: ruff check api-service test
+
+      - name: Mypy (types)
+        run: mypy api-service
+
+      - name: Pytest (unit + integration)
+        run: pytest test/unit test/integration -o addopts="" -p no:cacheprovider

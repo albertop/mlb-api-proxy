@@ -1,0 +1,105 @@
+{
+  "endpoint": "/api/v1/statcastPositionTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/statcastPositionTypes?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:46 GMT",
+    "server": "uvicorn",
+    "content-length": "1019",
+    "content-type": "application/json",
+    "x-request-id": "91745365-27a1-4353-8bd5-3dad41bcb835"
+  },
+  "response": [
+    {
+      "positionId": 1,
+      "description": "Pitcher"
+    },
+    {
+      "positionId": 2,
+      "description": "Catcher"
+    },
+    {
+      "positionId": 3,
+      "description": "1st Base"
+    },
+    {
+      "positionId": 4,
+      "description": "2nd Base"
+    },
+    {
+      "positionId": 5,
+      "description": "3rd Base"
+    },
+    {
+      "positionId": 6,
+      "description": "Shortstop"
+    },
+    {
+      "positionId": 7,
+      "description": "Left Field"
+    },
+    {
+      "positionId": 8,
+      "description": "Center Field"
+    },
+    {
+      "positionId": 9,
+      "description": "Right Field"
+    },
+    {
+      "positionId": 10,
+      "description": "Batter"
+    },
+    {
+      "positionId": 11,
+      "description": "1st Base Runner"
+    },
+    {
+      "positionId": 12,
+      "description": "2nd Base Runner"
+    },
+    {
+      "positionId": 13,
+      "description": "3rd Base Runner"
+    },
+    {
+      "positionId": 14,
+      "description": "Plate Umpire"
+    },
+    {
+      "positionId": 15,
+      "description": "1st Base Umpire"
+    },
+    {
+      "positionId": 16,
+      "description": "2nd Base Umpire"
+    },
+    {
+      "positionId": 17,
+      "description": "3rd Base Umpire"
+    },
+    {
+      "positionId": 18,
+      "description": "1st Base Coach"
+    },
+    {
+      "positionId": 19,
+      "description": "3rd Base Coach"
+    },
+    {
+      "positionId": 20,
+      "description": "Left Field Umpire"
+    },
+    {
+      "positionId": 21,
+      "description": "Right Field Umpire"
+    },
+    {
+      "positionId": 0,
+      "description": "UNKNOWN"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:47.112996"
+}

@@ -1,0 +1,28 @@
+{
+  "endpoint": "/api/v1/sports/{sport_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/sports/1",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:10 GMT",
+    "server": "uvicorn",
+    "content-length": "147",
+    "content-type": "application/json",
+    "x-request-id": "98637e7d-f4ec-4228-ae47-8862cfb28738"
+  },
+  "response": {
+    "sports": [
+      {
+        "id": 1,
+        "code": "mlb",
+        "link": "/api/v1/sports/1",
+        "name": "Major League Baseball",
+        "abbreviation": "MLB",
+        "sortOrder": 11,
+        "activeStatus": true
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:10.855557"
+}

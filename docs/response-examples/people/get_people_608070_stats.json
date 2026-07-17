@@ -1,0 +1,90 @@
+{
+  "endpoint": "/api/v1/people/608070/stats",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/people/608070/stats?stats=season&group=hitting&season=2024&sportId=1&type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:06 GMT",
+    "server": "uvicorn",
+    "content-length": "791",
+    "content-type": "application/json",
+    "x-request-id": "3c1a80ce-f180-4b0d-9c6b-9c10df88cf1b"
+  },
+  "response": {
+    "stats": [
+      {
+        "type": {
+          "displayName": "season"
+        },
+        "group": {
+          "displayName": "hitting"
+        },
+        "exemptions": [],
+        "splits": [
+          {
+            "season": "2024",
+            "stat": {
+              "age": 31,
+              "G": 158,
+              "GOuts": 138,
+              "AOuts": 233,
+              "R": 114,
+              "X2B": 39,
+              "X3B": 2,
+              "HR": 39,
+              "K": 82,
+              "BB": 54,
+              "IBB": 12,
+              "H": 173,
+              "HBP": 1,
+              "AVG": ".279",
+              "AB": 620,
+              "OBP": ".335",
+              "SLG": ".537",
+              "OPS": ".872",
+              "CS": 7,
+              "SB": 41,
+              "SBPct": ".854",
+              "CSPct": ".146",
+              "GIDP": 9,
+              "Pitches": 2735,
+              "PA": 682,
+              "TB": 333,
+              "RBI": 118,
+              "LOB": 235,
+              "SH": 0,
+              "SF": 6,
+              "BABIP": ".265",
+              "GOtoAO": "0.59",
+              "CI": 1,
+              "ABpHR": "15.90"
+            },
+            "team": {
+              "id": 114,
+              "name": "Cleveland Guardians",
+              "link": "/api/v1/teams/114"
+            },
+            "player": {
+              "id": 608070,
+              "fullName": "Jos\u00e9 Ram\u00edrez",
+              "link": "/api/v1/people/608070"
+            },
+            "league": {
+              "id": 103,
+              "name": "American League",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "gameType": "R"
+          }
+        ]
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:07.162600"
+}

@@ -1,0 +1,432 @@
+{
+  "endpoint": "/api/v1/venues",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/venues?sportId=1",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:17 GMT",
+    "server": "uvicorn",
+    "content-length": "5696",
+    "content-type": "application/json",
+    "x-request-id": "28ebbd9e-062b-4994-b80d-e8fa701cbe6f"
+  },
+  "response": {
+    "venues": [
+      {
+        "id": 1,
+        "name": "Angel Stadium",
+        "link": "/api/v1/venues/1",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2,
+        "name": "Oriole Park at Camden Yards",
+        "link": "/api/v1/venues/2",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3,
+        "name": "Fenway Park",
+        "link": "/api/v1/venues/3",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4,
+        "name": "Rate Field",
+        "link": "/api/v1/venues/4",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 5380,
+        "name": "CoolToday Park",
+        "link": "/api/v1/venues/5380",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 5,
+        "name": "Progressive Field",
+        "link": "/api/v1/venues/5",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 7,
+        "name": "Kauffman Stadium",
+        "link": "/api/v1/venues/7",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 5000,
+        "name": "CACTI Park of the Palm Beaches",
+        "link": "/api/v1/venues/5000",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2700,
+        "name": "BayCare Ballpark",
+        "link": "/api/v1/venues/2700",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2701,
+        "name": "Walmart Park",
+        "link": "/api/v1/venues/2701",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 14,
+        "name": "Rogers Centre",
+        "link": "/api/v1/venues/14",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 15,
+        "name": "Chase Field",
+        "link": "/api/v1/venues/15",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 17,
+        "name": "Wrigley Field",
+        "link": "/api/v1/venues/17",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 19,
+        "name": "Coors Field",
+        "link": "/api/v1/venues/19",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4629,
+        "name": "Sloan Park",
+        "link": "/api/v1/venues/4629",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 22,
+        "name": "Dodger Stadium",
+        "link": "/api/v1/venues/22",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4249,
+        "name": "Salt River Fields at Talking Stick",
+        "link": "/api/v1/venues/4249",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 31,
+        "name": "PNC Park",
+        "link": "/api/v1/venues/31",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 32,
+        "name": "American Family Field",
+        "link": "/api/v1/venues/32",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2856,
+        "name": "Clover Park",
+        "link": "/api/v1/venues/2856",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 680,
+        "name": "T-Mobile Park",
+        "link": "/api/v1/venues/680",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2602,
+        "name": "Great American Ball Park",
+        "link": "/api/v1/venues/2602",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2603,
+        "name": "Surprise Stadium",
+        "link": "/api/v1/venues/2603",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2862,
+        "name": "Lee Health Sports Complex",
+        "link": "/api/v1/venues/2862",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2735,
+        "name": "Journey Bank Ballpark",
+        "link": "/api/v1/venues/2735",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2500,
+        "name": "Tempe Diablo Stadium",
+        "link": "/api/v1/venues/2500",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4169,
+        "name": "loanDepot park",
+        "link": "/api/v1/venues/4169",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2889,
+        "name": "Busch Stadium",
+        "link": "/api/v1/venues/2889",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2507,
+        "name": "Hohokam Stadium",
+        "link": "/api/v1/venues/2507",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2508,
+        "name": "Ed Smith Stadium",
+        "link": "/api/v1/venues/2508",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 5325,
+        "name": "Globe Life Field",
+        "link": "/api/v1/venues/5325",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2766,
+        "name": "Day Air Ballpark",
+        "link": "/api/v1/venues/2766",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2511,
+        "name": "Publix Field at Joker Marchant Stadium",
+        "link": "/api/v1/venues/2511",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4309,
+        "name": "JetBlue Park",
+        "link": "/api/v1/venues/4309",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2518,
+        "name": "American Family Fields of Phoenix",
+        "link": "/api/v1/venues/2518",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2520,
+        "name": "Roger Dean Chevrolet Stadium",
+        "link": "/api/v1/venues/2520",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2392,
+        "name": "Daikin Park",
+        "link": "/api/v1/venues/2392",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3289,
+        "name": "Citi Field",
+        "link": "/api/v1/venues/3289",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2394,
+        "name": "Comerica Park",
+        "link": "/api/v1/venues/2394",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2523,
+        "name": "George M. Steinbrenner Field",
+        "link": "/api/v1/venues/2523",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2395,
+        "name": "Oracle Park",
+        "link": "/api/v1/venues/2395",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2397,
+        "name": "Tokyo Dome",
+        "link": "/api/v1/venues/2397",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2526,
+        "name": "LECOM Park",
+        "link": "/api/v1/venues/2526",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2529,
+        "name": "Sutter Health Park",
+        "link": "/api/v1/venues/2529",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3809,
+        "name": "Camelback Ranch",
+        "link": "/api/v1/venues/3809",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 4705,
+        "name": "Truist Park",
+        "link": "/api/v1/venues/4705",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2530,
+        "name": "Peoria Stadium",
+        "link": "/api/v1/venues/2530",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2532,
+        "name": "Scottsdale Stadium",
+        "link": "/api/v1/venues/2532",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2534,
+        "name": "Charlotte Sports Park",
+        "link": "/api/v1/venues/2534",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2536,
+        "name": "TD Ballpark",
+        "link": "/api/v1/venues/2536",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 5355,
+        "name": "Las Vegas Ballpark",
+        "link": "/api/v1/venues/5355",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3309,
+        "name": "Nationals Park",
+        "link": "/api/v1/venues/3309",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2542,
+        "name": "AutoZone Park",
+        "link": "/api/v1/venues/2542",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3312,
+        "name": "Target Field",
+        "link": "/api/v1/venues/3312",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3313,
+        "name": "Yankee Stadium",
+        "link": "/api/v1/venues/3313",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 6130,
+        "name": "Bristol Motor Speedway",
+        "link": "/api/v1/venues/6130",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2680,
+        "name": "Petco Park",
+        "link": "/api/v1/venues/2680",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 2681,
+        "name": "Citizens Bank Park",
+        "link": "/api/v1/venues/2681",
+        "active": true,
+        "season": "2026"
+      },
+      {
+        "id": 3834,
+        "name": "Goodyear Ballpark",
+        "link": "/api/v1/venues/3834",
+        "active": true,
+        "season": "2026"
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:18.958337"
+}

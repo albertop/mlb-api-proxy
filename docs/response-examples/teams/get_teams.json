@@ -1,0 +1,66 @@
+{
+  "endpoint": "/api/v1/teams",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/teams?teamId=147",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:13 GMT",
+    "server": "uvicorn",
+    "content-length": "779",
+    "content-type": "application/json",
+    "x-request-id": "9dc19ee3-033d-4dd9-9a1e-c4bf09b12a53"
+  },
+  "response": {
+    "teams": [
+      {
+        "springLeague": {
+          "id": 115,
+          "name": "Grapefruit League",
+          "link": "/api/v1/league/115",
+          "abbreviation": "GL"
+        },
+        "allStarStatus": "N",
+        "id": 147,
+        "name": "New York Yankees",
+        "link": "/api/v1/teams/147",
+        "season": 2026,
+        "venue": {
+          "id": 3313,
+          "name": "Yankee Stadium",
+          "link": "/api/v1/venues/3313"
+        },
+        "springVenue": {
+          "id": 2523,
+          "link": "/api/v1/venues/2523"
+        },
+        "teamCode": "nya",
+        "fileCode": "nyy",
+        "abbreviation": "NYY",
+        "teamName": "Yankees",
+        "locationName": "Bronx",
+        "firstYearOfPlay": "1903",
+        "league": {
+          "id": 103,
+          "name": "American League",
+          "link": "/api/v1/league/103"
+        },
+        "division": {
+          "id": 201,
+          "name": "American League East",
+          "link": "/api/v1/divisions/201"
+        },
+        "sport": {
+          "id": 1,
+          "link": "/api/v1/sports/1",
+          "name": "Major League Baseball"
+        },
+        "shortName": "NY Yankees",
+        "franchiseName": "New York",
+        "clubName": "Yankees",
+        "active": true
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:14.019322"
+}

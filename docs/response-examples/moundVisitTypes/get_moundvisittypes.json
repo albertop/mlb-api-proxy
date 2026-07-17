@@ -1,0 +1,33 @@
+{
+  "endpoint": "/api/v1/moundVisitTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/moundVisitTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:39 GMT",
+    "server": "uvicorn",
+    "content-length": "146",
+    "content-type": "application/json",
+    "x-request-id": "b842e359-de71-4c3e-843c-0ea8582a5aa6"
+  },
+  "response": [
+    {
+      "code": "C",
+      "description": "Coach"
+    },
+    {
+      "code": "P",
+      "description": "Player"
+    },
+    {
+      "code": "M",
+      "description": "Manager"
+    },
+    {
+      "code": "G",
+      "description": "Generic"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:40.761767"
+}

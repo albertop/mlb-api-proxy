@@ -1,0 +1,6786 @@
+{
+  "endpoint": "/api/v1/broadcasters",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/broadcasters?broadcasterIds=6245%2C6246",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:07 GMT",
+    "server": "uvicorn",
+    "content-length": "122413",
+    "content-type": "application/json",
+    "x-request-id": "8311f863-5e2f-4ca5-9344-b96bc9d11f8f"
+  },
+  "response": [
+    {
+      "id": 6245,
+      "name": "Matrix Midwest",
+      "type": "TV",
+      "callSign": "Matrix",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 6174,
+      "name": "Columbia Fireflies",
+      "type": "TV",
+      "callSign": "WIS",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 3705
+    },
+    {
+      "id": 6211,
+      "name": "National",
+      "type": "TV",
+      "callSign": "ABC/ESPN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6216,
+      "name": "Milwaukee Brewers",
+      "type": "TV",
+      "callSign": "BREW",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Milwaukee Brewers",
+      "teamId": 158
+    },
+    {
+      "id": 6213,
+      "name": "TruTV",
+      "type": "TV",
+      "callSign": "TruTV",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false
+    },
+    {
+      "id": 6179,
+      "name": "BCSN",
+      "type": "TV",
+      "callSign": "BCSN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 512
+    },
+    {
+      "id": 6316,
+      "name": "LaZ WDTW 1310AM/107.9FM",
+      "type": "AM",
+      "callSign": "LaZ WDTW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 116
+    },
+    {
+      "id": 5786,
+      "name": "Sportsnet ONE",
+      "type": "TV",
+      "callSign": "SnetONE",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International",
+      "teamId": 141
+    },
+    {
+      "id": 168,
+      "name": "WCCO 830",
+      "type": "AM",
+      "callSign": "WCCO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins",
+      "teamId": 142
+    },
+    {
+      "id": 5340,
+      "name": "La Mejor 1600/1460/1130 AM",
+      "type": "AM",
+      "callSign": "1600 AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 144
+    },
+    {
+      "id": 6170,
+      "name": "Audacy DETSP",
+      "type": "AM",
+      "callSign": "DETSP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 116
+    },
+    {
+      "id": 6339,
+      "name": "ESPN NEWS",
+      "type": "TV",
+      "callSign": "ESPN NEWS",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "ESPN NEWS"
+    },
+    {
+      "id": 6023,
+      "name": "NBC Sports App",
+      "type": "TV",
+      "callSign": "NBCS App",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 6175,
+      "name": "SN APP",
+      "type": "AM",
+      "callSign": "SN APP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6176,
+      "name": "Sportsnet+",
+      "type": "TV",
+      "callSign": "Sportsnet+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 141
+    },
+    {
+      "id": 6177,
+      "name": "La Pantera 100.7 FM/1220 AM",
+      "type": "FM",
+      "callSign": "100.7 FM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 120
+    },
+    {
+      "id": 6332,
+      "name": "KMOV-4",
+      "type": "TV",
+      "callSign": "KMOV-4",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 6209,
+      "name": "WSBN ESPN 630",
+      "type": "AM",
+      "callSign": "ESPN 630",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 110
+    },
+    {
+      "id": 6093,
+      "name": "ESPN2-INT",
+      "type": "TV",
+      "callSign": "ESPN2-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6210,
+      "name": "WFUN 96.3 FM",
+      "type": "FM",
+      "callSign": "WFUN 96.3",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 6246,
+      "name": "FanDuel Sports Network Sun App",
+      "type": "TV",
+      "callSign": "FDSNSUNApp",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    },
+    {
+      "id": 6220,
+      "name": "FanDuel Sports Network South",
+      "type": "TV",
+      "callSign": "FDSNSO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 6230,
+      "name": "Rangers Sports Network",
+      "type": "TV",
+      "callSign": "RSN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 140
+    },
+    {
+      "id": 6232,
+      "name": "CW33",
+      "type": "TV",
+      "callSign": "CW33",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 140
+    },
+    {
+      "id": 6242,
+      "name": "Talk 650 KSTE",
+      "type": "AM",
+      "callSign": "650 KSTE",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 6236,
+      "name": "KSMO",
+      "type": "TV",
+      "callSign": "KSMO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Kansas City Royals",
+      "teamId": 118
+    },
+    {
+      "id": 6223,
+      "name": "FanDuel Sports Network Ohio",
+      "type": "TV",
+      "callSign": "FDSNOH",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 113
+    },
+    {
+      "id": 6317,
+      "name": "Sox Espa\u00f1ol",
+      "type": "AM",
+      "callSign": "SoxEspa\u00f1ol",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 145
+    },
+    {
+      "id": 6215,
+      "name": "Cincinnati Reds",
+      "type": "TV",
+      "callSign": "CINR",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cincinnati Reds",
+      "teamId": 113
+    },
+    {
+      "id": 6098,
+      "name": "Rockies.TV",
+      "type": "TV",
+      "callSign": "COLR",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 115
+    },
+    {
+      "id": 6244,
+      "name": "KWNR 95.5 The Bull",
+      "type": "FM",
+      "callSign": "KWNR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 133
+    },
+    {
+      "id": 6172,
+      "name": "Audacy App 92.3 HD2",
+      "type": "FM",
+      "callSign": "Audacy",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 121
+    },
+    {
+      "id": 6243,
+      "name": "FanDuel Sports Network Wisconsin+",
+      "type": "TV",
+      "callSign": "FDSNWIX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 158
+    },
+    {
+      "id": 6249,
+      "name": "Gotham Sports App",
+      "type": "TV",
+      "callSign": "Gotham",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 6282,
+      "name": "AM830 App",
+      "type": "AM",
+      "callSign": "AM830 App",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 108
+    },
+    {
+      "id": 6315,
+      "name": "WITI FOX-6",
+      "type": "TV",
+      "callSign": "WITI FOX-6",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 158
+    },
+    {
+      "id": 6178,
+      "name": "Bally Sports Live",
+      "type": "TV",
+      "callSign": "BallySport",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Bally Live Streaming Video"
+    },
+    {
+      "id": 6171,
+      "name": "DC 87.7",
+      "type": "FM",
+      "callSign": "DC 87.7 FM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 120
+    },
+    {
+      "id": 6319,
+      "name": "AM830 App (SP)",
+      "type": "AM",
+      "callSign": "AM830 App ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Angels",
+      "teamId": 108
+    },
+    {
+      "id": 6320,
+      "name": "KFMB 8.1 (CBS)",
+      "type": "TV",
+      "callSign": "KFMB 8.1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Padres OTA",
+      "teamId": 135
+    },
+    {
+      "id": 6238,
+      "name": "FanDuel Sports Network Detroit Extra",
+      "type": "TV",
+      "callSign": "FDSNDTX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 6233,
+      "name": "Chicago Sports Network App",
+      "type": "TV",
+      "callSign": "CHSN App",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago Sports Network App",
+      "teamId": 145
+    },
+    {
+      "id": 6180,
+      "name": "WDTN",
+      "type": "TV",
+      "callSign": "WDTN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 459
+    },
+    {
+      "id": 6183,
+      "name": "EHAM",
+      "type": "TV",
+      "callSign": "EHAM",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 534
+    },
+    {
+      "id": 6237,
+      "name": "KCTV5/KSMO",
+      "type": "TV",
+      "callSign": "KCTV5/KSMO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Kansas City Royals",
+      "teamId": 118
+    },
+    {
+      "id": 6165,
+      "name": "Space City Home Network (Alt.)",
+      "type": "TV",
+      "callSign": "SCHN2",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 117
+    },
+    {
+      "id": 6217,
+      "name": "Twins.TV Presented by Progressive",
+      "type": "TV",
+      "callSign": "MNNT",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 142
+    },
+    {
+      "id": 6321,
+      "name": "KFMB 8.2 (CW)",
+      "type": "TV",
+      "callSign": "KFMB 8.2",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Padres OTA",
+      "teamId": 135
+    },
+    {
+      "id": 6335,
+      "name": "Mountain West Network",
+      "type": "TV",
+      "callSign": "MW Network",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Mountain West Network"
+    },
+    {
+      "id": 6336,
+      "name": "SEC Network",
+      "type": "TV",
+      "callSign": "SECNetwork",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "SEC Network"
+    },
+    {
+      "id": 6340,
+      "name": "CBS Miami (WFOR)",
+      "type": "TV",
+      "callSign": "WFOR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 146
+    },
+    {
+      "id": 6231,
+      "name": "Victory+",
+      "type": "TV",
+      "callSign": "Victory+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 140
+    },
+    {
+      "id": 6241,
+      "name": "FloSports",
+      "type": "TV",
+      "callSign": "FloSports",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Streaming Service"
+    },
+    {
+      "id": 6322,
+      "name": "FanDuel Sports Network App (TB)",
+      "type": "TV",
+      "callSign": "FanDuelApp",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    },
+    {
+      "id": 6248,
+      "name": "Marquee Sports Network +",
+      "type": "TV",
+      "callSign": "MARQ+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 112
+    },
+    {
+      "id": 6221,
+      "name": "FanDuel Sports Network Southeast",
+      "type": "TV",
+      "callSign": "FDSNSE",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 6234,
+      "name": "FanDuel Sports Network West",
+      "type": "TV",
+      "callSign": "FDSNW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 108
+    },
+    {
+      "id": 6337,
+      "name": "ACC Network",
+      "type": "TV",
+      "callSign": "ACCNetwork",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "ACC Network"
+    },
+    {
+      "id": 6333,
+      "name": "MASN+",
+      "type": "TV",
+      "callSign": "MASN+",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Streaming Service",
+      "teamId": 110
+    },
+    {
+      "id": 6342,
+      "name": "ESPN Platforms",
+      "type": "TV",
+      "callSign": "ESPN  Plat",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6343,
+      "name": "KPNW 98.9 FM",
+      "type": "FM",
+      "callSign": "KPNW 98.9",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 136
+    },
+    {
+      "id": 6345,
+      "name": "KHOW 630AM",
+      "type": "AM",
+      "callSign": "KHOW 630AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KHOW 630AM",
+      "teamId": 115
+    },
+    {
+      "id": 6214,
+      "name": "HBO Max",
+      "type": "TV",
+      "callSign": "HBO Max",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6344,
+      "name": "KFNZ 610AM",
+      "type": "AM",
+      "callSign": "KFNZ 610",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KFNZ 610AM",
+      "teamId": 118
+    },
+    {
+      "id": 6346,
+      "name": "WDZH 98.7",
+      "type": "FM",
+      "callSign": "WDZH",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 116
+    },
+    {
+      "id": 6347,
+      "name": "Univision TUDN",
+      "type": "AM",
+      "callSign": "TUDN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Univision TUDN"
+    },
+    {
+      "id": 6348,
+      "name": "FOX Sports Media",
+      "type": "TV",
+      "callSign": "FOX Media",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "FOX Sports Media"
+    },
+    {
+      "id": 6349,
+      "name": "Netflix",
+      "type": "TV",
+      "callSign": "Netflix",
+      "availability": {
+        "availabilityId": 7,
+        "availabilityCode": "exclusive",
+        "availabilityText": "Exclusive"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 2541,
+      "name": "WARF 1350",
+      "type": "AM",
+      "callSign": "WARF1350",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Akron Aeros",
+      "teamId": 114
+    },
+    {
+      "id": 6341,
+      "name": "FanDuel Sports Network Sun (Alt)",
+      "type": "TV",
+      "callSign": "FDSNSUNALT",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "FanDuel Sports Network Sun (Alt)",
+      "teamId": 139
+    },
+    {
+      "id": 6181,
+      "name": "BounceTV",
+      "type": "TV",
+      "callSign": "BounceTV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 233
+    },
+    {
+      "id": 6182,
+      "name": "CW14",
+      "type": "TV",
+      "callSign": "CW14",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 572
+    },
+    {
+      "id": 6040,
+      "name": "ROOTNW+",
+      "type": "TV",
+      "callSign": "RSNW+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "ROOTNW+",
+      "teamId": 136
+    },
+    {
+      "id": 6222,
+      "name": "Gray TV",
+      "type": "TV",
+      "callSign": "GTV",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 6090,
+      "name": "Dbacks.TV",
+      "type": "TV",
+      "callSign": "ARID",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Arizona Diamondbacks",
+      "teamId": 109
+    },
+    {
+      "id": 6323,
+      "name": "FanDuel Sports Network App (MIA)",
+      "type": "TV",
+      "callSign": "FanDuelApp",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 146
+    },
+    {
+      "id": 6235,
+      "name": "FanDuel Sports Network So Cal",
+      "type": "TV",
+      "callSign": "FDSNSC",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 108
+    },
+    {
+      "id": 6338,
+      "name": "WJBK-FOX2",
+      "type": "TV",
+      "callSign": "WJBK-FOX2",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "WJBK-FOX2",
+      "teamId": 116
+    },
+    {
+      "id": 6334,
+      "name": "AWRE TV",
+      "type": "TV",
+      "callSign": "AWRE TV",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "AWRE TV"
+    },
+    {
+      "id": 1362,
+      "name": "MASN 2",
+      "type": "TV",
+      "callSign": "MASN2",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Baltimore Orioles"
+    },
+    {
+      "id": 5595,
+      "name": "AZ Video",
+      "type": "TV",
+      "callSign": "AZ Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 109
+    },
+    {
+      "id": 6352,
+      "name": "AZ Audio",
+      "type": "AM",
+      "callSign": "AZ Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 133
+    },
+    {
+      "id": 6350,
+      "name": "Fox APP",
+      "type": "TV",
+      "callSign": "Fox App",
+      "availability": {
+        "availabilityId": 7,
+        "availabilityCode": "exclusive",
+        "availabilityText": "Exclusive"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6218,
+      "name": "Guardians TV Presented by Progressive",
+      "type": "TV",
+      "callSign": "CLEG",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Guardians",
+      "teamId": 114
+    },
+    {
+      "id": 3864,
+      "name": "Sportsnet",
+      "type": "TV",
+      "callSign": "Sportsnet",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6184,
+      "name": "KNSN",
+      "type": "TV",
+      "callSign": "KNSN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 2310
+    },
+    {
+      "id": 6012,
+      "name": "NBC Sports App",
+      "type": "TV",
+      "callSign": "NBCSAPP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 6324,
+      "name": "KUSA/9News",
+      "type": "TV",
+      "callSign": "KUSA/9News",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 115
+    },
+    {
+      "id": 6351,
+      "name": "Mariners.TV",
+      "type": "TV",
+      "callSign": "SEAM",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Seatte Mariners",
+      "teamId": 136
+    },
+    {
+      "id": 6326,
+      "name": "12 News KPNX",
+      "type": "TV",
+      "callSign": "12NewsKPNX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 109
+    },
+    {
+      "id": 6327,
+      "name": "WESX 1230 AM (SP)",
+      "type": "AM",
+      "callSign": "WESX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 111
+    },
+    {
+      "id": 6318,
+      "name": "KSAC 104.7 FM/890 AM",
+      "type": "AM",
+      "callSign": "KSAC",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 133
+    },
+    {
+      "id": 6330,
+      "name": "FanDuel Sports Network Midwest Extra",
+      "type": "TV",
+      "callSign": "FDSNMWX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 6328,
+      "name": "Tampa Bay 44 - WTOG",
+      "type": "TV",
+      "callSign": "TampaBay44",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    },
+    {
+      "id": 6329,
+      "name": "CHSN+",
+      "type": "TV",
+      "callSign": "CHSN+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 191
+    },
+    {
+      "id": 5601,
+      "name": "CIN Video",
+      "type": "TV",
+      "callSign": "CIN Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 113
+    },
+    {
+      "id": 6331,
+      "name": "WBFS-TV",
+      "type": "TV",
+      "callSign": "WBFS-TV",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 146
+    },
+    {
+      "id": 1721,
+      "name": "Royals Radio Network",
+      "type": "AM",
+      "callSign": "RRN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Kansas City Royals",
+      "teamId": 118
+    },
+    {
+      "id": 6353,
+      "name": "ATL Audio",
+      "type": "AM",
+      "callSign": "ATL Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 144
+    },
+    {
+      "id": 6089,
+      "name": "Padres TV Presented by UC San Diego Health",
+      "type": "TV",
+      "callSign": "SDPA",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Diego Padres",
+      "teamId": 135
+    },
+    {
+      "id": 6186,
+      "name": "KOCB",
+      "type": "TV",
+      "callSign": "KOCB",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 238
+    },
+    {
+      "id": 6185,
+      "name": "KNXT",
+      "type": "TV",
+      "callSign": "KNXT",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 516
+    },
+    {
+      "id": 5604,
+      "name": "DET Video",
+      "type": "TV",
+      "callSign": "DET Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 116
+    },
+    {
+      "id": 6354,
+      "name": "CHC Audio",
+      "type": "AM",
+      "callSign": "CHC Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 112
+    },
+    {
+      "id": 2742,
+      "name": "NBCSCA",
+      "type": "TV",
+      "callSign": "NBCSCA",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 229,
+      "name": "ESPN Chicago WMVP 1000 AM",
+      "type": "AM",
+      "callSign": "WMVP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago White Sox",
+      "teamId": 145
+    },
+    {
+      "id": 6187,
+      "name": "KRCW",
+      "type": "TV",
+      "callSign": "KRCW",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 419
+    },
+    {
+      "id": 108,
+      "name": "KNBR 680",
+      "type": "AM",
+      "callSign": "KNBR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Francisco Giants",
+      "teamId": 137
+    },
+    {
+      "id": 116,
+      "name": "ESPN Phoenix 620",
+      "type": "AM",
+      "callSign": "ESPN 620",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Arizona Diamondbacks",
+      "teamId": 109
+    },
+    {
+      "id": 6224,
+      "name": "FanDuel Sports Network Detroit",
+      "type": "TV",
+      "callSign": "FDSNDT",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 116
+    },
+    {
+      "id": 339,
+      "name": "NBCSCH",
+      "type": "TV",
+      "callSign": "NBCSCH",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago White Sox",
+      "teamId": 145
+    },
+    {
+      "id": 118,
+      "name": "KTRH 740 AM/99.1 FM HD-2",
+      "type": "AM",
+      "callSign": "KTRH 740",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Houston Astros",
+      "teamId": 117
+    },
+    {
+      "id": 5607,
+      "name": "LAA Video",
+      "type": "TV",
+      "callSign": "LAA Video",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 108
+    },
+    {
+      "id": 6355,
+      "name": "CIN Audio",
+      "type": "AM",
+      "callSign": "CIN Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 113
+    },
+    {
+      "id": 6356,
+      "name": "COL Audio",
+      "type": "AM",
+      "callSign": "COL Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 115
+    },
+    {
+      "id": 6188,
+      "name": "KVVU FOX 5",
+      "type": "TV",
+      "callSign": "KVVU FOX 5",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 400
+    },
+    {
+      "id": 5386,
+      "name": "ATT SportsNet-RM",
+      "type": "TV",
+      "callSign": "ATTP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Colorado Rockies",
+      "teamId": 115
+    },
+    {
+      "id": 165,
+      "name": "Seattle Sports (710 AM)",
+      "type": "AM",
+      "callSign": "KIRO 710AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KIRO",
+      "teamId": 136
+    },
+    {
+      "id": 6225,
+      "name": "FanDuel Sports Network Kansas City",
+      "type": "TV",
+      "callSign": "FDSNKC",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 118
+    },
+    {
+      "id": 5610,
+      "name": "MIL Video",
+      "type": "TV",
+      "callSign": "MIL Video",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 158
+    },
+    {
+      "id": 5613,
+      "name": "NYY Video",
+      "type": "TV",
+      "callSign": "NYY Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 147
+    },
+    {
+      "id": 6357,
+      "name": "LAD Audio",
+      "type": "AM",
+      "callSign": "LAD Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 119
+    },
+    {
+      "id": 6189,
+      "name": "KYCW",
+      "type": "TV",
+      "callSign": "KYCW",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 440
+    },
+    {
+      "id": 185,
+      "name": "1210 WPHT",
+      "type": "AM",
+      "callSign": "1210WPHT",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 5616,
+      "name": "PIT Video",
+      "type": "TV",
+      "callSign": "PIT Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 134
+    },
+    {
+      "id": 1725,
+      "name": "NBC Bay Area",
+      "type": "TV",
+      "callSign": "NBCSBA",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Francisco Giants"
+    },
+    {
+      "id": 6226,
+      "name": "FanDuel Sports Network Florida",
+      "type": "TV",
+      "callSign": "FDSNFL",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 146
+    },
+    {
+      "id": 6358,
+      "name": "MIA Audio",
+      "type": "AM",
+      "callSign": "MIA Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 146
+    },
+    {
+      "id": 4324,
+      "name": "Sports Radio 93.7 KDKA The Fan",
+      "type": "FM",
+      "callSign": "KDKA",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Pittsburgh Pirates",
+      "teamId": 134
+    },
+    {
+      "id": 6190,
+      "name": "KYTV",
+      "type": "TV",
+      "callSign": "KYTV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 440
+    },
+    {
+      "id": 6227,
+      "name": "FanDuel Sports Network Wisconsin",
+      "type": "TV",
+      "callSign": "FDSNWI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 158
+    },
+    {
+      "id": 5623,
+      "name": "TOR Video",
+      "type": "TV",
+      "callSign": "TOR Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club PRoduced Video Stream",
+      "teamId": 141
+    },
+    {
+      "id": 6359,
+      "name": "MIL Audio",
+      "type": "AM",
+      "callSign": "MIL Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 158
+    },
+    {
+      "id": 251,
+      "name": "MLB Audio",
+      "type": "AM",
+      "callSign": "MLB Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Streaming Only (Audio)"
+    },
+    {
+      "id": 6361,
+      "name": "PHI Audio",
+      "type": "AM",
+      "callSign": "PHI Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 143
+    },
+    {
+      "id": 230,
+      "name": "SN590",
+      "type": "AM",
+      "callSign": "SN590",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6191,
+      "name": "PSN",
+      "type": "TV",
+      "callSign": "PSN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 431
+    },
+    {
+      "id": 250,
+      "name": "WWJ 950",
+      "type": "AM",
+      "callSign": "WWJ 950",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 140,
+      "name": "NBCSP",
+      "type": "TV",
+      "callSign": "NBCSP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 6360,
+      "name": "NYM Audio",
+      "type": "AM",
+      "callSign": "NYM Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 121
+    },
+    {
+      "id": 6228,
+      "name": "FanDuel Sports Network Midwest",
+      "type": "TV",
+      "callSign": "FDSNMW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 126,
+      "name": "NESN",
+      "type": "TV",
+      "callSign": "NESN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Boston Red Sox",
+      "teamId": 111
+    },
+    {
+      "id": 6362,
+      "name": "PIT Audio",
+      "type": "AM",
+      "callSign": "PIT Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 134
+    },
+    {
+      "id": 6192,
+      "name": "SWX",
+      "type": "TV",
+      "callSign": "SWX",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 486
+    },
+    {
+      "id": 4044,
+      "name": "106.7 The Fan",
+      "type": "FM",
+      "callSign": "106.7",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Washington Nationals",
+      "teamId": 120
+    },
+    {
+      "id": 6229,
+      "name": "FanDuel Sports Network Sun",
+      "type": "TV",
+      "callSign": "FDSNSUN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    },
+    {
+      "id": 6363,
+      "name": "SD Audio",
+      "type": "AM",
+      "callSign": "SD Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 135
+    },
+    {
+      "id": 6364,
+      "name": "SF Audio",
+      "type": "AM",
+      "callSign": "SF Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 137
+    },
+    {
+      "id": 3484,
+      "name": "ESPN 103.7 WIFN 1340",
+      "type": "AM",
+      "callSign": "ESPN 103.7",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "ESPN 103.7 WIFN 1340",
+      "teamId": 144
+    },
+    {
+      "id": 6193,
+      "name": "WABM",
+      "type": "TV",
+      "callSign": "WABM",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 247
+    },
+    {
+      "id": 6194,
+      "name": "WACY",
+      "type": "TV",
+      "callSign": "WACY",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 572
+    },
+    {
+      "id": 6195,
+      "name": "WIS",
+      "type": "TV",
+      "callSign": "WIS",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 3705
+    },
+    {
+      "id": 6196,
+      "name": "WMEU",
+      "type": "TV",
+      "callSign": "WMEU",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 550
+    },
+    {
+      "id": 6365,
+      "name": "STL Audio",
+      "type": "AM",
+      "callSign": "STL Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 138
+    },
+    {
+      "id": 3504,
+      "name": "MLB Video",
+      "type": "TV",
+      "callSign": "MLB Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Streaming only (Video)"
+    },
+    {
+      "id": 245,
+      "name": "YES",
+      "type": "TV",
+      "callSign": "YES",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 6197,
+      "name": "WMYS",
+      "type": "TV",
+      "callSign": "WMYS",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 550
+    },
+    {
+      "id": 6198,
+      "name": "WMYV",
+      "type": "TV",
+      "callSign": "WMYV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 580
+    },
+    {
+      "id": 6200,
+      "name": "WPAN/BLAB-TV",
+      "type": "TV",
+      "callSign": "WPAN/BLAB",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 4124
+    },
+    {
+      "id": 4024,
+      "name": "680 AM/93.7 FM The Fan",
+      "type": "AM",
+      "callSign": "680 AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 6366,
+      "name": "WSH Audio",
+      "type": "AM",
+      "callSign": "WSH Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 120
+    },
+    {
+      "id": 6199,
+      "name": "WNYO",
+      "type": "TV",
+      "callSign": "WNYO",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 187
+    },
+    {
+      "id": 5670,
+      "name": "The Team 980",
+      "type": "AM",
+      "callSign": "WTEM 980AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 120
+    },
+    {
+      "id": 5385,
+      "name": "SportsNet-PIT",
+      "type": "TV",
+      "callSign": "SNP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Pittsburgh Pirates",
+      "teamId": 134
+    },
+    {
+      "id": 581,
+      "name": "MASN",
+      "type": "TV",
+      "callSign": "MASN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Washington Nationals"
+    },
+    {
+      "id": 6367,
+      "name": "BAL Audio",
+      "type": "AM",
+      "callSign": "BAL Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 110
+    },
+    {
+      "id": 741,
+      "name": "SNY",
+      "type": "TV",
+      "callSign": "SNY",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Mets",
+      "teamId": 121
+    },
+    {
+      "id": 6369,
+      "name": "CWS Audio",
+      "type": "AM",
+      "callSign": "CWS Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 145
+    },
+    {
+      "id": 6201,
+      "name": "WPTA-DT3",
+      "type": "TV",
+      "callSign": "WPTA-DT3",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 584
+    },
+    {
+      "id": 4985,
+      "name": "Braves Radio Network",
+      "type": "AM",
+      "callSign": "ATL Radio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 4981,
+      "name": "610 AM WIOD",
+      "type": "AM",
+      "callSign": "610 WIOD",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 146
+    },
+    {
+      "id": 6368,
+      "name": "BOS Audio",
+      "type": "AM",
+      "callSign": "BOS Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 111
+    },
+    {
+      "id": 5387,
+      "name": "Space City Home Network",
+      "type": "TV",
+      "callSign": "SCHN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Houston Astros",
+      "teamId": 117
+    },
+    {
+      "id": 6202,
+      "name": "WSWB",
+      "type": "TV",
+      "callSign": "WSWB",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 531
+    },
+    {
+      "id": 6203,
+      "name": "WUXP",
+      "type": "TV",
+      "callSign": "WUXP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 556
+    },
+    {
+      "id": 6204,
+      "name": "YurView Florida",
+      "type": "TV",
+      "callSign": "YurView",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 4124
+    },
+    {
+      "id": 6205,
+      "name": "WCSC",
+      "type": "TV",
+      "callSign": "WCSC",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 233
+    },
+    {
+      "id": 4966,
+      "name": "NBC 10",
+      "type": "TV",
+      "callSign": "NBC 10",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 143
+    },
+    {
+      "id": 6370,
+      "name": "CLE Audio",
+      "type": "AM",
+      "callSign": "CLE Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Broadcast",
+      "teamId": 114
+    },
+    {
+      "id": 6206,
+      "name": "KDF-TV",
+      "type": "TV",
+      "callSign": "KDF-TV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 482
+    },
+    {
+      "id": 6207,
+      "name": "KAIL",
+      "type": "TV",
+      "callSign": "KAIL",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 516
+    },
+    {
+      "id": 4604,
+      "name": "ESPN Deportes 1050",
+      "type": "AM",
+      "callSign": "ESPN-1050",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Mets",
+      "teamId": 121
+    },
+    {
+      "id": 4704,
+      "name": "WTTM 1680",
+      "type": "AM",
+      "callSign": "WTTM1680",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 2743,
+      "name": "NBCSCA+",
+      "type": "TV",
+      "callSign": "NBCSCA+",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 6371,
+      "name": "DET Audio",
+      "type": "AM",
+      "callSign": "DET Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 116
+    },
+    {
+      "id": 6374,
+      "name": "LAA Audio",
+      "type": "AM",
+      "callSign": "LAA Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 108
+    },
+    {
+      "id": 6375,
+      "name": "MIN Audio",
+      "type": "AM",
+      "callSign": "MIN Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 142
+    },
+    {
+      "id": 4965,
+      "name": "SportsNet LA",
+      "type": "TV",
+      "callSign": "SNLA",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 119
+    },
+    {
+      "id": 6208,
+      "name": "Roku",
+      "type": "TV",
+      "callSign": "Roku",
+      "availability": {
+        "availabilityId": 7,
+        "availabilityCode": "exclusive",
+        "availabilityText": "Exclusive"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6372,
+      "name": "HOU Audio",
+      "type": "AM",
+      "callSign": "HOU Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 117
+    },
+    {
+      "id": 5242,
+      "name": "ROOTNW",
+      "type": "TV",
+      "callSign": "RSNW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 136
+    },
+    {
+      "id": 191,
+      "name": "WTAM 1100",
+      "type": "AM",
+      "callSign": "WTAM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Guardians",
+      "teamId": 114
+    },
+    {
+      "id": 6373,
+      "name": "KC Audio",
+      "type": "AM",
+      "callSign": "KC Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 118
+    },
+    {
+      "id": 5735,
+      "name": "Altice (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5736,
+      "name": "American Forces Network",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5737,
+      "name": "beIN Sports France",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5738,
+      "name": "beIN Sports MENA",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5739,
+      "name": "Bell ExpressVu (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5740,
+      "name": "BesTV",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5741,
+      "name": "BT Sport 1",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5742,
+      "name": "BT Sport 2",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5743,
+      "name": "BT Sport ESPN",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5744,
+      "name": "Cable Onda",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5745,
+      "name": "Coral 39",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5746,
+      "name": "CTS",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5747,
+      "name": "DAZN - Germany",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5748,
+      "name": "DirecTV Latin America - CH.680",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5749,
+      "name": "DirecTV Latin America - CH.681",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5750,
+      "name": "ECLAT - JAPAN",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5751,
+      "name": "ECLAT - KOREA",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5752,
+      "name": "ELTA",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5753,
+      "name": "ESPN 2 Caribbean",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5754,
+      "name": "ESPN Brazil",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5755,
+      "name": "ESPN Caribbean",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5756,
+      "name": "ESPN Dos",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5757,
+      "name": "ESPN International",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5758,
+      "name": "ESPN Latin North",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5759,
+      "name": "ESPN Latin South",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5760,
+      "name": "ESPN Mais Brazil",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5761,
+      "name": "ESPN Mas Andina",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5762,
+      "name": "ESPN Pac-Rim",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5763,
+      "name": "ESPN Tres North",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5764,
+      "name": "ESPN Tres South",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5765,
+      "name": "Fancode",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5766,
+      "name": "Fox Sports Europe",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5767,
+      "name": "Fox Sports Lat Am",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5768,
+      "name": "Fox Sports Lat Am 2",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5769,
+      "name": "Intercable",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5770,
+      "name": "J Sports",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5771,
+      "name": "ME TV",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5772,
+      "name": "Megacable (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5774,
+      "name": "NHK BS",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5775,
+      "name": "NHK News",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5776,
+      "name": "O2 TV Sport",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5777,
+      "name": "R&S ",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5778,
+      "name": "RDS",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5779,
+      "name": "RDS 2",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5780,
+      "name": "Rogers Cable (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5781,
+      "name": "RPC",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5782,
+      "name": "Sky (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5783,
+      "name": "SKY ITALIA",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5784,
+      "name": "Sport 5",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5785,
+      "name": "Sport TV",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 6019,
+      "name": "Apple TV+",
+      "type": "TV",
+      "callSign": "Apple TV+",
+      "availability": {
+        "availabilityId": 7,
+        "availabilityCode": "exclusive",
+        "availabilityText": "Exclusive"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5787,
+      "name": "Telecaribe",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5788,
+      "name": "Telecuracao",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5789,
+      "name": "Televisa",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5790,
+      "name": "Televisa Deportes Network",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5791,
+      "name": "Tencent",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5792,
+      "name": "TLT & TVA",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5793,
+      "name": "TSN1",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5794,
+      "name": "TSN2",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5795,
+      "name": "TSN3",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5796,
+      "name": "TSN4",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5797,
+      "name": "TSN5",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5798,
+      "name": "TVN",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5799,
+      "name": "VC Sports Pan Regional ",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5800,
+      "name": "Viasat Sport East",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5801,
+      "name": "Videoland",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5802,
+      "name": "VIVA13",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5803,
+      "name": "WAPA Deportes",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5804,
+      "name": "Yahoo",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5805,
+      "name": "DirecTV Puerto Rico (Extra Innings)",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5810,
+      "name": "Movistar+ ",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5811,
+      "name": "Viaplay",
+      "type": "TV",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 5725,
+      "name": "Peacock",
+      "type": "TV",
+      "callSign": "Peacock",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6021,
+      "name": "NBC",
+      "type": "TV",
+      "callSign": "NBC",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6024,
+      "name": "ESPNU",
+      "type": "TV",
+      "callSign": "ESPNU",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6035,
+      "name": "MLB Network (Spanish)",
+      "type": "TV",
+      "callSign": "MLBN(Sp)",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 2061,
+      "name": "NBCS BA+",
+      "type": "TV",
+      "callSign": "NBCSBA+",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Francisco Giants",
+      "teamId": 137
+    },
+    {
+      "id": 6094,
+      "name": "ABC-INT",
+      "type": "TV",
+      "callSign": "ABC-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6092,
+      "name": "ESPN-INT",
+      "type": "TV",
+      "callSign": "ESPN-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5773,
+      "name": "MLB Network",
+      "type": "TV",
+      "callSign": "MLBN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "International"
+    },
+    {
+      "id": 6037,
+      "name": "FS2",
+      "type": "TV",
+      "callSign": "FS2",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6038,
+      "name": "Tubi",
+      "type": "TV",
+      "callSign": "Tubi",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 143,
+      "name": "ESPN2",
+      "type": "TV",
+      "callSign": "ESPN2",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5215,
+      "name": "MLBN (out-of-market only)",
+      "type": "TV",
+      "callSign": "MLBN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 129,
+      "name": "TBS",
+      "type": "TV",
+      "callSign": "TBS",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National",
+      "teamId": 144
+    },
+    {
+      "id": 142,
+      "name": "ESPN",
+      "type": "TV",
+      "callSign": "ESPN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 144,
+      "name": "FOX",
+      "type": "TV",
+      "callSign": "FOX",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 4725,
+      "name": "FS1",
+      "type": "TV",
+      "callSign": "FS1",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 3545,
+      "name": "MLBN (delay)",
+      "type": "TV",
+      "callSign": "MLBN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5035,
+      "name": "FOX / FS1",
+      "type": "TV",
+      "callSign": "FOX/FS1",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6376,
+      "name": "NYY Audio",
+      "type": "AM",
+      "callSign": "NYY Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 147
+    },
+    {
+      "id": 5235,
+      "name": "TBS (out-of-market only)",
+      "type": "TV",
+      "callSign": "TBS",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6076,
+      "name": "ALT 96.5",
+      "type": "FM",
+      "callSign": "KFNZ 96.5",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 118
+    },
+    {
+      "id": 5190,
+      "name": "ESPN (out-of-market only)",
+      "type": "TV",
+      "callSign": "ESPN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5655,
+      "name": "ABC",
+      "type": "TV",
+      "callSign": "ABC",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5661,
+      "name": "FOX / FS1-INT",
+      "type": "TV",
+      "callSign": "FOX / FS1",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5560,
+      "name": "YouTube",
+      "type": "TV",
+      "callSign": "YouTube",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5496,
+      "name": "MLBN-INT",
+      "type": "TV",
+      "callSign": "MLBN-INT",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5045,
+      "name": "FOX Deportes",
+      "type": "TV",
+      "callSign": "FOX Dep.",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 2661,
+      "name": "MLBN",
+      "type": "TV",
+      "callSign": "MLBN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 1781,
+      "name": "MLB.TV",
+      "type": "TV",
+      "callSign": "MLB.TV",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "MLB.com streaming video"
+    },
+    {
+      "id": 263,
+      "name": "ESPN Radio",
+      "type": "AM",
+      "callSign": "ESPN",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "MLB"
+    },
+    {
+      "id": 5521,
+      "name": "ESPN+",
+      "type": "TV",
+      "callSign": "ESPN+",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 861,
+      "name": "WTMP",
+      "type": "AM",
+      "callSign": "WTMP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Tampa Bay Rays",
+      "teamId": 139
+    },
+    {
+      "id": 5495,
+      "name": "TBS-INT",
+      "type": "TV",
+      "callSign": "TBS-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5475,
+      "name": "FOX-INT",
+      "type": "TV",
+      "callSign": "FOX-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5715,
+      "name": "Audio",
+      "type": "INET",
+      "callSign": "Audio",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minor League Audio Link"
+    },
+    {
+      "id": 6022,
+      "name": "CW 23 Twin Cities WUCW",
+      "type": "TV",
+      "callSign": "CW23 WUCW",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins",
+      "teamId": 142
+    },
+    {
+      "id": 6027,
+      "name": "WSDS 1480AM",
+      "type": "AM",
+      "callSign": "WSDS 1480",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 6026,
+      "name": "ESPN Houston 97.5 FM",
+      "type": "FM",
+      "callSign": "97.5",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 117
+    },
+    {
+      "id": 6041,
+      "name": "NESN 360",
+      "type": "TV",
+      "callSign": "NESN360",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Red Sox NESN App",
+      "teamId": 111
+    },
+    {
+      "id": 6032,
+      "name": "ROOT NW SAP Audio",
+      "type": "AM",
+      "callSign": "ROOTSNWSAP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Seattle Mariners",
+      "teamId": 136
+    },
+    {
+      "id": 6036,
+      "name": "KYW FM 103.9     ",
+      "type": "FM",
+      "callSign": "KYW103.9",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 143
+    },
+    {
+      "id": 6080,
+      "name": "KNSN",
+      "type": "TV",
+      "callSign": "RNSN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Reno Aces",
+      "teamId": 2310
+    },
+    {
+      "id": 6087,
+      "name": "WCIV MyNet",
+      "type": "TV",
+      "callSign": "WCIV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Charleston RiverDogs",
+      "teamId": 233
+    },
+    {
+      "id": 6034,
+      "name": "98 Rock 97.9 FM",
+      "type": "FM",
+      "callSign": "98 Rock",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 110
+    },
+    {
+      "id": 5680,
+      "name": "REAL 106.1",
+      "type": "FM",
+      "callSign": "REAL106.1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Guardians",
+      "teamId": 114
+    },
+    {
+      "id": 6016,
+      "name": "WFAN 660 AM",
+      "type": "AM",
+      "callSign": "WFAN660",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 6077,
+      "name": "Stadium",
+      "type": "TV",
+      "callSign": "Stadium",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Stadium"
+    },
+    {
+      "id": 6377,
+      "name": "ATH Audio",
+      "type": "AM",
+      "callSign": "ATH Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 133
+    },
+    {
+      "id": 5060,
+      "name": "Guardians Radio Network",
+      "type": "FM",
+      "callSign": "CLE Radio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Guardians",
+      "teamId": 114
+    },
+    {
+      "id": 6025,
+      "name": "Pixellot",
+      "type": "TV",
+      "callSign": "Pixellot",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Pixellot"
+    },
+    {
+      "id": 6028,
+      "name": "WBAL NewsRadio AM/FM/ HD2 97.9 ",
+      "type": "FM",
+      "callSign": "WBAL",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Baltimore Orioles",
+      "teamId": 110
+    },
+    {
+      "id": 6075,
+      "name": "WQBN/1300AM",
+      "type": "AM",
+      "callSign": "WQBN/1300",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    },
+    {
+      "id": 6039,
+      "name": "KIRO 710 (delay)",
+      "type": "AM",
+      "callSign": "KIRO(del)",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "710(delay)",
+      "teamId": 136
+    },
+    {
+      "id": 6008,
+      "name": "94.5 ESPN Radio",
+      "type": "FM",
+      "callSign": "WKTI 94.5",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 158
+    },
+    {
+      "id": 6078,
+      "name": "WOJO 105.1 FM",
+      "type": "AM",
+      "callSign": "WOJO 105.1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "WOJO 105.1 FM",
+      "teamId": 112
+    },
+    {
+      "id": 6079,
+      "name": "Houston Astros",
+      "type": "TV",
+      "callSign": "ATTH2",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 117
+    },
+    {
+      "id": 5710,
+      "name": "WAMG 890 AM (SP)",
+      "type": "AM",
+      "callSign": "WAMG",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Boston Red Sox",
+      "teamId": 111
+    },
+    {
+      "id": 6088,
+      "name": "KQMR Latino Mix 100.3 FM",
+      "type": "FM",
+      "callSign": "KQMR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 109
+    },
+    {
+      "id": 6020,
+      "name": "Amazon Prime Video",
+      "type": "TV",
+      "callSign": "AmazonPV",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New Yok Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 6017,
+      "name": "SN App",
+      "type": "TV",
+      "callSign": "SN App",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6018,
+      "name": "SNET-Ontario",
+      "type": "TV",
+      "callSign": "SNET-O",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6380,
+      "name": "TEX Audio",
+      "type": "AM",
+      "callSign": "TEX Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 140
+    },
+    {
+      "id": 6081,
+      "name": "WFGX",
+      "type": "TV",
+      "callSign": "WFGX",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Pensacola Blue Wahoos",
+      "teamId": 4124
+    },
+    {
+      "id": 3485,
+      "name": "WFOM 1230/106.3 FM",
+      "type": "AM",
+      "callSign": "WFOM1230",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 6082,
+      "name": "WIFR",
+      "type": "TV",
+      "callSign": "WIFR",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Beloit Sky Carp",
+      "teamId": 554
+    },
+    {
+      "id": 1765,
+      "name": "MiLB.TV",
+      "type": "TV",
+      "callSign": "MiLB.TV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "MiLB.com streaming video"
+    },
+    {
+      "id": 5455,
+      "name": "ATT SportsNet-RM+",
+      "type": "TV",
+      "callSign": "ATTP+",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 115
+    },
+    {
+      "id": 1621,
+      "name": "FOX Sports 940AM (WINZ)",
+      "type": "AM",
+      "callSign": "FOX940AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Miami Marlins",
+      "teamId": 146
+    },
+    {
+      "id": 6014,
+      "name": "Sportsnet.ca",
+      "type": "AM",
+      "callSign": "Sportsnet+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 4995,
+      "name": "WCCM 1490 AM (SP)",
+      "type": "AM",
+      "callSign": "WCCM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 111
+    },
+    {
+      "id": 5441,
+      "name": "La Ranchera 101.7 FM/850 AM",
+      "type": "FM",
+      "callSign": "101.7/850",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Houston Astros",
+      "teamId": 117
+    },
+    {
+      "id": 290,
+      "name": "KWOD 1660",
+      "type": "AM",
+      "callSign": "KWOD1660",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Kansas City Royals",
+      "teamId": 118
+    },
+    {
+      "id": 5450,
+      "name": "ATT SportsNet-SW+",
+      "type": "TV",
+      "callSign": "ATTH+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Houston Astros",
+      "teamId": 117
+    },
+    {
+      "id": 4727,
+      "name": "Brewers Radio Network",
+      "type": "AM",
+      "callSign": "MIL Radio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Milwaukee Brewers",
+      "teamId": 158
+    },
+    {
+      "id": 4284,
+      "name": "TVA Sports",
+      "type": "TV",
+      "callSign": "TVA (Fr)",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 6030,
+      "name": "WBAL 1090 AM",
+      "type": "AM",
+      "callSign": "WBAL 1090",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Baltimore Orioles",
+      "teamId": 110
+    },
+    {
+      "id": 105,
+      "name": "KMOX 1120 AM/104.1 FM",
+      "type": "AM",
+      "callSign": "KMOX",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "St. Louis Cardinals",
+      "teamId": 138
+    },
+    {
+      "id": 6378,
+      "name": "SEA Audio",
+      "type": "AM",
+      "callSign": "SEA Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 136
+    },
+    {
+      "id": 6381,
+      "name": "TOR Audio",
+      "type": "AM",
+      "callSign": "TOR Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 141
+    },
+    {
+      "id": 6083,
+      "name": "WNYO",
+      "type": "TV",
+      "callSign": "WNYO",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 422
+    },
+    {
+      "id": 6379,
+      "name": "TB Audio",
+      "type": "AM",
+      "callSign": "TB Audio",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Audio Stream",
+      "teamId": 139
+    },
+    {
+      "id": 6084,
+      "name": "CW14 Green Bay",
+      "type": "TV",
+      "callSign": "CW14",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Wisconsin Timber Rattlers",
+      "teamId": 572
+    },
+    {
+      "id": 4671,
+      "name": "710 ESPN (delay)",
+      "type": "AM",
+      "callSign": "710",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Seattle Mariners"
+    },
+    {
+      "id": 6382,
+      "name": "Nationals.TV",
+      "type": "TV",
+      "callSign": "NATS",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Washington Nationals",
+      "teamId": 120
+    },
+    {
+      "id": 6419,
+      "name": "Gray Media",
+      "type": "TV",
+      "callSign": "Gray Media",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Gray Media - Twins",
+      "teamId": 142
+    },
+    {
+      "id": 4824,
+      "name": "WDCH 99.1",
+      "type": "FM",
+      "callSign": "WDCH99.1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Washington Nationals"
+    },
+    {
+      "id": 6013,
+      "name": "Yankees YES App",
+      "type": "TV",
+      "callSign": "YESAPP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 6420,
+      "name": "Detroit Tigers",
+      "type": "TV",
+      "callSign": "DETT",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 6421,
+      "name": "Angels.TV",
+      "type": "TV",
+      "callSign": "ANGL",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Angels.TV",
+      "teamId": 108
+    },
+    {
+      "id": 6416,
+      "name": "Rays TV",
+      "type": "TV",
+      "callSign": "RAYS",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Rays TV",
+      "teamId": 139
+    },
+    {
+      "id": 1701,
+      "name": "TNT",
+      "type": "TV",
+      "callSign": "TNT",
+      "availability": {
+        "availabilityId": 4,
+        "availabilityCode": "national",
+        "availabilityText": "National"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National",
+      "teamId": 5058
+    },
+    {
+      "id": 6085,
+      "name": "WTVZ",
+      "type": "TV",
+      "callSign": "WTVZ",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Norfolk Tides",
+      "teamId": 568
+    },
+    {
+      "id": 6415,
+      "name": "St. Louis Cardinals",
+      "type": "TV",
+      "callSign": "CARD",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "St. Louis Cardinals",
+      "teamId": 138
+    },
+    {
+      "id": 6422,
+      "name": "SXM",
+      "type": "FM",
+      "callSign": "SXM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 6423,
+      "name": "WHDH Channel 7",
+      "type": "TV",
+      "callSign": "WHDH-7",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "WHDH Channel 7",
+      "teamId": 111
+    },
+    {
+      "id": 6424,
+      "name": "KNAI 101.9 FM / 860 AM",
+      "type": "AM",
+      "callSign": "KNAI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KNAI 101.9 FM / 860 AM",
+      "teamId": 109
+    },
+    {
+      "id": 6417,
+      "name": "Kansas City Royals",
+      "type": "TV",
+      "callSign": "ROYL",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Kansas City Royals",
+      "teamId": 118
+    },
+    {
+      "id": 6240,
+      "name": "Chicago Sports Network",
+      "type": "TV",
+      "callSign": "CHSN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago Sports Network",
+      "teamId": 145
+    },
+    {
+      "id": 6425,
+      "name": "KLTN-TUDN 102.9 FM",
+      "type": "AM",
+      "callSign": "TUDN 102.9",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KLTN-TUDN 102.9 FM",
+      "teamId": 117
+    },
+    {
+      "id": 300,
+      "name": "KQBU-TUDN 93.3 FM",
+      "type": "AM",
+      "callSign": "TUDN 93.3",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KQBU-TUDN 93.3 FM",
+      "teamId": 117
+    },
+    {
+      "id": 6418,
+      "name": "Miami Marlins",
+      "type": "TV",
+      "callSign": "MIAM",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Miami Marlins",
+      "teamId": 146
+    },
+    {
+      "id": 1982,
+      "name": "NBCS BA",
+      "type": "TV",
+      "callSign": "NBCSBA",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Francisco Giants",
+      "teamId": 137
+    },
+    {
+      "id": 5505,
+      "name": "FS1-INT",
+      "type": "TV",
+      "callSign": "FS1-INT",
+      "availability": {
+        "availabilityId": 5,
+        "availabilityCode": "international",
+        "availabilityText": "International"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "National"
+    },
+    {
+      "id": 5580,
+      "name": "Marquee Sports Network",
+      "type": "TV",
+      "callSign": "MARQ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "ChicagoCubs",
+      "teamId": 112
+    },
+    {
+      "id": 6086,
+      "name": "KMTR",
+      "type": "TV",
+      "callSign": "KMTR",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Eugene Emeralds",
+      "teamId": 461
+    },
+    {
+      "id": 111,
+      "name": "KOA 850 AM",
+      "type": "AM",
+      "callSign": "KOA",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Colorado Rockies",
+      "teamId": 115
+    },
+    {
+      "id": 113,
+      "name": "KRLD 1080",
+      "type": "AM",
+      "callSign": "KRLD",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Texas Rangers",
+      "teamId": 140
+    },
+    {
+      "id": 106,
+      "name": "FOX9+KMSP",
+      "type": "TV",
+      "callSign": "FOX9+KMSP",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins",
+      "teamId": 142
+    },
+    {
+      "id": 110,
+      "name": "KTTH 770 AM",
+      "type": "AM",
+      "callSign": "KTTH 770",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Seattle Mariners",
+      "teamId": 136
+    },
+    {
+      "id": 178,
+      "name": "WGN 720",
+      "type": "AM",
+      "callSign": "WGN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago Cubs",
+      "teamId": 112
+    },
+    {
+      "id": 159,
+      "name": "KBME 790 AM/94.5 FM HD-2",
+      "type": "AM",
+      "callSign": "KBME",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Houston Astros",
+      "teamId": 117
+    },
+    {
+      "id": 172,
+      "name": "WDAE 95.3 FM",
+      "type": "AM",
+      "callSign": "WDAE",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "WDAE 95.3 FM",
+      "teamId": 139
+    },
+    {
+      "id": 173,
+      "name": "WEEI 850",
+      "type": "AM",
+      "callSign": "WEEI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Boston RedSox",
+      "teamId": 111
+    },
+    {
+      "id": 192,
+      "name": "WTMJ 620",
+      "type": "AM",
+      "callSign": "WTMJ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Milwaukee Brewers",
+      "teamId": 158
+    },
+    {
+      "id": 180,
+      "name": "WLW 700",
+      "type": "AM",
+      "callSign": "WLW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cincinnati Reds",
+      "teamId": 113
+    },
+    {
+      "id": 186,
+      "name": "WPIX",
+      "type": "TV",
+      "callSign": "WPIX",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Mets",
+      "teamId": 121
+    },
+    {
+      "id": 270,
+      "name": "KTVD Channel 20",
+      "type": "TV",
+      "callSign": "KTVD 20",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Colorado Rockies",
+      "teamId": 115
+    },
+    {
+      "id": 216,
+      "name": "KCOP 13",
+      "type": "TV",
+      "callSign": "KCOP 13",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Angels and Dodgers",
+      "teamId": 108
+    },
+    {
+      "id": 306,
+      "name": "WWOR",
+      "type": "TV",
+      "callSign": "WWOR",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 3486,
+      "name": "WCNN 680/93.7",
+      "type": "AM",
+      "callSign": "WCNN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 2181,
+      "name": "TXA 21",
+      "type": "TV",
+      "callSign": "TXA-21",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Frisco RoughRiders"
+    },
+    {
+      "id": 782,
+      "name": "WKYC 3",
+      "type": "TV",
+      "callSign": "WKYC 3",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Indians",
+      "teamId": 114
+    },
+    {
+      "id": 4744,
+      "name": "MyTV WQMY",
+      "type": "TV",
+      "callSign": "WQMY",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Scranton/Wilkes-Barre RailRiders",
+      "teamId": 531
+    },
+    {
+      "id": 2621,
+      "name": "105.7 The Fan",
+      "type": "FM",
+      "callSign": "105.7 Fan",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Baltimore Orioles"
+    },
+    {
+      "id": 5705,
+      "name": "TeleXitos",
+      "type": "TV",
+      "callSign": "TeleXitos",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 143
+    },
+    {
+      "id": 4989,
+      "name": "Orioles Radio Network",
+      "type": "AM",
+      "callSign": "O's Radio",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Baltimore Orioles",
+      "teamId": 110
+    },
+    {
+      "id": 5825,
+      "name": "TICO-ES",
+      "type": "AM",
+      "callSign": "TICO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 118
+    },
+    {
+      "id": 4986,
+      "name": "WCNN 680/WYAY 106.7",
+      "type": "AM",
+      "callSign": "WCNN",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Atlanta Braves",
+      "teamId": 144
+    },
+    {
+      "id": 5185,
+      "name": "CW 31",
+      "type": "TV",
+      "callSign": "CW 31",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Sacramento River Cats",
+      "teamId": 105
+    },
+    {
+      "id": 5280,
+      "name": "Entercom 94.9",
+      "type": "FM",
+      "callSign": "94.9",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Diego Padres",
+      "teamId": 135
+    },
+    {
+      "id": 5720,
+      "name": "KNTV",
+      "type": "TV",
+      "callSign": "KNTV",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 137
+    },
+    {
+      "id": 5355,
+      "name": "104.3 WAXQ-FM HD 2",
+      "type": "FM",
+      "callSign": "104.3",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 121
+    },
+    {
+      "id": 5205,
+      "name": "ESPN2 (out-of-market-only)",
+      "type": "TV",
+      "callSign": "ESPN2",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false
+    },
+    {
+      "id": 5080,
+      "name": "KBME 790 (delay)",
+      "type": "AM",
+      "callSign": "KBME",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 117
+    },
+    {
+      "id": 5435,
+      "name": "CW 14",
+      "type": "TV",
+      "callSign": "CW 14",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 572
+    },
+    {
+      "id": 5695,
+      "name": "Audacy App",
+      "type": "AM",
+      "callSign": "Audacy",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Audacy App-Twins",
+      "teamId": 142
+    },
+    {
+      "id": 5597,
+      "name": "BAL Video",
+      "type": "TV",
+      "callSign": "BAL Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 110
+    },
+    {
+      "id": 5596,
+      "name": "ATL Video",
+      "type": "TV",
+      "callSign": "ATL Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 144
+    },
+    {
+      "id": 4975,
+      "name": "98.7 FM Arizona's Sports Station",
+      "type": "FM",
+      "callSign": "98.7 FM ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 109
+    },
+    {
+      "id": 5598,
+      "name": "BOS Video",
+      "type": "TV",
+      "callSign": "BOS Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 111
+    },
+    {
+      "id": 5599,
+      "name": "CHC Video",
+      "type": "TV",
+      "callSign": "CHC Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 112
+    },
+    {
+      "id": 5603,
+      "name": "COL Video",
+      "type": "TV",
+      "callSign": "COL Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 115
+    },
+    {
+      "id": 5600,
+      "name": "CWS Video",
+      "type": "TV",
+      "callSign": "CWS Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 145
+    },
+    {
+      "id": 5605,
+      "name": "HOU Video",
+      "type": "TV",
+      "callSign": "HOU Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 117
+    },
+    {
+      "id": 5606,
+      "name": "KC Video",
+      "type": "TV",
+      "callSign": "KC Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club PRoduced Video Stream",
+      "teamId": 118
+    },
+    {
+      "id": 5608,
+      "name": "LAD Video",
+      "type": "TV",
+      "callSign": "LAD Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 119
+    },
+    {
+      "id": 5609,
+      "name": "MIA Video",
+      "type": "TV",
+      "callSign": "MIA Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 146
+    },
+    {
+      "id": 5611,
+      "name": "MIN Video",
+      "type": "TV",
+      "callSign": "MIN Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 142
+    },
+    {
+      "id": 5612,
+      "name": "NYM Video",
+      "type": "TV",
+      "callSign": "NYM Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 121
+    },
+    {
+      "id": 5614,
+      "name": "ATH Video",
+      "type": "TV",
+      "callSign": "ATH Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 133
+    },
+    {
+      "id": 5619,
+      "name": "SEA Video",
+      "type": "TV",
+      "callSign": "SEA Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 136
+    },
+    {
+      "id": 5618,
+      "name": "SF Video",
+      "type": "TV",
+      "callSign": "SF Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 137
+    },
+    {
+      "id": 5620,
+      "name": "STL Video",
+      "type": "TV",
+      "callSign": "STL Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 138
+    },
+    {
+      "id": 5621,
+      "name": "TB Video",
+      "type": "TV",
+      "callSign": "TB Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Vieo Stream",
+      "teamId": 139
+    },
+    {
+      "id": 5615,
+      "name": "PHI Video",
+      "type": "TV",
+      "callSign": "PHI Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 143
+    },
+    {
+      "id": 5617,
+      "name": "SD Video",
+      "type": "TV",
+      "callSign": "SD Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 135
+    },
+    {
+      "id": 1802,
+      "name": "97.1 The Ticket",
+      "type": "FM",
+      "callSign": "97.1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 3182,
+      "name": "KIQI 1010",
+      "type": "AM",
+      "callSign": "KIQI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 1821,
+      "name": "WMMS 100.7",
+      "type": "FM",
+      "callSign": "WMMS",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cleveland Guardians",
+      "teamId": 114
+    },
+    {
+      "id": 541,
+      "name": "WRTO 1200",
+      "type": "AM",
+      "callSign": "WRTO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago White Sox",
+      "teamId": 112
+    },
+    {
+      "id": 5622,
+      "name": "TEX Video",
+      "type": "TV",
+      "callSign": "TEX Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced  Video Stream",
+      "teamId": 140
+    },
+    {
+      "id": 5624,
+      "name": "WSH Video",
+      "type": "TV",
+      "callSign": "WSH Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 120
+    },
+    {
+      "id": 5565,
+      "name": "KNBR 104.5 FM",
+      "type": "AM",
+      "callSign": "KNBR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "KNBR 104.5 FM",
+      "teamId": 137
+    },
+    {
+      "id": 236,
+      "name": "Audacy Mets Radio WHSQ 880AM",
+      "type": "AM",
+      "callSign": "WHSQ 880AM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Mets",
+      "teamId": 121
+    },
+    {
+      "id": 1421,
+      "name": "WGES 680",
+      "type": "AM",
+      "callSign": "WGES",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Tampa Bay Rays",
+      "teamId": 139
+    },
+    {
+      "id": 4674,
+      "name": "WEPN 1050",
+      "type": "AM",
+      "callSign": "WEPN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Mets",
+      "teamId": 121
+    },
+    {
+      "id": 661,
+      "name": "WSAI-1360",
+      "type": "AM",
+      "callSign": "WSAI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Cincinnati Reds",
+      "teamId": 113
+    },
+    {
+      "id": 1001,
+      "name": "KLAA 830",
+      "type": "AM",
+      "callSign": "KLAA",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Angels",
+      "teamId": 108
+    },
+    {
+      "id": 195,
+      "name": "WXYT 1270",
+      "type": "AM",
+      "callSign": "WXYTAM",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 174,
+      "name": "WFAN 660/101.9 FM",
+      "type": "AM",
+      "callSign": "WFAN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 158,
+      "name": "Bloomberg 960 AM/103.7 HD2",
+      "type": "AM",
+      "callSign": "KNEW 960",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Athletics",
+      "teamId": 133
+    },
+    {
+      "id": 221,
+      "name": "KWKW 1330",
+      "type": "AM",
+      "callSign": "KWKW",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Angels",
+      "teamId": 108
+    },
+    {
+      "id": 298,
+      "name": "710 ESPN",
+      "type": "AM",
+      "callSign": "710",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Dodgers",
+      "teamId": 119
+    },
+    {
+      "id": 102,
+      "name": "Dodgers Radio AM570",
+      "type": "AM",
+      "callSign": "KLAC AM570",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Dodgers",
+      "teamId": 119
+    },
+    {
+      "id": 5310,
+      "name": "KOA 850 AM/94.1 FM ",
+      "type": "AM",
+      "callSign": "KOA",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 115
+    },
+    {
+      "id": 199,
+      "name": "WADO 1280",
+      "type": "AM",
+      "callSign": "WADO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "New York Yankees",
+      "teamId": 147
+    },
+    {
+      "id": 275,
+      "name": "XEMO 860",
+      "type": "AM",
+      "callSign": "XEMO",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Diego Padres, Spanish",
+      "teamId": 135
+    },
+    {
+      "id": 292,
+      "name": "KTMZ 1220",
+      "type": "AM",
+      "callSign": "KTMZ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Anaheim Angels, Spanish",
+      "teamId": 108
+    },
+    {
+      "id": 206,
+      "name": "NBCSP+",
+      "type": "TV",
+      "callSign": "NBCSP+",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 2141,
+      "name": "WXYT 97.1 FM",
+      "type": "FM",
+      "callSign": "WXYTFM",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Detroit Tigers",
+      "teamId": 116
+    },
+    {
+      "id": 5265,
+      "name": "KFZO 99.1",
+      "type": "FM",
+      "callSign": "KFZO99.1",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Texas Rangers",
+      "teamId": 140
+    },
+    {
+      "id": 317,
+      "name": "KTNQ 1020",
+      "type": "AM",
+      "callSign": "KTNQ",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Dodgers",
+      "teamId": 119
+    },
+    {
+      "id": 332,
+      "name": "KFLC 1270",
+      "type": "AM",
+      "callSign": "KFLC",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Texas Rangers, Spanish",
+      "teamId": 140
+    },
+    {
+      "id": 4726,
+      "name": "SN1",
+      "type": "TV",
+      "callSign": "SN1",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Toronto Blue Jays",
+      "teamId": 141
+    },
+    {
+      "id": 3261,
+      "name": "NESN+",
+      "type": "TV",
+      "callSign": "NESN+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Boston Red Sox",
+      "teamId": 111
+    },
+    {
+      "id": 349,
+      "name": "94 WIP",
+      "type": "FM",
+      "callSign": "WIP",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Philadelphia Phillies",
+      "teamId": 143
+    },
+    {
+      "id": 2725,
+      "name": "WAQI 710",
+      "type": "AM",
+      "callSign": "WAQI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Miami Marlins",
+      "teamId": 146
+    },
+    {
+      "id": 4784,
+      "name": "KNRV 1150",
+      "type": "AM",
+      "callSign": "KNRV",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Colorado Rockies",
+      "teamId": 115
+    },
+    {
+      "id": 1162,
+      "name": "TIBN",
+      "type": "AM",
+      "callSign": "TIBN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins"
+    },
+    {
+      "id": 5115,
+      "name": "TVA Sports 2",
+      "type": "TV",
+      "callSign": "TVA2 (Fr)",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 141
+    },
+    {
+      "id": 764,
+      "name": "670 The Score",
+      "type": "AM",
+      "callSign": "WSCR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Chicago Cubs",
+      "teamId": 112
+    },
+    {
+      "id": 4982,
+      "name": "SNLA Deportes",
+      "type": "TV",
+      "callSign": "SNLA (Sp)",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Los Angeles Dodgers",
+      "teamId": 119
+    },
+    {
+      "id": 5296,
+      "name": "KWFN 97.3",
+      "type": "FM",
+      "callSign": "KWFN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Diego Padres",
+      "teamId": 135
+    },
+    {
+      "id": 361,
+      "name": "Telemundo Wisconsin",
+      "type": "TV",
+      "callSign": "Telemundo",
+      "availability": {
+        "availabilityId": 1,
+        "availabilityCode": "local_in_market",
+        "availabilityText": "Local (In Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Milwaukee Brewers, Spanish TV",
+      "teamId": 158
+    },
+    {
+      "id": 3161,
+      "name": "105.3 The Fan",
+      "type": "FM",
+      "callSign": "105.3 KRLD",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Texas Rangers / Frisco RoughRiders",
+      "teamId": 140
+    },
+    {
+      "id": 5516,
+      "name": "LosTwins.com",
+      "type": "AM",
+      "callSign": "Twins(Sp)",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins",
+      "teamId": 142
+    },
+    {
+      "id": 4668,
+      "name": "WEEI 93.7",
+      "type": "FM",
+      "callSign": "WEEI",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Boston Red Sox",
+      "teamId": 111
+    },
+    {
+      "id": 5575,
+      "name": "1510 AM - KSFN",
+      "type": "AM",
+      "callSign": "KSFN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "San Francisco Giants",
+      "teamId": 137
+    },
+    {
+      "id": 5602,
+      "name": "CLE Video",
+      "type": "TV",
+      "callSign": "CLE Video",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Club Produced Video Stream",
+      "teamId": 114
+    },
+    {
+      "id": 5585,
+      "name": "A's Cast",
+      "type": "AM",
+      "callSign": "A's Cast",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Oakland Atletics",
+      "teamId": 133
+    },
+    {
+      "id": 5415,
+      "name": "NBC Sports Chicago+",
+      "type": "TV",
+      "callSign": "NBCSCH+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 112
+    },
+    {
+      "id": 5627,
+      "name": "Cardinals Radio Network",
+      "type": "AM",
+      "callSign": "CRN",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "St. Louis Cardinals",
+      "teamId": 138
+    },
+    {
+      "id": 5590,
+      "name": "The Wolf 102.9 FM",
+      "type": "FM",
+      "callSign": "The Wolf",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Minnesota Twins",
+      "teamId": 142
+    },
+    {
+      "id": 4189,
+      "name": "WJFK 1580 AM",
+      "type": "AM",
+      "callSign": "WJFK",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Washington Nationals",
+      "teamId": 120
+    },
+    {
+      "id": 5420,
+      "name": "WIJR AM 880 (En Espanol)",
+      "type": "AM",
+      "callSign": "WIJR",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "St Louis Cardinals",
+      "teamId": 138
+    },
+    {
+      "id": 5456,
+      "name": "SportsNet-PIT+",
+      "type": "TV",
+      "callSign": "SNP+",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 134
+    },
+    {
+      "id": 164,
+      "name": "100.1 FM/KDKA-AM 1020",
+      "type": "AM",
+      "callSign": "100.1/1020",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "sourceComment": "Pittsburgh Pirates",
+      "teamId": 134
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:08.420332"
+}

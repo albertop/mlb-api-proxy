@@ -1,0 +1,38 @@
+{
+  "endpoint": "/api/v1/statFields",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/statFields?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:45 GMT",
+    "server": "uvicorn",
+    "content-length": "148",
+    "content-type": "application/json",
+    "x-request-id": "9967c7cd-3624-4302-9e08-67cd2bc88c57"
+  },
+  "response": [
+    {
+      "name": "standard"
+    },
+    {
+      "name": "advanced"
+    },
+    {
+      "name": "tracking"
+    },
+    {
+      "name": "expected"
+    },
+    {
+      "name": "sabermetrics"
+    },
+    {
+      "name": "rankings"
+    },
+    {
+      "name": "percentiles"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:45.917125"
+}

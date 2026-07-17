@@ -1,0 +1,69 @@
+{
+  "endpoint": "/api/v1/standingsTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/standingsTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:45 GMT",
+    "server": "uvicorn",
+    "content-length": "1037",
+    "content-type": "application/json",
+    "x-request-id": "0307290e-49aa-4cf7-bb39-363f8d413398"
+  },
+  "response": [
+    {
+      "name": "regularSeason",
+      "description": "Regular Season Standings"
+    },
+    {
+      "name": "wildCard",
+      "description": "Wild card standings"
+    },
+    {
+      "name": "divisionLeaders",
+      "description": "Division Leader standings"
+    },
+    {
+      "name": "wildCardWithLeaders",
+      "description": "Wild card standings with Division Leaders"
+    },
+    {
+      "name": "firstHalf",
+      "description": "First half standings.  Only valid for leagues with a split season."
+    },
+    {
+      "name": "secondHalf",
+      "description": "Second half standings. Only valid for leagues with a split season."
+    },
+    {
+      "name": "springTraining",
+      "description": "Spring Training Standings"
+    },
+    {
+      "name": "postseason",
+      "description": "Postseason Standings"
+    },
+    {
+      "name": "byDivision",
+      "description": "Standings by Division"
+    },
+    {
+      "name": "byConference",
+      "description": "Standings by Conference"
+    },
+    {
+      "name": "byLeague",
+      "description": "Standings by League"
+    },
+    {
+      "name": "byOrganization",
+      "description": "Standing by Organization"
+    },
+    {
+      "name": "currentHalf",
+      "description": "Current Half Standings. Returns standings in the current half for split season leagues and overall standings for full season leagues."
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:45.654361"
+}

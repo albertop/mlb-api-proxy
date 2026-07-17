@@ -1,0 +1,26 @@
+{
+  "endpoint": "/api/v1/venues/{venue_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/venues/5380",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:19 GMT",
+    "server": "uvicorn",
+    "content-length": "107",
+    "content-type": "application/json",
+    "x-request-id": "b6feae82-6d85-4a8c-87a5-8896848c85b6"
+  },
+  "response": {
+    "venues": [
+      {
+        "id": 5380,
+        "name": "CoolToday Park",
+        "link": "/api/v1/venues/5380",
+        "active": true,
+        "season": "2026"
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:19.230064"
+}

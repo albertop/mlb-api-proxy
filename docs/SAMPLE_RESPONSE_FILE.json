@@ -1,0 +1,92 @@
+{
+  "endpoint": "/api/v1/teams",
+  "method": "GET",
+  "url": "http://localhost:8000/api/v1/teams?sportId=1",
+  "status_code": 200,
+  "headers": {
+    "content-type": "application/json",
+    "content-length": "5243",
+    "access-control-allow-origin": "*"
+  },
+  "response": {
+    "teams": [
+      {
+        "id": 108,
+        "name": "Los Angeles Angels",
+        "teamCode": "laa",
+        "abbreviation": "LAA",
+        "teamName": "Angels",
+        "locationName": "Los Angeles",
+        "firstYearOfPlay": "1965",
+        "venue": {
+          "id": 1,
+          "name": "Angel Stadium of Anaheim",
+          "link": "/api/v1/venues/1",
+          "active": true
+        },
+        "active": true,
+        "sport": {
+          "id": 1,
+          "code": "MLB",
+          "name": "Major League Baseball",
+          "link": "/api/v1/sports/1"
+        },
+        "allStarStatus": "T",
+        "link": "/api/v1/teams/108",
+        "logoUrl": "https://www.mlbstatic.com/team-logos/team-108-spring-league.svg"
+      },
+      {
+        "id": 110,
+        "name": "Baltimore Orioles",
+        "teamCode": "bal",
+        "abbreviation": "BAL",
+        "teamName": "Orioles",
+        "locationName": "Baltimore",
+        "firstYearOfPlay": "1901",
+        "venue": {
+          "id": 2,
+          "name": "Oriole Park at Camden Yards",
+          "link": "/api/v1/venues/2",
+          "active": true
+        },
+        "active": true,
+        "sport": {
+          "id": 1,
+          "code": "MLB",
+          "name": "Major League Baseball",
+          "link": "/api/v1/sports/1"
+        },
+        "allStarStatus": "N",
+        "link": "/api/v1/teams/110",
+        "logoUrl": "https://www.mlbstatic.com/team-logos/team-110-spring-league.svg"
+      },
+      {
+        "id": 111,
+        "name": "Boston Red Sox",
+        "teamCode": "bos",
+        "abbreviation": "BOS",
+        "teamName": "Red Sox",
+        "locationName": "Boston",
+        "firstYearOfPlay": "1901",
+        "venue": {
+          "id": 3,
+          "name": "Fenway Park",
+          "link": "/api/v1/venues/3",
+          "active": true
+        },
+        "active": true,
+        "sport": {
+          "id": 1,
+          "code": "MLB",
+          "name": "Major League Baseball",
+          "link": "/api/v1/sports/1"
+        },
+        "allStarStatus": "N",
+        "link": "/api/v1/teams/111",
+        "logoUrl": "https://www.mlbstatic.com/team-logos/team-111-spring-league.svg"
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-07T14:32:45.123456"
+}

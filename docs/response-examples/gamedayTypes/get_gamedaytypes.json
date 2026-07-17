@@ -1,0 +1,49 @@
+{
+  "endpoint": "/api/v1/gamedayTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/gamedayTypes?gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:36 GMT",
+    "server": "uvicorn",
+    "content-length": "567",
+    "content-type": "application/json",
+    "x-request-id": "b0a7fec5-4e31-4f17-8ab1-6efc8c1097b7"
+  },
+  "response": [
+    {
+      "code": "P",
+      "description": "Premium Gameday - 3D Pitch tracking and Premium product experience"
+    },
+    {
+      "code": "E",
+      "description": "Enhanced Gameday - 3D Pitch tracking"
+    },
+    {
+      "code": "Y",
+      "description": "Regular Gameday - Pitch by Pitch"
+    },
+    {
+      "code": "D",
+      "description": "No Gameday - Pitch by Pitch"
+    },
+    {
+      "code": "N",
+      "description": "No Gameday - Play by Play level data only"
+    },
+    {
+      "code": "L",
+      "description": "No Gameday - Linescore level data"
+    },
+    {
+      "code": "B",
+      "description": "No Gameday - PG / Box Score level data only"
+    },
+    {
+      "code": "S",
+      "description": "No Gameday - Score / Game Result level data only"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:37.054551"
+}

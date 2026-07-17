@@ -1,0 +1,723 @@
+{
+  "endpoint": "/api/v1/attendance",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/attendance?season=2025&sportId=1&leagueId=103",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:05 GMT",
+    "server": "uvicorn",
+    "content-length": "14063",
+    "content-type": "application/json",
+    "x-request-id": "63b4250f-7754-4b1f-bb7d-69e7d3e00b93"
+  },
+  "response": {
+    "records": [
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 27913,
+        "attendanceAverageHome": 9487,
+        "attendanceAverageYtd": 18700,
+        "attendanceHigh": 12322,
+        "attendanceHighDate": "2025-07-04T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777244,
+          "link": "/api/v1.1/game/777244/feed/live",
+          "content": {
+            "link": "/api/v1/game/777244/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 7731,
+        "attendanceLowDate": "2025-08-11T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 776787,
+          "link": "/api/v1.1/game/776787/feed/live",
+          "content": {
+            "link": "/api/v1/game/776787/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 9487,
+        "attendanceTotal": 3029392,
+        "attendanceTotalAway": 2260928,
+        "attendanceTotalHome": 768464,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 133,
+          "name": "Athletics",
+          "link": "/api/v1/teams/133"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 28480,
+        "attendanceAverageHome": 31334,
+        "attendanceAverageYtd": 29907,
+        "attendanceHigh": 45701,
+        "attendanceHighDate": "2025-09-27T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 776150,
+          "link": "/api/v1.1/game/776150/feed/live",
+          "content": {
+            "link": "/api/v1/game/776150/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 15306,
+        "attendanceLowDate": "2025-03-31T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778496,
+          "link": "/api/v1.1/game/778496/feed/live",
+          "content": {
+            "link": "/api/v1/game/778496/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 31334,
+        "attendanceTotal": 4844947,
+        "attendanceTotalAway": 2306894,
+        "attendanceTotalHome": 2538053,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 136,
+          "name": "Seattle Mariners",
+          "link": "/api/v1/teams/136"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 28551,
+        "attendanceAverageHome": 9713,
+        "attendanceAverageYtd": 19132,
+        "attendanceHigh": 10046,
+        "attendanceHighDate": "2025-06-17T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777477,
+          "link": "/api/v1.1/game/777477/feed/live",
+          "content": {
+            "link": "/api/v1/game/777477/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 7883,
+        "attendanceLowDate": "2025-09-02T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 776485,
+          "link": "/api/v1.1/game/776485/feed/live",
+          "content": {
+            "link": "/api/v1/game/776485/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 9713,
+        "attendanceTotal": 3099346,
+        "attendanceTotalAway": 2312596,
+        "attendanceTotalHome": 786750,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 139,
+          "name": "Tampa Bay Rays",
+          "link": "/api/v1/teams/139"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 29300,
+        "attendanceAverageHome": 32290,
+        "attendanceAverageYtd": 30795,
+        "attendanceHigh": 44893,
+        "attendanceHighDate": "2025-08-13T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 776752,
+          "link": "/api/v1.1/game/776752/feed/live",
+          "content": {
+            "link": "/api/v1/game/776752/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 20746,
+        "attendanceLowDate": "2025-09-10T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 776376,
+          "link": "/api/v1.1/game/776376/feed/live",
+          "content": {
+            "link": "/api/v1/game/776376/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 32290,
+        "attendanceTotal": 4988826,
+        "attendanceTotalAway": 2373320,
+        "attendanceTotalHome": 2615506,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 108,
+          "name": "Los Angeles Angels",
+          "link": "/api/v1/teams/108"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 26999,
+        "attendanceAverageHome": 29593,
+        "attendanceAverageYtd": 28296,
+        "attendanceHigh": 39244,
+        "attendanceHighDate": "2025-04-19T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 778251,
+          "link": "/api/v1.1/game/778251/feed/live",
+          "content": {
+            "link": "/api/v1/game/778251/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 18268,
+        "attendanceLowDate": "2025-08-12T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 776764,
+          "link": "/api/v1.1/game/776764/feed/live",
+          "content": {
+            "link": "/api/v1/game/776764/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 29593,
+        "attendanceTotal": 4583988,
+        "attendanceTotalAway": 2186923,
+        "attendanceTotalHome": 2397065,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 140,
+          "name": "Texas Rangers",
+          "link": "/api/v1/teams/140"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 80,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 164,
+        "gamesAwayTotal": 83,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 26411,
+        "attendanceAverageHome": 35184,
+        "attendanceAverageYtd": 30825,
+        "attendanceHigh": 43270,
+        "attendanceHighDate": "2025-08-14T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 776747,
+          "link": "/api/v1.1/game/776747/feed/live",
+          "content": {
+            "link": "/api/v1/game/776747/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 20104,
+        "attendanceLowDate": "2025-04-02T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778478,
+          "link": "/api/v1.1/game/778478/feed/live",
+          "content": {
+            "link": "/api/v1/game/778478/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 35184,
+        "attendanceTotal": 4962800,
+        "attendanceTotalAway": 2112865,
+        "attendanceTotalHome": 2849935,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 141,
+          "name": "Toronto Blue Jays",
+          "link": "/api/v1/teams/141"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 80,
+        "openingsTotalLost": 1,
+        "gamesTotal": 168,
+        "gamesAwayTotal": 84,
+        "gamesHomeTotal": 84,
+        "year": "2025",
+        "attendanceAverageAway": 28319,
+        "attendanceAverageHome": 22546,
+        "attendanceAverageYtd": 25450,
+        "attendanceHigh": 45002,
+        "attendanceHighDate": "2025-03-31T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 778512,
+          "link": "/api/v1.1/game/778512/feed/live",
+          "content": {
+            "link": "/api/v1/game/778512/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 10169,
+        "attendanceLowDate": "2025-05-14T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 777924,
+          "link": "/api/v1.1/game/777924/feed/live",
+          "content": {
+            "link": "/api/v1/game/777924/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 22419,
+        "attendanceTotal": 4097483,
+        "attendanceTotalAway": 2293828,
+        "attendanceTotalHome": 1803655,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 110,
+          "name": "Baltimore Orioles",
+          "link": "/api/v1/teams/110"
+        }
+      },
+      {
+        "openingsTotal": 160,
+        "openingsTotalAway": 80,
+        "openingsTotalHome": 80,
+        "openingsTotalLost": 1,
+        "gamesTotal": 165,
+        "gamesAwayTotal": 82,
+        "gamesHomeTotal": 83,
+        "year": "2025",
+        "attendanceAverageAway": 27248,
+        "attendanceAverageHome": 22109,
+        "attendanceAverageYtd": 24679,
+        "attendanceHigh": 40100,
+        "attendanceHighDate": "2025-07-11T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777148,
+          "link": "/api/v1.1/game/777148/feed/live",
+          "content": {
+            "link": "/api/v1/game/777148/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 10240,
+        "attendanceLowDate": "2025-05-19T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 777861,
+          "link": "/api/v1.1/game/777861/feed/live",
+          "content": {
+            "link": "/api/v1/game/777861/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 22109,
+        "attendanceTotal": 3948569,
+        "attendanceTotalAway": 2179841,
+        "attendanceTotalHome": 1768728,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 142,
+          "name": "Minnesota Twins",
+          "link": "/api/v1/teams/142"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 167,
+        "gamesAwayTotal": 82,
+        "gamesHomeTotal": 85,
+        "year": "2025",
+        "attendanceAverageAway": 30078,
+        "attendanceAverageHome": 34278,
+        "attendanceAverageYtd": 32178,
+        "attendanceHigh": 37585,
+        "attendanceHighDate": "2025-08-04T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 776880,
+          "link": "/api/v1.1/game/776880/feed/live",
+          "content": {
+            "link": "/api/v1/game/776880/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 25128,
+        "attendanceLowDate": "2025-04-10T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778377,
+          "link": "/api/v1.1/game/778377/feed/live",
+          "content": {
+            "link": "/api/v1/game/778377/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 34278,
+        "attendanceTotal": 5212849,
+        "attendanceTotalAway": 2436353,
+        "attendanceTotalHome": 2776496,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 111,
+          "name": "Boston Red Sox",
+          "link": "/api/v1/teams/111"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 80,
+        "openingsTotalLost": 1,
+        "gamesTotal": 164,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 83,
+        "year": "2025",
+        "attendanceAverageAway": 28250,
+        "attendanceAverageHome": 18072,
+        "attendanceAverageYtd": 23192,
+        "attendanceHigh": 38762,
+        "attendanceHighDate": "2025-07-25T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777017,
+          "link": "/api/v1.1/game/777017/feed/live",
+          "content": {
+            "link": "/api/v1/game/777017/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 10193,
+        "attendanceLowDate": "2025-06-19T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 777447,
+          "link": "/api/v1.1/game/777447/feed/live",
+          "content": {
+            "link": "/api/v1/game/777447/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 17812,
+        "attendanceTotal": 3733987,
+        "attendanceTotalAway": 2288249,
+        "attendanceTotalHome": 1445738,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 145,
+          "name": "Chicago White Sox",
+          "link": "/api/v1/teams/145"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 80,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 168,
+        "gamesAwayTotal": 86,
+        "gamesHomeTotal": 82,
+        "year": "2025",
+        "attendanceAverageAway": 27412,
+        "attendanceAverageHome": 25325,
+        "attendanceAverageYtd": 26362,
+        "attendanceHigh": 38213,
+        "attendanceHighDate": "2025-07-04T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777249,
+          "link": "/api/v1.1/game/777249/feed/live",
+          "content": {
+            "link": "/api/v1/game/777249/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 12663,
+        "attendanceLowDate": "2025-04-10T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778378,
+          "link": "/api/v1.1/game/778378/feed/live",
+          "content": {
+            "link": "/api/v1/game/778378/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 25325,
+        "attendanceTotal": 4244349,
+        "attendanceTotalAway": 2192989,
+        "attendanceTotalHome": 2051360,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 114,
+          "name": "Cleveland Guardians",
+          "link": "/api/v1/teams/114"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 80,
+        "openingsTotalLost": 1,
+        "gamesTotal": 163,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 82,
+        "year": "2025",
+        "attendanceAverageAway": 30312,
+        "attendanceAverageHome": 42408,
+        "attendanceAverageYtd": 36322,
+        "attendanceHigh": 48028,
+        "attendanceHighDate": "2025-05-18T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 777878,
+          "link": "/api/v1.1/game/777878/feed/live",
+          "content": {
+            "link": "/api/v1/game/777878/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 35278,
+        "attendanceLowDate": "2025-04-27T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778156,
+          "link": "/api/v1.1/game/778156/feed/live",
+          "content": {
+            "link": "/api/v1/game/778156/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 41860,
+        "attendanceTotal": 5847916,
+        "attendanceTotalAway": 2455257,
+        "attendanceTotalHome": 3392659,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 147,
+          "name": "New York Yankees",
+          "link": "/api/v1/teams/147"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 80,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 166,
+        "gamesAwayTotal": 83,
+        "gamesHomeTotal": 83,
+        "year": "2025",
+        "attendanceAverageAway": 25744,
+        "attendanceAverageHome": 29796,
+        "attendanceAverageYtd": 27782,
+        "attendanceHigh": 44735,
+        "attendanceHighDate": "2025-04-04T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 778458,
+          "link": "/api/v1.1/game/778458/feed/live",
+          "content": {
+            "link": "/api/v1/game/778458/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 14132,
+        "attendanceLowDate": "2025-04-07T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778424,
+          "link": "/api/v1.1/game/778424/feed/live",
+          "content": {
+            "link": "/api/v1/game/778424/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 29796,
+        "attendanceTotal": 4472940,
+        "attendanceTotalAway": 2059498,
+        "attendanceTotalHome": 2413442,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 116,
+          "name": "Detroit Tigers",
+          "link": "/api/v1/teams/116"
+        }
+      },
+      {
+        "openingsTotal": 162,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 81,
+        "openingsTotalLost": 0,
+        "gamesTotal": 162,
+        "gamesAwayTotal": 81,
+        "gamesHomeTotal": 81,
+        "year": "2025",
+        "attendanceAverageAway": 26321,
+        "attendanceAverageHome": 33677,
+        "attendanceAverageYtd": 29999,
+        "attendanceHigh": 42305,
+        "attendanceHighDate": "2025-03-27T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 778559,
+          "link": "/api/v1.1/game/778559/feed/live",
+          "content": {
+            "link": "/api/v1/game/778559/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 24114,
+        "attendanceLowDate": "2025-04-02T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778475,
+          "link": "/api/v1.1/game/778475/feed/live",
+          "content": {
+            "link": "/api/v1/game/778475/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 33677,
+        "attendanceTotal": 4859851,
+        "attendanceTotalAway": 2131974,
+        "attendanceTotalHome": 2727877,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 117,
+          "name": "Houston Astros",
+          "link": "/api/v1/teams/117"
+        }
+      },
+      {
+        "openingsTotal": 161,
+        "openingsTotalAway": 81,
+        "openingsTotalHome": 80,
+        "openingsTotalLost": 1,
+        "gamesTotal": 165,
+        "gamesAwayTotal": 82,
+        "gamesHomeTotal": 83,
+        "year": "2025",
+        "attendanceAverageAway": 27476,
+        "attendanceAverageHome": 21860,
+        "attendanceAverageYtd": 24685,
+        "attendanceHigh": 39393,
+        "attendanceHighDate": "2025-03-27T00:00:00",
+        "attendanceHighGame": {
+          "gamePk": 778558,
+          "link": "/api/v1.1/game/778558/feed/live",
+          "content": {
+            "link": "/api/v1/game/778558/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceLow": 12041,
+        "attendanceLowDate": "2025-04-24T00:00:00",
+        "attendanceLowGame": {
+          "gamePk": 778190,
+          "link": "/api/v1.1/game/778190/feed/live",
+          "content": {
+            "link": "/api/v1/game/778190/content"
+          },
+          "dayNight": "day"
+        },
+        "attendanceOpeningAverage": 21665,
+        "attendanceTotal": 3974331,
+        "attendanceTotalAway": 2225530,
+        "attendanceTotalHome": 1748801,
+        "gameType": {
+          "id": "R",
+          "description": "Regular Season"
+        },
+        "team": {
+          "id": 118,
+          "name": "Kansas City Royals",
+          "link": "/api/v1/teams/118"
+        }
+      }
+    ],
+    "aggregateTotals": {
+      "openingsTotalAway": 1211,
+      "openingsTotalHome": 1210,
+      "openingsTotalLost": 5,
+      "openingsTotalYtd": 0,
+      "attendanceAverageAway": 27925,
+      "attendanceAverageHome": 26516,
+      "attendanceAverageYtd": 27221,
+      "attendanceHigh": 48028,
+      "attendanceHighDate": "2025-05-18T00:00:00",
+      "attendanceTotal": 65901574,
+      "attendanceTotalAway": 33817045,
+      "attendanceTotalHome": 32084529
+    }
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:06.856757"
+}

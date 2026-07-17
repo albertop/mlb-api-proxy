@@ -1,0 +1,113 @@
+{
+  "endpoint": "/api/v1/pitchTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/pitchTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:40 GMT",
+    "server": "uvicorn",
+    "content-length": "972",
+    "content-type": "application/json",
+    "x-request-id": "df910ab9-e56b-4a13-97f8-59344d79f88f"
+  },
+  "response": [
+    {
+      "code": "FA",
+      "description": "Fastball"
+    },
+    {
+      "code": "FF",
+      "description": "Four-seam FB"
+    },
+    {
+      "code": "FT",
+      "description": "Two-seam FB"
+    },
+    {
+      "code": "FC",
+      "description": "Cutter"
+    },
+    {
+      "code": "FS",
+      "description": "Splitter"
+    },
+    {
+      "code": "FO",
+      "description": "Forkball"
+    },
+    {
+      "code": "SI",
+      "description": "Sinker"
+    },
+    {
+      "code": "ST",
+      "description": "Sweeper"
+    },
+    {
+      "code": "SL",
+      "description": "Slider"
+    },
+    {
+      "code": "CU",
+      "description": "Curveball"
+    },
+    {
+      "code": "KC",
+      "description": "Knuckle Curve"
+    },
+    {
+      "code": "SC",
+      "description": "Screwball"
+    },
+    {
+      "code": "GY",
+      "description": "Gyroball"
+    },
+    {
+      "code": "SV",
+      "description": "Slurve"
+    },
+    {
+      "code": "CS",
+      "description": "Slow Curve"
+    },
+    {
+      "code": "CH",
+      "description": "Changeup"
+    },
+    {
+      "code": "KN",
+      "description": "Knuckleball"
+    },
+    {
+      "code": "EP",
+      "description": "Eephus Pitch"
+    },
+    {
+      "code": "UN",
+      "description": "Unknown"
+    },
+    {
+      "code": "IN",
+      "description": "Intentional Ball"
+    },
+    {
+      "code": "PO",
+      "description": "Pitchout"
+    },
+    {
+      "code": "AB",
+      "description": "Automatic Ball"
+    },
+    {
+      "code": "AS",
+      "description": "Automatic Strike"
+    },
+    {
+      "code": "NP",
+      "description": "No Pitch"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:41.661825"
+}

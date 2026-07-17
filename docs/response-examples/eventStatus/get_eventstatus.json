@@ -1,0 +1,73 @@
+{
+  "endpoint": "/api/v1/eventStatus",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/eventStatus?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:35 GMT",
+    "server": "uvicorn",
+    "content-length": "846",
+    "content-type": "application/json",
+    "x-request-id": "473f958f-d5ca-40e0-957b-1e46e75fc58a"
+  },
+  "response": [
+    {
+      "code": "1",
+      "detailedState": "Scheduled",
+      "dbCode": "S",
+      "abstractGameState": "Preview",
+      "startTimeTBD": false
+    },
+    {
+      "code": "8",
+      "detailedState": "Scheduled (Time TBD)",
+      "dbCode": "S",
+      "abstractGameState": "Preview",
+      "startTimeTBD": false
+    },
+    {
+      "code": "2",
+      "detailedState": "Pre-Game",
+      "dbCode": "P",
+      "abstractGameState": "Preview",
+      "startTimeTBD": false
+    },
+    {
+      "code": "11",
+      "detailedState": "Delayed",
+      "dbCode": "D",
+      "abstractGameState": "Delayed",
+      "startTimeTBD": false
+    },
+    {
+      "code": "10",
+      "detailedState": "Cancelled",
+      "dbCode": "C",
+      "abstractGameState": "Cancelled",
+      "startTimeTBD": false
+    },
+    {
+      "code": "3",
+      "detailedState": "In Progress",
+      "dbCode": "I",
+      "abstractGameState": "Live",
+      "startTimeTBD": false
+    },
+    {
+      "code": "7",
+      "detailedState": "Final",
+      "dbCode": "F",
+      "abstractGameState": "Final",
+      "startTimeTBD": false
+    },
+    {
+      "code": "110",
+      "detailedState": "Unknown",
+      "dbCode": "X",
+      "abstractGameState": "Unknown",
+      "startTimeTBD": false
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:35.541481"
+}

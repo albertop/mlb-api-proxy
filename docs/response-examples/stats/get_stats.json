@@ -1,0 +1,3484 @@
+{
+  "endpoint": "/api/v1/stats",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/stats?stats=season&group=hitting&season=2024&sportId=1&playerPool=ALL",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:12 GMT",
+    "server": "uvicorn",
+    "content-length": "39360",
+    "content-type": "application/json",
+    "x-request-id": "822fce29-61b9-468d-90e3-a5b4afe241b5"
+  },
+  "response": {
+    "stats": [
+      {
+        "type": {
+          "displayName": "season"
+        },
+        "group": {
+          "displayName": "hitting"
+        },
+        "totalSplits": 742,
+        "exemptions": [],
+        "splits": [
+          {
+            "season": "2024",
+            "stat": {
+              "age": 28,
+              "G": 2,
+              "GOuts": 1,
+              "AOuts": 1,
+              "R": 2,
+              "X2B": 1,
+              "X3B": 0,
+              "HR": 1,
+              "K": 0,
+              "BB": 1,
+              "IBB": 0,
+              "H": 3,
+              "HBP": 0,
+              "AVG": ".600",
+              "AB": 5,
+              "OBP": ".667",
+              "SLG": "1.400",
+              "OPS": "2.067",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 31,
+              "PA": 6,
+              "TB": 7,
+              "RBI": 3,
+              "LOB": 2,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".500",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": "5.00"
+            },
+            "team": {
+              "id": 120,
+              "name": "Washington Nationals",
+              "link": "/api/v1/teams/120"
+            },
+            "player": {
+              "id": 656448,
+              "fullName": "Stone Garrett",
+              "link": "/api/v1/people/656448",
+              "firstName": "Stone",
+              "lastName": "Garrett"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 1,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 9,
+              "GOuts": 3,
+              "AOuts": 1,
+              "R": 1,
+              "X2B": 2,
+              "X3B": 0,
+              "HR": 0,
+              "K": 3,
+              "BB": 0,
+              "IBB": 0,
+              "H": 7,
+              "HBP": 0,
+              "AVG": ".500",
+              "AB": 14,
+              "OBP": ".500",
+              "SLG": ".643",
+              "OPS": "1.143",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 39,
+              "PA": 14,
+              "TB": 9,
+              "RBI": 0,
+              "LOB": 4,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".636",
+              "GOtoAO": "3.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 120,
+              "name": "Washington Nationals",
+              "link": "/api/v1/teams/120"
+            },
+            "player": {
+              "id": 671117,
+              "fullName": "Darren Baker",
+              "link": "/api/v1/people/671117",
+              "firstName": "Darren",
+              "lastName": "Baker"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 2,
+            "position": {
+              "code": "X",
+              "name": "Unknown",
+              "type": "Unknown",
+              "abbreviation": "X"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 3,
+              "GOuts": 1,
+              "AOuts": 1,
+              "R": 2,
+              "X2B": 0,
+              "X3B": 0,
+              "HR": 0,
+              "K": 1,
+              "BB": 0,
+              "IBB": 0,
+              "H": 2,
+              "HBP": 0,
+              "AVG": ".400",
+              "AB": 5,
+              "OBP": ".400",
+              "SLG": ".400",
+              "OPS": ".800",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 14,
+              "PA": 5,
+              "TB": 2,
+              "RBI": 0,
+              "LOB": 3,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".500",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 136,
+              "name": "Seattle Mariners",
+              "link": "/api/v1/teams/136"
+            },
+            "player": {
+              "id": 669392,
+              "fullName": "Samad Taylor",
+              "link": "/api/v1/people/669392",
+              "firstName": "Samad",
+              "lastName": "Taylor"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 3,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 33,
+              "G": 7,
+              "GOuts": 2,
+              "AOuts": 5,
+              "R": 3,
+              "X2B": 4,
+              "X3B": 0,
+              "HR": 0,
+              "K": 5,
+              "BB": 0,
+              "IBB": 0,
+              "H": 7,
+              "HBP": 1,
+              "AVG": ".368",
+              "AB": 19,
+              "OBP": ".400",
+              "SLG": ".579",
+              "OPS": ".979",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 75,
+              "PA": 20,
+              "TB": 11,
+              "RBI": 2,
+              "LOB": 6,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".500",
+              "GOtoAO": "0.40",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 113,
+              "name": "Cincinnati Reds",
+              "link": "/api/v1/teams/113"
+            },
+            "player": {
+              "id": 642851,
+              "fullName": "Austin Wynns",
+              "link": "/api/v1/people/642851",
+              "firstName": "Austin",
+              "lastName": "Wynns"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 4,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 30,
+              "GOuts": 23,
+              "AOuts": 23,
+              "R": 15,
+              "X2B": 9,
+              "X3B": 0,
+              "HR": 3,
+              "K": 19,
+              "BB": 12,
+              "IBB": 0,
+              "H": 34,
+              "HBP": 2,
+              "AVG": ".343",
+              "AB": 99,
+              "OBP": ".425",
+              "SLG": ".525",
+              "OPS": ".950",
+              "CS": 1,
+              "SB": 5,
+              "SBPct": ".833",
+              "CSPct": ".167",
+              "GIDP": 2,
+              "Pitches": 493,
+              "PA": 113,
+              "TB": 52,
+              "RBI": 14,
+              "LOB": 35,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".403",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": "33.00"
+            },
+            "team": {
+              "id": 120,
+              "name": "Washington Nationals",
+              "link": "/api/v1/teams/120"
+            },
+            "player": {
+              "id": 669743,
+              "fullName": "Alex Call",
+              "link": "/api/v1/people/669743",
+              "firstName": "Alex",
+              "lastName": "Call"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 5,
+            "position": {
+              "code": "9",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "RF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 34,
+              "G": 85,
+              "GOuts": 77,
+              "AOuts": 64,
+              "R": 39,
+              "X2B": 16,
+              "X3B": 1,
+              "HR": 4,
+              "K": 39,
+              "BB": 12,
+              "IBB": 1,
+              "H": 91,
+              "HBP": 8,
+              "AVG": ".337",
+              "AB": 270,
+              "OBP": ".381",
+              "SLG": ".448",
+              "OPS": ".829",
+              "CS": 2,
+              "SB": 6,
+              "SBPct": ".750",
+              "CSPct": ".250",
+              "GIDP": 4,
+              "Pitches": 1075,
+              "PA": 291,
+              "TB": 121,
+              "RBI": 26,
+              "LOB": 90,
+              "SH": 0,
+              "SF": 1,
+              "BABIP": ".382",
+              "GOtoAO": "1.20",
+              "CI": 0,
+              "ABpHR": "67.50"
+            },
+            "team": {
+              "id": 121,
+              "name": "New York Mets",
+              "link": "/api/v1/teams/121"
+            },
+            "player": {
+              "id": 578428,
+              "fullName": "Jose Iglesias",
+              "link": "/api/v1/people/578428",
+              "firstName": "Jose",
+              "lastName": "Iglesias"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 6,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 1,
+              "GOuts": 2,
+              "AOuts": 0,
+              "R": 0,
+              "X2B": 0,
+              "X3B": 1,
+              "HR": 0,
+              "K": 0,
+              "BB": 0,
+              "IBB": 0,
+              "H": 1,
+              "HBP": 0,
+              "AVG": ".333",
+              "AB": 3,
+              "OBP": ".333",
+              "SLG": "1.000",
+              "OPS": "1.333",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 11,
+              "PA": 3,
+              "TB": 3,
+              "RBI": 0,
+              "LOB": 0,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".333",
+              "GOtoAO": "2.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 135,
+              "name": "San Diego Padres",
+              "link": "/api/v1/teams/135"
+            },
+            "player": {
+              "id": 676946,
+              "fullName": "Matthew Batten",
+              "link": "/api/v1/people/676946",
+              "firstName": "Matthew",
+              "lastName": "Batten"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 7,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 26,
+              "G": 4,
+              "GOuts": 3,
+              "AOuts": 0,
+              "R": 3,
+              "X2B": 1,
+              "X3B": 0,
+              "HR": 0,
+              "K": 1,
+              "BB": 2,
+              "IBB": 0,
+              "H": 2,
+              "HBP": 0,
+              "AVG": ".333",
+              "AB": 6,
+              "OBP": ".500",
+              "SLG": ".500",
+              "OPS": "1.000",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 36,
+              "PA": 8,
+              "TB": 3,
+              "RBI": 2,
+              "LOB": 1,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".400",
+              "GOtoAO": "3.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 142,
+              "name": "Minnesota Twins",
+              "link": "/api/v1/teams/142"
+            },
+            "player": {
+              "id": 660636,
+              "fullName": "Diego Castillo",
+              "link": "/api/v1/people/660636",
+              "firstName": "Diego",
+              "lastName": "Castillo"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 7,
+            "position": {
+              "code": "5",
+              "name": "Third Base",
+              "type": "Infielder",
+              "abbreviation": "3B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 5,
+              "GOuts": 3,
+              "AOuts": 3,
+              "R": 2,
+              "X2B": 0,
+              "X3B": 0,
+              "HR": 0,
+              "K": 2,
+              "BB": 2,
+              "IBB": 0,
+              "H": 4,
+              "HBP": 0,
+              "AVG": ".333",
+              "AB": 12,
+              "OBP": ".429",
+              "SLG": ".333",
+              "OPS": ".762",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 1,
+              "Pitches": 57,
+              "PA": 14,
+              "TB": 4,
+              "RBI": 1,
+              "LOB": 2,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".400",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 119,
+              "name": "Los Angeles Dodgers",
+              "link": "/api/v1/teams/119"
+            },
+            "player": {
+              "id": 676439,
+              "fullName": "Hunter Feduccia",
+              "link": "/api/v1/people/676439",
+              "firstName": "Hunter",
+              "lastName": "Feduccia"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 7,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 24,
+              "G": 2,
+              "GOuts": 0,
+              "AOuts": 2,
+              "R": 1,
+              "X2B": 1,
+              "X3B": 0,
+              "HR": 1,
+              "K": 2,
+              "BB": 1,
+              "IBB": 0,
+              "H": 2,
+              "HBP": 0,
+              "AVG": ".333",
+              "AB": 6,
+              "OBP": ".429",
+              "SLG": "1.000",
+              "OPS": "1.429",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 23,
+              "PA": 7,
+              "TB": 6,
+              "RBI": 3,
+              "LOB": 3,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".333",
+              "GOtoAO": "0.00",
+              "CI": 0,
+              "ABpHR": "6.00"
+            },
+            "team": {
+              "id": 140,
+              "name": "Texas Rangers",
+              "link": "/api/v1/teams/140"
+            },
+            "player": {
+              "id": 687957,
+              "fullName": "Dustin Harris",
+              "link": "/api/v1/people/687957",
+              "firstName": "Dustin",
+              "lastName": "Harris"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 7,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 22,
+              "G": 1,
+              "GOuts": 1,
+              "AOuts": 0,
+              "R": 0,
+              "X2B": 0,
+              "X3B": 0,
+              "HR": 0,
+              "K": 1,
+              "BB": 0,
+              "IBB": 0,
+              "H": 1,
+              "HBP": 0,
+              "AVG": ".333",
+              "AB": 3,
+              "OBP": ".333",
+              "SLG": ".333",
+              "OPS": ".666",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 11,
+              "PA": 3,
+              "TB": 1,
+              "RBI": 0,
+              "LOB": 0,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".500",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 141,
+              "name": "Toronto Blue Jays",
+              "link": "/api/v1/teams/141"
+            },
+            "player": {
+              "id": 682619,
+              "fullName": "Orelvis Martinez",
+              "link": "/api/v1/people/682619",
+              "firstName": "Orelvis",
+              "lastName": "Martinez"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 7,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 24,
+              "G": 161,
+              "GOuts": 122,
+              "AOuts": 205,
+              "R": 125,
+              "X2B": 45,
+              "X3B": 11,
+              "HR": 32,
+              "K": 106,
+              "BB": 57,
+              "IBB": 9,
+              "H": 211,
+              "HBP": 8,
+              "AVG": ".332",
+              "AB": 636,
+              "OBP": ".389",
+              "SLG": ".588",
+              "OPS": ".977",
+              "CS": 12,
+              "SB": 31,
+              "SBPct": ".721",
+              "CSPct": ".279",
+              "GIDP": 4,
+              "Pitches": 2600,
+              "PA": 709,
+              "TB": 374,
+              "RBI": 109,
+              "LOB": 181,
+              "SH": 0,
+              "SF": 8,
+              "BABIP": ".354",
+              "GOtoAO": "0.60",
+              "CI": 0,
+              "ABpHR": "19.88"
+            },
+            "team": {
+              "id": 118,
+              "name": "Kansas City Royals",
+              "link": "/api/v1/teams/118"
+            },
+            "player": {
+              "id": 677951,
+              "fullName": "Bobby Witt Jr.",
+              "link": "/api/v1/people/677951",
+              "firstName": "Bobby",
+              "lastName": "Witt"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 12,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 24,
+              "G": 70,
+              "GOuts": 78,
+              "AOuts": 53,
+              "R": 39,
+              "X2B": 12,
+              "X3B": 5,
+              "HR": 1,
+              "K": 52,
+              "BB": 33,
+              "IBB": 1,
+              "H": 87,
+              "HBP": 0,
+              "AVG": ".328",
+              "AB": 265,
+              "OBP": ".397",
+              "SLG": ".423",
+              "OPS": ".820",
+              "CS": 4,
+              "SB": 31,
+              "SBPct": ".886",
+              "CSPct": ".114",
+              "GIDP": 0,
+              "Pitches": 1185,
+              "PA": 303,
+              "TB": 112,
+              "RBI": 26,
+              "LOB": 82,
+              "SH": 1,
+              "SF": 4,
+              "BABIP": ".398",
+              "GOtoAO": "1.47",
+              "CI": 0,
+              "ABpHR": "265.00"
+            },
+            "team": {
+              "id": 146,
+              "name": "Miami Marlins",
+              "link": "/api/v1/teams/146"
+            },
+            "player": {
+              "id": 669364,
+              "fullName": "Xavier Edwards",
+              "link": "/api/v1/people/669364",
+              "firstName": "Xavier",
+              "lastName": "Edwards"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 13,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 159,
+              "GOuts": 185,
+              "AOuts": 140,
+              "R": 98,
+              "X2B": 44,
+              "X3B": 1,
+              "HR": 30,
+              "K": 96,
+              "BB": 72,
+              "IBB": 12,
+              "H": 199,
+              "HBP": 5,
+              "AVG": ".323",
+              "AB": 616,
+              "OBP": ".396",
+              "SLG": ".544",
+              "OPS": ".940",
+              "CS": 2,
+              "SB": 2,
+              "SBPct": ".500",
+              "CSPct": ".500",
+              "GIDP": 16,
+              "Pitches": 2602,
+              "PA": 697,
+              "TB": 335,
+              "RBI": 103,
+              "LOB": 225,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".342",
+              "GOtoAO": "1.32",
+              "CI": 0,
+              "ABpHR": "20.53"
+            },
+            "team": {
+              "id": 141,
+              "name": "Toronto Blue Jays",
+              "link": "/api/v1/teams/141"
+            },
+            "player": {
+              "id": 665489,
+              "fullName": "Vladimir Guerrero Jr.",
+              "link": "/api/v1/people/665489",
+              "firstName": "Vladimir",
+              "lastName": "Guerrero"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 14,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 32,
+              "G": 158,
+              "GOuts": 82,
+              "AOuts": 128,
+              "R": 122,
+              "X2B": 36,
+              "X3B": 1,
+              "HR": 58,
+              "K": 171,
+              "BB": 133,
+              "IBB": 20,
+              "H": 180,
+              "HBP": 9,
+              "AVG": ".322",
+              "AB": 559,
+              "OBP": ".458",
+              "SLG": ".701",
+              "OPS": "1.159",
+              "CS": 0,
+              "SB": 10,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 22,
+              "Pitches": 2885,
+              "PA": 704,
+              "TB": 392,
+              "RBI": 144,
+              "LOB": 238,
+              "SH": 0,
+              "SF": 2,
+              "BABIP": ".367",
+              "GOtoAO": "0.64",
+              "CI": 1,
+              "ABpHR": "9.64"
+            },
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "player": {
+              "id": 592450,
+              "fullName": "Aaron Judge",
+              "link": "/api/v1/people/592450",
+              "firstName": "Aaron",
+              "lastName": "Judge"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 15,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 28,
+              "G": 12,
+              "GOuts": 5,
+              "AOuts": 9,
+              "R": 5,
+              "X2B": 2,
+              "X3B": 0,
+              "HR": 0,
+              "K": 6,
+              "BB": 2,
+              "IBB": 0,
+              "H": 8,
+              "HBP": 2,
+              "AVG": ".320",
+              "AB": 25,
+              "OBP": ".387",
+              "SLG": ".400",
+              "OPS": ".787",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 111,
+              "PA": 32,
+              "TB": 10,
+              "RBI": 8,
+              "LOB": 11,
+              "SH": 1,
+              "SF": 2,
+              "BABIP": ".381",
+              "GOtoAO": "0.56",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 117,
+              "name": "Houston Astros",
+              "link": "/api/v1/teams/117"
+            },
+            "player": {
+              "id": 663967,
+              "fullName": "C\u00e9sar Salazar",
+              "link": "/api/v1/people/663967",
+              "firstName": "C\u00e9sar",
+              "lastName": "Salazar"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 16,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 32,
+              "G": 73,
+              "GOuts": 80,
+              "AOuts": 49,
+              "R": 44,
+              "X2B": 12,
+              "X3B": 3,
+              "HR": 11,
+              "K": 58,
+              "BB": 40,
+              "IBB": 3,
+              "H": 85,
+              "HBP": 2,
+              "AVG": ".315",
+              "AB": 270,
+              "OBP": ".406",
+              "SLG": ".504",
+              "OPS": ".910",
+              "CS": 1,
+              "SB": 21,
+              "SBPct": ".955",
+              "CSPct": ".045",
+              "GIDP": 3,
+              "Pitches": 1268,
+              "PA": 315,
+              "TB": 136,
+              "RBI": 42,
+              "LOB": 95,
+              "SH": 1,
+              "SF": 1,
+              "BABIP": ".366",
+              "GOtoAO": "1.63",
+              "CI": 1,
+              "ABpHR": "24.54"
+            },
+            "team": {
+              "id": 158,
+              "name": "Milwaukee Brewers",
+              "link": "/api/v1/teams/158"
+            },
+            "player": {
+              "id": 592885,
+              "fullName": "Christian Yelich",
+              "link": "/api/v1/people/592885",
+              "firstName": "Christian",
+              "lastName": "Yelich"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 17,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 150,
+              "GOuts": 199,
+              "AOuts": 212,
+              "R": 83,
+              "X2B": 32,
+              "X3B": 3,
+              "HR": 4,
+              "K": 29,
+              "BB": 24,
+              "IBB": 3,
+              "H": 200,
+              "HBP": 8,
+              "AVG": ".314",
+              "AB": 637,
+              "OBP": ".346",
+              "SLG": ".392",
+              "OPS": ".738",
+              "CS": 3,
+              "SB": 9,
+              "SBPct": ".750",
+              "CSPct": ".250",
+              "GIDP": 18,
+              "Pitches": 2416,
+              "PA": 672,
+              "TB": 250,
+              "RBI": 46,
+              "LOB": 181,
+              "SH": 2,
+              "SF": 1,
+              "BABIP": ".324",
+              "GOtoAO": "0.94",
+              "CI": 0,
+              "ABpHR": "159.25"
+            },
+            "team": {
+              "id": 135,
+              "name": "San Diego Padres",
+              "link": "/api/v1/teams/135"
+            },
+            "player": {
+              "id": 650333,
+              "fullName": "Luis Arraez",
+              "link": "/api/v1/people/650333",
+              "firstName": "Luis",
+              "lastName": "Arraez"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 2,
+            "rank": 18,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 24,
+              "G": 25,
+              "GOuts": 9,
+              "AOuts": 18,
+              "R": 12,
+              "X2B": 5,
+              "X3B": 0,
+              "HR": 4,
+              "K": 28,
+              "BB": 7,
+              "IBB": 0,
+              "H": 25,
+              "HBP": 0,
+              "AVG": ".313",
+              "AB": 80,
+              "OBP": ".368",
+              "SLG": ".525",
+              "OPS": ".893",
+              "CS": 1,
+              "SB": 1,
+              "SBPct": ".500",
+              "CSPct": ".500",
+              "GIDP": 1,
+              "Pitches": 336,
+              "PA": 87,
+              "TB": 42,
+              "RBI": 19,
+              "LOB": 40,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".438",
+              "GOtoAO": "0.50",
+              "CI": 0,
+              "ABpHR": "20.00"
+            },
+            "team": {
+              "id": 109,
+              "name": "Arizona Diamondbacks",
+              "link": "/api/v1/teams/109"
+            },
+            "player": {
+              "id": 680728,
+              "fullName": "Adrian Del Castillo",
+              "link": "/api/v1/people/680728",
+              "firstName": "Adrian",
+              "lastName": "Del Castillo"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 19,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 26,
+              "G": 11,
+              "GOuts": 5,
+              "AOuts": 8,
+              "R": 3,
+              "X2B": 2,
+              "X3B": 0,
+              "HR": 0,
+              "K": 9,
+              "BB": 5,
+              "IBB": 1,
+              "H": 10,
+              "HBP": 1,
+              "AVG": ".313",
+              "AB": 32,
+              "OBP": ".421",
+              "SLG": ".375",
+              "OPS": ".796",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 124,
+              "PA": 38,
+              "TB": 12,
+              "RBI": 1,
+              "LOB": 12,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".435",
+              "GOtoAO": "0.63",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 137,
+              "name": "San Francisco Giants",
+              "link": "/api/v1/teams/137"
+            },
+            "player": {
+              "id": 666165,
+              "fullName": "Blake Sabol",
+              "link": "/api/v1/people/666165",
+              "firstName": "Blake",
+              "lastName": "Sabol"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 19,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 86,
+              "GOuts": 83,
+              "AOuts": 80,
+              "R": 55,
+              "X2B": 20,
+              "X3B": 2,
+              "HR": 14,
+              "K": 61,
+              "BB": 40,
+              "IBB": 4,
+              "H": 99,
+              "HBP": 3,
+              "AVG": ".310",
+              "AB": 319,
+              "OBP": ".388",
+              "SLG": ".517",
+              "OPS": ".905",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 5,
+              "Pitches": 1375,
+              "PA": 367,
+              "TB": 165,
+              "RBI": 54,
+              "LOB": 120,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".343",
+              "GOtoAO": "1.04",
+              "CI": 1,
+              "ABpHR": "22.79"
+            },
+            "team": {
+              "id": 142,
+              "name": "Minnesota Twins",
+              "link": "/api/v1/teams/142"
+            },
+            "player": {
+              "id": 621043,
+              "fullName": "Carlos Correa",
+              "link": "/api/v1/people/621043",
+              "firstName": "Carlos",
+              "lastName": "Correa"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 21,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 159,
+              "GOuts": 124,
+              "AOuts": 158,
+              "R": 134,
+              "X2B": 38,
+              "X3B": 7,
+              "HR": 54,
+              "K": 162,
+              "BB": 81,
+              "IBB": 10,
+              "H": 197,
+              "HBP": 6,
+              "AVG": ".310",
+              "AB": 636,
+              "OBP": ".390",
+              "SLG": ".646",
+              "OPS": "1.036",
+              "CS": 4,
+              "SB": 59,
+              "SBPct": ".937",
+              "CSPct": ".063",
+              "GIDP": 7,
+              "Pitches": 2838,
+              "PA": 731,
+              "TB": 411,
+              "RBI": 130,
+              "LOB": 236,
+              "SH": 0,
+              "SF": 5,
+              "BABIP": ".336",
+              "GOtoAO": "0.78",
+              "CI": 3,
+              "ABpHR": "11.78"
+            },
+            "team": {
+              "id": 119,
+              "name": "Los Angeles Dodgers",
+              "link": "/api/v1/teams/119"
+            },
+            "player": {
+              "id": 660271,
+              "fullName": "Shohei Ohtani",
+              "link": "/api/v1/people/660271",
+              "firstName": "Shohei",
+              "lastName": "Ohtani"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 22,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 147,
+              "GOuts": 98,
+              "AOuts": 193,
+              "R": 88,
+              "X2B": 34,
+              "X3B": 2,
+              "HR": 35,
+              "K": 95,
+              "BB": 69,
+              "IBB": 16,
+              "H": 170,
+              "HBP": 10,
+              "AVG": ".308",
+              "AB": 552,
+              "OBP": ".392",
+              "SLG": ".567",
+              "OPS": ".959",
+              "CS": 0,
+              "SB": 6,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 14,
+              "Pitches": 2264,
+              "PA": 635,
+              "TB": 313,
+              "RBI": 86,
+              "LOB": 216,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".317",
+              "GOtoAO": "0.51",
+              "CI": 0,
+              "ABpHR": "15.77"
+            },
+            "team": {
+              "id": 117,
+              "name": "Houston Astros",
+              "link": "/api/v1/teams/117"
+            },
+            "player": {
+              "id": 670541,
+              "fullName": "Yordan Alvarez",
+              "link": "/api/v1/people/670541",
+              "firstName": "Yordan",
+              "lastName": "Alvarez"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 23,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 22,
+              "G": 14,
+              "GOuts": 10,
+              "AOuts": 11,
+              "R": 6,
+              "X2B": 2,
+              "X3B": 1,
+              "HR": 3,
+              "K": 6,
+              "BB": 1,
+              "IBB": 0,
+              "H": 12,
+              "HBP": 0,
+              "AVG": ".308",
+              "AB": 39,
+              "OBP": ".325",
+              "SLG": ".641",
+              "OPS": ".966",
+              "CS": 1,
+              "SB": 0,
+              "SBPct": ".000",
+              "CSPct": "1.000",
+              "GIDP": 1,
+              "Pitches": 136,
+              "PA": 40,
+              "TB": 25,
+              "RBI": 6,
+              "LOB": 10,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".300",
+              "GOtoAO": "0.91",
+              "CI": 0,
+              "ABpHR": "13.00"
+            },
+            "team": {
+              "id": 121,
+              "name": "New York Mets",
+              "link": "/api/v1/teams/121"
+            },
+            "player": {
+              "id": 682668,
+              "fullName": "Luisangel Acu\u00f1a",
+              "link": "/api/v1/people/682668",
+              "firstName": "Luisangel",
+              "lastName": "Acu\u00f1a"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 24,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 91,
+              "GOuts": 63,
+              "AOuts": 69,
+              "R": 44,
+              "X2B": 20,
+              "X3B": 0,
+              "HR": 4,
+              "K": 53,
+              "BB": 21,
+              "IBB": 0,
+              "H": 78,
+              "HBP": 11,
+              "AVG": ".307",
+              "AB": 254,
+              "OBP": ".381",
+              "SLG": ".433",
+              "OPS": ".814",
+              "CS": 2,
+              "SB": 34,
+              "SBPct": ".944",
+              "CSPct": ".056",
+              "GIDP": 2,
+              "Pitches": 1020,
+              "PA": 295,
+              "TB": 110,
+              "RBI": 28,
+              "LOB": 71,
+              "SH": 6,
+              "SF": 3,
+              "BABIP": ".370",
+              "GOtoAO": "0.91",
+              "CI": 0,
+              "ABpHR": "63.50"
+            },
+            "team": {
+              "id": 136,
+              "name": "Seattle Mariners",
+              "link": "/api/v1/teams/136"
+            },
+            "player": {
+              "id": 645302,
+              "fullName": "Victor Robles",
+              "link": "/api/v1/people/645302",
+              "firstName": "Victor",
+              "lastName": "Robles"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 2,
+            "rank": 25,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 24,
+              "GOuts": 26,
+              "AOuts": 15,
+              "R": 8,
+              "X2B": 6,
+              "X3B": 0,
+              "HR": 2,
+              "K": 16,
+              "BB": 4,
+              "IBB": 0,
+              "H": 25,
+              "HBP": 0,
+              "AVG": ".305",
+              "AB": 82,
+              "OBP": ".337",
+              "SLG": ".451",
+              "OPS": ".788",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 3,
+              "Pitches": 364,
+              "PA": 86,
+              "TB": 37,
+              "RBI": 11,
+              "LOB": 34,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".359",
+              "GOtoAO": "1.73",
+              "CI": 0,
+              "ABpHR": "41.00"
+            },
+            "team": {
+              "id": 141,
+              "name": "Toronto Blue Jays",
+              "link": "/api/v1/teams/141"
+            },
+            "player": {
+              "id": 695238,
+              "fullName": "Will Wagner",
+              "link": "/api/v1/people/695238",
+              "firstName": "Will",
+              "lastName": "Wagner"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 26,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 31,
+              "G": 37,
+              "GOuts": 8,
+              "AOuts": 11,
+              "R": 4,
+              "X2B": 4,
+              "X3B": 0,
+              "HR": 0,
+              "K": 13,
+              "BB": 2,
+              "IBB": 0,
+              "H": 14,
+              "HBP": 0,
+              "AVG": ".304",
+              "AB": 46,
+              "OBP": ".333",
+              "SLG": ".391",
+              "OPS": ".724",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 1,
+              "Pitches": 162,
+              "PA": 48,
+              "TB": 18,
+              "RBI": 6,
+              "LOB": 19,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".424",
+              "GOtoAO": "0.73",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 112,
+              "name": "Chicago Cubs",
+              "link": "/api/v1/teams/112"
+            },
+            "player": {
+              "id": 623520,
+              "fullName": "David Bote",
+              "link": "/api/v1/people/623520",
+              "firstName": "David",
+              "lastName": "Bote"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 27,
+            "position": {
+              "code": "5",
+              "name": "Third Base",
+              "type": "Infielder",
+              "abbreviation": "3B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 22,
+              "GOuts": 25,
+              "AOuts": 24,
+              "R": 13,
+              "X2B": 4,
+              "X3B": 2,
+              "HR": 1,
+              "K": 9,
+              "BB": 10,
+              "IBB": 0,
+              "H": 23,
+              "HBP": 0,
+              "AVG": ".303",
+              "AB": 76,
+              "OBP": ".371",
+              "SLG": ".447",
+              "OPS": ".818",
+              "CS": 0,
+              "SB": 1,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 1,
+              "Pitches": 356,
+              "PA": 91,
+              "TB": 34,
+              "RBI": 10,
+              "LOB": 28,
+              "SH": 2,
+              "SF": 3,
+              "BABIP": ".319",
+              "GOtoAO": "1.04",
+              "CI": 0,
+              "ABpHR": "76.00"
+            },
+            "team": {
+              "id": 141,
+              "name": "Toronto Blue Jays",
+              "link": "/api/v1/teams/141"
+            },
+            "player": {
+              "id": 664770,
+              "fullName": "Nathan Lukes",
+              "link": "/api/v1/people/664770",
+              "firstName": "Nathan",
+              "lastName": "Lukes"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 28,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 33,
+              "G": 162,
+              "GOuts": 121,
+              "AOuts": 136,
+              "R": 96,
+              "X2B": 31,
+              "X3B": 0,
+              "HR": 39,
+              "K": 170,
+              "BB": 74,
+              "IBB": 2,
+              "H": 183,
+              "HBP": 3,
+              "AVG": ".302",
+              "AB": 606,
+              "OBP": ".378",
+              "SLG": ".546",
+              "OPS": ".924",
+              "CS": 0,
+              "SB": 1,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 23,
+              "Pitches": 2875,
+              "PA": 688,
+              "TB": 331,
+              "RBI": 104,
+              "LOB": 240,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".359",
+              "GOtoAO": "0.89",
+              "CI": 1,
+              "ABpHR": "15.54"
+            },
+            "team": {
+              "id": 144,
+              "name": "Atlanta Braves",
+              "link": "/api/v1/teams/144"
+            },
+            "player": {
+              "id": 542303,
+              "fullName": "Marcell Ozuna",
+              "link": "/api/v1/people/542303",
+              "firstName": "Marcell",
+              "lastName": "Ozuna"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 29,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 24,
+              "G": 72,
+              "GOuts": 57,
+              "AOuts": 52,
+              "R": 37,
+              "X2B": 12,
+              "X3B": 1,
+              "HR": 5,
+              "K": 53,
+              "BB": 25,
+              "IBB": 0,
+              "H": 69,
+              "HBP": 2,
+              "AVG": ".301",
+              "AB": 229,
+              "OBP": ".372",
+              "SLG": ".428",
+              "OPS": ".800",
+              "CS": 0,
+              "SB": 5,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 3,
+              "Pitches": 1036,
+              "PA": 259,
+              "TB": 98,
+              "RBI": 27,
+              "LOB": 101,
+              "SH": 0,
+              "SF": 2,
+              "BABIP": ".370",
+              "GOtoAO": "1.10",
+              "CI": 1,
+              "ABpHR": "45.80"
+            },
+            "team": {
+              "id": 138,
+              "name": "St. Louis Cardinals",
+              "link": "/api/v1/teams/138"
+            },
+            "player": {
+              "id": 671056,
+              "fullName": "Iv\u00e1n Herrera",
+              "link": "/api/v1/people/671056",
+              "firstName": "Iv\u00e1n",
+              "lastName": "Herrera"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 30,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 78,
+              "GOuts": 94,
+              "AOuts": 61,
+              "R": 41,
+              "X2B": 13,
+              "X3B": 1,
+              "HR": 6,
+              "K": 44,
+              "BB": 16,
+              "IBB": 0,
+              "H": 85,
+              "HBP": 4,
+              "AVG": ".300",
+              "AB": 283,
+              "OBP": ".347",
+              "SLG": ".417",
+              "OPS": ".764",
+              "CS": 7,
+              "SB": 24,
+              "SBPct": ".774",
+              "CSPct": ".226",
+              "GIDP": 6,
+              "Pitches": 1084,
+              "PA": 304,
+              "TB": 118,
+              "RBI": 30,
+              "LOB": 99,
+              "SH": 1,
+              "SF": 0,
+              "BABIP": ".339",
+              "GOtoAO": "1.54",
+              "CI": 0,
+              "ABpHR": "47.17"
+            },
+            "team": {
+              "id": 108,
+              "name": "Los Angeles Angels",
+              "link": "/api/v1/teams/108"
+            },
+            "player": {
+              "id": 650859,
+              "fullName": "Luis Rengifo",
+              "link": "/api/v1/people/650859",
+              "firstName": "Luis",
+              "lastName": "Rengifo"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 31,
+            "position": {
+              "code": "5",
+              "name": "Third Base",
+              "type": "Infielder",
+              "abbreviation": "3B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 28,
+              "G": 9,
+              "GOuts": 1,
+              "AOuts": 3,
+              "R": 2,
+              "X2B": 2,
+              "X3B": 0,
+              "HR": 0,
+              "K": 3,
+              "BB": 0,
+              "IBB": 0,
+              "H": 3,
+              "HBP": 0,
+              "AVG": ".300",
+              "AB": 10,
+              "OBP": ".300",
+              "SLG": ".500",
+              "OPS": ".800",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 28,
+              "PA": 10,
+              "TB": 5,
+              "RBI": 0,
+              "LOB": 7,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".429",
+              "GOtoAO": "0.33",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 142,
+              "name": "Minnesota Twins",
+              "link": "/api/v1/teams/142"
+            },
+            "player": {
+              "id": 680737,
+              "fullName": "Michael Helman",
+              "link": "/api/v1/people/680737",
+              "firstName": "Michael",
+              "lastName": "Helman"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 32,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 148,
+              "GOuts": 191,
+              "AOuts": 120,
+              "R": 70,
+              "X2B": 29,
+              "X3B": 3,
+              "HR": 16,
+              "K": 107,
+              "BB": 24,
+              "IBB": 1,
+              "H": 175,
+              "HBP": 2,
+              "AVG": ".299",
+              "AB": 585,
+              "OBP": ".325",
+              "SLG": ".441",
+              "OPS": ".766",
+              "CS": 0,
+              "SB": 2,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 22,
+              "Pitches": 2128,
+              "PA": 619,
+              "TB": 258,
+              "RBI": 84,
+              "LOB": 268,
+              "SH": 0,
+              "SF": 8,
+              "BABIP": ".338",
+              "GOtoAO": "1.59",
+              "CI": 0,
+              "ABpHR": "36.56"
+            },
+            "team": {
+              "id": 117,
+              "name": "Houston Astros",
+              "link": "/api/v1/teams/117"
+            },
+            "player": {
+              "id": 673237,
+              "fullName": "Yainer Diaz",
+              "link": "/api/v1/people/673237",
+              "firstName": "Yainer",
+              "lastName": "Diaz"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 33,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 31,
+              "G": 121,
+              "GOuts": 127,
+              "AOuts": 132,
+              "R": 88,
+              "X2B": 25,
+              "X3B": 0,
+              "HR": 21,
+              "K": 98,
+              "BB": 27,
+              "IBB": 0,
+              "H": 149,
+              "HBP": 6,
+              "AVG": ".295",
+              "AB": 505,
+              "OBP": ".338",
+              "SLG": ".469",
+              "OPS": ".807",
+              "CS": 4,
+              "SB": 19,
+              "SBPct": ".826",
+              "CSPct": ".174",
+              "GIDP": 10,
+              "Pitches": 2043,
+              "PA": 539,
+              "TB": 237,
+              "RBI": 62,
+              "LOB": 197,
+              "SH": 0,
+              "SF": 1,
+              "BABIP": ".331",
+              "GOtoAO": "0.96",
+              "CI": 0,
+              "ABpHR": "24.05"
+            },
+            "team": {
+              "id": 143,
+              "name": "Philadelphia Phillies",
+              "link": "/api/v1/teams/143"
+            },
+            "player": {
+              "id": 607208,
+              "fullName": "Trea Turner",
+              "link": "/api/v1/people/607208",
+              "firstName": "Trea",
+              "lastName": "Turner"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 34,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 34,
+              "G": 153,
+              "GOuts": 153,
+              "AOuts": 171,
+              "R": 94,
+              "X2B": 31,
+              "X3B": 0,
+              "HR": 20,
+              "K": 119,
+              "BB": 47,
+              "IBB": 2,
+              "H": 185,
+              "HBP": 7,
+              "AVG": ".295",
+              "AB": 628,
+              "OBP": ".350",
+              "SLG": ".439",
+              "OPS": ".789",
+              "CS": 7,
+              "SB": 22,
+              "SBPct": ".759",
+              "CSPct": ".241",
+              "GIDP": 15,
+              "Pitches": 2454,
+              "PA": 682,
+              "TB": 276,
+              "RBI": 65,
+              "LOB": 193,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".337",
+              "GOtoAO": "0.89",
+              "CI": 0,
+              "ABpHR": "31.40"
+            },
+            "team": {
+              "id": 117,
+              "name": "Houston Astros",
+              "link": "/api/v1/teams/117"
+            },
+            "player": {
+              "id": 514888,
+              "fullName": "Jose Altuve",
+              "link": "/api/v1/people/514888",
+              "firstName": "Jose",
+              "lastName": "Altuve"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 35,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 17,
+              "GOuts": 12,
+              "AOuts": 17,
+              "R": 8,
+              "X2B": 4,
+              "X3B": 0,
+              "HR": 3,
+              "K": 8,
+              "BB": 3,
+              "IBB": 0,
+              "H": 15,
+              "HBP": 1,
+              "AVG": ".294",
+              "AB": 51,
+              "OBP": ".345",
+              "SLG": ".549",
+              "OPS": ".894",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 1,
+              "Pitches": 195,
+              "PA": 56,
+              "TB": 28,
+              "RBI": 6,
+              "LOB": 17,
+              "SH": 1,
+              "SF": 0,
+              "BABIP": ".300",
+              "GOtoAO": "0.71",
+              "CI": 0,
+              "ABpHR": "17.00"
+            },
+            "team": {
+              "id": 143,
+              "name": "Philadelphia Phillies",
+              "link": "/api/v1/teams/143"
+            },
+            "player": {
+              "id": 665561,
+              "fullName": "Rafael March\u00e1n",
+              "link": "/api/v1/people/665561",
+              "firstName": "Rafael",
+              "lastName": "March\u00e1n"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 36,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 145,
+              "GOuts": 82,
+              "AOuts": 131,
+              "R": 82,
+              "X2B": 26,
+              "X3B": 2,
+              "HR": 39,
+              "K": 177,
+              "BB": 59,
+              "IBB": 4,
+              "H": 160,
+              "HBP": 5,
+              "AVG": ".293",
+              "AB": 546,
+              "OBP": ".365",
+              "SLG": ".562",
+              "OPS": ".927",
+              "CS": 3,
+              "SB": 11,
+              "SBPct": ".786",
+              "CSPct": ".214",
+              "GIDP": 5,
+              "Pitches": 2378,
+              "PA": 614,
+              "TB": 307,
+              "RBI": 112,
+              "LOB": 207,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".362",
+              "GOtoAO": "0.63",
+              "CI": 0,
+              "ABpHR": "14.00"
+            },
+            "team": {
+              "id": 133,
+              "name": "Oakland Athletics",
+              "link": "/api/v1/teams/133"
+            },
+            "player": {
+              "id": 667670,
+              "fullName": "Brent Rooker",
+              "link": "/api/v1/people/667670",
+              "firstName": "Brent",
+              "lastName": "Rooker"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 37,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 21,
+              "G": 156,
+              "GOuts": 119,
+              "AOuts": 181,
+              "R": 77,
+              "X2B": 31,
+              "X3B": 6,
+              "HR": 24,
+              "K": 101,
+              "BB": 29,
+              "IBB": 1,
+              "H": 162,
+              "HBP": 1,
+              "AVG": ".292",
+              "AB": 554,
+              "OBP": ".326",
+              "SLG": ".500",
+              "OPS": ".826",
+              "CS": 3,
+              "SB": 16,
+              "SBPct": ".842",
+              "CSPct": ".158",
+              "GIDP": 2,
+              "Pitches": 2214,
+              "PA": 593,
+              "TB": 277,
+              "RBI": 90,
+              "LOB": 245,
+              "SH": 4,
+              "SF": 5,
+              "BABIP": ".318",
+              "GOtoAO": "0.66",
+              "CI": 0,
+              "ABpHR": "23.08"
+            },
+            "team": {
+              "id": 135,
+              "name": "San Diego Padres",
+              "link": "/api/v1/teams/135"
+            },
+            "player": {
+              "id": 701538,
+              "fullName": "Jackson Merrill",
+              "link": "/api/v1/people/701538",
+              "firstName": "Jackson",
+              "lastName": "Merrill"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 38,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 26,
+              "G": 122,
+              "GOuts": 117,
+              "AOuts": 174,
+              "R": 83,
+              "X2B": 16,
+              "X3B": 3,
+              "HR": 14,
+              "K": 51,
+              "BB": 53,
+              "IBB": 0,
+              "H": 140,
+              "HBP": 5,
+              "AVG": ".292",
+              "AB": 480,
+              "OBP": ".368",
+              "SLG": ".425",
+              "OPS": ".793",
+              "CS": 5,
+              "SB": 12,
+              "SBPct": ".706",
+              "CSPct": ".294",
+              "GIDP": 5,
+              "Pitches": 2165,
+              "PA": 540,
+              "TB": 204,
+              "RBI": 44,
+              "LOB": 131,
+              "SH": 2,
+              "SF": 0,
+              "BABIP": ".304",
+              "GOtoAO": "0.67",
+              "CI": 0,
+              "ABpHR": "34.29"
+            },
+            "team": {
+              "id": 114,
+              "name": "Cleveland Guardians",
+              "link": "/api/v1/teams/114"
+            },
+            "player": {
+              "id": 680757,
+              "fullName": "Steven Kwan",
+              "link": "/api/v1/people/680757",
+              "firstName": "Steven",
+              "lastName": "Kwan"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 39,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 30,
+              "G": 136,
+              "GOuts": 146,
+              "AOuts": 114,
+              "R": 93,
+              "X2B": 23,
+              "X3B": 2,
+              "HR": 36,
+              "K": 106,
+              "BB": 65,
+              "IBB": 7,
+              "H": 147,
+              "HBP": 5,
+              "AVG": ".292",
+              "AB": 504,
+              "OBP": ".372",
+              "SLG": ".560",
+              "OPS": ".932",
+              "CS": 1,
+              "SB": 7,
+              "SBPct": ".875",
+              "CSPct": ".125",
+              "GIDP": 9,
+              "Pitches": 2146,
+              "PA": 583,
+              "TB": 282,
+              "RBI": 95,
+              "LOB": 172,
+              "SH": 0,
+              "SF": 9,
+              "BABIP": ".299",
+              "GOtoAO": "1.28",
+              "CI": 0,
+              "ABpHR": "14.00"
+            },
+            "team": {
+              "id": 109,
+              "name": "Arizona Diamondbacks",
+              "link": "/api/v1/teams/109"
+            },
+            "player": {
+              "id": 606466,
+              "fullName": "Ketel Marte",
+              "link": "/api/v1/people/606466",
+              "firstName": "Ketel",
+              "lastName": "Marte"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 39,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 32,
+              "G": 106,
+              "GOuts": 54,
+              "AOuts": 82,
+              "R": 40,
+              "X2B": 20,
+              "X3B": 2,
+              "HR": 12,
+              "K": 46,
+              "BB": 20,
+              "IBB": 0,
+              "H": 74,
+              "HBP": 3,
+              "AVG": ".291",
+              "AB": 254,
+              "OBP": ".348",
+              "SLG": ".528",
+              "OPS": ".876",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 5,
+              "Pitches": 1088,
+              "PA": 279,
+              "TB": 134,
+              "RBI": 46,
+              "LOB": 121,
+              "SH": 0,
+              "SF": 2,
+              "BABIP": ".313",
+              "GOtoAO": "0.66",
+              "CI": 0,
+              "ABpHR": "21.17"
+            },
+            "team": {
+              "id": 109,
+              "name": "Arizona Diamondbacks",
+              "link": "/api/v1/teams/109"
+            },
+            "player": {
+              "id": 545341,
+              "fullName": "Randal Grichuk",
+              "link": "/api/v1/people/545341",
+              "firstName": "Randal",
+              "lastName": "Grichuk"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 41,
+            "position": {
+              "code": "X",
+              "name": "Unknown",
+              "type": "Unknown",
+              "abbreviation": "X"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 31,
+              "G": 116,
+              "GOuts": 81,
+              "AOuts": 186,
+              "R": 75,
+              "X2B": 24,
+              "X3B": 5,
+              "HR": 19,
+              "K": 57,
+              "BB": 61,
+              "IBB": 2,
+              "H": 130,
+              "HBP": 1,
+              "AVG": ".289",
+              "AB": 450,
+              "OBP": ".372",
+              "SLG": ".491",
+              "OPS": ".863",
+              "CS": 2,
+              "SB": 16,
+              "SBPct": ".889",
+              "CSPct": ".111",
+              "GIDP": 10,
+              "Pitches": 2047,
+              "PA": 516,
+              "TB": 221,
+              "RBI": 75,
+              "LOB": 138,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".294",
+              "GOtoAO": "0.44",
+              "CI": 0,
+              "ABpHR": "23.68"
+            },
+            "team": {
+              "id": 119,
+              "name": "Los Angeles Dodgers",
+              "link": "/api/v1/teams/119"
+            },
+            "player": {
+              "id": 605141,
+              "fullName": "Mookie Betts",
+              "link": "/api/v1/people/605141",
+              "firstName": "Mookie",
+              "lastName": "Betts"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 42,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 78,
+              "GOuts": 47,
+              "AOuts": 98,
+              "R": 56,
+              "X2B": 13,
+              "X3B": 0,
+              "HR": 23,
+              "K": 54,
+              "BB": 56,
+              "IBB": 3,
+              "H": 80,
+              "HBP": 1,
+              "AVG": ".289",
+              "AB": 277,
+              "OBP": ".408",
+              "SLG": ".585",
+              "OPS": ".993",
+              "CS": 0,
+              "SB": 11,
+              "SBPct": "1.000",
+              "CSPct": ".000",
+              "GIDP": 5,
+              "Pitches": 1349,
+              "PA": 339,
+              "TB": 162,
+              "RBI": 49,
+              "LOB": 106,
+              "SH": 0,
+              "SF": 2,
+              "BABIP": ".282",
+              "GOtoAO": "0.48",
+              "CI": 3,
+              "ABpHR": "12.04"
+            },
+            "team": {
+              "id": 117,
+              "name": "Houston Astros",
+              "link": "/api/v1/teams/117"
+            },
+            "player": {
+              "id": 663656,
+              "fullName": "Kyle Tucker",
+              "link": "/api/v1/people/663656",
+              "firstName": "Kyle",
+              "lastName": "Tucker"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 43,
+            "position": {
+              "code": "9",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "RF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 25,
+              "G": 157,
+              "GOuts": 162,
+              "AOuts": 133,
+              "R": 128,
+              "X2B": 31,
+              "X3B": 4,
+              "HR": 41,
+              "K": 119,
+              "BB": 129,
+              "IBB": 2,
+              "H": 166,
+              "HBP": 4,
+              "AVG": ".288",
+              "AB": 576,
+              "OBP": ".419",
+              "SLG": ".569",
+              "OPS": ".988",
+              "CS": 4,
+              "SB": 7,
+              "SBPct": ".636",
+              "CSPct": ".364",
+              "GIDP": 10,
+              "Pitches": 2960,
+              "PA": 713,
+              "TB": 328,
+              "RBI": 109,
+              "LOB": 203,
+              "SH": 0,
+              "SF": 4,
+              "BABIP": ".298",
+              "GOtoAO": "1.22",
+              "CI": 0,
+              "ABpHR": "14.05"
+            },
+            "team": {
+              "id": 147,
+              "name": "New York Yankees",
+              "link": "/api/v1/teams/147"
+            },
+            "player": {
+              "id": 665742,
+              "fullName": "Juan Soto",
+              "link": "/api/v1/people/665742",
+              "firstName": "Juan",
+              "lastName": "Soto"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 44,
+            "position": {
+              "code": "9",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "RF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 36,
+              "G": 96,
+              "GOuts": 66,
+              "AOuts": 72,
+              "R": 31,
+              "X2B": 13,
+              "X3B": 0,
+              "HR": 8,
+              "K": 65,
+              "BB": 22,
+              "IBB": 0,
+              "H": 81,
+              "HBP": 3,
+              "AVG": ".286",
+              "AB": 283,
+              "OBP": ".343",
+              "SLG": ".417",
+              "OPS": ".760",
+              "CS": 1,
+              "SB": 2,
+              "SBPct": ".667",
+              "CSPct": ".333",
+              "GIDP": 6,
+              "Pitches": 1273,
+              "PA": 309,
+              "TB": 118,
+              "RBI": 35,
+              "LOB": 107,
+              "SH": 0,
+              "SF": 1,
+              "BABIP": ".346",
+              "GOtoAO": "0.92",
+              "CI": 0,
+              "ABpHR": "35.38"
+            },
+            "team": {
+              "id": 135,
+              "name": "San Diego Padres",
+              "link": "/api/v1/teams/135"
+            },
+            "player": {
+              "id": 456781,
+              "fullName": "Donovan Solano",
+              "link": "/api/v1/people/456781",
+              "firstName": "Donovan",
+              "lastName": "Solano"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 45,
+            "position": {
+              "code": "X",
+              "name": "Unknown",
+              "type": "Unknown",
+              "abbreviation": "X"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 33,
+              "G": 4,
+              "GOuts": 2,
+              "AOuts": 2,
+              "R": 2,
+              "X2B": 0,
+              "X3B": 0,
+              "HR": 0,
+              "K": 1,
+              "BB": 2,
+              "IBB": 0,
+              "H": 2,
+              "HBP": 1,
+              "AVG": ".286",
+              "AB": 7,
+              "OBP": ".500",
+              "SLG": ".286",
+              "OPS": ".786",
+              "CS": 0,
+              "SB": 0,
+              "SBPct": null,
+              "CSPct": null,
+              "GIDP": 0,
+              "Pitches": 31,
+              "PA": 10,
+              "TB": 2,
+              "RBI": 0,
+              "LOB": 4,
+              "SH": 0,
+              "SF": 0,
+              "BABIP": ".333",
+              "GOtoAO": "1.00",
+              "CI": 0,
+              "ABpHR": null
+            },
+            "team": {
+              "id": 140,
+              "name": "Texas Rangers",
+              "link": "/api/v1/teams/140"
+            },
+            "player": {
+              "id": 622110,
+              "fullName": "Matt Duffy",
+              "link": "/api/v1/people/622110",
+              "firstName": "Matt",
+              "lastName": "Duffy"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 46,
+            "position": {
+              "code": "5",
+              "name": "Third Base",
+              "type": "Infielder",
+              "abbreviation": "3B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 31,
+              "G": 145,
+              "GOuts": 114,
+              "AOuts": 144,
+              "R": 85,
+              "X2B": 42,
+              "X3B": 0,
+              "HR": 30,
+              "K": 138,
+              "BB": 76,
+              "IBB": 11,
+              "H": 157,
+              "HBP": 2,
+              "AVG": ".285",
+              "AB": 550,
+              "OBP": ".373",
+              "SLG": ".525",
+              "OPS": ".898",
+              "CS": 4,
+              "SB": 7,
+              "SBPct": ".636",
+              "CSPct": ".364",
+              "GIDP": 18,
+              "Pitches": 2469,
+              "PA": 631,
+              "TB": 289,
+              "RBI": 87,
+              "LOB": 213,
+              "SH": 1,
+              "SF": 2,
+              "BABIP": ".331",
+              "GOtoAO": "0.79",
+              "CI": 0,
+              "ABpHR": "18.33"
+            },
+            "team": {
+              "id": 143,
+              "name": "Philadelphia Phillies",
+              "link": "/api/v1/teams/143"
+            },
+            "player": {
+              "id": 547180,
+              "fullName": "Bryce Harper",
+              "link": "/api/v1/people/547180",
+              "firstName": "Bryce",
+              "lastName": "Harper"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 47,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 26,
+              "G": 142,
+              "GOuts": 140,
+              "AOuts": 106,
+              "R": 66,
+              "X2B": 13,
+              "X3B": 7,
+              "HR": 8,
+              "K": 78,
+              "BB": 31,
+              "IBB": 1,
+              "H": 126,
+              "HBP": 14,
+              "AVG": ".285",
+              "AB": 442,
+              "OBP": ".349",
+              "SLG": ".400",
+              "OPS": ".749",
+              "CS": 6,
+              "SB": 25,
+              "SBPct": ".806",
+              "CSPct": ".194",
+              "GIDP": 4,
+              "Pitches": 1786,
+              "PA": 495,
+              "TB": 177,
+              "RBI": 56,
+              "LOB": 147,
+              "SH": 5,
+              "SF": 3,
+              "BABIP": ".329",
+              "GOtoAO": "1.32",
+              "CI": 0,
+              "ABpHR": "55.25"
+            },
+            "team": {
+              "id": 109,
+              "name": "Arizona Diamondbacks",
+              "link": "/api/v1/teams/109"
+            },
+            "player": {
+              "id": 664983,
+              "fullName": "Jake McCarthy",
+              "link": "/api/v1/people/664983",
+              "firstName": "Jake",
+              "lastName": "McCarthy"
+            },
+            "league": {
+              "id": 104,
+              "name": "NL",
+              "link": "/api/v1/league/104"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 48,
+            "position": {
+              "code": "9",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "RF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 29,
+              "G": 75,
+              "GOuts": 97,
+              "AOuts": 78,
+              "R": 31,
+              "X2B": 14,
+              "X3B": 1,
+              "HR": 4,
+              "K": 42,
+              "BB": 13,
+              "IBB": 0,
+              "H": 86,
+              "HBP": 3,
+              "AVG": ".285",
+              "AB": 302,
+              "OBP": ".320",
+              "SLG": ".377",
+              "OPS": ".697",
+              "CS": 2,
+              "SB": 3,
+              "SBPct": ".600",
+              "CSPct": ".400",
+              "GIDP": 10,
+              "Pitches": 1176,
+              "PA": 319,
+              "TB": 114,
+              "RBI": 30,
+              "LOB": 102,
+              "SH": 0,
+              "SF": 1,
+              "BABIP": ".319",
+              "GOtoAO": "1.24",
+              "CI": 0,
+              "ABpHR": "75.50"
+            },
+            "team": {
+              "id": 133,
+              "name": "Oakland Athletics",
+              "link": "/api/v1/teams/133"
+            },
+            "player": {
+              "id": 609280,
+              "fullName": "Miguel Andujar",
+              "link": "/api/v1/people/609280",
+              "firstName": "Miguel",
+              "lastName": "Andujar"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 49,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2024",
+            "stat": {
+              "age": 27,
+              "G": 160,
+              "GOuts": 172,
+              "AOuts": 152,
+              "R": 111,
+              "X2B": 48,
+              "X3B": 14,
+              "HR": 21,
+              "K": 160,
+              "BB": 54,
+              "IBB": 1,
+              "H": 191,
+              "HBP": 6,
+              "AVG": ".285",
+              "AB": 671,
+              "OBP": ".342",
+              "SLG": ".492",
+              "OPS": ".834",
+              "CS": 7,
+              "SB": 34,
+              "SBPct": ".829",
+              "CSPct": ".171",
+              "GIDP": 6,
+              "Pitches": 2844,
+              "PA": 735,
+              "TB": 330,
+              "RBI": 75,
+              "LOB": 205,
+              "SH": 1,
+              "SF": 3,
+              "BABIP": ".345",
+              "GOtoAO": "1.13",
+              "CI": 0,
+              "ABpHR": "31.95"
+            },
+            "team": {
+              "id": 111,
+              "name": "Boston Red Sox",
+              "link": "/api/v1/teams/111"
+            },
+            "player": {
+              "id": 680776,
+              "fullName": "Jarren Duran",
+              "link": "/api/v1/people/680776",
+              "firstName": "Jarren",
+              "lastName": "Duran"
+            },
+            "league": {
+              "id": 103,
+              "name": "AL",
+              "link": "/api/v1/league/103"
+            },
+            "sport": {
+              "id": 1,
+              "link": "/api/v1/sports/1",
+              "abbreviation": "MLB"
+            },
+            "stint": 1,
+            "rank": 50,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
+            }
+          }
+        ],
+        "splitsTiedWithOffset": [],
+        "splitsTiedWithLimit": [],
+        "playerPool": "ALL"
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:13.153806"
+}

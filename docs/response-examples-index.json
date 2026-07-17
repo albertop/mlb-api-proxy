@@ -1,0 +1,1236 @@
+{
+  "version": "1.0",
+  "generated": "2026-02-15T16:33:05.435214",
+  "base_url": "http://10.0.0.39:3002",
+  "routers": [
+    {
+      "name": "attendance",
+      "file": "response-examples/attendance/README.md",
+      "endpoint_count": 1,
+      "successful_count": 1,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/attendance",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/attendance/GET_attendance.json"
+        }
+      ]
+    },
+    {
+      "name": "awards",
+      "file": "response-examples/awards/README.md",
+      "endpoint_count": 3,
+      "successful_count": 3,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/awards",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/awards/GET_awards.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/awards/{award_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/awards/GET_awards_award_id.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/awards/{award_id}/recipients",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/awards/GET_awards_award_id_recipients.json"
+        }
+      ]
+    },
+    {
+      "name": "broadcast",
+      "file": "response-examples/broadcast/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/broadcast",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/broadcast/GET_broadcast.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/broadcasters",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/broadcast/GET_broadcasters.json"
+        }
+      ]
+    },
+    {
+      "name": "conference",
+      "file": "response-examples/conference/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/conferences",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/conference/GET_conferences.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/conferences/{conference_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/conference/GET_conferences_conference_id.json"
+        }
+      ]
+    },
+    {
+      "name": "division",
+      "file": "response-examples/division/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/divisions",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/division/GET_divisions.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/divisions/{division_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/division/GET_divisions_division_id.json"
+        }
+      ]
+    },
+    {
+      "name": "draft",
+      "file": "response-examples/draft/README.md",
+      "endpoint_count": 3,
+      "successful_count": 3,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/draft/{year}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/draft/GET_draft_year.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/draft/{year}/latest",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/draft/GET_draft_year_latest.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/draft/prospects/{year}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/draft/GET_draft_prospects_year.json"
+        }
+      ]
+    },
+    {
+      "name": "games",
+      "file": "response-examples/games/README.md",
+      "endpoint_count": 11,
+      "successful_count": 11,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1.1/game/{game_pk}/feed/live",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_feed_live.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1.1/game/{game_pk}/feed/live/diffPatch",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_feed_live_diffpatch.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1.1/game/{game_pk}/feed/live/timestamps",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_feed_live_timestamps.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/contextMetrics",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_contextmetrics.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/winProbability",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_winprobability.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/withMetrics",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_withmetrics.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/boxscore",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_boxscore.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/content",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_content.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/linescore",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_linescore.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/{game_pk}/playByPlay",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_game_pk_playbyplay.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/game/changes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/games/GET_game_changes.json"
+        }
+      ]
+    },
+    {
+      "name": "game_pace",
+      "file": "response-examples/game_pace/README.md",
+      "endpoint_count": 1,
+      "successful_count": 1,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/gamePace",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/game_pace/GET_gamepace.json"
+        }
+      ]
+    },
+    {
+      "name": "high_low",
+      "file": "response-examples/high_low/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/highLow/types",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/high_low/GET_highlow_types.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/highLow/{high_low_type}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/high_low/GET_highlow_high_low_type.json"
+        }
+      ]
+    },
+    {
+      "name": "job",
+      "file": "response-examples/job/README.md",
+      "endpoint_count": 4,
+      "successful_count": 4,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/jobs",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/job/GET_jobs.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/jobs/datacasters",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/job/GET_jobs_datacasters.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/jobs/officialScorers",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/job/GET_jobs_officialscorers.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/jobs/umpires",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/job/GET_jobs_umpires.json"
+        }
+      ]
+    },
+    {
+      "name": "league",
+      "file": "response-examples/league/README.md",
+      "endpoint_count": 11,
+      "successful_count": 11,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/league",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_league.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/league/{league_id}/allStarBallot",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_league_league_id_allstarballot.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/league/{league_id}/allStarFinalVote",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_league_league_id_allstarfinalvote.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/league/{league_id}/allStarWriteIns",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_league_league_id_allstarwriteins.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/league/{league_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_league_league_id.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues/allStarBallot",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues_allstarballot.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues/{league_id}/allStarBallot",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues_league_id_allstarballot.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues/{league_id}/allStarFinalVote",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues_league_id_allstarfinalvote.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues/{league_id}/allStarWriteIns",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues_league_id_allstarwriteins.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagues/{league_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/league/GET_leagues_league_id.json"
+        }
+      ]
+    },
+    {
+      "name": "milestones",
+      "file": "response-examples/milestones/README.md",
+      "endpoint_count": 6,
+      "successful_count": 6,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/achievementStatuses",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_achievementstatuses.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/milestoneDurations",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_milestonedurations.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/milestoneLookups",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_milestonelookups.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/milestoneStatistics",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_milestonestatistics.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/milestoneTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_milestonetypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/milestones",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/milestones/GET_milestones.json"
+        }
+      ]
+    },
+    {
+      "name": "misc",
+      "file": "response-examples/misc/README.md",
+      "endpoint_count": 54,
+      "successful_count": 54,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/baseballStats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_baseballstats.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/broadcastAvailability",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_broadcastavailability.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/coachingVideoTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_coachingvideotypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/eventStatus",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_eventstatus.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/eventTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_eventtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/fielderDetailTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_fielderdetailtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/freeGameTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_freegametypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/gameStatus",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_gamestatus.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/gameTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_gametypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/gamedayTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_gamedaytypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/groupByTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_groupbytypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/hitTrajectories",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_hittrajectories.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/jobTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_jobtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/languages",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_languages.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/leagueLeaderTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_leagueleadertypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/logicalEvents",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_logicalevents.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/lookup/values/all",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_lookup_values_all.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/mediaState",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_mediastate.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/metrics",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_metrics.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/moundVisitTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_moundvisittypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/performerTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_performertypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/pitchCodes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_pitchcodes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/pitchTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_pitchtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/platforms",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_platforms.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/playerStatusCodes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_playerstatuscodes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/positions",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_positions.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/reviewReasons",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_reviewreasons.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/roofTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_rooftypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/rosterTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_rostertypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/ruleSettings",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_rulesettings.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/runnerDetailTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_runnerdetailtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/scheduleEventTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_scheduleeventtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/scheduleTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_scheduletypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/situationCodes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_situationcodes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/sky",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_sky.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/sortModifiers",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_sortmodifiers.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/standingsTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_standingstypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/statFields",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_statfields.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/statGroups",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_statgroups.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/statTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_stattypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/statcastPositionTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_statcastpositiontypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/search/config",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_stats_search_config.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/search/groupByTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_stats_search_groupbytypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/search/params",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_stats_search_params.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/search/stats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_stats_search_stats.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/trackingSoftwareVersions",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_trackingsoftwareversions.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/trackingSystemOwners",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_trackingsystemowners.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/trackingVendors",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_trackingvendors.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/trackingVersions",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_trackingversions.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/transactionTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_transactiontypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/videoResolutionTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_videoresolutiontypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/violationTypes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_violationtypes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/weatherTrajectoryConfidences",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_weathertrajectoryconfidences.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/windDirection",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/misc/GET_winddirection.json"
+        }
+      ]
+    },
+    {
+      "name": "people",
+      "file": "response-examples/people/README.md",
+      "endpoint_count": 7,
+      "successful_count": 7,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/people/changes",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_changes.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/freeAgents",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_freeagents.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/search",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_search.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/608070",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_608070.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/608070/awards",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_608070_awards.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/608070/stats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_608070_stats.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/people/608070/stats/game/{game_pk}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/people/GET_people_608070_stats_game_game_pk.json"
+        }
+      ]
+    },
+    {
+      "name": "schedule",
+      "file": "response-examples/schedule/README.md",
+      "endpoint_count": 5,
+      "successful_count": 5,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/schedule/games/tied",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/schedule/GET_schedule_games_tied.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/schedule/postseason/series",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/schedule/GET_schedule_postseason_series.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/schedule/postseason/tuneIn",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/schedule/GET_schedule_postseason_tunein.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/schedule/postseason",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/schedule/GET_schedule_postseason.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/schedule",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/schedule/GET_schedule.json"
+        }
+      ]
+    },
+    {
+      "name": "season",
+      "file": "response-examples/season/README.md",
+      "endpoint_count": 3,
+      "successful_count": 3,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/seasons",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/season/GET_seasons.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/seasons/all",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/season/GET_seasons_all.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/seasons/{season_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/season/GET_seasons_season_id.json"
+        }
+      ]
+    },
+    {
+      "name": "sports",
+      "file": "response-examples/sports/README.md",
+      "endpoint_count": 4,
+      "successful_count": 4,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/sports",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/sports/GET_sports.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/sports/{sport_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/sports/GET_sports_sport_id.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/sports/{sport_id}/allSportBallot",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/sports/GET_sports_sport_id_allsportballot.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/sports/{sport_id}/players",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/sports/GET_sports_sport_id_players.json"
+        }
+      ]
+    },
+    {
+      "name": "standings",
+      "file": "response-examples/standings/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/standings",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/standings/GET_standings.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/standings/{standings_type}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/standings/GET_standings_standings_type.json"
+        }
+      ]
+    },
+    {
+      "name": "stats",
+      "file": "response-examples/stats/README.md",
+      "endpoint_count": 3,
+      "successful_count": 3,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/stats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/stats/GET_stats.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/grouped",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/stats/GET_stats_grouped.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/stats/leaders",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/stats/GET_stats_leaders.json"
+        }
+      ]
+    },
+    {
+      "name": "teams",
+      "file": "response-examples/teams/README.md",
+      "endpoint_count": 15,
+      "successful_count": 15,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/teams",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/affiliates",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_affiliates.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/history",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_history.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/stats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_stats.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/stats/leaders",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_stats_leaders.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/affiliates",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_affiliates.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/alumni",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_alumni.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/coaches",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_coaches.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/history",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_history.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/leaders",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_leaders.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/personnel",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_personnel.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/roster",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_roster.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/roster/{roster_type}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_roster_roster_type.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/teams/{team_id}/stats",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/teams/GET_teams_team_id_stats.json"
+        }
+      ]
+    },
+    {
+      "name": "transactions",
+      "file": "response-examples/transactions/README.md",
+      "endpoint_count": 1,
+      "successful_count": 1,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/transactions",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/transactions/GET_transactions.json"
+        }
+      ]
+    },
+    {
+      "name": "uniforms",
+      "file": "response-examples/uniforms/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/uniforms/game",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/uniforms/GET_uniforms_game.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/uniforms/team",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/uniforms/GET_uniforms_team.json"
+        }
+      ]
+    },
+    {
+      "name": "venues",
+      "file": "response-examples/venues/README.md",
+      "endpoint_count": 2,
+      "successful_count": 2,
+      "failed_count": 0,
+      "endpoints": [
+        {
+          "method": "GET",
+          "path": "/api/v1/venues",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/venues/GET_venues.json"
+        },
+        {
+          "method": "GET",
+          "path": "/api/v1/venues/{venue_id}",
+          "status_code": 200,
+          "variation": null,
+          "file": "response-examples/venues/GET_venues_venue_id.json"
+        }
+      ]
+    }
+  ]
+}

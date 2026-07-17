@@ -1,0 +1,41 @@
+{
+  "endpoint": "/api/v1/roofTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/roofTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:43 GMT",
+    "server": "uvicorn",
+    "content-length": "412",
+    "content-type": "application/json",
+    "x-request-id": "80425652-ec55-4422-ba02-a70f6a90d628"
+  },
+  "response": [
+    {
+      "value": "roofOpen",
+      "description": "Roof open with no panels"
+    },
+    {
+      "value": "roofClosedNoPanel",
+      "description": "Roof closed with no panels"
+    },
+    {
+      "value": "roofClosedPanelOpen",
+      "description": "Roof closed with open panels"
+    },
+    {
+      "value": "roofClosedPanelClosed",
+      "description": "Roof closed with closed panels"
+    },
+    {
+      "value": "noRoof",
+      "description": "No roof and no panels"
+    },
+    {
+      "value": "unknown",
+      "description": "Roof status is not clear"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:43.169674"
+}

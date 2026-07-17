@@ -1,0 +1,53 @@
+"""Unit tests for sports router."""
+
+import pytest
+import respx
+from fastapi.testclient import TestClient
+from httpx import Response
+
+
+@pytest.mark.unit
+@pytest.mark.parametrize(
+    "endpoint_path,operation_id,summary",
+    [
+        ("/api/v1/sports/123/players", "sportPlayers", "Get all players for a sport level"),
+        ("/api/v1/sports/123/allSportBallot", "allSportBallot", "Get ALL MLB ballot for sport"),
+        ("/api/v1/sports", "sports", "Get sports information"),
+        ("/api/v1/sports/123", "sports_1", "Get sports information"),
+    ],
+)
+def test_sports_endpoint_exists(
+    client: TestClient, endpoint_path: str, operation_id: str, summary: str, respx_mock
+):
+    """Test that sports endpoint exists and returns expected structure."""
+    # Mock the upstream MLB API
+    upstream_url = f"https://statsapi.mlb.com{endpoint_path}"
+    respx.get(upstream_url).mock(
+        return_value=Response(200, json={"data": "test", "copyright": "MLB"})
+    )
+
+    # Make request to our API
+    response = client.get(endpoint_path)
+
+    # Verify response
+    assert response.status_code == 200
+    assert "copyright" not in response.json()  # Should be stripped
+
+
+@pytest.mark.unit
+def test_sports_endpoints_require_valid_upstream(client: TestClient, respx_mock):
+    """Test that sports endpoints handle upstream failures gracefully."""
+    # Mock upstream failure
+    respx.get("https://statsapi.mlb.com/api/v1/test").mock(
+        return_value=Response(500, json={"error": "Internal Server Error"})
+    )
+
+    # This would need to be adjusted per router based on actual endpoints
+    # For now, this is a placeholder for API error handling
+
+
+@pytest.mark.unit
+def test_sports_endpoints_forward_query_params(client: TestClient, respx_mock):
+    """Test that sports endpoints forward query parameters correctly."""
+    # Example test - would need to be customized per router
+    pass

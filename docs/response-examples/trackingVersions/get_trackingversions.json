@@ -1,0 +1,755 @@
+{
+  "endpoint": "/api/v1/trackingVersions",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/trackingVersions",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:49 GMT",
+    "server": "uvicorn",
+    "content-length": "10921",
+    "content-type": "application/json",
+    "x-request-id": "e4aa64bc-96e5-4e47-97b1-6285916e10ec"
+  },
+  "response": [
+    {
+      "id": 100,
+      "description": "Pitch F/x",
+      "owner": null,
+      "pitchVendor": {
+        "id": 1,
+        "description": "Sportvision",
+        "version": "1",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 102,
+      "description": "Statcast 2015 (ball + player)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 1,
+        "description": "Sportvision",
+        "version": "1",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 4,
+        "description": "ChyronHego",
+        "version": "1",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 101,
+      "description": "Statcast 2015 (ball only)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 106,
+      "description": "Statcast 2017 (ball only)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 108,
+      "description": "Statcast 2017 (ball + player)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.0",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 4,
+        "description": "ChyronHego",
+        "version": "1",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 110,
+      "description": "Statcast 2018 (ball + player)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.5",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.5",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 4,
+        "description": "ChyronHego",
+        "version": "1",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 109,
+      "description": "Statcast 2018 (ball only)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.5",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "2.5",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 104,
+      "description": "Statcast 2020 (12-camera 30hz)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera 30hz",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera 30hz",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera 30hz",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera 30hz",
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 103,
+      "description": "Statcast 2020 (8-camera 30hz)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera 30hz",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera 30hz",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera 30hz",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera 30hz",
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 111,
+      "description": "Trackman 3.0",
+      "owner": null,
+      "pitchVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "3.0",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 2,
+        "description": "Trackman",
+        "version": "3.0",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 112,
+      "description": "Hawk-Eye HFR (12-camera [5-camera 300hz + 7-camera 30hz])",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "12-camera [5-camera 300hz + 7-camera 30hz]",
+        "owner": null
+      }
+    },
+    {
+      "id": 113,
+      "description": "Statcast 2023 (4-camera 30hz)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "4-camera 30hz",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "4-camera 30hz",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    },
+    {
+      "id": 114,
+      "description": "Hawk-Eye HFR (8-camera [4-camera 300hz + 4-camera 30hz])",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "8-camera [4-camera 300hz + 4-camera 30hz]",
+        "owner": null
+      }
+    },
+    {
+      "id": 115,
+      "description": "Tracking Version 103 + Hawk-Eye V1 300hz (4-camera)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V1 300hz (4-camera)",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V1 300hz (4-camera)",
+        "owner": null
+      }
+    },
+    {
+      "id": 116,
+      "description": "Tracking Version 103 + Hawk-Eye V1 5-camera 300 hz (5-camera)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V1 5-camera 300hz (5-camera)",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V1 5-camera 300hz (5-camera)",
+        "owner": null
+      }
+    },
+    {
+      "id": 117,
+      "description": "Hawk-Eye V2 (16-camera [8-camera 300hz + 8-camera 30hz])",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "16-camera [8-camera 300hz + 8-camera 30hz]",
+        "owner": null
+      }
+    },
+    {
+      "id": 118,
+      "description": "Tracking Version 103 + Hawk-Eye V2 300hz (8-camera)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Tracking Version 103",
+        "owner": null
+      },
+      "batVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V2 300hz (8-camera)",
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye V2 300hz (8-camera)",
+        "owner": null
+      }
+    },
+    {
+      "id": 119,
+      "description": "Hawk-Eye PitchTRAX+SkeleTRACK V2 30hz (14-camera)",
+      "owner": null,
+      "pitchVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye PitchTRAX V2",
+        "owner": null
+      },
+      "hitVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye PitchTRAX V2",
+        "owner": null
+      },
+      "playerVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye SkeleTRACK V2",
+        "owner": null
+      },
+      "skeletalVendor": {
+        "id": 3,
+        "description": "Hawk-Eye",
+        "version": "Hawk-Eye SkeleTRACK V2",
+        "owner": null
+      },
+      "batVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      },
+      "biomechanicsVendor": {
+        "id": null,
+        "description": null,
+        "version": null,
+        "owner": null
+      }
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:49.889483"
+}

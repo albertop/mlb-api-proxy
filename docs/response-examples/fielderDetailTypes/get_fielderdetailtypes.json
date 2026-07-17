@@ -1,0 +1,137 @@
+{
+  "endpoint": "/api/v1/fielderDetailTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/fielderDetailTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:35 GMT",
+    "server": "uvicorn",
+    "content-length": "1355",
+    "content-type": "application/json",
+    "x-request-id": "70cb43c6-25b7-4e31-ac59-b66f8f14201c"
+  },
+  "response": [
+    {
+      "statName": "f_assist",
+      "code": "A",
+      "names": [
+        "assist"
+      ],
+      "error": false,
+      "chance": true
+    },
+    {
+      "statName": "f_assist_of",
+      "code": "FOF",
+      "names": [
+        "outfieldAssist"
+      ],
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "f_fielded_ball",
+      "code": null,
+      "names": null,
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "f_deflection",
+      "code": null,
+      "names": null,
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "f_putout",
+      "code": "PO",
+      "names": [
+        "putout"
+      ],
+      "error": false,
+      "chance": true
+    },
+    {
+      "statName": "f_touch",
+      "code": null,
+      "names": null,
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "f_error",
+      "code": "E",
+      "names": [
+        "error"
+      ],
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "f_fielding_error",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "f_foul_error",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "f_error_dropped_ball",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "f_interference",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "f_throwing_error",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": true
+    },
+    {
+      "statName": "c_catcher_interf",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": false
+    },
+    {
+      "statName": "t_double_play",
+      "code": null,
+      "names": null,
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "t_triple_play",
+      "code": null,
+      "names": null,
+      "error": false,
+      "chance": false
+    },
+    {
+      "statName": "f_defensive_shift_violation_error",
+      "code": null,
+      "names": null,
+      "error": true,
+      "chance": false
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:36.030381"
+}

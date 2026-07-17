@@ -1,0 +1,51 @@
+{
+  "endpoint": "/api/v1/people/608070/stats/game/{game_pk}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/people/608070/stats/game/776135?stats=gameLog&group=hitting&season=2024&sportId=1&gamePk=776135&type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:07 GMT",
+    "server": "uvicorn",
+    "content-length": "341",
+    "content-type": "application/json",
+    "x-request-id": "b2322cf0-33c1-45a8-96ec-736b5464cec1"
+  },
+  "response": {
+    "stats": [
+      {
+        "type": {
+          "displayName": "vsPlayer5Y"
+        },
+        "group": {
+          "displayName": "hitting"
+        },
+        "totalSplits": 0,
+        "exemptions": [],
+        "splits": []
+      },
+      {
+        "type": {
+          "displayName": "vsPlayer5Y"
+        },
+        "group": {
+          "displayName": "pitching"
+        },
+        "totalSplits": 0,
+        "exemptions": [],
+        "splits": []
+      },
+      {
+        "type": {
+          "displayName": "playLog"
+        },
+        "group": {
+          "displayName": "hitting"
+        },
+        "exemptions": [],
+        "splits": []
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:07.501351"
+}

@@ -1,0 +1,35 @@
+{
+  "endpoint": "/api/v1/conferences/{conference_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/conferences/301",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:08 GMT",
+    "server": "uvicorn",
+    "content-length": "256",
+    "content-type": "application/json",
+    "x-request-id": "3aea6d78-7c6a-4b89-bfe4-49d5d168954d"
+  },
+  "response": {
+    "conferences": [
+      {
+        "id": 301,
+        "name": "PCL American Conference",
+        "link": "/api/v1/conferences/301",
+        "abbreviation": "PCLA",
+        "hasWildcard": false,
+        "league": {
+          "id": 112,
+          "link": "/api/v1/league/112"
+        },
+        "sport": {
+          "id": 11,
+          "link": "/api/v1/sports/11"
+        },
+        "nameShort": "PCL American"
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:08.973349"
+}

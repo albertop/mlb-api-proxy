@@ -1,0 +1,47 @@
+{
+  "endpoint": "/api/v1/videoResolutionTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/videoResolutionTypes",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:50 GMT",
+    "server": "uvicorn",
+    "content-length": "470",
+    "content-type": "application/json",
+    "x-request-id": "7f92a426-fbf7-4dae-9ec7-078d65bd3f4c"
+  },
+  "response": [
+    {
+      "code": "4",
+      "resolutionShort": "4K",
+      "resolutionFull": "4K Resolution"
+    },
+    {
+      "code": "H",
+      "resolutionShort": "HD",
+      "resolutionFull": "High Resolution"
+    },
+    {
+      "code": "S",
+      "resolutionShort": "SD",
+      "resolutionFull": "Standard Resolution"
+    },
+    {
+      "code": "HD",
+      "resolutionShort": "HD",
+      "resolutionFull": "High Definition (720p)"
+    },
+    {
+      "code": "FHD",
+      "resolutionShort": "FHD",
+      "resolutionFull": "Full High Definition (1080p)"
+    },
+    {
+      "code": "UHD",
+      "resolutionShort": "UHD",
+      "resolutionFull": "Ultra High Definition (2160p)"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:50.497779"
+}

@@ -1,0 +1,133 @@
+JSON Name,Baseball Translation,Category,Explanation
+balk,BK,Naming Variant,singular form (we have "balks")
+earnedRun,ER,Naming Variant,singular form (we have "earnedRuns")
+earnedRunAverage,ERA,Naming Variant,full name for "era"
+battingAverage,AVG,Naming Variant,full name for "avg"
+onBasePercentage,OBP,Naming Variant,full name for "obp"
+sluggingPercentage,SLG,Naming Variant,full name for "slg"
+onBasePlusSlugging,OPS,Naming Variant,full name for "ops"
+strikeouts,K,Naming Variant,alternate form (we have "strikeOuts")
+walks,BB,Naming Variant,alternate for "baseOnBalls"
+runsBattedIn,RBI,Naming Variant,full name for "rbi"
+hitByPitches,HBP,Naming Variant,plural form (we have "hitByPitch")
+sacrificeBunts,SH,Naming Variant,plural form (we have "sacBunts")
+sacrificeFlies,SF,Naming Variant,plural form (we have "sacFlies")
+flyouts,FO,Naming Variant,alternate spelling (we have "flyOuts")
+walkoffs,WO,Naming Variant,alternate for "walkOffs"
+wildPitch,WP,Naming Variant,singular form (we have "wildPitches")
+hitsPer9Inn,H/9,Naming Variant,alternate for "hitsPer9"
+innings,INN,Naming Variant,catcher stat singular
+walksAndHitsPerInningPitched,WHIP,Naming Variant,descriptive name for "whip"
+strikeoutsPer9Inn,K/9,Naming Variant,alternate form
+xWoba,xwOBA,Advanced Metrics,Expected weighted on-base average (Statcast)
+xWobacon,xwOBACON,Advanced Metrics,Expected wOBA on contact (contact rate-adjusted)
+xAvg,xAVG,Advanced Metrics,Expected batting average (Statcast)
+xSlg,xSLG,Advanced Metrics,Expected slugging percentage (Statcast)
+woba,wOBA,Advanced Metrics,Weighted on-base average
+wRaa,wRAA,Advanced Metrics,Weighted runs above average
+FIP,FIP,Advanced Metrics,Fielding Independent Pitching
+fmli,FMLI,Advanced Metrics,Final Mound Leverage Index
+wGDP,wGDP,Advanced Metrics,Weighted GDP
+SPD,SPD,Advanced Metrics,Speed
+UBR,UBR,Advanced Metrics,Ultimate Base Running
+UZR,UZR,Advanced Metrics,Ultimate Zone Rating (advanced fielding)
+outsAboveAverage,OAA,Advanced Metrics,Outs Above Average (fielding metric)
+fieldingRunsPrevented,FRP,Advanced Metrics,Fielding Runs Prevented
+streak,STRK,Advanced Metrics,Hitting/pitching streak (consecutive games)
+war,WAR,Advanced Metrics,Wins Above Replacement
+rar,RAR,Advanced Metrics,Runs Above Replacement
+chances,TC,Fielding Metrics,Total chances (assists+put outs+errors)
+doublePlays,DP,Fielding Metrics,Double plays
+triplePlays,TP,Fielding Metrics,Triple plays (fielding)
+errors,E,Fielding Metrics,Fielding errors
+putOuts,PO,Fielding Metrics,Put outs (fielding)
+passedBalls,PB,Fielding Metrics,Passed balls (catcher)
+fieldingPercentage,Fld%,Fielding Metrics,Fielding percentage
+rangeFactorPerGame,RF,Fielding Metrics,Range Factor Per Game
+rangeFactorPer9Inn,RF/9,Fielding Metrics,Range Factor Per 9 Innings
+outfieldAssists,OFA,Fielding Metrics,Outfield assists
+assists,A,Fielding Metrics,Assists (fielding)
+groundIntoDoublePlays,GIDP,Fielding Metrics,Ground into DP
+groundIntoDoublePlayOpportunities,GIDP_Opp,Fielding Metrics,GIDP opportunities
+groundIntoTriplePlays,GITP,Fielding Metrics,Ground into triple play
+launchAngle,LA,Statcast Metrics,Launch angle in degrees
+exitVelocity,EV,Statcast Metrics,Exit velocity (mph)
+barrelPercentage,Barrel%,Statcast Metrics,Percentage of barrels
+barrels,BBL,Statcast Metrics,Barrel type balls in play (EV+LA)
+hardHitPercentage,Hard Hit%,Statcast Metrics,% of balls hit 95+ mph
+hardHits,HH,Statcast Metrics,Hard hit balls (95+ mph exit velo)
+homeRunDistance,HR Dist,Statcast Metrics,Home run distance (feet)
+hitDistance,Hit Dist,Statcast Metrics,Average distance of hits
+maxHeight,Max Ht,Statcast Metrics,Maximum height of fly ball
+hangTime,Hang,Statcast Metrics,Hang time (seconds)
+horizontalBreak,HB,Statcast Metrics,Horizontal break/movement (inches)
+verticalBreak,VB,Statcast Metrics,Induced vertical break (inches)
+attackAngle,AA,Statcast Metrics,Attack angle (pitcher's release angle)
+releaseSpeed,Vel,Statcast Metrics,Release velocity of pitch
+releaseSpinRate,Spin,Statcast Metrics,Spin rate (RPM)
+releaseExtension,Ext,Statcast Metrics,Release point extension (feet)
+plateLocationZ,PlateZ,Statcast Metrics,Pitch location height at plate
+squaredUpPercentage,Sweet Spot%,Statcast Metrics,Percentage squared-up contact
+battedBallEvents,BBE,Statcast Metrics,Batted ball events
+pitchOutsideZone,OZ,Statcast Metrics,Pitches outside the zone
+chasePercentage,Chase%,Statcast Metrics,Chase rate - swinging at pitches outside zone
+chase,Chase,Statcast Metrics,Absolute chase rate metric
+catcherEarnedRunAverage,cERA,Catcher/Advanced Metrics,Catcher ERA
+popTime1b,Pop 1B,Catcher/Advanced Metrics,Pop time to 1st base (seconds)
+popTime2b,Pop 2B,Catcher/Advanced Metrics,Pop time to 2nd base (seconds)
+popTime3b,Pop 3B,Catcher/Advanced Metrics,Pop time to 3rd base (seconds)
+throwingAccuracy,Acc,Catcher/Advanced Metrics,Throwing accuracy %
+throwDistance,Dist,Catcher/Advanced Metrics,Average throw distance
+throwDistanceWithBounces,DistB,Catcher/Advanced Metrics,Throw distance with bounces
+throwingErrors,Throw E,Catcher/Advanced Metrics,Throwing errors
+armStrength,Arm,Catcher/Advanced Metrics,Arm strength (mph)
+catchProbability,Catch%,Catcher/Advanced Metrics,Probability of catching ball hit
+firstStep,1st Step,Fielding Tracking,First-step quickness (feet per second)
+firstStepEfficiency,1st Step%,Fielding Tracking,First step efficiency %
+sprintSpeed,Sprint,Fielding Tracking,Top sprint speed (mph)
+distanceCovered,Dist,Fielding Tracking,Total distance covered (feet)
+routeEfficiency,Route%,Fielding Tracking,Route efficiency %
+fielderBurstDistance,Burst,Fielding Tracking,Burst distance (feet)
+fielderJumpDistance,Jump,Fielding Tracking,Jump distance (feet)
+fielderReactionDistance,React,Fielding Tracking,Reaction distance (feet)
+burstDistance,Burst,Fielding Tracking,Burst distance during sprint
+jumpDistance,Jump,Fielding Tracking,Jump distance
+exchange,Exch,Fielding Tracking,Exchange time (pickup to throw, sec)
+batSpeed,BatSpeed,Batting Metrics,Bat speed at contact (mph)
+swingLength,SwLen,Batting Metrics,Swing length (inches)
+sword,SWORD,Batting Metrics,Statcast on-batted balls with runners
+acceleration,Accel,Base Running Metrics,Acceleration rate
+burst,Burst,Base Running Metrics,Burst speed (running)
+homeToFirst,Home-1st,Base Running Metrics,Time from home to 1st base
+homeToSecond,Home-2nd,Base Running Metrics,Time from home to 2nd base
+homeToThird,Home-3rd,Base Running Metrics,Time from home to 3rd base
+homeToHome,Home-Home,Base Running Metrics,Home run time (home plate to home)
+firstToSecond,1st-2nd,Base Running Metrics,Time from 1st to 2nd base
+firstToThird,1st-3rd,Base Running Metrics,Time from 1st to 3rd base
+firstToHome,1st-Home,Base Running Metrics,Time from 1st to home plate
+secondToThird,2nd-3rd,Base Running Metrics,Time from 2nd to 3rd base
+secondToHome,2nd-Home,Base Running Metrics,Time from 2nd to home plate
+thirdToHome,3rd-Home,Base Running Metrics,Time from 3rd to home plate
+primaryLead,1st Lead,Base Running Metrics,Primary lead distance
+secondaryLead,2nd Lead,Base Running Metrics,Secondary lead distance
+outOfBox,OutBox,Base Running Metrics,Time out of batter's box
+firstToSecondSteal,Steal 1-2,Base Running Metrics,Time for stolen base (1st to 2nd)
+secondToThirdSteal,Steal 2-3,Base Running Metrics,Time for stolen base (2nd to 3rd)
+thirdToHomeSteal,Steal 3-H,Base Running Metrics,Time for stolen base (3rd to home)
+firstToSecondTag,Tag 1-2,Base Running Metrics,Time on tag play (1st to 2nd)
+secondToThirdTag,Tag 2-3,Base Running Metrics,Time on tag play (2nd to 3rd)
+thirdToHomeTag,Tag 3-H,Base Running Metrics,Time on tag play (3rd to home)
+tagFirstStep,Tag 1st,Base Running Metrics,Time to first step on tag play
+gameDate,Date,Game Meta,Game date
+attendance,ATT,Game Meta,Game attendance
+duration,Time,Game Meta,Game duration (seconds or MM:SS)
+winStreak,WStrk,Game Meta,Consecutive wins
+lossStreak,LStrk,Game Meta,Consecutive losses
+hitsRisp,H RISP,Game Meta,Hits with Runners In Scoring Position
+leftOnBaseRisp,LOB RISP,Game Meta,Left-on-base in RISP situations
+strikeoutWalkRatio,K/BB,Game Meta,Strikeout to walk ratio
+strikeoutsPer9Inn,K/9,Game Meta,Strikeouts per 9 innings
+walksPer9Inn,BB/9,Game Meta,Walks per 9 innings
+swingingStrikePercentage,Swstr%,Game Meta,Swinging strike percentage
+homeRunXBallparks,HR(x),Game Meta,Expected HR in standardized parks
+homeRunVenueIds,HR Venue,Game Meta,Home run venue IDs

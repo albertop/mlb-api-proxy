@@ -1,0 +1,45 @@
+{
+  "endpoint": "/api/v1/broadcast",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/broadcast?broadcasterIds=6245%2C6246",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:07 GMT",
+    "server": "uvicorn",
+    "content-length": "513",
+    "content-type": "application/json",
+    "x-request-id": "7f145879-6801-4475-b5b6-e85a5d028516"
+  },
+  "response": [
+    {
+      "id": 6245,
+      "name": "Matrix Midwest",
+      "type": "TV",
+      "callSign": "Matrix",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 138
+    },
+    {
+      "id": 6246,
+      "name": "FanDuel Sports Network Sun App",
+      "type": "TV",
+      "callSign": "FDSNSUNApp",
+      "availability": {
+        "availabilityId": 2,
+        "availabilityCode": "local_out_of_market",
+        "availabilityText": "Local (Out of Market)"
+      },
+      "activeStatus": true,
+      "mvpdAuthRequired": false,
+      "teamId": 139
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:08.121362"
+}

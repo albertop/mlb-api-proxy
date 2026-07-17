@@ -1,0 +1,110 @@
+{
+  "endpoint": "/api/v1/game/{game_pk}/contextMetrics",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/game/776135/contextMetrics?gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:16 GMT",
+    "server": "uvicorn",
+    "content-length": "1641",
+    "content-type": "application/json",
+    "x-request-id": "ca8218a9-fbff-473b-aea8-6d20fdc35001"
+  },
+  "response": {
+    "game": {
+      "gamePk": 776135,
+      "gameGuid": "e6375b78-e657-4caa-a918-4748996df944",
+      "link": "/api/v1.1/game/776135/feed/live",
+      "gameType": "R",
+      "season": "2025",
+      "gameDate": "2025-09-28T19:07:00Z",
+      "officialDate": "2025-09-28",
+      "status": {
+        "abstractGameState": "Final",
+        "codedGameState": "F",
+        "detailedState": "Final",
+        "statusCode": "F",
+        "startTimeTBD": false,
+        "abstractGameCode": "F"
+      },
+      "teams": {
+        "away": {
+          "team": {
+            "id": 117,
+            "name": "Houston Astros",
+            "link": "/api/v1/teams/117"
+          },
+          "leagueRecord": {
+            "W": 87,
+            "L": 75,
+            "pct": ".537"
+          },
+          "score": 6,
+          "isWinner": true,
+          "probablePitcher": {
+            "id": 621121,
+            "fullName": "Lance McCullers Jr.",
+            "link": "/api/v1/people/621121"
+          },
+          "splitSquad": false,
+          "seriesNumber": 52
+        },
+        "home": {
+          "team": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "leagueRecord": {
+            "W": 72,
+            "L": 90,
+            "pct": ".444"
+          },
+          "score": 2,
+          "isWinner": false,
+          "probablePitcher": {
+            "id": 691951,
+            "fullName": "Sam Aldegheri",
+            "link": "/api/v1/people/691951"
+          },
+          "splitSquad": false,
+          "seriesNumber": 52
+        }
+      },
+      "venue": {
+        "id": 1,
+        "name": "Angel Stadium",
+        "link": "/api/v1/venues/1"
+      },
+      "content": {
+        "link": "/api/v1/game/776135/content"
+      },
+      "isTie": false,
+      "gameNumber": 1,
+      "publicFacing": true,
+      "doubleHeader": "N",
+      "gamedayType": "P",
+      "tiebreaker": "N",
+      "calendarEventID": "14-776135-2025-09-28",
+      "seasonDisplay": "2025",
+      "dayNight": "day",
+      "scheduledInnings": 9,
+      "reverseHomeAwayStatus": false,
+      "inningBreakLength": 120,
+      "gamesInSeries": 3,
+      "seriesGameNumber": 3,
+      "seriesDescription": "Regular Season",
+      "recordSource": "S",
+      "ifNecessary": "N",
+      "ifNecessaryDescription": "Normal Game",
+      "gameId": "2025/09/28/houmlb-anamlb-1"
+    },
+    "leftFieldSacFlyProbability": {},
+    "centerFieldSacFlyProbability": {},
+    "rightFieldSacFlyProbability": {},
+    "awayWinProbability": 100.0,
+    "homeWinProbability": 0.0
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:16.719867"
+}

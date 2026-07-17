@@ -1,0 +1,45 @@
+{
+  "endpoint": "/api/v1/hitTrajectories",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/hitTrajectories",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:37 GMT",
+    "server": "uvicorn",
+    "content-length": "357",
+    "content-type": "application/json",
+    "x-request-id": "3ce3f5f5-b18d-48a1-af3f-f8166e5e7a1f"
+  },
+  "response": [
+    {
+      "code": "bunt_grounder",
+      "description": "Bunt - Ground Ball"
+    },
+    {
+      "code": "bunt_popup",
+      "description": "Bunt - Popup"
+    },
+    {
+      "code": "bunt_line_drive",
+      "description": "Bunt - Line Drive"
+    },
+    {
+      "code": "line_drive",
+      "description": "Line Drive"
+    },
+    {
+      "code": "ground_ball",
+      "description": "Ground Ball"
+    },
+    {
+      "code": "fly_ball",
+      "description": "Fly Ball"
+    },
+    {
+      "code": "popup",
+      "description": "Popup"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:37.731242"
+}

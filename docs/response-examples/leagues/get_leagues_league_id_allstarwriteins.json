@@ -1,0 +1,18 @@
+{
+  "endpoint": "/api/v1/leagues/{league_id}/allStarWriteIns",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/leagues/103/allStarWriteIns",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:29 GMT",
+    "server": "uvicorn",
+    "content-length": "13",
+    "content-type": "application/json",
+    "x-request-id": "3d0bc36c-52c4-4f29-8b9a-a3667df290f3"
+  },
+  "response": {
+    "people": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:30.229912"
+}

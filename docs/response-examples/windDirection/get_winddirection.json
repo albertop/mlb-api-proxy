@@ -1,0 +1,61 @@
+{
+  "endpoint": "/api/v1/windDirection",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/windDirection",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:50 GMT",
+    "server": "uvicorn",
+    "content-length": "486",
+    "content-type": "application/json",
+    "x-request-id": "b9a99522-797f-4938-857f-c793e87ea5a0"
+  },
+  "response": [
+    {
+      "code": "Calm",
+      "description": "Calm"
+    },
+    {
+      "code": "In From CF",
+      "description": "In From CF"
+    },
+    {
+      "code": "In From LF",
+      "description": "In From LF"
+    },
+    {
+      "code": "In From RF",
+      "description": "In From RF"
+    },
+    {
+      "code": "L To R",
+      "description": "L To R"
+    },
+    {
+      "code": "None",
+      "description": "None"
+    },
+    {
+      "code": "Out To CF",
+      "description": "Out To CF"
+    },
+    {
+      "code": "Out To LF",
+      "description": "Out To LF"
+    },
+    {
+      "code": "Out To RF",
+      "description": "Out To RF"
+    },
+    {
+      "code": "R To L",
+      "description": "R To L"
+    },
+    {
+      "code": "Varies",
+      "description": "Varies"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:51.340457"
+}

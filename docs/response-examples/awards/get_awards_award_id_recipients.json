@@ -1,0 +1,7583 @@
+{
+  "endpoint": "/api/v1/awards/{award_id}/recipients",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/awards/MLBHOF/recipients",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:07 GMT",
+    "server": "uvicorn",
+    "content-length": "105030",
+    "content-type": "application/json",
+    "x-request-id": "420ced48-e7ff-40c7-a534-7144584e5bef"
+  },
+  "response": {
+    "awards": [
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2026-07-26",
+        "season": "2026",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116999,
+          "link": "/api/v1/people/116999",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Jeff Kent"
+        },
+        "notes": "Contemporary Era Ballot Selection"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2026-01-20",
+        "season": "2026",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 116662,
+          "link": "/api/v1/people/116662",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Andruw Jones"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2026-01-20",
+        "season": "2026",
+        "team": {
+          "id": 121,
+          "link": "/api/v1/teams/121"
+        },
+        "player": {
+          "id": 136860,
+          "link": "/api/v1/people/136860",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Carlos Beltr\u00e1n"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2025-07-27",
+        "season": "2025",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 110157,
+          "link": "/api/v1/people/110157",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Dick Allen"
+        },
+        "notes": "Classic Era Ballot Selection"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2025-01-21",
+        "season": "2025",
+        "team": {
+          "id": 117,
+          "link": "/api/v1/teams/117"
+        },
+        "player": {
+          "id": 123790,
+          "link": "/api/v1/people/123790",
+          "primaryPosition": {
+            "code": "E",
+            "name": "Relief Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "RP"
+          },
+          "nameFirstLast": "Billy Wagner"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2025-01-21",
+        "season": "2025",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 282332,
+          "link": "/api/v1/people/282332",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "CC Sabathia"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2025-01-21",
+        "season": "2025",
+        "team": {
+          "id": 136,
+          "link": "/api/v1/teams/136"
+        },
+        "player": {
+          "id": 400085,
+          "link": "/api/v1/people/400085",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ichiro Suzuki"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2025-01-08",
+        "season": "2025",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 120225,
+          "link": "/api/v1/people/120225",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Dave Parker"
+        },
+        "notes": "Classic Era Ballot Selection"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2024-01-23",
+        "season": "2024",
+        "team": {
+          "id": 140,
+          "link": "/api/v1/teams/140"
+        },
+        "player": {
+          "id": 134181,
+          "link": "/api/v1/people/134181",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Adrian Beltr\u00e9"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2024-01-23",
+        "season": "2024",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 408045,
+          "link": "/api/v1/people/408045",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Joe Mauer"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2024-01-23",
+        "season": "2024",
+        "team": {
+          "id": 115,
+          "link": "/api/v1/teams/115"
+        },
+        "player": {
+          "id": 115732,
+          "link": "/api/v1/people/115732",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Todd Helton"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2023-12-03",
+        "season": "2023",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492447,
+          "link": "/api/v1/people/492447",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jim Leyland"
+        },
+        "notes": "Contemporary Era Ballot Selection"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2023-01-24",
+        "season": "2023",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 118730,
+          "link": "/api/v1/people/118730",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Fred McGriff"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2023-01-24",
+        "season": "2023",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 121409,
+          "link": "/api/v1/people/121409",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Scott Rolen"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2022-01-25",
+        "season": "2022",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 120074,
+          "link": "/api/v1/people/120074",
+          "primaryPosition": {
+            "code": "10",
+            "name": "Designated Hitter",
+            "type": "Hitter",
+            "abbreviation": "DH"
+          },
+          "nameFirstLast": "David Ortiz"
+        },
+        "votes": 307
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "player": {
+          "id": 650067,
+          "link": "/api/v1/people/650067",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Buck O'Neil"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "player": {
+          "id": 800055,
+          "link": "/api/v1/people/800055",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bud Fowler"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 116008,
+          "link": "/api/v1/people/116008",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Gil Hodges"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 116803,
+          "link": "/api/v1/people/116803",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jim Kaat"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 119176,
+          "link": "/api/v1/people/119176",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Minnie Minoso"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2021-12-05",
+        "season": "2021",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 119980,
+          "link": "/api/v1/people/119980",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Tony Oliva"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2020-07-26",
+        "season": "2020",
+        "player": {
+          "id": 692968,
+          "link": "/api/v1/people/692968",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Marvin Miller"
+        },
+        "votes": 12,
+        "notes": "Modern Baseball Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2020-07-26",
+        "season": "2020",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 122247,
+          "link": "/api/v1/people/122247",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Ted Simmons"
+        },
+        "votes": 13,
+        "notes": "Modern Baseball Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2020-01-21",
+        "season": "2020",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 116539,
+          "link": "/api/v1/people/116539",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Derek Jeter"
+        },
+        "votes": 396
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2020-01-21",
+        "season": "2020",
+        "team": {
+          "id": 115,
+          "link": "/api/v1/teams/115"
+        },
+        "player": {
+          "id": 123833,
+          "link": "/api/v1/people/123833",
+          "primaryPosition": {
+            "code": "9",
+            "name": "Outfielder",
+            "type": "Outfielder",
+            "abbreviation": "RF"
+          },
+          "nameFirstLast": "Larry Walker"
+        },
+        "votes": 304
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-07-21",
+        "season": "2019",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 110456,
+          "link": "/api/v1/people/110456",
+          "primaryPosition": {
+            "code": "10",
+            "name": "Designated Hitter",
+            "type": "Hitter",
+            "abbreviation": "DH"
+          },
+          "nameFirstLast": "Harold Baines"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-07-21",
+        "season": "2019",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 122426,
+          "link": "/api/v1/people/122426",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Lee Smith"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-01-22",
+        "season": "2019",
+        "team": {
+          "id": 136,
+          "link": "/api/v1/teams/136"
+        },
+        "player": {
+          "id": 118365,
+          "link": "/api/v1/people/118365",
+          "primaryPosition": {
+            "code": "10",
+            "name": "Designated Hitter",
+            "type": "Hitter",
+            "abbreviation": "DH"
+          },
+          "nameFirstLast": "Edgar Martinez"
+        },
+        "votes": 363
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-01-22",
+        "season": "2019",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 121250,
+          "link": "/api/v1/people/121250",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Mariano Rivera"
+        },
+        "votes": 425,
+        "notes": "First unanimous inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-01-22",
+        "season": "2019",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 119608,
+          "link": "/api/v1/people/119608",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Mike Mussina"
+        },
+        "votes": 326,
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2019-01-22",
+        "season": "2019",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 136880,
+          "link": "/api/v1/people/136880",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Roy Halladay"
+        },
+        "votes": 363,
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-07-29",
+        "season": "2018",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 123437,
+          "link": "/api/v1/people/123437",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Alan Trammell"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-07-29",
+        "season": "2018",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 119399,
+          "link": "/api/v1/people/119399",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jack Morris"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-01-24",
+        "season": "2018",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 116706,
+          "link": "/api/v1/people/116706",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Chipper Jones Jr."
+        },
+        "votes": 410
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-01-24",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 123272,
+          "link": "/api/v1/people/123272",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Jim Thome"
+        },
+        "votes": 379
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-01-24",
+        "season": "2018",
+        "team": {
+          "id": 135,
+          "link": "/api/v1/teams/135"
+        },
+        "player": {
+          "id": 116034,
+          "link": "/api/v1/people/116034",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Trevor Hoffman"
+        },
+        "votes": 337
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2018-01-24",
+        "season": "2018",
+        "team": {
+          "id": 3823,
+          "link": "/api/v1/teams/3823"
+        },
+        "player": {
+          "id": 115223,
+          "link": "/api/v1/people/115223",
+          "primaryPosition": {
+            "code": "9",
+            "name": "Outfielder",
+            "type": "Outfielder",
+            "abbreviation": "RF"
+          },
+          "nameFirstLast": "Vladimir Guerrero"
+        },
+        "votes": 392
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2017-07-30",
+        "season": "2017",
+        "player": {
+          "id": 673180,
+          "link": "/api/v1/people/673180",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bud Selig"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2017-07-30",
+        "season": "2017",
+        "player": {
+          "id": 655783,
+          "link": "/api/v1/people/655783",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "John Schuerholz"
+        },
+        "notes": "Veterans Committee Inductee"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2017-01-18",
+        "season": "2017",
+        "team": {
+          "id": 140,
+          "link": "/api/v1/teams/140"
+        },
+        "player": {
+          "id": 121358,
+          "link": "/api/v1/people/121358",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Ivan Rodriguez"
+        },
+        "votes": 336
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2017-01-18",
+        "season": "2017",
+        "team": {
+          "id": 117,
+          "link": "/api/v1/teams/117"
+        },
+        "player": {
+          "id": 110432,
+          "link": "/api/v1/people/110432",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Jeff Bagwell"
+        },
+        "votes": 381
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2017-01-18",
+        "season": "2017",
+        "team": {
+          "id": 120,
+          "link": "/api/v1/teams/120"
+        },
+        "player": {
+          "id": 120891,
+          "link": "/api/v1/people/120891",
+          "primaryPosition": {
+            "code": "7",
+            "name": "Outfielder",
+            "type": "Outfielder",
+            "abbreviation": "LF"
+          },
+          "nameFirstLast": "Tim Raines Sr."
+        },
+        "votes": 380
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2016-01-06",
+        "season": "2016",
+        "team": {
+          "id": 136,
+          "link": "/api/v1/teams/136"
+        },
+        "player": {
+          "id": 115135,
+          "link": "/api/v1/people/115135",
+          "primaryPosition": {
+            "code": "8",
+            "name": "Outfielder",
+            "type": "Outfielder",
+            "abbreviation": "CF"
+          },
+          "nameFirstLast": "Ken Griffey Jr."
+        },
+        "votes": 437
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2016-01-06",
+        "season": "2016",
+        "team": {
+          "id": 121,
+          "link": "/api/v1/teams/121"
+        },
+        "player": {
+          "id": 120536,
+          "link": "/api/v1/people/120536",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Mike Piazza"
+        },
+        "votes": 365
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2015-01-06",
+        "season": "2015",
+        "team": {
+          "id": 117,
+          "link": "/api/v1/teams/117"
+        },
+        "player": {
+          "id": 110987,
+          "link": "/api/v1/people/110987",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Craig Biggio"
+        },
+        "votes": 454
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2015-01-06",
+        "season": "2015",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 122477,
+          "link": "/api/v1/people/122477",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "John Smoltz"
+        },
+        "votes": 455
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2015-01-06",
+        "season": "2015",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 118377,
+          "link": "/api/v1/people/118377",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Pedro Mart\u00ednez"
+        },
+        "votes": 500
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2015-01-06",
+        "season": "2015",
+        "team": {
+          "id": 109,
+          "link": "/api/v1/teams/109"
+        },
+        "player": {
+          "id": 116615,
+          "link": "/api/v1/people/116615",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Randy Johnson"
+        },
+        "votes": 534
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-07-27",
+        "season": "2014",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 112764,
+          "link": "/api/v1/people/112764",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bobby Cox"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-07-27",
+        "season": "2014",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 123406,
+          "link": "/api/v1/people/123406",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Joe Torre"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-07-27",
+        "season": "2014",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 117517,
+          "link": "/api/v1/people/117517",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Tony La Russa Jr."
+        },
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-01-08",
+        "season": "2014",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 123245,
+          "link": "/api/v1/people/123245",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Frank Thomas"
+        },
+        "votes": 478
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-01-08",
+        "season": "2014",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 118120,
+          "link": "/api/v1/people/118120",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Greg Maddux"
+        },
+        "votes": 555,
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2014-01-08",
+        "season": "2014",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 114849,
+          "link": "/api/v1/people/114849",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Tom Glavine"
+        },
+        "votes": 525
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2013-07-28",
+        "season": "2013",
+        "team": {
+          "id": 187,
+          "link": "/api/v1/teams/187"
+        },
+        "player": {
+          "id": 124175,
+          "link": "/api/v1/people/124175",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Deacon White"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2013-07-28",
+        "season": "2013",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 119928,
+          "link": "/api/v1/people/119928",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Hank O'Day"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2013-07-28",
+        "season": "2013",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 660903,
+          "link": "/api/v1/people/660903",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Jacob Ruppert"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2012-01-09",
+        "season": "2012",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 117501,
+          "link": "/api/v1/people/117501",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Barry Larkin"
+        },
+        "votes": 495
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2012-01-09",
+        "season": "2012",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 121697,
+          "link": "/api/v1/people/121697",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Ron Santo"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2011-07-24",
+        "season": "2011",
+        "player": {
+          "id": 660911,
+          "link": "/api/v1/people/660911",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Pat Gillick"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2011-01-05",
+        "season": "2011",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 111126,
+          "link": "/api/v1/people/111126",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bert Blyleven"
+        },
+        "votes": 463
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2011-01-05",
+        "season": "2011",
+        "team": {
+          "id": 141,
+          "link": "/api/v1/teams/141"
+        },
+        "player": {
+          "id": 110183,
+          "link": "/api/v1/people/110183",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Roberto Alomar"
+        },
+        "votes": 523
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2010-07-25",
+        "season": "2010",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 427211,
+          "link": "/api/v1/people/427211",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Doug Harvey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2010-07-25",
+        "season": "2010",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 115865,
+          "link": "/api/v1/people/115865",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Whitey Herzog"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2010-01-06",
+        "season": "2010",
+        "team": {
+          "id": 120,
+          "link": "/api/v1/teams/120"
+        },
+        "player": {
+          "id": 113151,
+          "link": "/api/v1/people/113151",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Andre Dawson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2009-07-26",
+        "season": "2009",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 121140,
+          "link": "/api/v1/people/121140",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Jim Rice"
+        },
+        "votes": 412
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2009-07-26",
+        "season": "2009",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 114967,
+          "link": "/api/v1/people/114967",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Joe Gordon"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2009-07-26",
+        "season": "2009",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 115749,
+          "link": "/api/v1/people/115749",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Rickey Henderson"
+        },
+        "votes": 511
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 545115,
+          "link": "/api/v1/people/545115",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Barney Dreyfuss"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 122551,
+          "link": "/api/v1/people/122551",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Billy Southworth"
+        },
+        "votes": 13
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 545116,
+          "link": "/api/v1/people/545116",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bowie Kuhn"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 124335,
+          "link": "/api/v1/people/124335",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Dick Williams"
+        },
+        "votes": 13
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 114989,
+          "link": "/api/v1/people/114989",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Rich Gossage"
+        },
+        "votes": 466
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2008-07-27",
+        "season": "2008",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 545114,
+          "link": "/api/v1/people/545114",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Walter O'Malley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2007-01-01",
+        "season": "2007",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 121222,
+          "link": "/api/v1/people/121222",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Cal Ripken Jr."
+        },
+        "votes": 537
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2007-01-01",
+        "season": "2007",
+        "team": {
+          "id": 135,
+          "link": "/api/v1/teams/135"
+        },
+        "player": {
+          "id": 115270,
+          "link": "/api/v1/people/115270",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Tony Gwynn"
+        },
+        "votes": 532
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 506635,
+          "link": "/api/v1/people/506635",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Alex Pompez"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 819990,
+          "link": "/api/v1/people/819990",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Andy Cooper"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 817021,
+          "link": "/api/v1/people/817021",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Ben Taylor"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1512,
+          "link": "/api/v1/teams/1512"
+        },
+        "player": {
+          "id": 818393,
+          "link": "/api/v1/people/818393",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Biz Mackey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 506640,
+          "link": "/api/v1/people/506640",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Cristobal Torriente"
+        },
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1513,
+          "link": "/api/v1/teams/1513"
+        },
+        "player": {
+          "id": 506636,
+          "link": "/api/v1/people/506636",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Cum Posey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 506633,
+          "link": "/api/v1/people/506633",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Effa Manley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 506630,
+          "link": "/api/v1/people/506630",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Frank Grant"
+        },
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1520,
+          "link": "/api/v1/teams/1520"
+        },
+        "player": {
+          "id": 506642,
+          "link": "/api/v1/people/506642",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "J. L. Wilkinson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 818185,
+          "link": "/api/v1/people/818185",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jose Mendez"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1534,
+          "link": "/api/v1/teams/1534"
+        },
+        "player": {
+          "id": 816505,
+          "link": "/api/v1/people/816505",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Jud Wilson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1512,
+          "link": "/api/v1/teams/1512"
+        },
+        "player": {
+          "id": 817369,
+          "link": "/api/v1/people/817369",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Louis Santop"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 817055,
+          "link": "/api/v1/people/817055",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Mule Suttles"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 819009,
+          "link": "/api/v1/people/819009",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Pete Hill"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1513,
+          "link": "/api/v1/teams/1513"
+        },
+        "player": {
+          "id": 820313,
+          "link": "/api/v1/people/820313",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Ray Brown"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 506641,
+          "link": "/api/v1/people/506641",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Sol White"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-02-27",
+        "season": "2006",
+        "team": {
+          "id": 1520,
+          "link": "/api/v1/teams/1520"
+        },
+        "player": {
+          "id": 111600,
+          "link": "/api/v1/people/111600",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Willard Brown"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2006-01-10",
+        "season": "2006",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 123004,
+          "link": "/api/v1/people/123004",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bruce Sutter"
+        },
+        "votes": 400
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2005-11-01",
+        "season": "2005",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 121665,
+          "link": "/api/v1/people/121665",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Ryne Sandberg"
+        },
+        "votes": 393
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2005-11-01",
+        "season": "2005",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 111153,
+          "link": "/api/v1/people/111153",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Wade Boggs"
+        },
+        "votes": 474
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2004-11-01",
+        "season": "2004",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 113726,
+          "link": "/api/v1/people/113726",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Dennis Eckersley"
+        },
+        "votes": 421
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2004-11-01",
+        "season": "2004",
+        "team": {
+          "id": 158,
+          "link": "/api/v1/teams/158"
+        },
+        "player": {
+          "id": 119236,
+          "link": "/api/v1/people/119236",
+          "primaryPosition": {
+            "code": "10",
+            "name": "Designated Hitter",
+            "type": "Hitter",
+            "abbreviation": "DH"
+          },
+          "nameFirstLast": "Paul Molitor"
+        },
+        "votes": 431
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2003-11-01",
+        "season": "2003",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 119579,
+          "link": "/api/v1/people/119579",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Eddie Murray"
+        },
+        "votes": 423
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2003-11-01",
+        "season": "2003",
+        "team": {
+          "id": 120,
+          "link": "/api/v1/teams/120"
+        },
+        "player": {
+          "id": 112061,
+          "link": "/api/v1/people/112061",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Gary Carter"
+        },
+        "votes": 387
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2002-11-01",
+        "season": "2002",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 122439,
+          "link": "/api/v1/people/122439",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Ozzie Smith"
+        },
+        "votes": 433
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2001-11-01",
+        "season": "2001",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 118497,
+          "link": "/api/v1/people/118497",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Bill Mazeroski"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2001-11-01",
+        "season": "2001",
+        "team": {
+          "id": 135,
+          "link": "/api/v1/teams/135"
+        },
+        "player": {
+          "id": 124448,
+          "link": "/api/v1/people/124448",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Dave Winfield"
+        },
+        "votes": 435
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2001-11-01",
+        "season": "2001",
+        "team": {
+          "id": 1520,
+          "link": "/api/v1/teams/1520"
+        },
+        "player": {
+          "id": 817188,
+          "link": "/api/v1/people/817188",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Hilton Smith"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2001-11-01",
+        "season": "2001",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 120790,
+          "link": "/api/v1/people/120790",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Kirby Puckett"
+        },
+        "votes": 423
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2000-11-01",
+        "season": "2000",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 118860,
+          "link": "/api/v1/people/118860",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Bid McPhee"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2000-11-01",
+        "season": "2000",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 114182,
+          "link": "/api/v1/people/114182",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Carlton Fisk"
+        },
+        "votes": 397
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2000-11-01",
+        "season": "2000",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 110238,
+          "link": "/api/v1/people/110238",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Sparky Anderson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2000-11-01",
+        "season": "2000",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 120404,
+          "link": "/api/v1/people/120404",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Tony Perez"
+        },
+        "votes": 385
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "2000-11-01",
+        "season": "2000",
+        "team": {
+          "id": 1508,
+          "link": "/api/v1/teams/1508"
+        },
+        "player": {
+          "id": 492584,
+          "link": "/api/v1/people/492584",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Turkey Stearnes"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 492582,
+          "link": "/api/v1/people/492582",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Frank Selee"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 118,
+          "link": "/api/v1/teams/118"
+        },
+        "player": {
+          "id": 111437,
+          "link": "/api/v1/people/111437",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "George Brett"
+        },
+        "votes": 488
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 1531,
+          "link": "/api/v1/teams/1531"
+        },
+        "player": {
+          "id": 816563,
+          "link": "/api/v1/people/816563",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Joe Williams"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 427061,
+          "link": "/api/v1/people/427061",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Nestor Chylak"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 140,
+          "link": "/api/v1/teams/140"
+        },
+        "player": {
+          "id": 121597,
+          "link": "/api/v1/people/121597",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Nolan Ryan Jr."
+        },
+        "votes": 491
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 112157,
+          "link": "/api/v1/people/112157",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Orlando Cepeda"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1999-11-01",
+        "season": "1999",
+        "team": {
+          "id": 158,
+          "link": "/api/v1/teams/158"
+        },
+        "player": {
+          "id": 124721,
+          "link": "/api/v1/people/124721",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Robin Yount"
+        },
+        "votes": 385
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1998-11-01",
+        "season": "1998",
+        "team": {
+          "id": 1520,
+          "link": "/api/v1/teams/1520"
+        },
+        "player": {
+          "id": 492581,
+          "link": "/api/v1/people/492581",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bullet Rogan"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1998-11-01",
+        "season": "1998",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 123006,
+          "link": "/api/v1/people/123006",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Don Sutton"
+        },
+        "votes": 386
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1998-11-01",
+        "season": "1998",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 113106,
+          "link": "/api/v1/people/113106",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "George Davis"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1998-11-01",
+        "season": "1998",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 113411,
+          "link": "/api/v1/people/113411",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Larry Doby"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1998-11-01",
+        "season": "1998",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492578,
+          "link": "/api/v1/people/492578",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Lee MacPhail"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1997-11-01",
+        "season": "1997",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 114361,
+          "link": "/api/v1/people/114361",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Nellie Fox"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1997-11-01",
+        "season": "1997",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 119786,
+          "link": "/api/v1/people/119786",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Phil Niekro"
+        },
+        "votes": 380
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1997-11-01",
+        "season": "1997",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 117524,
+          "link": "/api/v1/people/117524",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Tommy Lasorda"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1997-11-01",
+        "season": "1997",
+        "team": {
+          "id": 1541,
+          "link": "/api/v1/teams/1541"
+        },
+        "player": {
+          "id": 816676,
+          "link": "/api/v1/people/816676",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Willie Wells"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1996-11-01",
+        "season": "1996",
+        "team": {
+          "id": 1495,
+          "link": "/api/v1/teams/1495"
+        },
+        "player": {
+          "id": 819488,
+          "link": "/api/v1/people/819488",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bill Foster"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1996-11-01",
+        "season": "1996",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 492586,
+          "link": "/api/v1/people/492586",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Earl Weaver"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1996-11-01",
+        "season": "1996",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 111691,
+          "link": "/api/v1/people/111691",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jim Bunning"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1996-11-01",
+        "season": "1996",
+        "team": {
+          "id": 166,
+          "link": "/api/v1/teams/166"
+        },
+        "player": {
+          "id": 115424,
+          "link": "/api/v1/people/115424",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Ned Hanlon"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1995-11-01",
+        "season": "1995",
+        "team": {
+          "id": 1514,
+          "link": "/api/v1/teams/1514"
+        },
+        "player": {
+          "id": 819827,
+          "link": "/api/v1/people/819827",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Leon Day"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1995-11-01",
+        "season": "1995",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 121836,
+          "link": "/api/v1/people/121836",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Mike Schmidt"
+        },
+        "votes": 444
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1995-11-01",
+        "season": "1995",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 110349,
+          "link": "/api/v1/people/110349",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Richie Ashburn"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1995-11-01",
+        "season": "1995",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 124364,
+          "link": "/api/v1/people/124364",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Vic Willis"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1995-11-01",
+        "season": "1995",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492572,
+          "link": "/api/v1/people/492572",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "William Hulbert"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1994-11-01",
+        "season": "1994",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 113664,
+          "link": "/api/v1/people/113664",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Leo Durocher"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1994-11-01",
+        "season": "1994",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 121257,
+          "link": "/api/v1/people/121257",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Phil Rizzuto"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1994-11-01",
+        "season": "1994",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 112008,
+          "link": "/api/v1/people/112008",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Steve Carlton"
+        },
+        "votes": 436
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1993-11-01",
+        "season": "1993",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 116439,
+          "link": "/api/v1/people/116439",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Reggie Jackson"
+        },
+        "votes": 396
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1992-11-01",
+        "season": "1992",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 427329,
+          "link": "/api/v1/people/427329",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bill McGowan"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1992-11-01",
+        "season": "1992",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 119739,
+          "link": "/api/v1/people/119739",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Hal Newhouser"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1992-11-01",
+        "season": "1992",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 114129,
+          "link": "/api/v1/people/114129",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Rollie Fingers"
+        },
+        "votes": 349
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1992-11-01",
+        "season": "1992",
+        "team": {
+          "id": 121,
+          "link": "/api/v1/teams/121"
+        },
+        "player": {
+          "id": 121961,
+          "link": "/api/v1/people/121961",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Tom Seaver"
+        },
+        "votes": 425
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1991-11-01",
+        "season": "1991",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492585,
+          "link": "/api/v1/people/492585",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bill Veeck"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1991-11-01",
+        "season": "1991",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 116522,
+          "link": "/api/v1/people/116522",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Fergie Jenkins"
+        },
+        "votes": 334
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1991-11-01",
+        "season": "1991",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 120438,
+          "link": "/api/v1/people/120438",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Gaylord Perry"
+        },
+        "votes": 342
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1991-11-01",
+        "season": "1991",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 111986,
+          "link": "/api/v1/people/111986",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Rod Carew"
+        },
+        "votes": 401
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1991-11-01",
+        "season": "1991",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 117577,
+          "link": "/api/v1/people/117577",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Tony Lazzeri"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1990-11-01",
+        "season": "1990",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 120196,
+          "link": "/api/v1/people/120196",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jim Palmer"
+        },
+        "votes": 411
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1990-11-01",
+        "season": "1990",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 119371,
+          "link": "/api/v1/people/119371",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Joe Morgan"
+        },
+        "votes": 363
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1989-11-01",
+        "season": "1989",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 427014,
+          "link": "/api/v1/people/427014",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Al Barlick"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1989-11-01",
+        "season": "1989",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 124650,
+          "link": "/api/v1/people/124650",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Carl Yastrzemski"
+        },
+        "votes": 423
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1989-11-01",
+        "season": "1989",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 110849,
+          "link": "/api/v1/people/110849",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Johnny Bench"
+        },
+        "votes": 431
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1989-11-01",
+        "season": "1989",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 121851,
+          "link": "/api/v1/people/121851",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Red Schoendienst"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1988-11-01",
+        "season": "1988",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 122685,
+          "link": "/api/v1/people/122685",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Willie Stargell"
+        },
+        "votes": 352
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1987-11-01",
+        "season": "1987",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 124290,
+          "link": "/api/v1/people/124290",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Billy Williams"
+        },
+        "votes": 354
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1987-11-01",
+        "season": "1987",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 116334,
+          "link": "/api/v1/people/116334",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Catfish Hunter"
+        },
+        "votes": 315,
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1987-11-01",
+        "season": "1987",
+        "team": {
+          "id": 1514,
+          "link": "/api/v1/teams/1514"
+        },
+        "player": {
+          "id": 819889,
+          "link": "/api/v1/people/819889",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Ray Dandridge"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1986-11-01",
+        "season": "1986",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 113419,
+          "link": "/api/v1/people/113419",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Bobby Doerr"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1986-11-01",
+        "season": "1986",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 117880,
+          "link": "/api/v1/people/117880",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Ernie Lombardi"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1986-11-01",
+        "season": "1986",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118605,
+          "link": "/api/v1/people/118605",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Willie McCovey"
+        },
+        "votes": 346
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1985-11-01",
+        "season": "1985",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 123671,
+          "link": "/api/v1/people/123671",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Arky Vaughan"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1985-11-01",
+        "season": "1985",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 122319,
+          "link": "/api/v1/people/122319",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Enos Slaughter"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1985-11-01",
+        "season": "1985",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 124261,
+          "link": "/api/v1/people/124261",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Hoyt Wilhelm"
+        },
+        "votes": 331
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1985-11-01",
+        "season": "1985",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 111495,
+          "link": "/api/v1/people/111495",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Lou Brock"
+        },
+        "votes": 315
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1984-11-01",
+        "season": "1984",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 113581,
+          "link": "/api/v1/people/113581",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Don Drysdale"
+        },
+        "votes": 316
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1984-11-01",
+        "season": "1984",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 117051,
+          "link": "/api/v1/people/117051",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Harmon Killebrew"
+        },
+        "votes": 335
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1984-11-01",
+        "season": "1984",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 110290,
+          "link": "/api/v1/people/110290",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Luis Aparicio"
+        },
+        "votes": 341
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1984-11-01",
+        "season": "1984",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 121010,
+          "link": "/api/v1/people/121010",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Pee Wee Reese"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1984-11-01",
+        "season": "1984",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 114086,
+          "link": "/api/v1/people/114086",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Rick Ferrell"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1983-11-01",
+        "season": "1983",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 121301,
+          "link": "/api/v1/people/121301",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Brooks Robinson"
+        },
+        "votes": 344
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1983-11-01",
+        "season": "1983",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 116913,
+          "link": "/api/v1/people/116913",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "George Kell"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1983-11-01",
+        "season": "1983",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118283,
+          "link": "/api/v1/people/118283",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Juan Marichal"
+        },
+        "votes": 313
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1983-11-01",
+        "season": "1983",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 110193,
+          "link": "/api/v1/people/110193",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Walter Alston"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1982-11-01",
+        "season": "1982",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 121311,
+          "link": "/api/v1/people/121311",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Frank Robinson"
+        },
+        "votes": 370
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1982-11-01",
+        "season": "1982",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 110001,
+          "link": "/api/v1/people/110001",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Hank Aaron"
+        },
+        "votes": 406
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1982-11-01",
+        "season": "1982",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492559,
+          "link": "/api/v1/people/492559",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Happy Chandler"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1982-11-01",
+        "season": "1982",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116445,
+          "link": "/api/v1/people/116445",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Travis Jackson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1981-11-01",
+        "season": "1981",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 114756,
+          "link": "/api/v1/people/114756",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bob Gibson"
+        },
+        "votes": 337
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1981-11-01",
+        "season": "1981",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 119207,
+          "link": "/api/v1/people/119207",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Johnny Mize"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1981-11-01",
+        "season": "1981",
+        "team": {
+          "id": 1495,
+          "link": "/api/v1/teams/1495"
+        },
+        "player": {
+          "id": 534348,
+          "link": "/api/v1/people/534348",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Rube Foster"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1980-11-01",
+        "season": "1980",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 116822,
+          "link": "/api/v1/people/116822",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Al Kaline"
+        },
+        "votes": 340
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1980-11-01",
+        "season": "1980",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 117141,
+          "link": "/api/v1/people/117141",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Chuck Klein"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1980-11-01",
+        "season": "1980",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 122488,
+          "link": "/api/v1/people/122488",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Duke Snider"
+        },
+        "votes": 333
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1980-11-01",
+        "season": "1980",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492589,
+          "link": "/api/v1/people/492589",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Tom Yawkey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1979-11-01",
+        "season": "1979",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 124412,
+          "link": "/api/v1/people/124412",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Hack Wilson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1979-11-01",
+        "season": "1979",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492569,
+          "link": "/api/v1/people/492569",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Warren Giles"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1979-11-01",
+        "season": "1979",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118495,
+          "link": "/api/v1/people/118495",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Willie Mays"
+        },
+        "votes": 409
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1978-11-01",
+        "season": "1978",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 116772,
+          "link": "/api/v1/people/116772",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Addie Joss"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1978-11-01",
+        "season": "1978",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 118416,
+          "link": "/api/v1/people/118416",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Eddie Mathews"
+        },
+        "votes": 301
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1978-11-01",
+        "season": "1978",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492577,
+          "link": "/api/v1/people/492577",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Larry MacPhail"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 117914,
+          "link": "/api/v1/people/117914",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Al Lopez"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 121559,
+          "link": "/api/v1/people/121559",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Amos Rusie"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 110533,
+          "link": "/api/v1/people/110533",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Ernie Banks"
+        },
+        "votes": 321
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 122023,
+          "link": "/api/v1/people/122023",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Joe Sewell"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "player": {
+          "id": 819764,
+          "link": "/api/v1/people/819764",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Martin Dihigo"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1977-11-01",
+        "season": "1977",
+        "team": {
+          "id": 1531,
+          "link": "/api/v1/teams/1531"
+        },
+        "player": {
+          "id": 818471,
+          "link": "/api/v1/people/818471",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Pop Lloyd"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 117671,
+          "link": "/api/v1/people/117671",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bob Lemon"
+        },
+        "votes": 305
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492571,
+          "link": "/api/v1/people/492571",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Cal Hubbard"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 117793,
+          "link": "/api/v1/people/117793",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Freddie Lindstrom"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 1536,
+          "link": "/api/v1/teams/1536"
+        },
+        "player": {
+          "id": 492560,
+          "link": "/api/v1/people/492560",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Oscar Charleston"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 121283,
+          "link": "/api/v1/people/121283",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Robin Roberts"
+        },
+        "votes": 337
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1976-11-01",
+        "season": "1976",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 112589,
+          "link": "/api/v1/people/112589",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Roger Connor"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1975-11-01",
+        "season": "1975",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 115809,
+          "link": "/api/v1/people/115809",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Billy Herman"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1975-11-01",
+        "season": "1975",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 115534,
+          "link": "/api/v1/people/115534",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bucky Harris"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1975-11-01",
+        "season": "1975",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 110396,
+          "link": "/api/v1/people/110396",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Earl Averill Sr."
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1975-11-01",
+        "season": "1975",
+        "team": {
+          "id": 1512,
+          "link": "/api/v1/teams/1512"
+        },
+        "player": {
+          "id": 818744,
+          "link": "/api/v1/people/818744",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Judy Johnson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1975-11-01",
+        "season": "1975",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 117072,
+          "link": "/api/v1/people/117072",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ralph Kiner"
+        },
+        "votes": 273
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 1542,
+          "link": "/api/v1/teams/1542"
+        },
+        "player": {
+          "id": 492555,
+          "link": "/api/v1/people/492555",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Cool Papa Bell"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 111266,
+          "link": "/api/v1/people/111266",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Jim Bottomley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 112561,
+          "link": "/api/v1/people/112561",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Jocko Conlan"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 118258,
+          "link": "/api/v1/people/118258",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Mickey Mantle"
+        },
+        "votes": 322
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 123303,
+          "link": "/api/v1/people/123303",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Sam Thompson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1974-11-01",
+        "season": "1974",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 114299,
+          "link": "/api/v1/people/114299",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Whitey Ford"
+        },
+        "votes": 284
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492564,
+          "link": "/api/v1/people/492564",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Billy Evans"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116942,
+          "link": "/api/v1/people/116942",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "George Kelly"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 124062,
+          "link": "/api/v1/people/124062",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Mickey Welch"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116403,
+          "link": "/api/v1/people/116403",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Monte Irvin"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 112391,
+          "link": "/api/v1/people/112391",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Roberto Clemente"
+        },
+        "votes": 393
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1973-11-01",
+        "season": "1973",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 122557,
+          "link": "/api/v1/people/122557",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Warren Spahn"
+        },
+        "votes": 316
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 1513,
+          "link": "/api/v1/teams/1513"
+        },
+        "player": {
+          "id": 818520,
+          "link": "/api/v1/people/818520",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Buck Leonard"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 124633,
+          "link": "/api/v1/people/124633",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Early Wynn"
+        },
+        "votes": 301
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 1513,
+          "link": "/api/v1/teams/1513"
+        },
+        "player": {
+          "id": 492568,
+          "link": "/api/v1/people/492568",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Josh Gibson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 114917,
+          "link": "/api/v1/people/114917",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Lefty Gomez"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 124717,
+          "link": "/api/v1/people/124717",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ross Youngs"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 117277,
+          "link": "/api/v1/people/117277",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Sandy Koufax"
+        },
+        "votes": 344
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492570,
+          "link": "/api/v1/people/492570",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Will Harridge"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1972-11-01",
+        "season": "1972",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 110925,
+          "link": "/api/v1/people/110925",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Yogi Berra"
+        },
+        "votes": 339,
+        "notes": "No cap logo on plaque"
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 115295,
+          "link": "/api/v1/people/115295",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Chick Hafey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 110524,
+          "link": "/api/v1/people/110524",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Dave Bancroft"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492587,
+          "link": "/api/v1/people/492587",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "George Weiss"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 116127,
+          "link": "/api/v1/people/116127",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Harry Hooper"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 110776,
+          "link": "/api/v1/people/110776",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Jake Beckley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 166,
+          "link": "/api/v1/teams/166"
+        },
+        "player": {
+          "id": 116926,
+          "link": "/api/v1/people/116926",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Joe Kelley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118295,
+          "link": "/api/v1/people/118295",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Rube Marquard"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1971-11-01",
+        "season": "1971",
+        "team": {
+          "id": 1520,
+          "link": "/api/v1/teams/1520"
+        },
+        "player": {
+          "id": 120181,
+          "link": "/api/v1/people/120181",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Satchel Paige"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1970-11-01",
+        "season": "1970",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 112533,
+          "link": "/api/v1/people/112533",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Earle Combs"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1970-11-01",
+        "season": "1970",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492567,
+          "link": "/api/v1/people/492567",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Ford Frick"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1970-11-01",
+        "season": "1970",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 115314,
+          "link": "/api/v1/people/115314",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jesse Haines"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1970-11-01",
+        "season": "1970",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 111272,
+          "link": "/api/v1/people/111272",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Lou Boudreau"
+        },
+        "votes": 232
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1969-11-01",
+        "season": "1969",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 111915,
+          "link": "/api/v1/people/111915",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Roy Campanella"
+        },
+        "votes": 270
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1969-11-01",
+        "season": "1969",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 112743,
+          "link": "/api/v1/people/112743",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Stan Coveleski"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1969-11-01",
+        "season": "1969",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 119602,
+          "link": "/api/v1/people/119602",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Stan Musial"
+        },
+        "votes": 317
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1969-11-01",
+        "season": "1969",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 116241,
+          "link": "/api/v1/people/116241",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Waite Hoyt"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1968-11-01",
+        "season": "1968",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 114987,
+          "link": "/api/v1/people/114987",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Goose Goslin"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1968-11-01",
+        "season": "1968",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 118904,
+          "link": "/api/v1/people/118904",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Joe Medwick"
+        },
+        "votes": 240
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1968-11-01",
+        "season": "1968",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 112979,
+          "link": "/api/v1/people/112979",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Kiki Cuyler"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1967-11-01",
+        "season": "1967",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 121181,
+          "link": "/api/v1/people/121181",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Branch Rickey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1967-11-01",
+        "season": "1967",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 123904,
+          "link": "/api/v1/people/123904",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Lloyd Waner"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1967-11-01",
+        "season": "1967",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 121547,
+          "link": "/api/v1/people/121547",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Red Ruffing"
+        },
+        "votes": 266
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1966-11-01",
+        "season": "1966",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 122737,
+          "link": "/api/v1/people/122737",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Casey Stengel"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1966-11-01",
+        "season": "1966",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 124341,
+          "link": "/api/v1/people/124341",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ted Williams"
+        },
+        "votes": 282
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1965-11-01",
+        "season": "1965",
+        "team": {
+          "id": 187,
+          "link": "/api/v1/teams/187"
+        },
+        "player": {
+          "id": 114552,
+          "link": "/api/v1/people/114552",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Pud Galvin"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 115162,
+          "link": "/api/v1/people/115162",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Burleigh Grimes"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 118265,
+          "link": "/api/v1/people/118265",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Heinie Manush"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 123921,
+          "link": "/api/v1/people/123921",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "John Ward"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 110297,
+          "link": "/api/v1/people/110297",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Luke Appling"
+        },
+        "votes": 189
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 116275,
+          "link": "/api/v1/people/116275",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Miller Huggins"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 113965,
+          "link": "/api/v1/people/113965",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Red Faber"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1964-11-01",
+        "season": "1964",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116888,
+          "link": "/api/v1/people/116888",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Tim Keefe"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1963-11-01",
+        "season": "1963",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 114241,
+          "link": "/api/v1/people/114241",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Elmer Flick"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1963-11-01",
+        "season": "1963",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 121255,
+          "link": "/api/v1/people/121255",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Eppa Rixey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1963-11-01",
+        "season": "1963",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 112369,
+          "link": "/api/v1/people/112369",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "John Clarkson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1963-11-01",
+        "season": "1963",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 121137,
+          "link": "/api/v1/people/121137",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Sam Rice"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1962-11-01",
+        "season": "1962",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 118766,
+          "link": "/api/v1/people/118766",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bill McKechnie"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1962-11-01",
+        "season": "1962",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 114055,
+          "link": "/api/v1/people/114055",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Bob Feller"
+        },
+        "votes": 150
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1962-11-01",
+        "season": "1962",
+        "team": {
+          "id": 113,
+          "link": "/api/v1/teams/113"
+        },
+        "player": {
+          "id": 121497,
+          "link": "/api/v1/people/121497",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Edd Roush"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1962-11-01",
+        "season": "1962",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 121314,
+          "link": "/api/v1/people/121314",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Jackie Robinson"
+        },
+        "votes": 124
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1961-11-01",
+        "season": "1961",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 115386,
+          "link": "/api/v1/people/115386",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Billy Hamilton"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1961-11-01",
+        "season": "1961",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 111989,
+          "link": "/api/v1/people/111989",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Max Carey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1959-11-01",
+        "season": "1959",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 124134,
+          "link": "/api/v1/people/124134",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Zack Wheat"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1957-11-01",
+        "season": "1957",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 524329,
+          "link": "/api/v1/people/524329",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Joe McCarthy"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1957-11-01",
+        "season": "1957",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 112806,
+          "link": "/api/v1/people/112806",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Sam Crawford"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1956-11-01",
+        "season": "1956",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 115096,
+          "link": "/api/v1/people/115096",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Hank Greenberg"
+        },
+        "votes": 164
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1956-11-01",
+        "season": "1956",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 112854,
+          "link": "/api/v1/people/112854",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Joe Cronin"
+        },
+        "votes": 152
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 123630,
+          "link": "/api/v1/people/123630",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Dazzy Vance"
+        },
+        "votes": 205
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 115572,
+          "link": "/api/v1/people/115572",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Gabby Hartnett"
+        },
+        "votes": 195
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 110480,
+          "link": "/api/v1/people/110480",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Home Run Baker"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 113376,
+          "link": "/api/v1/people/113376",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Joe DiMaggio"
+        },
+        "votes": 223
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 121766,
+          "link": "/api/v1/people/121766",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Ray Schalk"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1955-11-01",
+        "season": "1955",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 118055,
+          "link": "/api/v1/people/118055",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Ted Lyons"
+        },
+        "votes": 217
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1954-11-01",
+        "season": "1954",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 113340,
+          "link": "/api/v1/people/113340",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Bill Dickey"
+        },
+        "votes": 202
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1954-11-01",
+        "season": "1954",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 123203,
+          "link": "/api/v1/people/123203",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Bill Terry"
+        },
+        "votes": 195
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1954-11-01",
+        "season": "1954",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 118276,
+          "link": "/api/v1/people/118276",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Rabbit Maranville"
+        },
+        "votes": 209
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 122240,
+          "link": "/api/v1/people/122240",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Al Simmons"
+        },
+        "votes": 199
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 427281,
+          "link": "/api/v1/people/427281",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Bill Klem"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 123864,
+          "link": "/api/v1/people/123864",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Bobby Wallace"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 110850,
+          "link": "/api/v1/people/110850",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Chief Bender"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 113168,
+          "link": "/api/v1/people/113168",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Dizzy Dean"
+        },
+        "votes": 209
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492554,
+          "link": "/api/v1/people/492554",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Ed Barrow"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 174,
+          "link": "/api/v1/teams/174"
+        },
+        "player": {
+          "id": 124617,
+          "link": "/api/v1/people/124617",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Harry Wright"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1953-11-01",
+        "season": "1953",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 524928,
+          "link": "/api/v1/people/524928",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Tom Connolly"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1952-11-01",
+        "season": "1952",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 115705,
+          "link": "/api/v1/people/115705",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Harry Heilmann"
+        },
+        "votes": 203
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1952-11-01",
+        "season": "1952",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 123905,
+          "link": "/api/v1/people/123905",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Paul Waner"
+        },
+        "votes": 195
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1951-11-01",
+        "season": "1951",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 114367,
+          "link": "/api/v1/people/114367",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Jimmie Foxx"
+        },
+        "votes": 179
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1951-11-01",
+        "season": "1951",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 120117,
+          "link": "/api/v1/people/120117",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Mel Ott"
+        },
+        "votes": 197
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1949-11-01",
+        "season": "1949",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 114682,
+          "link": "/api/v1/people/114682",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Charlie Gehringer"
+        },
+        "votes": 159
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1949-11-01",
+        "season": "1949",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 119761,
+          "link": "/api/v1/people/119761",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Kid Nichols"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1949-11-01",
+        "season": "1949",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 111577,
+          "link": "/api/v1/people/111577",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Mordecai Brown"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1948-11-01",
+        "season": "1948",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 120386,
+          "link": "/api/v1/people/120386",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Herb Pennock"
+        },
+        "votes": 94
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1948-11-01",
+        "season": "1948",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 123446,
+          "link": "/api/v1/people/123446",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Pie Traynor"
+        },
+        "votes": 93
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1947-11-01",
+        "season": "1947",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 116249,
+          "link": "/api/v1/people/116249",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Carl Hubbell"
+        },
+        "votes": 140
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1947-11-01",
+        "season": "1947",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 114448,
+          "link": "/api/v1/people/114448",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Frankie Frisch"
+        },
+        "votes": 136
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1947-11-01",
+        "season": "1947",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 115201,
+          "link": "/api/v1/people/115201",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Lefty Grove"
+        },
+        "votes": 123
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1947-11-01",
+        "season": "1947",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 112437,
+          "link": "/api/v1/people/112437",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Mickey Cochrane"
+        },
+        "votes": 128
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 115150,
+          "link": "/api/v1/people/115150",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Clark Griffith"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 123878,
+          "link": "/api/v1/people/123878",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Ed Walsh"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 120616,
+          "link": "/api/v1/people/120616",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Eddie Plank"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 112183,
+          "link": "/api/v1/people/112183",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Frank Chance"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 112233,
+          "link": "/api/v1/people/112233",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Jack Chesbro"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 209,
+          "link": "/api/v1/teams/209"
+        },
+        "player": {
+          "id": 111733,
+          "link": "/api/v1/people/111733",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Jesse Burkett"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118713,
+          "link": "/api/v1/people/118713",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Joe McGinnity"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 123353,
+          "link": "/api/v1/people/123353",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Joe Tinker"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 113949,
+          "link": "/api/v1/people/113949",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Johnny Evers"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 123767,
+          "link": "/api/v1/people/123767",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Rube Waddell"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1946-11-01",
+        "season": "1946",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 118554,
+          "link": "/api/v1/people/118554",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Tommy McCarthy"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 187,
+          "link": "/api/v1/teams/187"
+        },
+        "player": {
+          "id": 111524,
+          "link": "/api/v1/people/111524",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Dan Brouthers"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 113218,
+          "link": "/api/v1/people/113218",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ed Delahanty"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 112352,
+          "link": "/api/v1/people/112352",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Fred Clarke"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 144,
+          "link": "/api/v1/teams/144"
+        },
+        "player": {
+          "id": 113598,
+          "link": "/api/v1/people/113598",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Hugh Duffy"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 116528,
+          "link": "/api/v1/people/116528",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Hughie Jennings"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 120054,
+          "link": "/api/v1/people/120054",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Jim O'Rourke"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 111,
+          "link": "/api/v1/teams/111"
+        },
+        "player": {
+          "id": 112511,
+          "link": "/api/v1/people/112511",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          },
+          "nameFirstLast": "Jimmy Collins"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 116953,
+          "link": "/api/v1/people/116953",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "King Kelly"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 111433,
+          "link": "/api/v1/people/111433",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Roger Bresnahan"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1945-11-01",
+        "season": "1945",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 121322,
+          "link": "/api/v1/people/121322",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Wilbert Robinson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1944-11-01",
+        "season": "1944",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492574,
+          "link": "/api/v1/people/492574",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Kenesaw Landis"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1942-11-01",
+        "season": "1942",
+        "team": {
+          "id": 138,
+          "link": "/api/v1/teams/138"
+        },
+        "player": {
+          "id": 116156,
+          "link": "/api/v1/people/116156",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Rogers Hornsby"
+        },
+        "votes": 182
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 122558,
+          "link": "/api/v1/people/122558",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Al Spalding"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 113959,
+          "link": "/api/v1/people/113959",
+          "primaryPosition": {
+            "code": "2",
+            "name": "Catcher",
+            "type": "Catcher",
+            "abbreviation": "C"
+          },
+          "nameFirstLast": "Buck Ewing"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 112939,
+          "link": "/api/v1/people/112939",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Candy Cummings"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 112,
+          "link": "/api/v1/teams/112"
+        },
+        "player": {
+          "id": 110284,
+          "link": "/api/v1/people/110284",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Cap Anson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 112539,
+          "link": "/api/v1/people/112539",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Charlie Comiskey"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 145,
+          "link": "/api/v1/teams/145"
+        },
+        "player": {
+          "id": 112506,
+          "link": "/api/v1/people/112506",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Eddie Collins Sr."
+        },
+        "votes": 213
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 110,
+          "link": "/api/v1/teams/110"
+        },
+        "player": {
+          "id": 122280,
+          "link": "/api/v1/people/122280",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "George Sisler"
+        },
+        "votes": 235
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 114680,
+          "link": "/api/v1/people/114680",
+          "primaryPosition": {
+            "code": "3",
+            "name": "First Base",
+            "type": "Infielder",
+            "abbreviation": "1B"
+          },
+          "nameFirstLast": "Lou Gehrig"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 224,
+          "link": "/api/v1/teams/224"
+        },
+        "player": {
+          "id": 120867,
+          "link": "/api/v1/people/120867",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Old Hoss Radbourn"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1939-11-01",
+        "season": "1939",
+        "team": {
+          "id": 119,
+          "link": "/api/v1/teams/119"
+        },
+        "player": {
+          "id": 116891,
+          "link": "/api/v1/people/116891",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Willie Keeler"
+        },
+        "votes": 207
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1938-11-01",
+        "season": "1938",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492557,
+          "link": "/api/v1/people/492557",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Alexander Cartwright"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1938-11-01",
+        "season": "1938",
+        "team": {
+          "id": 143,
+          "link": "/api/v1/teams/143"
+        },
+        "player": {
+          "id": 110127,
+          "link": "/api/v1/people/110127",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Grover Alexander"
+        },
+        "votes": 212
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1938-11-01",
+        "season": "1938",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492558,
+          "link": "/api/v1/people/492558",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Henry Chadwick"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 473431,
+          "link": "/api/v1/people/473431",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Byron Johnson"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 133,
+          "link": "/api/v1/teams/133"
+        },
+        "player": {
+          "id": 118082,
+          "link": "/api/v1/people/118082",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Connie Mack"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 124692,
+          "link": "/api/v1/people/124692",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Cy Young"
+        },
+        "votes": 153
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 124597,
+          "link": "/api/v1/people/124597",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "George Wright"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118726,
+          "link": "/api/v1/people/118726",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "John McGraw"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 14,
+          "link": "/api/v1/teams/14"
+        },
+        "player": {
+          "id": 492556,
+          "link": "/api/v1/people/492556",
+          "primaryPosition": {
+            "code": "X",
+            "name": "Unknown",
+            "type": "Unknown",
+            "abbreviation": "X"
+          },
+          "nameFirstLast": "Morgan Bulkeley"
+        }
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 117414,
+          "link": "/api/v1/people/117414",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          },
+          "nameFirstLast": "Nap Lajoie"
+        },
+        "votes": 168
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1937-11-01",
+        "season": "1937",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114"
+        },
+        "player": {
+          "id": 122566,
+          "link": "/api/v1/people/122566",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Tristram Speaker"
+        },
+        "votes": 165
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1936-11-01",
+        "season": "1936",
+        "team": {
+          "id": 147,
+          "link": "/api/v1/teams/147"
+        },
+        "player": {
+          "id": 121578,
+          "link": "/api/v1/people/121578",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Babe Ruth"
+        },
+        "votes": 215
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1936-11-01",
+        "season": "1936",
+        "team": {
+          "id": 137,
+          "link": "/api/v1/teams/137"
+        },
+        "player": {
+          "id": 118422,
+          "link": "/api/v1/people/118422",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Christy Mathewson"
+        },
+        "votes": 205
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1936-11-01",
+        "season": "1936",
+        "team": {
+          "id": 134,
+          "link": "/api/v1/teams/134"
+        },
+        "player": {
+          "id": 123784,
+          "link": "/api/v1/people/123784",
+          "primaryPosition": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "nameFirstLast": "Honus Wagner"
+        },
+        "votes": 215
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1936-11-01",
+        "season": "1936",
+        "team": {
+          "id": 116,
+          "link": "/api/v1/teams/116"
+        },
+        "player": {
+          "id": 112431,
+          "link": "/api/v1/people/112431",
+          "primaryPosition": {
+            "code": "O",
+            "name": "Outfield",
+            "type": "Outfielder",
+            "abbreviation": "OF"
+          },
+          "nameFirstLast": "Ty Cobb"
+        },
+        "votes": 222
+      },
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "date": "1936-11-01",
+        "season": "1936",
+        "team": {
+          "id": 142,
+          "link": "/api/v1/teams/142"
+        },
+        "player": {
+          "id": 116635,
+          "link": "/api/v1/people/116635",
+          "primaryPosition": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "nameFirstLast": "Walter Johnson"
+        },
+        "votes": 189
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:07.851837"
+}

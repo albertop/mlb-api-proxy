@@ -1,0 +1,65 @@
+{
+  "endpoint": "/api/v1/gameTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/gameTypes?gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:36 GMT",
+    "server": "uvicorn",
+    "content-length": "506",
+    "content-type": "application/json",
+    "x-request-id": "e0eae098-b1d1-4f41-ab40-5c3b9f489375"
+  },
+  "response": [
+    {
+      "id": "S",
+      "description": "Spring Training"
+    },
+    {
+      "id": "R",
+      "description": "Regular Season"
+    },
+    {
+      "id": "F",
+      "description": "Wild Card"
+    },
+    {
+      "id": "D",
+      "description": "Division Series"
+    },
+    {
+      "id": "L",
+      "description": "League Championship Series"
+    },
+    {
+      "id": "W",
+      "description": "World Series"
+    },
+    {
+      "id": "C",
+      "description": "Championship"
+    },
+    {
+      "id": "N",
+      "description": "Nineteenth Century Series"
+    },
+    {
+      "id": "P",
+      "description": "Playoffs"
+    },
+    {
+      "id": "A",
+      "description": "All-Star Game"
+    },
+    {
+      "id": "I",
+      "description": "Intrasquad"
+    },
+    {
+      "id": "E",
+      "description": "Exhibition"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:36.786887"
+}

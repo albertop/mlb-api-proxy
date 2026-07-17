@@ -1,0 +1,901 @@
+{
+  "endpoint": "/api/v1/people/608070/awards",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/people/608070/awards",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:06 GMT",
+    "server": "uvicorn",
+    "content-length": "12550",
+    "content-type": "application/json",
+    "x-request-id": "3f0bbfeb-2ce8-4066-bf99-e4a7673407bc"
+  },
+  "response": {
+    "awards": [
+      {
+        "id": "MILBORGAS",
+        "name": "MiLB.com Organization All-Star",
+        "date": "2012-12-23",
+        "season": "2012",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          }
+        }
+      },
+      {
+        "id": "MILBORGAS",
+        "name": "MiLB.com Organization All-Star",
+        "date": "2014-11-19",
+        "season": "2014",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "4",
+            "name": "Second Base",
+            "type": "Infielder",
+            "abbreviation": "2B"
+          }
+        }
+      },
+      {
+        "id": "CLEMANOY",
+        "name": "Cleveland BBWAA Man of the Year Award",
+        "date": "2016-10-05",
+        "season": "2016",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2017-06-18",
+        "season": "2017",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2017-07-11",
+        "season": "2017",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2017-07-18",
+        "season": "2017",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2017-09-03",
+        "season": "2017",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2017-11-09",
+        "season": "2017",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2018-07-15",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2018-07-17",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2018-07-24",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOM",
+        "name": "AL Player of the Month",
+        "date": "2018-07-31",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2018-11-08",
+        "season": "2018",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOM",
+        "name": "AL Player of the Month",
+        "date": "2020-09-27",
+        "season": "2020",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2020-11-05",
+        "season": "2020",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "MLBSECOND",
+        "name": "All-MLB Second Team",
+        "date": "2020-12-09",
+        "season": "2020",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2021-07-13",
+        "season": "2021",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2021-08-03",
+        "season": "2021",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2021-09-19",
+        "season": "2021",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEMANOY",
+        "name": "Cleveland BBWAA Man of the Year Award",
+        "date": "2021-10-08",
+        "season": "2021",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2022-04-17",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOM",
+        "name": "AL Player of the Month",
+        "date": "2022-04-30",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2022-05-29",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "HRDERBY",
+        "name": "Home Run Derby Participant",
+        "date": "2022-07-18",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2022-07-19",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2022-08-04",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEMANOY",
+        "name": "Cleveland BBWAA Man of the Year Award",
+        "date": "2022-10-08",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2022-11-10",
+        "season": "2022",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2023-07-11",
+        "season": "2023",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2023-08-03",
+        "season": "2023",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "MLBSECOND",
+        "name": "All-MLB Second Team",
+        "date": "2023-12-16",
+        "season": "2023",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "HRDERBY",
+        "name": "Home Run Derby Participant",
+        "date": "2024-07-15",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2024-07-16",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2024-08-01",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2024-09-29",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2024-11-12",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "MLBAFIRST",
+        "name": "All-MLB First Team",
+        "date": "2024-11-14",
+        "season": "2024",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALPOW",
+        "name": "AL Player of the Week",
+        "date": "2025-07-13",
+        "season": "2025",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALAS",
+        "name": "AL All-Star",
+        "date": "2025-07-15",
+        "season": "2025",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "CLEHEARTHUSTLE",
+        "name": "MLBPAA Guardians Heart and Hustle Award",
+        "date": "2025-08-05",
+        "season": "2025",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "ALSS",
+        "name": "AL Silver Slugger",
+        "date": "2025-11-07",
+        "season": "2025",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      },
+      {
+        "id": "MLBAFIRST",
+        "name": "All-MLB First Team",
+        "date": "2025-11-13",
+        "season": "2025",
+        "team": {
+          "id": 114,
+          "link": "/api/v1/teams/114",
+          "teamName": "Cleveland"
+        },
+        "player": {
+          "id": 608070,
+          "link": "/api/v1/people/608070",
+          "primaryPosition": {
+            "code": "5",
+            "name": "Third Base",
+            "type": "Infielder",
+            "abbreviation": "3B"
+          }
+        }
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:06.748994"
+}

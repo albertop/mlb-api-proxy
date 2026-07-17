@@ -1,0 +1,299 @@
+{
+  "endpoint": "/api/v1/game/{game_pk}/linescore",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/game/776135/linescore?gamePk=776135",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:19 GMT",
+    "server": "uvicorn",
+    "content-length": "3008",
+    "content-type": "application/json",
+    "x-request-id": "f3210695-0388-435c-90a2-3ef33b1cf492"
+  },
+  "response": {
+    "currentInning": 9,
+    "currentInningOrdinal": "9th",
+    "inningState": "Bottom",
+    "inningHalf": "Bottom",
+    "isTopInning": false,
+    "scheduledInnings": 9,
+    "INN": [
+      {
+        "num": 1,
+        "ordinalNum": "1st",
+        "home": {
+          "R": 1,
+          "H": 1,
+          "errors": 0,
+          "LOB": 0
+        },
+        "away": {
+          "R": 1,
+          "H": 2,
+          "errors": 0,
+          "LOB": 3
+        }
+      },
+      {
+        "num": 2,
+        "ordinalNum": "2nd",
+        "home": {
+          "R": 0,
+          "H": 1,
+          "errors": 0,
+          "LOB": 3
+        },
+        "away": {
+          "R": 0,
+          "H": 0,
+          "errors": 1,
+          "LOB": 2
+        }
+      },
+      {
+        "num": 3,
+        "ordinalNum": "3rd",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        },
+        "away": {
+          "R": 0,
+          "H": 1,
+          "errors": 0,
+          "LOB": 2
+        }
+      },
+      {
+        "num": 4,
+        "ordinalNum": "4th",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        },
+        "away": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        }
+      },
+      {
+        "num": 5,
+        "ordinalNum": "5th",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        },
+        "away": {
+          "R": 4,
+          "H": 6,
+          "errors": 0,
+          "LOB": 0
+        }
+      },
+      {
+        "num": 6,
+        "ordinalNum": "6th",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 1
+        },
+        "away": {
+          "R": 1,
+          "H": 1,
+          "errors": 0,
+          "LOB": 0
+        }
+      },
+      {
+        "num": 7,
+        "ordinalNum": "7th",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        },
+        "away": {
+          "R": 0,
+          "H": 1,
+          "errors": 0,
+          "LOB": 2
+        }
+      },
+      {
+        "num": 8,
+        "ordinalNum": "8th",
+        "home": {
+          "R": 0,
+          "H": 0,
+          "errors": 1,
+          "LOB": 0
+        },
+        "away": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 1
+        }
+      },
+      {
+        "num": 9,
+        "ordinalNum": "9th",
+        "home": {
+          "R": 1,
+          "H": 4,
+          "errors": 0,
+          "LOB": 3
+        },
+        "away": {
+          "R": 0,
+          "H": 0,
+          "errors": 0,
+          "LOB": 0
+        }
+      }
+    ],
+    "teams": {
+      "home": {
+        "R": 2,
+        "H": 6,
+        "errors": 1,
+        "LOB": 7,
+        "isWinner": false
+      },
+      "away": {
+        "R": 6,
+        "H": 11,
+        "errors": 1,
+        "LOB": 10,
+        "isWinner": true
+      }
+    },
+    "defense": {
+      "pitcher": {
+        "id": 681151,
+        "fullName": "Jayden Murray",
+        "link": "/api/v1/people/681151"
+      },
+      "catcher": {
+        "id": 673237,
+        "fullName": "Yainer Diaz",
+        "link": "/api/v1/people/673237"
+      },
+      "first": {
+        "id": 605170,
+        "fullName": "Victor Caratini",
+        "link": "/api/v1/people/605170"
+      },
+      "second": {
+        "id": 694728,
+        "fullName": "Brice Matthews",
+        "link": "/api/v1/people/694728"
+      },
+      "third": {
+        "id": 602104,
+        "fullName": "Ram\u00f3n Ur\u00edas",
+        "link": "/api/v1/people/602104"
+      },
+      "shortstop": {
+        "id": 643289,
+        "fullName": "Mauricio Dub\u00f3n",
+        "link": "/api/v1/people/643289"
+      },
+      "left": {
+        "id": 805904,
+        "fullName": "Zach Cole",
+        "link": "/api/v1/people/805904"
+      },
+      "center": {
+        "id": 689200,
+        "fullName": "Jacob Melton",
+        "link": "/api/v1/people/689200"
+      },
+      "right": {
+        "id": 701358,
+        "fullName": "Cam Smith",
+        "link": "/api/v1/people/701358"
+      },
+      "batter": {
+        "id": 694728,
+        "fullName": "Brice Matthews",
+        "link": "/api/v1/people/694728"
+      },
+      "onDeck": {
+        "id": 689200,
+        "fullName": "Jacob Melton",
+        "link": "/api/v1/people/689200"
+      },
+      "inHole": {
+        "id": 805904,
+        "fullName": "Zach Cole",
+        "link": "/api/v1/people/805904"
+      },
+      "battingOrder": 8,
+      "team": {
+        "id": 117,
+        "name": "Houston Astros",
+        "link": "/api/v1/teams/117"
+      }
+    },
+    "offense": {
+      "batter": {
+        "id": 621493,
+        "fullName": "Taylor Ward",
+        "link": "/api/v1/people/621493"
+      },
+      "onDeck": {
+        "id": 650859,
+        "fullName": "Luis Rengifo",
+        "link": "/api/v1/people/650859"
+      },
+      "inHole": {
+        "id": 681351,
+        "fullName": "Logan O'Hoppe",
+        "link": "/api/v1/people/681351"
+      },
+      "first": {
+        "id": 665861,
+        "fullName": "Sebasti\u00e1n Rivero",
+        "link": "/api/v1/people/665861"
+      },
+      "second": {
+        "id": 666198,
+        "fullName": "Carter Kieboom",
+        "link": "/api/v1/people/666198"
+      },
+      "third": {
+        "id": 621035,
+        "fullName": "Chris Taylor",
+        "link": "/api/v1/people/621035"
+      },
+      "pitcher": {
+        "id": 671111,
+        "fullName": "Sammy Peralta",
+        "link": "/api/v1/people/671111"
+      },
+      "battingOrder": 9,
+      "team": {
+        "id": 108,
+        "name": "Los Angeles Angels",
+        "link": "/api/v1/teams/108"
+      }
+    },
+    "balls": 3,
+    "Strikes": 3,
+    "Outs": 3
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:20.289104"
+}

@@ -1,0 +1,78 @@
+# Python (recursive so nested dirs like api-service/__pycache__ are excluded too)
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment / secrets (NEVER bake these into the image)
+.env
+**/.env
+*.env
+!*.env.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+.hypothesis/
+test/
+tests/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation
+docs/
+*.md
+**/README*
+CHANGELOG*
+LICENSE
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+azure-pipelines.yml
+
+# Docker (recursive: also excludes api-service/Dockerfile from the app copy)
+**/Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# Project specific
+htmlcov/
+utils/
+validation_script.py
+run_tests.py
+run_response_collection.py
+generate_unit_tests.py
+pytest.ini
+*.log
+VALIDATION_*.md
+IMPLEMENTATION_*.md
+TEST_*.md
+DELIVERY_*.md
+RESPONSE_*.md

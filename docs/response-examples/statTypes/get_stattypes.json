@@ -1,0 +1,188 @@
+{
+  "endpoint": "/api/v1/statTypes",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/statTypes?type=hitting",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:46 GMT",
+    "server": "uvicorn",
+    "content-length": "1792",
+    "content-type": "application/json",
+    "x-request-id": "97a0f75c-c94a-42d6-9cbf-b2845a73d319"
+  },
+  "response": [
+    {
+      "displayName": "projected"
+    },
+    {
+      "displayName": "projectedRos"
+    },
+    {
+      "displayName": "yearByYear"
+    },
+    {
+      "displayName": "yearByYearAdvanced"
+    },
+    {
+      "displayName": "yearByYearPlayoffs"
+    },
+    {
+      "displayName": "season"
+    },
+    {
+      "displayName": "standard"
+    },
+    {
+      "displayName": "advanced"
+    },
+    {
+      "displayName": "career"
+    },
+    {
+      "displayName": "careerRegularSeason"
+    },
+    {
+      "displayName": "careerAdvanced"
+    },
+    {
+      "displayName": "seasonAdvanced"
+    },
+    {
+      "displayName": "careerStatSplits"
+    },
+    {
+      "displayName": "careerPlayoffs"
+    },
+    {
+      "displayName": "gameLog"
+    },
+    {
+      "displayName": "playLog"
+    },
+    {
+      "displayName": "pitchLog"
+    },
+    {
+      "displayName": "metricLog"
+    },
+    {
+      "displayName": "metricAverages"
+    },
+    {
+      "displayName": "pitchArsenal"
+    },
+    {
+      "displayName": "outsAboveAverage"
+    },
+    {
+      "displayName": "expectedStatistics"
+    },
+    {
+      "displayName": "sabermetrics"
+    },
+    {
+      "displayName": "sprayChart"
+    },
+    {
+      "displayName": "tracking"
+    },
+    {
+      "displayName": "vsPlayer"
+    },
+    {
+      "displayName": "vsPlayerTotal"
+    },
+    {
+      "displayName": "vsPlayer5Y"
+    },
+    {
+      "displayName": "vsTeam"
+    },
+    {
+      "displayName": "vsTeam5Y"
+    },
+    {
+      "displayName": "vsTeamTotal"
+    },
+    {
+      "displayName": "lastXGames"
+    },
+    {
+      "displayName": "byDateRange"
+    },
+    {
+      "displayName": "byDateRangeAdvanced"
+    },
+    {
+      "displayName": "byMonth"
+    },
+    {
+      "displayName": "byMonthPlayoffs"
+    },
+    {
+      "displayName": "byDayOfWeek"
+    },
+    {
+      "displayName": "byDayOfWeekPlayoffs"
+    },
+    {
+      "displayName": "homeAndAway"
+    },
+    {
+      "displayName": "homeAndAwayPlayoffs"
+    },
+    {
+      "displayName": "winLoss"
+    },
+    {
+      "displayName": "winLossPlayoffs"
+    },
+    {
+      "displayName": "rankings"
+    },
+    {
+      "displayName": "rankingsByYear"
+    },
+    {
+      "displayName": "statsSingleSeason"
+    },
+    {
+      "displayName": "statsSingleSeasonAdvanced"
+    },
+    {
+      "displayName": "hotColdZones"
+    },
+    {
+      "displayName": "availableStats"
+    },
+    {
+      "displayName": "opponentsFaced"
+    },
+    {
+      "displayName": "gameTypeStats"
+    },
+    {
+      "displayName": "firstYearStats"
+    },
+    {
+      "displayName": "lastYearStats"
+    },
+    {
+      "displayName": "statSplits"
+    },
+    {
+      "displayName": "statSplitsAdvanced"
+    },
+    {
+      "displayName": "atGameStart"
+    },
+    {
+      "displayName": "vsOpponents"
+    },
+    {
+      "displayName": "sabermetricsMultiTeam"
+    }
+  ],
+  "error": null,
+  "timestamp": "2026-02-15T17:37:46.713805"
+}

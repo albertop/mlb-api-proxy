@@ -1,0 +1,29 @@
+{
+  "endpoint": "/api/v1/awards/{award_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/awards/MLBHOF",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:06 GMT",
+    "server": "uvicorn",
+    "content-length": "146",
+    "content-type": "application/json",
+    "x-request-id": "45da4519-400d-4051-b386-6f6f36e285f8"
+  },
+  "response": {
+    "awards": [
+      {
+        "id": "MLBHOF",
+        "name": "Hall Of Fame",
+        "description": "Member of Hall of Fame",
+        "sortOrder": 1,
+        "sport": {
+          "id": 1,
+          "link": "/api/v1/sports/1"
+        }
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:07.504337"
+}

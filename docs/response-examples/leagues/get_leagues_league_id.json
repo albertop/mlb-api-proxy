@@ -1,0 +1,65 @@
+{
+  "endpoint": "/api/v1/leagues/{league_id}",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/leagues/103",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:37:30 GMT",
+    "server": "uvicorn",
+    "content-length": "1046",
+    "content-type": "application/json",
+    "x-request-id": "102486ba-e942-4211-8f2b-d21afdf733d0"
+  },
+  "response": {
+    "leagues": [
+      {
+        "id": 103,
+        "name": "American League",
+        "link": "/api/v1/league/103",
+        "abbreviation": "AL",
+        "nameShort": "American",
+        "seasonState": "preseason",
+        "hasWildCard": true,
+        "hasSplitSeason": false,
+        "numGames": 162,
+        "hasPlayoffPoints": false,
+        "stint": 15,
+        "numWildcardTeams": 3,
+        "seasonDateInfo": {
+          "seasonId": "2026",
+          "preSeasonStartDate": "2026-01-01",
+          "preSeasonEndDate": "2026-02-19",
+          "seasonStartDate": "2026-02-20",
+          "springStartDate": "2026-02-20",
+          "springEndDate": "2026-03-24",
+          "regularSeasonStartDate": "2026-03-25",
+          "lastDate1stHalf": "2026-07-14",
+          "allStarDate": "2026-07-14",
+          "firstDate2ndHalf": "2026-07-19",
+          "regularSeasonEndDate": "2026-09-27",
+          "postSeasonStartDate": "2026-09-28",
+          "postSeasonEndDate": "2026-10-31",
+          "seasonEndDate": "2026-10-31",
+          "offseasonStartDate": "2026-11-01",
+          "offSeasonEndDate": "2026-12-31",
+          "seasonLevelGamedayType": "P",
+          "gameLevelGamedayType": "P",
+          "qualifierPlateAppearances": 3.1,
+          "qualifierOutsPitched": 3.0
+        },
+        "season": "2026",
+        "orgCode": "AL",
+        "conferencesInUse": false,
+        "divisionsInUse": true,
+        "sport": {
+          "id": 1,
+          "link": "/api/v1/sports/1"
+        },
+        "sortOrder": 21,
+        "active": true
+      }
+    ]
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:37:30.609420"
+}

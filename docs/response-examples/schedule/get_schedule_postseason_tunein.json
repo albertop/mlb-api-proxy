@@ -1,0 +1,23 @@
+{
+  "endpoint": "/api/v1/schedule/postseason/tuneIn",
+  "method": "GET",
+  "url": "http://10.0.0.39:3002/api/v1/schedule/postseason/tuneIn?season=2024&startDate=2024-04-01&endDate=2024-05-15",
+  "status_code": 200,
+  "headers": {
+    "date": "Sun, 15 Feb 2026 22:38:08 GMT",
+    "server": "uvicorn",
+    "content-length": "93",
+    "content-type": "application/json",
+    "x-request-id": "bebbcbde-2449-40f4-b0a8-cf7765404acc"
+  },
+  "response": {
+    "totalItems": 0,
+    "totalEvents": 0,
+    "totalGames": 0,
+    "totalGamesInProgress": 0,
+    "wait": 10,
+    "dates": []
+  },
+  "error": null,
+  "timestamp": "2026-02-15T17:38:08.682707"
+}
