@@ -18,7 +18,7 @@ RUN python -m venv /opt/venv && \
 # ---------------------------------------------------------------------------
 FROM python:3.13-slim
 
-ARG APP_VERSION=1.2026.10
+ARG APP_VERSION=1.2026.12
 
 LABEL maintainer="MLB API Team" \
       version="${APP_VERSION}" \
