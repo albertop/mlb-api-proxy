@@ -120,7 +120,7 @@ def client() -> TestClient:
 
 
 @pytest_asyncio.fixture
-async def async_client() -> AsyncGenerator[AsyncClient, None]:
+async def async_client() -> AsyncGenerator[AsyncClient]:
     """Provide an async test client for the FastAPI app."""
     from httpx import ASGITransport
 
