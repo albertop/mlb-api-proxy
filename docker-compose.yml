@@ -25,6 +25,9 @@ services:
       # Comma-separated allowed origins for the browser front-end (empty = none).
       CORS_ALLOW_ORIGINS: ${CORS_ALLOW_ORIGINS:-}
       ENABLE_CACHE: ${ENABLE_CACHE:-true}
+      # How long /health reuses its upstream probe. Leave unset: 30s is the sane default and the
+      # only reason to touch it is debugging (0 = probe on every call, as it did before).
+      HEALTH_UPSTREAM_TTL: ${HEALTH_UPSTREAM_TTL:-30}
 
     # --- Security hardening ---------------------------------------------------
     security_opt:
