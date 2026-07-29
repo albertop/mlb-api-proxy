@@ -80,6 +80,14 @@ class Settings(BaseSettings):
     cache_ttl_default: float = Field(default=300.0, validation_alias="CACHE_TTL_DEFAULT")
     # TTL (seconds) for reference/lookup data that rarely changes (teams, venues, types).
     cache_ttl_static: float = Field(default=21600.0, validation_alias="CACHE_TTL_STATIC")
+    # How long /health may reuse its upstream probe. Without it, EVERY health call reaches the MLB
+    # API: the container healthcheck alone runs every 30s -- 2,880 upstream requests a day -- and an
+    # external uptime monitor adds its own on top. All of that to answer "is the upstream
+    # reachable?", which does not change from one second to the next.
+    #
+    # 30s keeps the answer honest (a real outage is reported within half a minute) and cuts the
+    # traffic by an order of magnitude. Set to 0 to probe on every call, as it used to.
+    health_upstream_ttl: float = Field(default=30.0, validation_alias="HEALTH_UPSTREAM_TTL")
 
 
 class ProxyRequest(BaseModel):

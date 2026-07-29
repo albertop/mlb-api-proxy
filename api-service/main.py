@@ -1,5 +1,6 @@
 import logging
 import uuid
+from time import monotonic
 from contextlib import asynccontextmanager
 
 from fastapi import FastAPI, HTTPException, Request
@@ -219,14 +220,36 @@ async def handle_unexpected_error(request: Request, exc: Exception) -> JSONRespo
     )
 
 
-@app.get("/health")
-async def health_check(request: Request) -> JSONResponse:
-    """Health check endpoint for monitoring and load balancers.
+# Last upstream probe: (monotonic timestamp, healthy, error). Module-level and per-process, which
+# means per-worker -- the same trade-off the response cache already makes (see ENABLE_CACHE). With
+# two workers the upstream sees at most two probes per TTL instead of one, which is still two orders
+# of magnitude better than one per request.
+#
+# No lock. Two concurrent calls on a cold cache may both probe; the cost is one extra upstream GET
+# and the outcome is identical either way. A lock here would add a failure mode to save nothing.
+_UPSTREAM_PROBE: tuple[float, bool, str | None] | None = None
 
-    Verifies both the proxy service and upstream MLB API are accessible.
-    Returns 200 only if both are healthy. Reuses the shared pooled client (R6),
-    falling back to a short-lived client when the lifespan hasn't run.
+
+async def _probe_upstream(request: Request) -> tuple[bool, str | None]:
+    """Is the MLB API reachable? Reuses the last answer for `HEALTH_UPSTREAM_TTL` seconds.
+
+    WHY THIS IS CACHED AT ALL. Every call used to reach the MLB API. The container healthcheck runs
+    every 30 seconds on its own -- 2,880 upstream requests a day -- and any external uptime monitor
+    adds its own on top, all of it to answer a question whose answer does not change from one second
+    to the next. Under a rate limit, health checking would be competing with real traffic.
+
+    The failure case is cached too, deliberately: during an outage every probe costs a 5-second
+    timeout, so that is exactly when the reuse matters most. A recovery is still reported within one
+    TTL, which is half a minute.
     """
+    global _UPSTREAM_PROBE
+
+    ttl = settings.health_upstream_ttl
+    if ttl > 0 and _UPSTREAM_PROBE is not None:
+        probed_at, healthy, error = _UPSTREAM_PROBE
+        if monotonic() - probed_at < ttl:
+            return healthy, error
+
     upstream_healthy = False
     upstream_error = None
 
@@ -246,6 +269,23 @@ async def health_check(request: Request) -> JSONResponse:
     finally:
         if shared_client is None:
             await client.aclose()
+
+    _UPSTREAM_PROBE = (monotonic(), upstream_healthy, upstream_error)
+    return upstream_healthy, upstream_error
+
+
+@app.get("/health")
+async def health_check(request: Request) -> JSONResponse:
+    """Health check endpoint for monitoring and load balancers.
+
+    Verifies both the proxy service and upstream MLB API are accessible.
+    Returns 200 only if both are healthy. The upstream answer is reused for a few seconds -- see
+    `_probe_upstream` -- so that monitoring this endpoint does not turn into upstream traffic.
+
+    NOT for the container healthcheck: use `/live` for that, or an MLB outage marks a perfectly
+    healthy proxy as unhealthy.
+    """
+    upstream_healthy, upstream_error = await _probe_upstream(request)
 
     health_status = {
         "status": "healthy" if upstream_healthy else "degraded",
