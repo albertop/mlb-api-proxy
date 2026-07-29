@@ -60,8 +60,22 @@ services:
     networks:
       - backend
 
-    # NOTE: `deploy.resources.limits` applies under `docker compose` (v2) and Swarm;
-    # `reservations` and `restart_policy` only take effect in Swarm mode.
+    # `deploy.resources.limits` applies under `docker compose` (v2) and Swarm. `reservations` only
+    # takes effect in Swarm.
+    #
+    # `restart_policy` USED TO BE HERE AND HAD TO GO. The note that stood here claimed it "only takes
+    # effect in Swarm mode" -- that is wrong, and the wrongness cost real downtime on 2026-07-29.
+    #
+    # Compose v2 DOES apply `deploy.restart_policy` outside Swarm, and it OVERRIDES the top-level
+    # `restart:`. So a stack that read `restart: unless-stopped` sixteen lines above was running with
+    # `on-failure`, and nothing anywhere said so -- not the deploy, not Portainer, no error. Only
+    # `docker inspect` told the truth, and only if you went and asked it.
+    #
+    # And `on-failure` does not revive a container that exited cleanly. Five host reboots, five times
+    # the proxy stayed down, and the daily refresh failed with nothing pointing at the cause.
+    #
+    # The restart policy lives in `restart:` and nowhere else. Declaring it twice is declaring one
+    # that lies.
     deploy:
       resources:
         limits:
@@ -70,11 +84,6 @@ services:
         reservations:
           cpus: '0.5'
           memory: 256M
-      restart_policy:
-        condition: on-failure
-        delay: 5s
-        max_attempts: 3
-        window: 120s
 
 networks:
   backend:
