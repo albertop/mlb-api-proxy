@@ -1,6 +1,6 @@
 [project]
 name = "mlb-api-proxy"
-version = "1.2026.10"
+version = "1.2026.13"
 description = "FastAPI proxy for the MLB Stats API with XML→JSON normalization and stat translations."
 requires-python = ">=3.13"
 readme = "api-service/README.md"

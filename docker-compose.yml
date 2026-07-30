@@ -2,7 +2,7 @@
 services:
   mlb-api-proxy:
     # Pre-built image; override the tag via IMAGE_VERSION in the stack env.
-    image: mlb-api-proxy:${IMAGE_VERSION:-1.2026.10}
+    image: mlb-api-proxy:${IMAGE_VERSION:-1.2026.13}
 
     labels:
       - "com.portainer.stack=mlb-api-proxy"
